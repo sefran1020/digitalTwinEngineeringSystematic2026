@@ -1,0 +1,19 @@
+﻿attribute,objetivo,prevalence_n,degree,degree_centrality,betweenness
+Affective outcomes,O3,23,7,0.412,0.343
+Hybrid env,O1,18,6,0.353,0.385
+Real-time sync,O1,18,6,0.353,0.206
+Bidirectional DT,O1,10,5,0.294,0.054
+Lifecycle project,O2,13,4,0.235,0.287
+Undergraduate,O2,31,4,0.235,0.025
+Active learning,O2,23,3,0.176,0.0
+Rigorous design,O3,9,3,0.176,0.0
+Has comparator,O3,20,3,0.176,0.0
+Reports effect size,O3,7,3,0.176,0.0
+Institutional barriers,O4,7,3,0.176,0.11
+Immersive env,O1,11,2,0.118,0.11
+Experiential,O2,14,2,0.118,0.01
+Industry collab.,O2,10,2,0.118,0.0
+AI-augmented,O1,8,1,0.059,0.0
+Sustainability quant.,O4,3,1,0.059,0.0
+Technical barriers,O4,12,1,0.059,0.0
+Open-source,O4,7,0,0.0,0.0

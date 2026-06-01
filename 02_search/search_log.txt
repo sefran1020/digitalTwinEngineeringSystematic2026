@@ -1,0 +1,84 @@
+
+
+("digital twin*" OR "digital-twin*" OR "educational digital twin*")
+20917
+
+
+ AND (education OR learning OR teaching OR pedagogy OR training OR curriculum OR STEM OR "engineering education") AND (engineering OR laboratory OR laboratories OR "virtual laborator*" OR "intelligent laborator*" OR telecommunications OR IoT OR "embedded system*" OR "cyber-physical system*" OR CPS OR mechatronics OR automation)
+
+
+
+estricta
+("digital twin*" OR "educational digital twin*") AND ("engineering education" OR STEM OR teaching OR learning) AND (laboratory OR "virtual laborator*" OR IoT OR "embedded system*" OR "cyber-physical system*")
+
+exploratoria
+("digital twin*" OR "digital-twin*") AND (education OR learning OR training OR pedagogy) AND (engineering OR laboratory OR IoT OR CPS OR automation OR mechatronics OR telecommunications OR "smart learning environment*")
+
+
+("digital twin*" OR "digital-twin*" OR "educational digital twin*") AND ("engineering education" OR "engineering learning" OR "STEM education") AND (engineering OR laboratory OR "virtual laborator*" OR "intelligent laborator*" OR telecommunications OR IoT OR "embedded system*" OR "cyber-physical system*" OR CPS OR mechatronics OR automation)
+
+
+
+("engineering education" OR "engineering learning" OR "STEM education")
+
+("virtual laborator*" OR "intelligent laborator*" OR IoT OR "embedded system*" OR "cyber-physical system*" OR CPS)
+
+"digital twin*"  recupera todo lo que recupera "digital twin*" OR "digital-twin*" OR "educational digital twin*" basta solo con "digital twin*"  ahi tenemos 20917
+Cuando combinamos con ("engineering education" OR "engineering learning" OR "STEM education") nos quedamos con 192
+
+y cuando agregamos el ultimo and  larguisimo: (engineering OR laboratory OR "virtual laborator*" OR "intelligent laborator*" OR telecommunications OR IoT OR "embedded system*" OR "cyber-physical system*" OR CPS OR mechatronics OR automation)  nos queda 159
+
+Como ves solo con dos primeros campos prácticamente ya tenemos todo el dominio
+
+
+("engineering education" OR "engineering learning" OR "engineering teaching" OR "engineering pedagogy" OR "engineering curriculum" OR "engineering training" OR "technical education" OR "higher engineering education" OR "undergraduate engineering" OR "STEM education")
+
+("engineering education" OR "engineering learning" OR "engineering teaching" OR "engineering pedagogy" OR "engineering curriculum" OR "engineering training" OR "technical education" OR "higher engineering education" OR "undergraduate engineering" OR "STEM education")
+193
+
+
+"engineering education" OR "engineering pedagogy" OR "engineering curriculum" OR "engineering training" OR "technical education" OR "STEM education"
+183
+
+
+("digital twin*" OR "educational digital twin*") AND ("engineering education" OR "engineering learning" OR "engineering teaching" OR "engineering pedagogy" OR "engineering curriculum" OR "engineering training" OR "technical education" OR "higher engineering education" OR "undergraduate engineering" OR "STEM education")
+193
+
+("digital twin*" OR "educational digital twin*") AND ("engineering education" OR "engineering learning" OR "engineering teaching" OR "engineering pedagogy" OR "engineering curriculum" OR "engineering training" OR "technical education" OR "higher engineering education" OR "undergraduate engineering" )
+178
+
+("digital twin*" OR "educational digital twin*") AND ("engineering education" OR "engineering learning" OR "engineering teaching" OR "engineering pedagogy" OR "engineering curriculum" OR "engineering training" OR "technical education" OR "higher engineering education" )
+177
+
+("digital twin*" OR "educational digital twin*") AND ("engineering education" OR "engineering learning" OR "engineering teaching" OR "engineering pedagogy" OR "engineering curriculum" OR "engineering training" OR "technical education"  )
+177
+
+("digital twin*" OR "educational digital twin*") AND ("engineering education" OR "engineering learning" OR "engineering teaching" OR "engineering pedagogy" OR "engineering curriculum" OR "engineering training" )
+167
+
+("digital twin*" OR "educational digital twin*") AND ("engineering education" OR "engineering learning" OR "engineering teaching" OR "engineering pedagogy" OR "engineering curriculum")
+152
+
+("digital twin*" OR "educational digital twin*") AND ("engineering education" OR "engineering learning" OR "engineering teaching" OR "engineering pedagogy")
+150
+
+("digital twin*" OR "educational digital twin*") AND ("engineering education" OR "engineering learning" OR "engineering teaching")
+150
+("digital twin*" OR "educational digital twin*") AND ("engineering education" OR "engineering learning")
+147
+
+("digital twin*" OR "educational digital twin*") AND ("engineering education" OR "engineering learning")
+147
+
+("digital twin*" OR "educational digital twin*") AND ("engineering education")
+
+141
+
+
+("digital twin*" OR "educational digital twin*") AND ("engineering education" OR "engineering training" OR "technical education" OR "STEM education")
+181
+
+wos
+
+TS=("digital twin*") AND TS=("engineering education" OR "engineering training" OR "technical education" OR "STEM education")
+

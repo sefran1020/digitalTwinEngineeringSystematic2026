@@ -1,0 +1,2269 @@
+﻿TY  - JOUR
+AU  - Ning, GL
+AU  - Luo, HD
+AU  - Yin, W
+AU  - Zhang, Y
+TI  - Exploration of the Application and Practice of Digital Twin Technology in Teaching Driven by Smart City Construction
+T2  - SUSTAINABILITY
+LA  - English
+KW  - smart city
+KW  - digital twin technology
+KW  - engineering education
+KW  - talent cultivation
+KW  - project-based curriculum practice
+KW  - ACCEPTANCE MODEL
+KW  - HIGHER-EDUCATION
+KW  - FIT
+KW  - TAM
+AB  - Traditional engineering education cannot effectively respond to the demand for talents in the construction of smart cities. The application of digital twin technology in education is mostly based on case studies and lacks empirical tests. This study takes the practical teaching of a project-based course on smart city parks as an example to explore the action intention of graduate students to use digital twin technology consistently, and to provide a theoretical basis and teaching practice guidance to promote the rational application of digital twin technology in engineering education. This study set up a quasi-experimental design through the digital twin learning system, grouping 24 graduate students with 4 faculty members. The experimental group is digital twin-assisted practical teaching, and the control group is traditional teaching method, the experimental cycle is 12 weeks, and the total lesson time is 24 h. Secondly, combined with UTAUT2 model and TTF theory, the variable factor hypothesis was adopted as the scale design means, and the experimental validity was improved through questionnaire data analysis. Meanwhile, the influencing factors in the use of digital twin platform were recorded in detail through the process of data collection, data processing and modeling, as well as the application practice of digital twin platform. Finally, the results of the comprehensive survey data show that the graduate students in the experimental group are significantly better than the control group in terms of self-confidence, skill enhancement, learning outcomes, and learning experience. All these results provide information for course teaching practice, training professional teaching teams, optimizing innovative teaching paths, and promoting the cultivation and delivery of smart city technology talents.
+AD  - Southwest Minzu Univ, Sch Architecture, Chengdu 610225, Peoples R ChinaC3  - Southwest Minzu UniversityFU  - Higher Education Reform Research Program of the State Ethnic Affairs Commission [23022]; China-Portugal Joint Laboratory of Cultural Heritage Conservation Science Program [SDYY2403]; 2023 Graduate Education Achievement Award incubator program
+FX  - This research was funded by the Higher Education Reform Research Program of the State Ethnic Affairs Commission (Grant No. 23022) and the China-Portugal Joint Laboratory of Cultural Heritage Conservation Science Program (Grant No. SDYY2403), and the 2023 Graduate Education Achievement Award incubator program.
+PU  - MDPI
+PI  - BASEL
+PA  - ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN  - 2071-1050
+J9  - SUSTAINABILITY-BASEL
+JI  - Sustainability
+DA  - DEC
+PY  - 2024
+VL  - 16
+IS  - 23
+C7  - 10312
+DO  - 10.3390/su162310312
+WE  - Science Citation Index Expanded (SCI-EXPANDED)WE  - Social Science Citation Index (SSCI)AN  - WOS:001377804900001
+N1  - Times Cited in Web of Science Core Collection:  3
+Total Times Cited:  4
+Cited Reference Count:  57
+ER  -
+
+TY  - JOUR
+AU  - Ortiz, JS
+AU  - Quishpe, EK
+AU  - Sailema, GX
+AU  - Guaman, NS
+TI  - Digital Twin-Based Active Learning for Industrial Process Control and Supervision in Industry 4.0
+T2  - SENSORS
+LA  - English
+KW  - Digital Twin
+KW  - virtualized environment
+KW  - active learning
+KW  - Industry 4.0
+KW  - IMPLEMENTATION
+AB  - The integration of Digital Twin technology into active learning environments has been established as an innovative strategy to optimize engineering education. This study focuses on the development and evaluation of a learning tool based on Digital Twin technology, enabling interaction and communication between a physical teaching module and a virtualized environment representing the industrial cocoa production process. The system was operated by students using an S7-1200 PLC and an HMI interface developed in WinCC, facilitating real-time process monitoring and control via IoT. To assess its impact, an experimental design was implemented, comparing a pre-test using conventional teaching modules with a post-test incorporating Digital Twin technology. The results indicate a significant improvement in students' accuracy and efficiency, with a 38% reduction in task execution time. This improvement is attributed to the system's immersive and interactive capabilities, which allow for the simulation of actuator and sensor behavior under real-world conditions. These findings highlight the potential of Digital Twins not only as educational tools but also as valuable assets for industrial process optimization in the cocoa sector, aligning with Industry 4.0 principles.
+AD  - Univ Fuerzas Armadas ESPE, Dept Electr Elect & Telecomunicac, Sangolqui 171103, EcuadorAD  - Univ Fuerzas Armadas ESPE, Dept Ciencias Energia & Mecan, Sangolqui 171103, EcuadorC3  - Universidad de las Fuerzas Armadas ESPEC3  - Universidad de las Fuerzas Armadas ESPEFU  - Universidad de las Fuerzas Armadas ESPE; ARSI Research Group
+FX  - The authors would like to thank the Universidad de las Fuerzas Armadas ESPE and the ARSI Research Group for their support in the development of this work and finally the research project "Autonomous Control of Aerial Manipulator Robots" which is being developed by the ARSI research group.
+PU  - MDPI
+PI  - BASEL
+PA  - MDPI AG, Grosspeteranlage 5, CH-4052 BASEL, SWITZERLAND
+SN  - 1424-8220
+J9  - SENSORS-BASEL
+JI  - Sensors
+DA  - MAR 26
+PY  - 2025
+VL  - 25
+IS  - 7
+C7  - 2076
+DO  - 10.3390/s25072076
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001465634700001
+N1  - Times Cited in Web of Science Core Collection:  11
+Total Times Cited:  12
+Cited Reference Count:  29
+ER  -
+
+TY  - JOUR
+AU  - Roy, S
+AU  - Singh, S
+AU  - Rizwan-uddin
+TI  - XR and digital twins, and their role in human factor studies
+T2  - FRONTIERS IN ENERGY RESEARCH
+LA  - English
+KW  - virtual reality
+KW  - augmented reality
+KW  - mixed reality
+KW  - human factors
+KW  - digital twins
+KW  - nuclear environments
+KW  - real-time monitoring
+KW  - asset management
+KW  - CONTROL ROOM
+KW  - NUCLEAR
+AB  - Digital twins (DT) are synchronized clones that mirror their physical counterparts at all times, enabling real-time monitoring, analysis, decision-making, and planning for optimized operations. Digital twins can transcend traditional two-dimensional interfaces by incorporating VR/AR/MR (XR) technology, providing immersive, intuitive, and interactive representations of systems, assets, and processes. Furthermore, real-time data from sensors, simulations, and other sources can be integrated into the XR-enabled digital twins, leading to better and more intuitive understanding and to more efficiently monitor, analyze, and maintain complex systems such as nuclear assets. Immersive, interactive, multi-player XR capabilities embedded in DTs will allow spatially accurate and more realistic representation, leading to improved risk assessment, optimized and predictive maintenance scheduling, enhanced situational awareness, and more effective communication among interdisciplinary teams. By combining the strengths of XR and digital twins, nuclear facilities can achieve heightened safety, operational efficiency, and decision-making accuracy. Marrying XR technology with digital twins is also likely to extend the utilization of digital twins to optimize those aspects of the design and operation of nuclear assets that involve human beings-specifically in human factors engineering. Training can also be significantly enhanced if DTs are linked with XR technology. These systems may also be used to assess human performance through human factors engineering for the safety analysis of nuclear assets. A specific example is assessing human performance in semi-autonomous nuclear assets or operating multiple nuclear assets. After briefly reviewing digital twins of nuclear systems from the perspective of XR technology, this paper summarises our work in the nuclear energy space on VR/AR/MR and how these can be integrated into the newly evolving DTs of nuclear assets. The paper also describes the potential use of such systems in optimizing the design and operations of nuclear systems. As XR technology advances, its symbiotic relationship with digital twins can significantly reshape the landscape of nuclear operations and asset management.
+AD  - Univ Illinois, Dept Nucl Plasma & Radiol Engn, Virtual Educ & Res Lab VERL, Urbana, IL 61820 USAAD  - Indian Inst Technol, Dept Energy Sci & Engn, Mumbai, IndiaC3  - University of Illinois SystemC3  - University of Illinois Urbana-ChampaignC3  - Indian Institute of Technology System (IIT System)C3  - Indian Institute of Technology (IIT) - BombayPU  - FRONTIERS MEDIA SA
+PI  - LAUSANNE
+PA  - AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND
+SN  - 2296-598X
+J9  - FRONT ENERGY RES
+JI  - Front. Energy Res.
+DA  - MAR 20
+PY  - 2024
+VL  - 12
+C7  - 1359688
+DO  - 10.3389/fenrg.2024.1359688
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001195512400001
+N1  - Times Cited in Web of Science Core Collection:  10
+Total Times Cited:  11
+Cited Reference Count:  26
+ER  -
+
+TY  - JOUR
+AU  - Rigó, L
+AU  - Fabianová, J
+AU  - Cabaníková, L
+AU  - Palinsky, J
+TI  - Digital Twin of a Material Handling System Based on a Physical Construction-Kit Model for Educational Applications
+T2  - MACHINES
+LA  - English
+KW  - digital twins
+KW  - construction kit
+KW  - Tecnomatix Plant Simulation
+KW  - education
+AB  - Digital twin (DT) technology is a key element of Industry 4.0. Despite its rapid development, current research is mainly focused on industrial optimisation and machine-level monitoring. However, its implementation in the educational process lags significantly behind practice. Moreover, existing DT implementations in education often emphasise visualisation or simulation, while neglecting synchronisation and verification of functional equivalence between the physical and virtual systems. This study presents the design, development and experimental verification of a digital twin of a laboratory material handling system. The virtual model created in Tecnomatix Plant Simulation is connected to the physical system controlled by a Siemens PLC SIMATIC S7-1200 and equipped with industrial sensors and an HMI interface. Real-time bidirectional communication is established via the OPC UA protocol using KEPServerEX, ensuring synchronisation between the physical and virtual systems. Experiments confirmed the functional synchronisation of both systems. Additionally, the study presents that DT technology can be adapted for educational purposes and implemented in engineering education.
+AD  - Tech Univ Kosice, Inst Logist & Transport, Fac Min Ecol Proc Control & Geotechnol, Letna 9, Kosice 04200, SlovakiaC3  - Technical University KosiceFU  - Scientific Grant Agency of the Ministry of Education, Research, Development and Youth of the Slovak Republic [VEGA 1/0674/24]; Cultural and Educational Grant Agency of the The Ministry of Education, Research, Development and Youth of the Slovak Republic [KEGA 001TUKE-4/2025]; Slovak Research and Development Agency [APVV-21-0195]
+FX  - This research was funded by Slovak Research and Development Agency with grant number APVV-21-0195, Scientific Grant Agency of the Ministry of Education, Research, Development and Youth of the Slovak Republic with grant number VEGA 1/0674/24 and Cultural and Educational Grant Agency of the The Ministry of Education, Research, Development and Youth of the Slovak Republic with grant number KEGA 001TUKE-4/2025.
+PU  - MDPI
+PI  - BASEL
+PA  - MDPI AG, Grosspeteranlage 5, CH-4052 BASEL, SWITZERLAND
+SN  - 2075-1702
+J9  - MACHINES
+JI  - Machines
+DA  - APR 11
+PY  - 2026
+VL  - 14
+IS  - 4
+C7  - 429
+DO  - 10.3390/machines14040429
+C6  - APR 2026
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001750016400001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  33
+ER  -
+
+TY  - JOUR
+AU  - Norambuena, N
+AU  - Ortega, J
+AU  - Rivera, FML
+AU  - Covarrubias, M
+AU  - Rivera, JLV
+AU  - Ramírez, E
+AU  - Ketterer, CIG
+TI  - Integrating Digital Twins of Engineering Labs into Multi-User Virtual Reality Environments
+T2  - APPLIED SCIENCES-BASEL
+LA  - English
+KW  - virtual reality
+KW  - education
+KW  - real-time sensing
+KW  - combustion-less engine
+KW  - Industry 4.0
+KW  - IoT
+KW  - digital twins
+KW  - engineering education
+AB  - This study presents a multi-user virtual reality (VR) tool designed to enhance hands-on learning in engineering education through real-time sensorized digital twins. The motivation stems from the limitations of traditional laboratory settings, such as time constraints and restricted access to physical equipment, which can hinder practical learning. The developed environment allows multiple students, wearing VR headsets, to interact simultaneously with a real-time synchronized virtual model of an engine, replicating its physical counterpart at the Mechanical Engineering Laboratory of the Pontificia Universidad Cat & oacute;lica de Valpara & iacute;so, Chile. This novel integration of VR and digital twin technology offers students a unique opportunity to observe engine behavior in operation within a safe, controlled virtual space. By bridging theoretical knowledge with practical experience, this approach deepens understanding of complex mechanical concepts while fostering the development of key technical skills. Additionally, the use of real-time data visualization and digital twins provides a safer, more interactive, and efficient alternative to traditional laboratory practices, overcoming constraints like time limitations and equipment availability. This innovative method introduces students to Industry 4.0 principles, encouraging data-driven analysis and informed decision making.
+AD  - Pontificia Univ Catolica Valparaiso, Escuela Ingn Mecan, Ave Carrera 01567, Quilpue 2340000, ChileAD  - Pontificia Univ Catolica Valparaiso, Sch Civil Engn, Ave Brasil 2147, Valparaiso 2340000, ChileAD  - Politecn Milan, Dept Mech Engn, I-20133 Milan, ItalyC3  - Pontificia Universidad Catolica de ValparaisoC3  - Pontificia Universidad Catolica de ValparaisoC3  - Polytechnic University of MilanFU  - Pontificia Universidad Catlica de Valparaso [39312]
+FX  - We thank the Pontificia Universidad Catolica de Valparaiso for funding Proyecto Centenario 2024 No. 39312.
+PU  - MDPI
+PI  - BASEL
+PA  - MDPI AG, Grosspeteranlage 5, CH-4052 BASEL, SWITZERLAND
+SN  - 2076-3417
+J9  - APPL SCI-BASEL
+JI  - Appl. Sci.-Basel
+DA  - MAR 31
+PY  - 2025
+VL  - 15
+IS  - 7
+C7  - 3819
+DO  - 10.3390/app15073819
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001463734400001
+N1  - Times Cited in Web of Science Core Collection:  7
+Total Times Cited:  8
+Cited Reference Count:  43
+ER  -
+
+TY  - JOUR
+AU  - Deniz, S
+AU  - Müller, UC
+AU  - Steiner, I
+AU  - Sergi, T
+TI  - Online (Remote) Teaching for Laboratory Based Courses Using "Digital Twins" of the Experiments
+T2  - JOURNAL OF ENGINEERING FOR GAS TURBINES AND POWER-TRANSACTIONS OF THE ASME
+LA  - English
+KW  - distance learning
+KW  - online laboratory
+KW  - digital twin
+KW  - laboratory experiments
+KW  - TECHNOLOGY
+KW  - STUDENTS
+KW  - EDUCATION
+KW  - DELIVERY
+AB  - Covid-19 pandemic has introduced radical changes to engineering education in the sense that most of the teaching moved to the off-campus setting of the online classes. However, conducting laboratory classes, a fundamental part of engineering education has remained to be a challenge. To address this situation, an ambitious approach is taken to reestablish the laboratory experience entirely online with the help of digital twins of fluid mechanics, thermodynamics, and turbomachinery laboratory experiments. Laboratory-based undergraduate courses are important parts of the curriculum at the Lucerne University of Applied Sciences (HSLU) in Switzerland. During the Covid-19 pandemic, it was necessary to adapt to the new environment of remote learning and modify the laboratory experiments so that they can be carried out online. The approach was to develop digital twins of each laboratory experiment with web applications and to provide an environment together with supporting videos and interactive problems so that the laboratory experiments can be carried out remotely. A digital twin is a digital representation of a physical system, e.g., the test rig. This paper explains the development of the digital twins of the laboratory experiments and provides information about the selected experiments such as potential vortex, linear momentum equation, diffuser flow, radial compressor, fuel cell, and pump test rig. A remote or distance learning has many hurdles, a major one being how to teach hands-on laboratory courses outside of an actual laboratory. The experience at the HSLU showed that teaching online laboratories using the digital twins of the experiments can work and the students can take part in remote laboratories that meet the learning outcomes and objectives.
+AD  - Lucerne Univ Appl Sci, HSLU, Dept Mech Engn & Energy Technol, CH-6048 Horw, SwitzerlandPU  - ASME
+PI  - NEW YORK
+PA  - TWO PARK AVE, NEW YORK, NY 10016-5990 USA
+SN  - 0742-4795
+SN  - 1528-8919
+J9  - J ENG GAS TURB POWER
+JI  - J. Eng. Gas. Turbines Power-Trans. ASME
+DA  - MAY 1
+PY  - 2022
+VL  - 144
+IS  - 5
+C7  - 051016
+DO  - 10.1115/1.4053323
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000790896400002
+N1  - Times Cited in Web of Science Core Collection:  12
+Total Times Cited:  14
+Cited Reference Count:  32
+ER  -
+
+TY  - JOUR
+AU  - Zhang, J
+AU  - Zhu, JD
+AU  - Tu, WW
+AU  - Wang, MK
+AU  - Yang, YL
+AU  - Qian, F
+AU  - Xu, YQ
+TI  - The Effectiveness of a Digital Twin Learning System in Assisting Engineering Education Courses: A Case of Landscape Architecture
+T2  - APPLIED SCIENCES-BASEL
+LA  - English
+KW  - digital twin
+KW  - engineering education
+KW  - digital pedagogy
+KW  - project-based learning
+KW  - USER ACCEPTANCE
+KW  - INFORMATION-TECHNOLOGY
+KW  - AUGMENTED REALITY
+KW  - INDUSTRY 4.0
+KW  - MODEL
+KW  - FRAMEWORK
+KW  - BIODIVERSITY
+KW  - AGRICULTURE
+KW  - AUTOMATION
+KW  - CHALLENGES
+AB  - In conventional engineering education, issues such as the discrepancy between virtual and real environments, rigid practical operations, lack of reflective support, and a disconnect between online and offline learning prevail. Digital twin technology, with its high fidelity and real-time interaction features, presents an innovative instructional aid for engineering education. This study developed a digital twin learning system to assist instructors in implementing project-based teaching models in landscaping technology courses. To assess the effectiveness of this system, a quasi-experiment was designed. Seventy students from a vocational high school majoring in landscaping technology in China were recruited as participants. These students were divided into two groups, each consisting of 35 students, with the same teaching pace. The experimental group utilized the system to supplement the instructor's teaching of landscaping courses, while the control group received instruction through traditional methods. The experiment lasted for eight weeks, comprising a total of 16 classes. Ultimately, the results indicated that students in the experimental group significantly outperformed those in the control group in critical thinking, cognitive load, learning experience, and academic performance. Additionally, this research examined the acceptance of learners toward using the digital twin learning system and its influencing factors based on the Technology Acceptance Model, aiming to provide insights into enhancing engineering education courses teaching effectiveness and targeted technological development.
+AD  - Zhejiang Univ Technol, Coll Educ, Hangzhou 310023, Peoples R ChinaAD  - Zhejiang Univ, Coll Agr & Biotechnol, Hangzhou 310027, Peoples R ChinaC3  - Zhejiang University of TechnologyC3  - Zhejiang UniversityFU  - Zhejiang Higher Education Association 2020 Higher Education Research Project "College Students Explore Innovative Learning Mode in Smart Classrooms" [KT2020040]
+FX  - This research was funded by the Zhejiang Higher Education Association 2020 Higher Education Research Project "College Students Explore Innovative Learning Mode in Smart Classrooms" (KT2020040).
+PU  - MDPI
+PI  - BASEL
+PA  - ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN  - 2076-3417
+J9  - APPL SCI-BASEL
+JI  - Appl. Sci.-Basel
+DA  - AUG
+PY  - 2024
+VL  - 14
+IS  - 15
+C7  - 6484
+DO  - 10.3390/app14156484
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001286986600001
+N1  - Times Cited in Web of Science Core Collection:  16
+Total Times Cited:  21
+Cited Reference Count:  97
+ER  -
+
+TY  - JOUR
+AU  - Sakkas, K
+AU  - Ntagka, NE
+AU  - Spyridakis, M
+AU  - Miltiadous, A
+AU  - Glavas, E
+AU  - Tzallas, AT
+AU  - Giannakeas, N
+TI  - Multiplayer Virtual Labs for Electronic Circuit Design: A Digital Twin-Based Learning Approach
+T2  - ELECTRONICS
+LA  - English
+KW  - virtual laboratories
+KW  - multiplayer learning
+KW  - digital twins
+KW  - electronic circuits
+KW  - collaborative education
+KW  - voice communication
+KW  - virtual classroom
+KW  - interactive learning
+KW  - circuit design
+KW  - gamification
+AB  - The rapid development of digital technologies is opening up new avenues for transforming education, particularly in fields that require practical training, such as electronic circuit design. In this context, this paper presents the development of a multiplayer virtual learning platform that makes use of digital twins technology to offer a realistic, collaborative experience in a simulated environment. Users can interact in real time through synchronized avatars, voice communication, and multiple viewing angles, simulating a physical classroom. Evaluation of the platform with undergraduate students showed positive results in terms of usability, collaboration, and learning effectiveness. Despite the limitations of the sample, the findings reinforce the prospect of virtual laboratories as a modern tool in technical education.
+AD  - Univ Ioannina, Dept Informat & Telecommun, Human Comp Interact Lab, Arta 47100, GreeceC3  - University of IoanninaPU  - MDPI
+PI  - BASEL
+PA  - MDPI AG, Grosspeteranlage 5, CH-4052 BASEL, SWITZERLAND
+SN  - 2079-9292
+J9  - ELECTRONICS-SWITZ
+JI  - Electronics
+DA  - AUG 8
+PY  - 2025
+VL  - 14
+IS  - 16
+C7  - 3163
+DO  - 10.3390/electronics14163163
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001557489100001
+N1  - Times Cited in Web of Science Core Collection:  2
+Total Times Cited:  2
+Cited Reference Count:  23
+ER  -
+
+TY  - JOUR
+AU  - Tarng, W
+AU  - Wu, YJ
+AU  - Ye, LY
+AU  - Tang, CW
+AU  - Lu, YC
+AU  - Wang, TL
+AU  - Li, CL
+TI  - Application of Virtual Reality in Developing the Digital Twin for an Integrated Robot Learning System
+T2  - ELECTRONICS
+LA  - English
+KW  - virtual reality
+KW  - digital twins
+KW  - forward kinematics
+KW  - inverse kinematics
+KW  - STEM education
+KW  - PERFORMANCE
+KW  - GAME
+AB  - Robotics includes complex mathematical calculations and coordinate transformations in forward and inverse kinematics, path planning, and robot dynamics. Students may experience a high cognitive load and lose learning motivation because robotics can be complex and challenging to understand. This study applied virtual reality (VR) technology in robotics education to simplify and visualize complex robot kinematics, aiming to increase learning motivation and reduce cognitive load. This study incorporated real and virtual robot control to develop an integrated robot learning system. This system enables learners to control the digital twin of a physical robot and observe the synchronized motion of both the virtual and physical robots. Users can operate the virtual robot to achieve the target position by setting joint parameters or using values calculated from inverse kinematics. They can also understand the principle of digital twins by observing the synchronous motion of both robots. A teaching experiment was conducted to explore the performance of applying VR in robotics education and its impacts on cognitive load and learning motivation. The system was improved based on user responses to facilitate subsequent promotional activities. VR can transform complex robotics into easily understandable learning experiences and provide an interactive user interface, making the system a suitable learning tool for STEM education.
+AD  - Natl Tsing Hua Univ, Inst Learning Sci & Technol, Hsinchu 300044, TaiwanAD  - Natl Tsing Hua Univ, Inst Math & Sci Educ, Hsinchu 300044, TaiwanAD  - Natl Yang Ming Chiao Tung Univ, Grad Degree Program Robot, Hsinchu 300093, TaiwanAD  - Natl Tsing Hua Univ, Inst Informat Syst & Applicat, Hsinchu 300044, TaiwanC3  - National Tsing Hua UniversityC3  - National Tsing Hua UniversityC3  - National Yang Ming Chiao Tung UniversityC3  - National Tsing Hua UniversityFU  - National Science and Technology Council (NSTC), Taiwan [112-2410-H-007-043-MY2]
+FX  - This research was funded by the National Science and Technology Council (NSTC), Taiwan, under grant number 112-2410-H-007-043-MY2
+PU  - MDPI
+PI  - BASEL
+PA  - ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN  - 2079-9292
+J9  - ELECTRONICS-SWITZ
+JI  - Electronics
+DA  - JUL
+PY  - 2024
+VL  - 13
+IS  - 14
+C7  - 2848
+DO  - 10.3390/electronics13142848
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001277529600001
+N1  - Times Cited in Web of Science Core Collection:  8
+Total Times Cited:  8
+Cited Reference Count:  52
+ER  -
+
+TY  - JOUR
+AU  - Liu, BY
+AU  - Ding, J
+AU  - Zhu, TL
+AU  - Jiao, L
+AU  - Zhang, SL
+AU  - Zhong, Q
+TI  - A Supplementary Chemical Engineering Internship on Campus: Digital Twin of a 50 kt/y Ethyl Acetate Production Line
+T2  - JOURNAL OF CHEMICAL EDUCATION
+LA  - English
+KW  - Upper-Division Undergraduate
+KW  - Chemical Engineering
+KW  - Computer-Based Learning
+KW  - Industrial Chemistry
+KW  - WORKPLACE
+KW  - EDUCATION
+KW  - SIMULATOR
+KW  - ETHANOL
+KW  - DESIGN
+KW  - FLOW
+AB  - Understanding of actual large-scale plant operations and on-site internship is an integral component of engineering education. However, for chemical engineering undergraduates, the imperative of operational stability and safety in industrial settings often limits their exposure to real-world processes, especially the understanding and operation practices of nonsteady-state processes. To address this gap, we developed an integrated digital twin system. This system comprises a physical production line for ethyl acetate (50 kt annually capacity), a corresponding one-to-one 3D online model, and a fully functional distributed control system (DCS). The physical production line integrates the different unit operations in traditional chemical engineering experiments and uses the same equipment in plants, allowing students to operate a real industrial system on campus. The physical production line and the digital twin share the data and can be adjusted synchronously. This setup eliminates safety risks on campus by operating without hazardous chemicals, while the real operational data and physical models from plants ensure the authenticity of the operational feedback. Moreover, the digital twin system allows students to try non-steady-state operations and even experience the consequence of procedural errors without the risks of actual damage. Therefore, the supplementary on-campus chemical engineering internship can not only bridge the modular unit operations in traditional experiment courses with the on-site experiences in large-scale plants but also cultivate a comprehensive understanding of the complete chemical process flow and a system-level engineering perspective in upper-division undergraduates. This digital twin system provides a cost-effective on-campus internship, allowing students to combine theoretical learning with operation practices, which provides a supplement to future chemical engineering education.
+AD  - Nanjing Univ Sci & Technol, Sch Chem & Chem Engn, Nanjing 210094, Jiangsu, Peoples R ChinaC3  - Nanjing University of Science & TechnologyFU  - Fundamental Research Funds for the Central Universities [30924010808]; Jiangsu Association for Science and Technology [JSTJ-2023-XH044]; Science and Technology Program of Suzhou [ST202202]; Beijing East Simulation and Software Technology ltd [NA]; National Natural Science Foundation of China [22378203]; China Petrochemical Corporation [NA]; Natural Science Foundation of Jiangsu Province [BK20240188]
+FX  - Financial supports from the National Natural Science Foundation of China (Nos. 22408172, 52170110, 22378203, 22478193), the Natural Science Foundation of Jiangsu Province (BK20240188), the Youth Talent Support Program of Jiangsu Association for Science and Technology (JSTJ-2023-XH044), the Fundamental Research Funds for the Central Universities (No. 30924010808), Suzhou Science and Technology Plan Project (ST202202) and Sinopec Seeding Program are gratefully appreciated. This work is also supported by Beijing East Simulation & Software Technology ltd.
+PU  - AMER CHEMICAL SOC
+PI  - WASHINGTON
+PA  - 1155 16TH ST, NW, WASHINGTON, DC 20036 USA
+SN  - 0021-9584
+SN  - 1938-1328
+J9  - J CHEM EDUC
+JI  - J. Chem. Educ.
+DA  - 2026 APR 8
+PY  - 2026
+DO  - 10.1021/acs.jchemed.5c00905
+C6  - APR 2026
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001735544500001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  20
+ER  -
+
+TY  - JOUR
+AU  - Ang, YQ
+AU  - Ong, L
+AU  - Teo, J
+AU  - Gan, JV
+AU  - Han, J
+TI  - Advancing building performance simulation education through a crowdsourced campus digital twin
+T2  - JOURNAL OF BUILDING PERFORMANCE SIMULATION
+LA  - English
+KW  - Building performance simulation education
+KW  - crowdsourced digital twin
+KW  - teaching BPS
+KW  - building science education
+KW  - building energy modeling
+KW  - daylight analysis
+KW  - TOOLS
+AB  - Building Performance Simulation (BPS) is critical in architecture and engineering education but remains challenging to teach, particularly to students with limited technical backgrounds. This study introduces a novel solution: a crowdsourced campus digital twin platform with tailored BPS pedagogy. Our platform hosts student-developed models and simulation templates, offering a hands-on, interactive learning environment. Over 50 first-year undergraduate students submitted 22 models. The crowdsourced element encouraged peer assessment, allowing students to compare and critically evaluate their work. Course evaluation feedback scores for this course - across various categories - surpassed departmental and faculty averages, validating the method's effectiveness. Students highlighted the engaging and practical nature of the approach, although some found the learning curve steep and requested more foundational guidance. Overall, the findings demonstrate the value of this collaborative platform in fostering BPS learning, while also serving as a repository of multiscale data for future research.
+AD  - Natl Univ Singapore, Dept Built Environm, Singapore, SingaporeAD  - Yonsei Univ, Dept Architecture & Architecture Engn, Seoul, South KoreaC3  - National University of SingaporeC3  - Yonsei UniversityFU  - National University of Singapore [23-0535-A0001]
+FX  - This work was supported by National University of Singapore (grant number 23-0535-A0001).
+PU  - TAYLOR & FRANCIS LTD
+PI  - ABINGDON
+PA  - 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN  - 1940-1493
+SN  - 1940-1507
+J9  - J BUILD PERFORM SIMU
+JI  - J. Build. Perf. Simul.
+DA  - JAN 14
+PY  - 2026
+VL  - 18
+IS  - 7
+SP  - 896
+EP  - 920
+DO  - 10.1080/19401493.2025.2493866
+C6  - APR 2025
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001472302800001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  29
+ER  -
+
+TY  - JOUR
+AU  - García, DC
+AU  - Correa, IA
+AU  - González, SG
+AU  - Sánchez, AA
+AU  - González, GV
+TI  - Digital Twin for Designing Logic Gates in Minecraft Through Automated Circuit Verification and Real-Time Simulation
+T2  - ELECTRONICS
+LA  - English
+KW  - digital twin
+KW  - minecraft
+KW  - STEM education
+KW  - Java plugin development
+KW  - logic gates
+KW  - EDUCATION
+KW  - PANGEA
+AB  - This article presents a gamified digital twin in Minecraft designed to support practical exercises in digital logic in the Computer Engineering I course at the University of Salamanca. Implemented as a Spigot/Paper server plugin based on the Platform for Automatic coNstruction of orGanizations of intElligent Agents (PANGEA) multi-agent architecture, the system orchestrates four virtual organizations and employs a world cloning strategy (via Multiverse and WorldGuard) to ensure individual and isolated workspaces, while also enabling collaborative work. The central contribution is a multi-agent system with an integrated 'black box' verification engine that mitigates redstone asynchrony and latency through controlled signal injection and software clock synchronization, enabling real-time deterministic validation of both basic logic gates and more complex sequential circuits. Additionally, the ecosystem includes a specialized suite of logic scenarios and a web-based dashboard for real-time teacher monitoring. In a pilot study (N=30), the system achieved an average task completion rate of 89.1%, and an adapted Unified Theory of Acceptance and Use of Technology (UTAUT) analysis indicated that technical stability is positively associated with student performance.
+AD  - Univ Salamanca, Fac Sci, Expert Syst & Applicat Lab, Salamanca 37008, SpainC3  - University of SalamancaFU  - MCIN/AEI/10.13039/501100011033/FEDER, EU
+FX  - The APC was supported by the project Self-adaptive platform based on intelligent agents for the optimization and management of operational processes in logistic warehouses (PLAUTON), PID2023-151701OB-C21, funded by MCIN/AEI/10.13039/501100011033/FEDER, EU. The founders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+PU  - MDPI
+PI  - BASEL
+PA  - MDPI AG, Grosspeteranlage 5, CH-4052 BASEL, SWITZERLAND
+SN  - 2079-9292
+J9  - ELECTRONICS-SWITZ
+JI  - Electronics
+DA  - JAN 23
+PY  - 2026
+VL  - 15
+IS  - 3
+C7  - 499
+DO  - 10.3390/electronics15030499
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001687708800001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  50
+ER  -
+
+TY  - JOUR
+AU  - Zhou, ZL
+AU  - Oveissi, F
+AU  - Langrish, T
+TI  - Applications of augmented reality (AR) in chemical engineering education: Virtual laboratory work demonstration to digital twin development
+T2  - COMPUTERS & CHEMICAL ENGINEERING
+LA  - English
+KW  - Augmented reality
+KW  - Chemical engineering
+KW  - Spray dryer
+KW  - Education
+KW  - Digital twin
+KW  - IMPACT
+AB  - With advances in information technologies, virtual technologies have become a viable option for chemical engineering educators. Although traditional teaching methods remain effective, they have many limitations when presenting complex phenomena. Virtual technologies like Augmented Reality (AR) have shown great potential as an addition to traditional teaching methods. This study explored the practicality and potential applications of AR technologies in chemical engineering education. In this work, traditional 2D representations of CFD simulation results were replaced by AR experiences to visualise the flow pattern and assist the understanding of the working mechanism behind different devices. Other than CFD result integration, animations were also included in AR experiences for personalised training and inclusive laboratory work experience. AR-assisted training has shown good potential in reducing financial loss and equipment downtime due to improper handling. Besides delivering teaching content, the development process of a digital twin with an AR interface was used to demonstrate how virtual technologies can be involved in digitalisation in Industry 4.0. Beyond the technical contents, important design philosophies were also taught as part of the courses.
+AD  - Univ Sydney, Sch Chem & Biomol Engn, Darlington, NSW 2006, AustraliaC3  - University of SydneyFU  - Australian Government Research Training Program (RTP) Scholarship; Faculty of Engineering Educational Innovation
+FX  - This research (ZZ) was supported by an Australian Government Research Training Program (RTP) Scholarship . This work was supported by a Faculty of Engineering Educational Innovation Grant EEI- G22_Langrish . The authors gratefully acknowledge the contributions of A/Prof. John Kavanagh, Prof. David Fletcher and LEAP Australia to the AR experiences developed as part of this project.
+PU  - PERGAMON-ELSEVIER SCIENCE LTD
+PI  - OXFORD
+PA  - THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN  - 0098-1354
+SN  - 1873-4375
+J9  - COMPUT CHEM ENG
+JI  - Comput. Chem. Eng.
+DA  - SEP
+PY  - 2024
+VL  - 188
+C7  - 108784
+DO  - 10.1016/j.compchemeng.2024.108784
+C6  - JUL 2024
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001266014500001
+N1  - Times Cited in Web of Science Core Collection:  16
+Total Times Cited:  19
+Cited Reference Count:  28
+ER  -
+
+TY  - JOUR
+AU  - Freires, VM
+AU  - Lucas, AM
+AU  - Silva, RHP
+AU  - Almeida, ES
+TI  - Development of a didactic solution for teaching concepts related to Digital Twins using Educational Robot
+T2  - INTERNATIONAL JOURNAL OF INDUSTRIAL ENGINEERING AND MANAGEMENT
+LA  - English
+KW  - Engineering Education
+KW  - Computational Simulation
+KW  - Digital Twins
+KW  - Asset Administration Shell
+KW  - FRAMEWORK
+AB  - Engineering education faces ongoing challenges in keeping pace with the technological demands driven by the need to apply Industry 4.0 concepts in student training. In response to this, the present study introduces the development of a pedagogical tool built around an educational robot produced through 3D printing. The aim is to integrate active learning methodologies with key Industry 4.0 technologies, such as Digital Twins, asset administration shells, and computational simulation, to create a practical and dynamic learning environment. This hands-on approach was implemented in a graduate-level course on Advanced manufacturing engineering, specifically in the Process simulation module. The activity involved the use of the robot alongside a real-time, bidirectional computational model capable of reading and writing data, applying the Digital Twin concept. The study followed a mixed-method action research design. Results from a student feedback survey revealed that 100% of participants agreed the experience with the computational robot helped solidify theoretical concepts. Furthermore, 77.3% gave the learning experience the highest possible rating, and 95.5% recognized the robot's potential for use in other modules and courses. These findings suggest that this approach offers an effective strategy for engineering education that is aligned with the principles of Industry 4.0.
+AD  - Univ Fed Amazonas, Dept Prod Engenerring, Manaus, BrazilAD  - State Univ Amazonas, Dept Elect Enginnering, Manaus, BrazilC3  - Universidade Federal de AmazonasFU  - Priority Program for Industry 4.0 and Industrial Modernization (PPI4.0); Manaus Free Trade Zone Superintendence (SUFRAMA); Hub Technology and Innovation Laboratory of the University of the State of Amazonas
+FX  - This work was funded through the Priority Program for Industry 4.0 and Industrial Modernization (PPI4.0), coordinated by the International Center for Software Technology of Amazonas (CITS.Amazonas), with support from the Manaus Free Trade Zone Superintendence (SUFRAMA), in accordance with the guidelines established by CAPDA Resolution No. 2, dated March 31, 2020. Furthermore, this work was supported by the Hub Technology and Innovation Laboratory of the University of the State of Amazonas.
+PU  - Univ Novi Sad, Fac Technical Sciences
+PI  - Novi Sad
+PA  - Trg Dositeja Obradovica 6, Novi Sad, SERBIA
+SN  - 2217-2661
+SN  - 2683-345X
+J9  - INT J IND ENG MANAGE
+JI  - Int. J. Ind. Eng. Manag.
+DA  - DEC
+PY  - 2025
+VL  - 16
+IS  - 4
+SP  - 444
+EP  - 458
+DO  - 10.24867/IJIEM-398
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001633582900008
+N1  - Times Cited in Web of Science Core Collection:  1
+Total Times Cited:  1
+Cited Reference Count:  45
+ER  -
+
+TY  - JOUR
+AU  - Fatima, A
+AU  - Irwin, JL
+TI  - Integrating feminist pedagogy into manufacturing education: a digital twin-based teaching module ☆
+T2  - MANUFACTURING LETTERS
+LA  - English
+KW  - Digital twin
+KW  - Sustainable manufacturing
+KW  - Engineering education
+KW  - Industry 4.0
+KW  - Feminist pedagogy
+AB  - Integrating feminist pedagogy into engineering education offers a novel pathway to make technical learning more inclusive, participatory, and socially responsive. This paper presents the design and classroom implementation of a digital twin-based teaching module that combines sustainable manufacturing concepts with student-centered learning. A CNC milling machine was retrofitted and linked to its virtual counterpart using CAD/CAM tools, open-source controllers, and a custom-developed graphical user interface (GUI). The system captures real-time data on energy consumption and tool vibration, enabling students to explore how machining parameters impact sustainability factors such as power usage and vibration - induced tool wear. Grounded in feminist pedagogical principles, emphasizing collaboration, reflexivity, and co-creation of knowledge, the module was deployed in Smart Manufacturing and Internet of Things (IoT) courses. The approach fostered a more inclusive learning environment by encouraging active participation, shared authority, and critical thinking around engineering practices. Student surveys and course evaluations indicated improved engagement, deeper conceptual understanding, and greater satisfaction. These results highlight the potential of integrating feminist pedagogy with digital twin technology to enhance manufacturing education and better prepare students for the demands of Industry 4.0 and sustainable engineering. (c) 2025 Society of Manufacturing Engineers (SME). Published by Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+AD  - Michigan Technol Univ, Mfg Mech Engn Technol, Houghton, MI 49931 USAC3  - Michigan Technological UniversityPU  - ELSEVIER
+PI  - AMSTERDAM
+PA  - RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN  - 2213-8463
+J9  - MANUF LETT
+JI  - Manuf. Lett.
+DA  - DEC
+PY  - 2025
+VL  - 46
+SP  - 30
+EP  - 33
+DO  - 10.1016/j.mfglet.2025.10.002
+C6  - OCT 2025
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001599956400002
+N1  - Times Cited in Web of Science Core Collection:  1
+Total Times Cited:  1
+Cited Reference Count:  16
+ER  -
+
+TY  - JOUR
+AU  - Guo, M
+AU  - Zhang, ZY
+AU  - Orduña, P
+AU  - Hussein, R
+TI  - RHL-Butterfly: A Scalable IoT-Based Digital Twinning Platform for Embedded Systems and Remote Laboratories
+T2  - INTERNATIONAL JOURNAL OF ONLINE AND BIOMEDICAL ENGINEERING
+LA  - English
+KW  - educational remote laboratory
+KW  - digital twin
+KW  - virtual breadboard
+KW  - embedded systems
+KW  - VISIR
+KW  - EDUCATION
+AB  - The RHL-Butterfly is a digital twin of a breadboard designed for use with Field Programmable Gate Arrays (FPGAs) and microcontrollers in educational remote engineering laboratories and engineering education, aimed at providing greater flexibility and fostering equity in learning opportunities. This study introduces a novel server-side approach for simulating breadboard circuits using microcontroller backends, enhancing computational efficiency, and offering open-source transparency. The system interfaces the digital twin with a network of physical, remote FPGAs and microcontrollers and introduces a scalable communication protocol system that converts the graphical breadboard layout into a one-dimensional (1D) string representation for network communication. This custom protocol facilitates seamless integration with various digital twinning applications, ensuring a balance between virtualized interfaces and physical hardware and expanding the scalability and accessibility of engineering labs. Survey responses and feedback from students using the system in their course studies have been encouraging. Students particularly appreciate the equitable nature of the system and its similarity to a traditional physical breadboard.
+AD  - Univ Washington, Seattle, WA 98195 USAAD  - LabsLand, San Francisco, CA USAC3  - University of WashingtonC3  - University of Washington SeattleFU  - National Science Foundation's Division of Undergraduate Education [2336745]
+FX  - This study is supported by the National Science Foundation's Division of Undergraduate Education under Grant No. 2336745.
+PU  - Int Federation Engineering Education Societies-IFEES
+PI  - Fairfax
+PA  - 4400 University Drive, MS 4A3, Fairfax, VA, UNITED STATES
+SN  - 2626-8493
+J9  - INT J ONLINE BIOMED
+JI  - Int. J. Online Biomed. Eng.
+PY  - 2025
+VL  - 21
+IS  - 4
+SP  - 4
+EP  - 28
+DO  - 10.3991/ijoe.v21i04.54297
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001457869600001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  33
+ER  -
+
+TY  - JOUR
+AU  - Hazrat, MA
+AU  - Hassan, NMS
+AU  - Chowdhury, AA
+AU  - Rasul, MG
+AU  - Taylor, BA
+TI  - Developing a Skilled Workforce for Future Industry Demand: The Potential of Digital Twin-Based Teaching and Learning Practices in Engineering Education
+T2  - SUSTAINABILITY
+LA  - English
+KW  - learning and teaching methods
+KW  - digital twin
+KW  - engineering education
+KW  - future development of teaching
+KW  - digital transformation
+KW  - TECHNOLOGIES
+KW  - INTERNET
+KW  - IMPACT
+AB  - Engineering education providers should foresee the potential of digital transformation of teaching and skill-developing activities so that graduating engineers can find themselves highly aligned with the demands and attributes needed by prospective industrial employers. The advancement of industrial revolutions towards hybridisation of the enabling technologies recognised by Industry 4.0, Society 5.0, and Industry 5.0 have transformed the components of the engineering higher education system remarkably. Future workforce requirements will demand an employee's multidisciplinary skill mix and other professional qualities. Implementing human-centric decision-making based on insights from the Digital Twin (DT) systems, sustainability, and lean systems is necessary for further economic growth. Recent barriers identified by the Australian Council of Engineering Deans, the development of teaching capabilities, and affordable and digitally transformed learning facilities by education providers were all considered. This paper explores the role of Digital Twins (DTs) in enhancing engineering higher education by incorporating Industry 4.0 components and other industrial advances. By reviewing curricula, pedagogy, and the evolving skill requirements for engineering graduates, this study identifies key benefits of DTs, such as cost-effectiveness, resource management, and immersive learning experiences. This paper also outlines challenges in implementing DT-based labs, including IT infrastructure, data quality, privacy, and security issues. The findings indicate that engineering education should embrace DTs to foster multidisciplinary skills and human-centric decision-making to meet future workforce demands. Collaboration with industry is highlighted as a crucial factor in the successful transformation of teaching practices and in offering real-world experiences. The COVID-19 pandemic has expedited the adoption of DT technologies, demonstrating their utility in minimising educational disruptions. While this paper acknowledges the high potential of DTs to prepare engineering students for future industry demands, it also emphasises the need for professional development among educators to ensure effective and balanced implementation.
+AD  - Cent Queensland Univ, Sch Business & Law, Yaamba Rd, Rockhampton, Qld 4701, AustraliaAD  - Cent Queensland Univ, Sch Engn & Technol, Abbott St, Cairns, Qld 4870, AustraliaAD  - Cent Queensland Univ, Sch Engn & Technol, Bryan Jordan Dr, Gladstone, Qld 4680, AustraliaAD  - Cent Queensland Univ, Sch Engn & Technol, Yaamba Rd, Rockhampton, Qld 4701, AustraliaAD  - Cent Queensland Univ, Sch Engn & Technol, 6 Univ Dr, Bundaberg, Qld 4670, AustraliaC3  - Central Queensland UniversityC3  - Central Queensland UniversityC3  - Central Queensland UniversityC3  - Central Queensland UniversityC3  - Central Queensland UniversityFU  - CQUniversity Learning Design and Innovation Directorate
+FX  - No Statement Available
+PU  - MDPI
+PI  - BASEL
+PA  - ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN  - 2071-1050
+J9  - SUSTAINABILITY-BASEL
+JI  - Sustainability
+DA  - DEC
+PY  - 2023
+VL  - 15
+IS  - 23
+C7  - 16433
+DO  - 10.3390/su152316433
+WE  - Science Citation Index Expanded (SCI-EXPANDED)WE  - Social Science Citation Index (SSCI)AN  - WOS:001116868400001
+N1  - Times Cited in Web of Science Core Collection:  48
+Total Times Cited:  57
+Cited Reference Count:  125
+ER  -
+
+TY  - JOUR
+AU  - Karanam, SAK
+AU  - Hartman, NW
+TI  - A Systematic Review of Digital Twin (DT) and Virtual Learning Environments (VLE) for Smart Manufacturing Education
+T2  - MANUFACTURING LETTERS
+LA  - English
+KW  - Digital Twin (DT)
+KW  - Virtual Learning Environment (VLE)
+KW  - Manufacturing Education
+KW  - Smart Manufacturing
+KW  - Industry 5.0
+KW  - Adaptive Learning
+KW  - Simulation-Based Education
+KW  - ENGINEERING-EDUCATION
+KW  - TECHNOLOGY
+KW  - CHALLENGES
+KW  - VALUES
+AB  - The integration of Digital Twin (DT) technology with Virtual Learning Environments (VLEs) is transforming manufacturing education by enabling real-time, immersive, and adaptive learning experiences. The paper presents a systematic review of state-ofthe-art applications, methodologies, and challenges in DT-VLE integration, with a focus on enhancing experiential learning and bridging the theory-to-practice gap in manufacturing education. The study systematically analyzes Simulation-based learning (SBL), Problem-based learning (PBL), Gamification based learning (GBL), and AR/VR-enhanced training, identifying their impact on student engagement, knowledge retention, and skill development in smart manufacturing education. Additionally, real-world case studies and empirical findings demonstrate that students using DT-VLE systems score up to 20% higher in problem-solving assessments and report 83% increased confidence in manufacturing concepts. Despite the evident benefits, challenges such as high implementation costs, scalability limitations, and data security concerns remain barriers to widespread adoption. To address these issues, the paper proposes a three-phase framework for DT-VLE integration, encompassing infrastructure development, adaptive course design, and industry collaborations. The findings suggest that cloud-based DT solutions, AI-powered adaptive learning pathways, and modular open-source tools can enhance scalability and accessibility, making DT-based manufacturing education more viable. The review provides a roadmap for future research and implementation, emphasizing Industry 5.0-driven smart learning environments that combine human-centric, AI-assisted, and data-driven training models. The proposed strategies aim to make digital twin education more efficient, scalable, and aligned with future workforce needs in smart manufacturing education.
+AD  - Purdue Univ, Sch Engn Technol SoET, Purdue Polytech, 401 N Grant St, W Lafayette, IN 47907 USAAD  - Indiana Mfg Competitiveness Ctr IN MaC, 1105 Endeavour Ave, W Lafayette, IN 47906 USAC3  - Purdue University SystemC3  - Purdue UniversityPU  - ELSEVIER
+PI  - AMSTERDAM
+PA  - RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN  - 2213-8463
+J9  - MANUF LETT
+JI  - Manuf. Lett.
+DA  - AUG
+PY  - 2025
+VL  - 44
+SP  - 1597
+EP  - 1608
+DO  - 10.1016/j.mfglet.2025.06.179
+C6  - SEP 2025
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001576258400036
+N1  - Times Cited in Web of Science Core Collection:  5
+Total Times Cited:  6
+Cited Reference Count:  96
+ER  -
+
+TY  - JOUR
+AU  - Podzharsky, MA
+TI  - INTEGRATION OF ARTIFICIAL INTELLIGENCE INTO THE TEACHING OF CHEMICAL TECHNOLOGY IN HIGHER EDUCATION: A SYSTEMATIC REVIEW
+T2  - JOURNAL OF CHEMISTRY AND TECHNOLOGIES
+LA  - Russian
+KW  - artificial intelligence
+KW  - chemical technology
+KW  - digital twins
+KW  - machine learning
+KW  - course projecting
+KW  - modeling
+KW  - optimization
+KW  - adaptive learning
+AB  - This article analyzes the strategic importance and practical aspects of incorporating artificial intelligence (AI) technologies into the training of chemical engineering students at higher education institutions. The study is based on a systematic scoping review of scientific publications from 2021 to 2025. Based on these sources, the author identifies six major applications of AI in education: modeling and optimizing technological processes with machine learning, using digital twins and augmented reality, incorporating generative AI into project-based learning, applying adaptive learning systems, enabling automated assessment, supporting academic integrity. The article provides empirical evidence illustrating the effectiveness of these approaches. Researchers report that machine learning methods can increase reactor design productivity by up to 60 %, and over 90 % of students positively evaluate the use of generative AI in project-based learning. The analysis emphasizes the role of digital twins in creating highly realistic and safe environments for developing professional skills, including those necessary for hazardous industrial settings. The author also examines how Ukrainian universities adopt AI amid wartime conditions and restricted access to in-person learning. Virtual laboratories and digital simulators help students compensate for limited access to specialized equipment. The article offers practical recommendations for educators, such as expanding computational infrastructure, utilizing digital simulators, and fostering collaboration with industry professionals. The author also shares their personal experience teaching with AI-driven adaptive learning. The conclusion emphasizes that, while AI can modernize chemical engineering education, it cannot replace critical thinking. Since AI-generated content often contains inaccuracies, students and instructors must carefully verify information. To reduce the risk of academic dishonesty, the author recommends increasing the proportion of in-person and oral assessments.
+AD  - Oles Honchar Dnipro Natl Univ, 72 Nauky Ave, UA-49010 Dnipro, UkraineC3  - Ministry of Education & Science of UkraineC3  - Oles Honchar Dnipro National UniversityPU  - OLES HONCHAR DNIPROPETROVSK NATL UNIV
+PI  - DNIPROPETROVSK
+PA  - PR-KT GAGARINA, 42, DNIPROPETROVSK, 49010, UKRAINE
+SN  - 2663-2934
+SN  - 2663-2942
+J9  - J CHEM TECHNOL
+JI  - J. Chem Technol.
+PY  - 2026
+VL  - 34
+IS  - 1
+SP  - 116
+EP  - 126
+DO  - 10.15421/jchemtech.v34i1.344737
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001728306800013
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  39
+ER  -
+
+TY  - JOUR
+AU  - Shehadeh, A
+AU  - Alshboul, O
+AU  - Abuaddous, M
+AU  - Nimer, HF
+AU  - Otoom, M
+TI  - Emerging WEFE technologies in engineering education: Integration of optimization, explainable AI, digital twins, and virtual reality
+T2  - ARRAY
+LA  - English
+KW  - Innovative technologies
+KW  - WEFE nexus
+KW  - Engineering education
+KW  - Digital twins
+KW  - Explainable AI (XAI)
+KW  - Virtual reality (VR)
+AB  - This study presents an integrated Water-Energy-Food-Ecosystem (WEFE) engineering education framework that combines risk-aware optimization, machine learning surrogates, explainable artificial intelligence (XAI), digital twin, and virtual reality (VR). A synthetic WEFE scenario library of 10,200 operating conditions and 20,000 intervention policies was generated to support solver-based labeling, XAI training, and immersive VR labs without using real learner data. Benchmark experiments show that the optimization core reduces aggregate water and food deficits by 25-45% while lowering WEFE loss tail risk (CVaR) by 15-30% across baseline, stress, and extreme regimes. Surrogate policies achieve 86-92% fidelity to the optimizer, with objective-performance gaps below 5%, enabling real-time VR interaction at frame rates above 60 fps for more than 500 concurrent "what-if" evaluations per session. The framework is instantiated across 6 program streams at the Hijjawi Faculty for Engineering Technology, with 12-16 contact hours per course allocated to WEFE-XR labs aligned with ABETrelated outcomes in systems design, sustainability, data-driven decision making, and ethical responsibility. Analytics from more than 1000 synthetic scenario playbacks indicate consistent selection of risk-aware strategies, with simulated policy trajectories showing, on average, 18-25% lower tail risk than naive baselines. By quantitatively evaluating the technical performance of each layer, the study shows that integrated WEFE technologies can be embedded in engineering curricula as a reproducible and measurable instructional infrastructure rather than as a standalone enrichment tool.
+AD  - Yarmouk Univ, Hijjawi Fac Engn Technol, Dept Civil Engn, POB 566, Irbid 21163, JordanAD  - Hashemite Univ, Fac Engn, Dept Civil Engn, POB 330127, Zarqa 13133, JordanAD  - Yarmouk Univ, Hijjawi Fac Engn Technol, Comp Engn Dept, POB 566, Irbid 21163, JordanC3  - Yarmouk UniversityC3  - Hashemite UniversityC3  - Yarmouk UniversityFU  - Royal Academy of Engineering through the Frontiers Champions Grant Scheme (Frontiers Champions - Tranche 5) [FC-2425-5-138]
+FX  - The research was funded by the Royal Academy of Engineering through the Frontiers Champions Grant Scheme (Frontiers Champions - Tranche 5) , reference number FC-2425-5-138. The research title was "Integrating the WEFE Nexus into Engineering Education for Sustainable Development in Jordan." It aimed at supporting the development and delivery of activities aiming at integrating the Water-Energy-Food-Ecosystems (WEFE) nexus into engineering education, hence promot-ing sustainable development practice in Jordan.
+PU  - ELSEVIER
+PI  - AMSTERDAM
+PA  - RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN  - 2590-0056
+J9  - ARRAY-NY
+JI  - Array
+DA  - JUL
+PY  - 2026
+VL  - 30
+C7  - 100756
+DO  - 10.1016/j.array.2026.100756
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001724226400001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  37
+ER  -
+
+TY  - JOUR
+AU  - Speicher, T
+AU  - DeFranco, J
+AU  - Stricker, C
+AU  - Kumara, S
+AU  - Bilén, S
+TI  - Digital twin technology for engineering education: An experiential learning case study
+T2  - INDUSTRY AND HIGHER EDUCATION
+LA  - English
+KW  - IoT education
+KW  - digital twins
+KW  - experiential learning
+KW  - smart manufacturing
+KW  - automation pyramid
+KW  - engineering education
+KW  - INDUSTRY 4.0
+KW  - INTERNET
+AB  - The evolving landscape of modern manufacturing demands a workforce equipped with both theoretical knowledge and practical hands-on skills. This paper explores experiential engineering education through a case study of undergraduate interns integrated within a small manufacturer to extend classroom learning through Digital Twin (DT) technologies and Internet of Things (IoT) data collection. Interns participated in data collection, system modeling, and decision-making tasks, enabling comparison between traditional and smart manufacturing environments. Preliminary results indicate that exposure to DT and IoT frameworks improved students' understanding of automation hierarchies, strengthened systems thinking, and enhanced data-driven problem-solving skills. The study evaluated intern performance and identified benefits for both students and employers. While limitations related to scope and assessment are acknowledged, the initial findings suggest that DT-enabled internships provide a valuable pathway for aligning engineering curricula with industry needs and preparing graduates for the demands of modern manufacturing environments.
+AD  - Penn State Univ, Coll Engn, 2100 Stoudt Rd, Reading, PA 19601, USAC3  - Pennsylvania Commonwealth System of Higher Education (PCSHE)C3  - Pennsylvania State UniversityFU  - Pennsylvania Department of Community and Economic Development [1060181-483477]
+FX  - The authors disclosed receipt of the following financial support for the research, authorship, and/or publication of this article: This work was supported by the Pennsylvania Department of Community and Economic Development [grant number 1060181-483477]. Award Recipient are Terrance Speicher, Joanna DeFranco, and Charles Stricker.
+PU  - SAGE PUBLICATIONS LTD
+PI  - LONDON
+PA  - 1 OLIVERS YARD, 55 CITY ROAD, LONDON EC1Y 1SP, ENGLAND
+SN  - 0950-4222
+SN  - 2043-6858
+J9  - IND HIGHER EDUC
+JI  - Ind. Higher Educ.
+DA  - 2026 APR 16
+PY  - 2026
+DO  - 10.1177/09504222261443589
+C6  - APR 2026
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001741761400001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  32
+ER  -
+
+TY  - JOUR
+AU  - Liljaniemi, A
+AU  - Paavilainen, H
+TI  - Enhancing engineering education through immersive environments-a study of the Holodeck VR system in hydraulics and pneumatics
+T2  - COGENT EDUCATION
+LA  - English
+KW  - Virtual reality
+KW  - Holodeck
+KW  - digital twin
+KW  - Industry 4.0
+KW  - engineering education
+KW  - virtual learning environment
+KW  - General Engineering Education
+KW  - Mechanical Engineering
+KW  - Systems and Control Engineering
+KW  - Technology
+KW  - Theories of Learning
+KW  - Adult Education and Lifelong Learning
+KW  - Continuing Professional Development
+KW  - Higher Education
+KW  - Research Methods in Education
+KW  - DIGITAL TWIN
+KW  - VIRTUAL-REALITY
+KW  - TECHNOLOGIES
+KW  - MANAGEMENT
+KW  - ENTERPRISE
+KW  - METAVERSE
+KW  - INTERNET
+KW  - THINGS
+KW  - STATE
+AB  - This study explores the integration of immersive technologies, virtual reality (VR) and digital twin (DT) technologies, into engineering education through a novel learning space, Holodeck. This study aims to improve student learning outcomes in a hydraulics and pneumatics course by addressing problems of increasing student numbers, decreasing resources, and calls for more interactive and experiential learning activities. Holodeck is a virtual environment and interactive laboratory where students explore complex systems, hone problem-solving abilities, and use theoretical knowledge in a very interactive and experiential way. The research adopted a multi-method approach with the incorporation of action research and statistical analysis to evaluate the impact of VR and DT on student behavior, motivation, and performance. The research encompassed 96 second-year mechanical engineering students, classified into two groups to compare users of Holodeck technology with those engaged in conventional laboratory environments. The findings indicate that the incorporation of immersive technology enhanced the students' proficiency in recognizing pneumatic components and comprehending system diagrams. Concurrently, various technical challenges and developmental requirements were recognized. The article concludes with a reflection on future pedagogical practices and identifies key areas for further research, particularly the integration of VR and DT to create more dynamic and effective learning environments.
+AD  - Metropol Univ Appl Sci, Dept Mech Engn, Leiritie 1, Vantaa 01600, FinlandFU  - Digi-Flash [ERDF A75137]; Big-Flash [ERDF A77490]
+FX  - The research reported in this paper was supported and made possible by the Digi-Flash (ERDF A75137) and Big-Flash (ERDF A77490) projects. This support is gratefully acknowledged.22A. LILJANIEMI AND H. PAAVILAINEN
+PU  - TAYLOR & FRANCIS LTD
+PI  - ABINGDON
+PA  - 2-4 PARK SQUARE, MILTON PARK, ABINGDON OR14 4RN, OXON, ENGLAND
+SN  - 2331-186X
+J9  - COGENT EDUC
+JI  - Cogent Educ.
+DA  - DEC 31
+PY  - 2025
+VL  - 12
+IS  - 1
+C7  - 2530900
+DO  - 10.1080/2331186X.2025.2530900
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001530429900001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  61
+ER  -
+
+TY  - JOUR
+AU  - Bonavolontà, F
+AU  - Verde, MT
+AU  - Lo Moriello, RS
+AU  - Liccardo, A
+TI  - Sustainability comparison between a traditional electronics measurement laboratory and an immersive metaverse laboratory: An extended life cycle assessment analysis
+T2  - ACTA IMEKO
+LA  - English
+KW  - life cycle assessment (LCA)
+KW  - triple bottom line (TBL)
+KW  - digital twin
+KW  - virtual reality in education
+KW  - sustainability in higher education
+AB  - University laboratories are essential for engineering education but often require significant resources in terms of energy, equipment, and space. This paper presents a comparative Life Cycle Assessment of two models: a traditional measurement laboratory with 20 physical workstations and an immersive digital twin-based laboratory ( (IM-MetaLAB (IM-MetaLAB) supported by one high-performance workstation and 20 virtual reality headsets. The study extends the Life Cycle Assessment framework to the triple bottom line, jointly addressing environmental, economic, and social dimensions. Results highlight substantial advantages of the immersive model. Energy demand decreases from 18,000 to 7,000 kW h/year, with associated emissions reduced by more than 60%. Over a seven-year horizon, electronic waste is reduced from 500-600 kg to about 200 kg. Economically, capital expenditures drop from approximately 100,000 & euro; to 25,000 & euro;, while annual operating costs fall from 17,000 & euro; to 5,000 & euro;, yielding a per-student exercise cost four times lower. Socially, immersive access enables remote 24/7 participation, improves completion rates (70 % vs 56 %) and average grades (27.4/30 vs. 25/30), and eliminates commuting emissions (approximate to 24 tCO(2)/year for 40 students). The immersive laboratory thus proves to be a sustainable, cost-effective, and pedagogically effective alternative to the traditional activities, showing how digital twin and virtual reality technologies can support both innovation in teaching and institutional sustainability goals.
+AD  - Univ Naples Federico II, Dept Elect Engn & Informat Technol DIETI, Via Claudio 21, I-80125 Naples, NA, ItalyAD  - Univ Naples Federico II, Dept Vet Med & Anim Prod DMVPA, Via Feder Delpino 1, I-80137 Naples, NA, ItalyAD  - Univ Naples Federico II, Dept Ind Engn DII, Piazzale Vincenzo Tecchio 80, I-80125 Naples, NA, ItalyC3  - University of Naples Federico IIC3  - University of Naples Federico IIC3  - University of Naples Federico IIFU  - Project "Augmented Reality Measurement Instrumentation Project for Remote Teaching Applications" (MISURANDO) [DR/2022/2055]; EU under the NextGenerationEU [2022-D.D. 1409]
+FX  - The research activity involving the development of the digital twin of the instruments has received funding from the project "Augmented Reality Measurement Instrumentation Project for Remote Teaching Applications" (MISURANDO) , which received a 3-year funding under the call for University Research Funding (FRA) DR/2022/2055 of 17/05/2022. The research activity involving the development of the Metaverse has received funding from the project "EXTENDABLE-network of EXTENDed reAlity-enaBLEd laboratories for remote practical training" CUP E53D23014680001 funded by EU under the NextGenerationEU plan through the Italian "Bando Prin 2022-D.D. 1409 del 14-09-2022" by MUR.
+PU  - IMEKO - Int Measurement Confederation
+PI  - Budapest
+PA  - Lajos utca 74-76, Budapest, HUNGARY
+SN  - 0237-028X
+SN  - 2221-870X
+J9  - ACTA IMEKO
+JI  - Acta IMEKO
+DA  - MAR
+PY  - 2026
+VL  - 15
+IS  - 1
+C7  - 2199
+DO  - 10.21014/actaimeko.v15i1.2199
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001729639900003
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  33
+ER  -
+
+TY  - JOUR
+AU  - Boltsi, A
+AU  - Kosmanos, D
+AU  - Xenakis, A
+AU  - Chatzimisios, P
+AU  - Chaikalis, C
+TI  - Towards a Novel Digital Twin Framework Proposal Within the Engineering Design Process for Future Engineers: An IoT Smart Building Use Case
+T2  - SENSORS
+LA  - English
+KW  - Digital Twin (DT)
+KW  - Engineering Design Process (EDP)
+KW  - engineering education
+KW  - IoT
+KW  - sensors and actuators
+KW  - smart systems
+KW  - TECHNOLOGY
+KW  - EDUCATION
+KW  - SYSTEM
+AB  - The continuous evolution of Internet of Things (IoT) technologies presents significant opportunities and challenges within the domain of engineering education. This paper introduces a novel and comprehensive framework that extends the established Engineering Design Process (EDP) by incorporating a modular Digital Twin (DT) structure specifically tailored to smart building IoT applications in education. Unlike previous approaches, our framework enables real-time system feedback, simulation-based design iteration, and hands-on experimentation-all integrated within a pedagogical flow aligned with engineering curricula. It comprises seven distinct phases, providing a complete methodology that guides learners from fundamental concepts to advanced applications, including data visualization, real-time simulation, and system optimization. To demonstrate the applicability of the proposed framework, we design and experiment with a practical use case related to a meteorological station and data, which incorporate IoT-enabled sensors, actuators, and microcontrollers for real-time monitoring of environmental parameters and energy consumption within a smart building campus facility. Additionally, to support EDP extension, a hybrid pedagogical approach is introduced, which combines traditional engineering hands-on education methodologies with DT activities, to further foster experimental learning, iterative system design, and complex systems thinking development. To this end, our approach aims to bridge the gap between theoretical science and engineering knowledge, along with practical application use cases, contributing to a better preparation of future engineers capable of addressing interdisciplinary challenges associated with smart systems and digital transformation within the Industry 4.0 era.
+AD  - Univ Thessaly, Dept Digital Syst, Geopolis Campus, Larisa 41500, GreeceAD  - Int Hellenic Univ, Dept Informat & Elect Engn, Thessaloniki 57400, GreeceAD  - Univ New Mexico, Dept Elect & Comp Engn, Albuquerque, NM 87131 USAC3  - University of ThessalyC3  - International Hellenic UniversityC3  - University of New MexicoPU  - MDPI
+PI  - BASEL
+PA  - MDPI AG, Grosspeteranlage 5, CH-4052 BASEL, SWITZERLAND
+SN  - 1424-8220
+J9  - SENSORS-BASEL
+JI  - Sensors
+DA  - JUN 1
+PY  - 2025
+VL  - 25
+IS  - 11
+C7  - 3504
+DO  - 10.3390/s25113504
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001506079600001
+N1  - Times Cited in Web of Science Core Collection:  3
+Total Times Cited:  3
+Cited Reference Count:  157
+ER  -
+
+TY  - JOUR
+AU  - Udugama, IA
+AU  - Bayer, C
+AU  - Baroutian, S
+AU  - Gernaey, KV
+AU  - Yu, W
+AU  - Young, BR
+TI  - Digitalisation in chemical engineering: Industrial needs, academic best practice, and curriculum limitations
+T2  - EDUCATION FOR CHEMICAL ENGINEERS
+LA  - English
+KW  - Digitalisation
+KW  - Digital twins
+KW  - Big data analytics
+KW  - internet of things
+KW  - Industry survey
+KW  - Expert survey
+KW  - Staff survey
+KW  - SIMULATION
+KW  - EDUCATION
+AB  - The digitalisation megatrend is currently changing the way whole sectors of the economy are operated and in the manufacturing sector, digitalisation promises productivity improvements with seemingly marginal investments in "steel and concrete". These sector wide shifts will inevitably influence how a chemical engineering graduate would perform their job functions, irrespective if they are working in an area such as petrochemical manufacturing or in the financial and management sector of the economy. This manuscript presents the results from three targeted surveys carried out to get a better understanding of (1) what alumni from a chemical and materials engineering degree think these changes will mean for them, (2) expert opinions on the level of detail key topics of digital twins, big data and Internet of Things (IOT) should be covered by an undergraduate chemical engineering curriculum and (3) what staff from a chemical and materials engineering degree think the best way to embed these concepts into an undergraduate level chemical engineering education. Analysing the results from the survey highlighted the following aspects. (1) An overwhelming number of alumni reported that elements of digitalisation are already influencing their industry and job function and these influences are likely to get stronger overtime (2) The experts identified that chemical engineering graduates will likely drive the development of digital twins hence requiring a high level of understanding in this subject. The graduates would only need to apply Big Data analytics and likely not be involved with the IOT developments. (3) The staff identified that these requirements identified by the experts can be satisfied by taking a two-pronged approach of adding modules to current core courses while developing standalone elective courses to cover the more advanced concepts.
+AD  - Univ Auckland, Dept Chem & Mat Engn, Auckland, New ZealandAD  - Univ Tokyo, Dept Chem Syst Engn, Tokyo, JapanAD  - TH Nuernberg, Dept Proc Engn, Nurnberg, GermanyAD  - Tech Univ Denmark, Proc & Syst Engn Ctr PROSYS, Dept Chem & Biochem Engn, Lyngby, DenmarkC3  - University of AucklandC3  - University of TokyoC3  - Technical University of DenmarkPU  - ELSEVIER SCI LTD
+PI  - London
+PA  - 125 London Wall, London, ENGLAND
+SN  - 1749-7728
+J9  - EDUC CHEM ENG
+JI  - Educ. Chem. Eng.
+DA  - APR
+PY  - 2022
+VL  - 39
+SP  - 94
+EP  - 107
+DO  - 10.1016/j.ece.2022.03.003
+C6  - APR 2022
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000798805300004
+N1  - Times Cited in Web of Science Core Collection:  16
+Total Times Cited:  18
+Cited Reference Count:  28
+ER  -
+
+TY  - JOUR
+AU  - Weis, P
+AU  - Bastovansky, R
+AU  - Veres, M
+TI  - A Web-Based Digital Twin Framework for Interactive E-Learning in Engineering Education
+T2  - COMPUTERS
+LA  - English
+KW  - interactive learning
+KW  - engineering education
+KW  - digital twin
+KW  - VIRTUAL-REALITY
+KW  - CHALLENGES
+KW  - DESIGN
+AB  - Traditional engineering education struggles to bridge the theory-practice gap in the Industry 4.0 era, as static 2D schematics inadequately convey complex spatial relationships. While advanced visualization tools exist, their adoption is frequently hindered by requirements for specialized hardware and software, limiting accessibility. This study details the development and evaluation of a novel, web-based Digital Twin framework designed for accessible, intuitive e-learning that requires no client-side installation. The framework, centered on a high-fidelity 3D model of a historic radial engine, was assessed through a qualitative pilot case study with seven engineering professionals. Data was collected via a "think-aloud" protocol and a mixed-methods survey with a Likert scale and open-ended questions. Findings revealed an overwhelmingly positive reception; quantitative data showed high mean scores for usability, educational impact, and professional training potential (M > 4.2). Qualitative analysis confirmed the framework's success in enhancing spatial understanding via features like dynamic cross-sections, improving the efficiency of accessing integrated documentation, and demonstrating high value as an onboarding tool. This work provides strong preliminary evidence that an accessible, web-based Digital Twin is a powerful and scalable solution for technical education that significantly enhances spatial comprehension and knowledge transfer.
+AD  - Univ Zilina, Fac Mech Engn, Dept Design & Mech Elements, Univerzitna 8215-1, Zilina 01026, SlovakiaC3  - University of ZilinaFU  - Scientific Grant Agency of the Ministry of Education, Science, Research and Sport of the Slovak Republic (VEGA) [1/0568/24]
+FX  - This work was supported by the Scientific Grant Agency of the Ministry of Education, Science, Research and Sport of the Slovak Republic (VEGA), project no. 1/0568/24: Research in the field of loading and stress deformation states of rolling bearing cages. The authors gratefully acknowledge this support.
+PU  - MDPI
+PI  - BASEL
+PA  - MDPI AG, Grosspeteranlage 5, CH-4052 BASEL, SWITZERLAND
+SN  - 2073-431X
+J9  - COMPUTERS
+JI  - Computers
+DA  - OCT 14
+PY  - 2025
+VL  - 14
+IS  - 10
+C7  - 435
+DO  - 10.3390/computers14100435
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001604013200001
+N1  - Times Cited in Web of Science Core Collection:  1
+Total Times Cited:  1
+Cited Reference Count:  44
+ER  -
+
+TY  - JOUR
+AU  - Speicher, TL
+AU  - Defranco, JF
+AU  - Stricker, CD Jr
+AU  - Kumara, S
+TI  - Integrating Digital Twins into Small to Medium Sized Manufacturers: A Roadmap for Engineering Internships
+T2  - INTERNATIONAL JOURNAL OF ENGINEERING EDUCATION
+LA  - English
+KW  - digital twin
+KW  - cyber physical system
+KW  - smart manufacturing
+KW  - intelligent manufacturing
+KW  - engineering internships
+KW  - engineering education
+KW  - CYBER-PHYSICAL SYSTEMS
+KW  - INDUSTRY 4.0
+KW  - SMART
+KW  - OPTIMIZATION
+KW  - FRAMEWORK
+KW  - ARCHITECTURE
+KW  - VIRTUALIZATION
+KW  - PARADIGM
+KW  - QUALITY
+AB  - Industry 4.0 includes implementations of digital twins (DT) that facilitates smart manufacturing enhancements. Unfortunately, integrating DT into small and medium-sized manufacturers (SMM) continues to be a challenge. To address this problem, the landscape of DT literature was analyzed, and the results were used to create a phased DT integration plan for SMM involving engineering student interns. This paper presents the results of a systematic literature review (SLR) and a roadmap for DT adoption in SMM. Data was extracted from the included literature and qualitatively analyzed to determine themes related to the benefits, challenges, use cases, and best practices of DT. The benefits of implementing DT were efficiency/optimization, quality/customization, maintenance management, safety monitoring, and operator training. The challenges extracted to overcome in implementing DT were connectivity, data analytics, automation, and instrumentation. Relevant DT use cases among the literature were at the levels of machine, work cell, production line, and manufacturing factory. The best practices for DT applications were related to information exchange, digital representation, and reference architecture. Ultimately the literature analysis provided the background to create an integration framework for DT in SMM who struggle to take advantage of Industry 4.0 technology. Engineering educators can implement the provided roadmap to satisfy ABET student outcomes while promoting DT adoption in SMM by involving engineering student interns.
+AD  - Penn State Univ, Engn Degree, Reading, PA 19610 USAAD  - Penn State Univ, Software Engn, University Pk, PA USAAD  - Penn State Univ, Engn degree program, University Pk, PA USAAD  - Penn State Univ, Engn, Reading, PA USAAD  - Penn State Univ, University Pk, PA USAC3  - Pennsylvania Commonwealth System of Higher Education (PCSHE)C3  - Pennsylvania State UniversityC3  - Pennsylvania Commonwealth System of Higher Education (PCSHE)C3  - Pennsylvania State UniversityC3  - Pennsylvania State University - University ParkC3  - Pennsylvania Commonwealth System of Higher Education (PCSHE)C3  - Pennsylvania State UniversityC3  - Pennsylvania State University - University ParkC3  - Pennsylvania Commonwealth System of Higher Education (PCSHE)C3  - Pennsylvania State UniversityC3  - Pennsylvania Commonwealth System of Higher Education (PCSHE)C3  - Pennsylvania State UniversityC3  - Pennsylvania State University - University ParkPU  - TEMPUS PUBLICATIONS
+PI  - DURRUS, BANTRY
+PA  - IJEE , ROSSMORE,, DURRUS, BANTRY, COUNTY CORK 00000, IRELAND
+SN  - 0949-149X
+J9  - INT J ENG EDUC
+JI  - Int. J. Eng. Educ
+PY  - 2025
+VL  - 41
+IS  - 2
+SP  - 432
+EP  - 452
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001472804500016
+N1  - Times Cited in Web of Science Core Collection:  1
+Total Times Cited:  1
+Cited Reference Count:  127
+ER  -
+
+TY  - JOUR
+AU  - Ivanov, V
+AU  - Amelin, M
+AU  - Haidabrus, B
+TI  - Simulation software for smart manufacturing: a review
+T2  - DISCOVER APPLIED SCIENCES
+LA  - English
+KW  - Process optimization
+KW  - Simulation software
+KW  - Digital twin
+KW  - Discrete-event simulation
+KW  - Manufacturing innovation
+KW  - Engineering education
+AB  - Modern manufacturing enterprises are faced with the challenges of increasing efficiency, adaptability, and integration of production processes in Industry 4.0. Discrete-event modeling and digital twins are key tools for optimizing production, planning, and decision-making. At the same time, choosing the optimal software remains difficult due to the various available platforms with different functionality. The article provides a systematic analysis of nine modern software programs for discrete-event modeling of production processes: ("FlexSim in Academia | FlexSim." 2025. Accessed Aug 7. https://www.flexsim.com/academia/?utm), Tecnomatix Plant Simulation, Visual Components, ProModel for AutoCAD, iGrafx, Arena Simulation, Delmia, simul8, and Simio. The assessment was carried out in five key categories: technical, analytical, organizational, economic, and educational, which allows for a comprehensive description of the functionality and scope of each software. The study's results confirm the leading role of FlexSim as a universal tool that combines powerful analytical capabilities, high scalability, integration with corporate systems, and advanced support for educational and research initiatives. A comparison of the indicators of other platforms demonstrates their strengths in individual aspects, but in general, emphasizes the need to consider the specifics of the tasks of enterprises and educational institutions when choosing software. The data obtained is of practical importance for modeling specialists, engineers, production managers, and teachers, contributing to increasing the efficiency of decision-making and the development of digital twins in the context of modern industrial technologies.
+AD  - Sumy State Univ, 116 Kharkivska St, Sumy 40007, UkraineAD  - Tech Univ Kosice, 1 Bayerova St, Presov 08001, SlovakiaAD  - WSB Univ, 1C Ciplaka St, PL-41300 Dabrowa Gornicza, PolandAD  - Riga Tech Univ, 6A Kipsalas St, LV-1048 Riga, LatviaAD  - Accenture Balt, 214 Brivibas St, LV-1039 Riga, LatviaC3  - Ministry of Education & Science of UkraineC3  - Sumy State UniversityC3  - Technical University KosiceC3  - WSB UniversityC3  - Riga Technical UniversityFU  - EU NextGenerationEU through the Recovery and Resilience Plan for Slovakia [09I03-03-V01-00094]; International Association for Technological Development and Innovations and the International Innovation Foundation
+FX  - This work was supported by the EU NextGenerationEU through the Recovery and Resilience Plan for Slovakia (project 09I03-03-V01-00094). The research was partially supported by the International Association for Technological Development and Innovations and the International Innovation Foundation.
+PU  - SPRINGER
+PI  - NEW YORK
+PA  - ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN  - 3004-9261
+J9  - DISCOV APPL SCI
+JI  - DISCOV. APPL. SCI.
+DA  - DEC 8
+PY  - 2025
+VL  - 8
+IS  - 1
+C7  - 95
+DO  - 10.1007/s42452-025-08012-y
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001662852700002
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  1
+Cited Reference Count:  45
+ER  -
+
+TY  - JOUR
+AU  - Omrany, H
+AU  - Al-Obaidi, KM
+AU  - Ghaffarianhoseini, A
+AU  - Chang, RD
+AU  - Park, C
+AU  - Rahimian, F
+TI  - Digital twin technology for education, training and learning in construction industry: implications for research and practice
+T2  - ENGINEERING CONSTRUCTION AND ARCHITECTURAL MANAGEMENT
+LA  - English
+KW  - Digital twin
+KW  - Construction workers
+KW  - Education
+KW  - Digital technology
+KW  - Construction industry
+KW  - Industry 4.0
+KW  - Construction employment
+KW  - Social sustainability
+KW  - Migrant workers
+KW  - ENGINEERING-EDUCATION
+KW  - COMPETENCE
+KW  - HEALTH
+AB  - Purpose - This study explores the potential of digital twin (DT) technology to enhance education and training in the construction industry. It aims to provide a clear understanding of how DT can be applied for educational purposes and proposes a framework to facilitate the adoption of DT in construction training. Design/methodology/approach - A systematic literature review was conducted to examine the current applications of DT technology in construction education and training. A total of 19 relevant studies were identified and analysed to evaluate the tools, technologies, educational objectives and integration methods used in developing DT models for the construction sector. Based on this analysis, a conceptual framework was developed to guide the integration of DT technology into construction education, addressing gaps in the current literature and practices. Findings - The analysis revealed a strong consensus on the effectiveness of DT technology in supporting education and training objectives within the construction industry. The study highlighted the fragmented nature of the current literature and proposed a comprehensive framework designed to facilitate the integration of DT in construction education. This framework offers a structured approach to bridging the gap between theoretical learning and real-world application. Originality/value - The research presents a new systematic framework developed based on an in-depth review for utilising DT in education, training and learning (ETL) processes in construction. The framework provides a novel and structured learning process to integrate theoretical knowledge with practical skills to support workforce development in the construction industry. This framework offers a structured roadmap for future research and practical applications.
+AD  - Univ Adelaide, Sch Architecture & Civil Engn, Adelaide, AustraliaAD  - Sheffield Hallam Univ, Sheffield Creat Ind Inst, Coll Social Sci & Arts, Sheffield, EnglandAD  - Auckland Univ Technol, Sch Future Environm, Auckland, New ZealandAD  - Chung Ang Univ, Sch Architecture & Bldg Sci, Seoul, South KoreaAD  - Teesside Univ, Sch Comp Engn & Digital Technol, Middelisborough, EnglandC3  - Adelaide UniversityC3  - University of AdelaideC3  - Sheffield Hallam UniversityC3  - Auckland University of TechnologyC3  - Chung Ang UniversityFU  - University of Adelaide's School of Architecture and Civil Engineering through the School Research Growth Scheme
+FX  - Funding: The paper was financially supported by the University of Adelaide's School of Architecture and Civil Engineering through the School Research Growth Scheme.
+PU  - EMERALD GROUP PUBLISHING LTD
+PI  - Leeds
+PA  - Floor 5, Northspring 21-23 Wellington Street, Leeds, W YORKSHIRE, ENGLAND
+SN  - 0969-9988
+SN  - 1365-232X
+J9  - ENG CONSTR ARCHIT MA
+JI  - Eng. Constr. Archit. Manag.
+DA  - MAR 11
+PY  - 2026
+VL  - 33
+IS  - 3
+SP  - 1836
+EP  - 1870
+DO  - 10.1108/ECAM-10-2024-1376
+C6  - JAN 2025
+WE  - Science Citation Index Expanded (SCI-EXPANDED)WE  - Social Science Citation Index (SSCI)AN  - WOS:001404650700001
+N1  - Times Cited in Web of Science Core Collection:  11
+Total Times Cited:  15
+Cited Reference Count:  90
+ER  -
+
+TY  - JOUR
+AU  - Habarurema, JB
+AU  - Di Fuccio, R
+AU  - Limone, P
+TI  - Enhancing e-learning with a digital twin for innovative learning
+T2  - INTERNATIONAL JOURNAL OF INFORMATION AND LEARNING TECHNOLOGY
+LA  - English
+KW  - Digital twin
+KW  - E-learning
+KW  - Digital education
+KW  - Digital twin enabled e-learning
+KW  - Innovative learning
+AB  - PurposeDigital twin enabled e-learning (DTEe-L) transitions from traditional instructional design to innovative learner-centered e-learning design. Initially, during the COVID-19 pandemic, DTEe-L demonstrated great promise for significantly optimizing e-learning environments, emerging as a suitable mechanism for innovative and active learning, making hitherto inconceivable remote and or online practical, laboratory courses and experiments a reality. The purpose of this paper is to analyze the concept of digital twin (DT) in the context of e-learning and discusses the dynamic and interpretive models that integrate DT in e-learning.Design/methodology/approachThis study investigates the concept of DT in the context of e-learning using secondary data sources. It provides dynamic and exploratory viewpoints that analyzes the development of DTEe-L, the e-learning forward-looking paradigm change and the current multitude of challenges in educational settings. Data was collected from literature sources such as peer-reviewed journals, conference proceedings, periodicals and case studies. The bibliometrics data was utilized to examine and evaluate the development of DTEe-L, as well as the influence of existing publications in academic settings in particular and the field in general.FindingsThe findings indicated that DTEe-L benefits are diverse, including students' motivation to learn, learner's behavioral engagement and hands-on doing experiences. However, a plethora of issues such as students' cognitive overload, technical issues related to the use of technology, difficulty assessing learning outcomes, weak social connections among students, lack of tactile experience when working in DT laboratories, among others, persist. Furthermore, the findings revealed an imbalance in the use of DT in e-learning in the literature between the fields of medical and engineering education, where experimental and practical hands-on competence is highly valued and less dependent on theoretical perspectives, and other domains where experimental laboratory and practical hands-on learning is not widely practiced.Research limitations/implicationsIt is argued that despite myriads of challenges, the use of DTEe-L is the future of modern e-learning education. Because previous studies concentrated on the use of DT in health sciences and engineering education, future research would broaden to include other disciplines (such as arts, social sciences and humanities) where experimental laboratory and practical hands-on learning is not widely practiced.Originality/valueThe study provides academics, educational policymakers and practitioners in the fields of digital education, with the opportunities to comprehensively understand the development and the benefits of DTEe-L to improve the extant traditional e-learning platforms. The study also brings novel insights into e-learning platforms to enhance the quality of e-learning education and to increase learning motivation among e-learners.
+AD  - Pegaso Telemat Univ, Naples, ItalyAD  - Univ Foggia, Dept Humanities Arts Cultural Heritage Educ Sci, Foggia, ItalyC3  - Pegaso Online UniversityC3  - University of FoggiaPU  - EMERALD GROUP PUBLISHING LTD
+PI  - Leeds
+PA  - Floor 5, Northspring 21-23 Wellington Street, Leeds, W YORKSHIRE, ENGLAND
+SN  - 2056-4880
+J9  - INT J INF LEARN TECH
+JI  - Int. J. Inf. Learn. Technol.
+DA  - JUN 3
+PY  - 2025
+VL  - 42
+IS  - 3
+SP  - 341
+EP  - 351
+DO  - 10.1108/IJILT-02-2024-0034
+C6  - MAY 2025
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001490326400001
+N1  - Times Cited in Web of Science Core Collection:  3
+Total Times Cited:  5
+Cited Reference Count:  35
+ER  -
+
+TY  - JOUR
+AU  - Li, JF
+AU  - Li, HR
+TI  - Digital Twinning Transformation for Microwave Engineering Education: A Case Study of Student-centered Learning in Module States of the Arts in Liquid Crystals Millimeter-wave Technology for 6G
+T2  - ENGINEERING LETTERS
+LA  - English
+KW  - microwave engineering
+KW  - digital twin
+KW  - engineering education
+KW  - computational electromagnetics
+KW  - liquid crystal education
+KW  - digital transformation
+KW  - student-centered learning
+KW  - higher education
+KW  - 6G education
+KW  - 6G networks
+KW  - NETWORK
+AB  - The pervasive use of electronic design automation (EDA) suites is not solely dedicated to state-of-the-art microchips and nanosheet devices designed for Interconnect 3.0, but is also extensively deployed for more macroscopic electromagnetic analysis that profoundly influences the fifth-generation (5G) communications underway and beyond, e.g., the sixth-generation (6G) one that fuses communication and sensing in a highly integrated manner and featuring ubiquitous connectivity. High-frequency structure simulator (HFSS) is one of the most prominent EDA tools in this domain, but due to its closed-source nature, its value in engineering education and student-centered learning has largely been underexplored. To this end, this study investigates the use of EDA-assisted electromagnetic (EM) simulation tools, focusing on emerging liquid crystal (LC)-based microwave (MW) reconfigurable technologies, in the context of teaching an undergraduate module titled States of the Arts in Liquid Crystals Millimeter-wave Technology for 6G. Eleven in-project undergraduate students across diverse academic backgrounds participated in the case study, together with the lecture and a postgraduate research student. The novelty of this approach lies in its development of a self-driven framework to identify and address the limitations of these computational tools in various application scenarios. These educational innovations form a core part of the broader reform project carried out at Beijing Institute of Technology, aimed at integrating digital twinning and digital transformation strategies into higher education. Marrying EDA vulnerability studies with LC-based computational electromagnetics offers an extended educational pathway toward 6G technologies and opens new opportunities in liquid crystal microwave technology and beyond.
+AD  - Beijing Inst Technol, Sch Interdisciplinary Sci, Beijing 100081, Peoples R ChinaAD  - Beijing Inst Technol, Sch Integrated Circuits & Elect, Beijing Key Lab Millimeter Wave & Terahertz Techn, Beijing 100081, Peoples R ChinaC3  - Beijing Institute of TechnologyC3  - Beijing Institute of TechnologyFU  - National Natural Science Foundation of China [62301043]; Fundamental Research Funds for the Central Universities (Beijing Institute of Technology Research Fund Program for Young Scholars) [220502052024011]
+FX  - This work was supported by the National Natural Science Foundation of China under Grant 62301043, and the Fundamental Research Funds for the Central Universities (Beijing Institute of Technology Research Fund Program for Young Scholars) under Grant 220502052024011.
+PU  - NEWSWOOD LTD
+PI  - HONG KONG
+PA  - UNIT 1, 1/F, 37-39 HUNG TO RD, HONG KONG, 00000, HONG KONG
+SN  - 1816-093X
+SN  - 1816-0948
+J9  - ENG LET
+JI  - Eng. Lett.
+DA  - AUG
+PY  - 2025
+VL  - 33
+IS  - 8
+SP  - 3119
+EP  - 3128
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001549858600023
+N1  - Times Cited in Web of Science Core Collection:  1
+Total Times Cited:  1
+Cited Reference Count:  102
+ER  -
+
+TY  - JOUR
+AU  - Yauri, R
+AU  - Mallqui, G
+TI  - IoT Control and Visualization System with Digital Twins and Augmented Reality in a Digital Transformation Space
+T2  - INTERNATIONAL JOURNAL OF ONLINE AND BIOMEDICAL ENGINEERING
+LA  - English
+KW  - augmented reality (AR) Internet of Things (IoT) digital twins (DT) IoT device
+AB  - This paper describes the use of Internet of Things (IoT) technologies, digital twins (DT), and augmented reality (AR) to raise awareness and disseminate the use of digital services within the INICTEL-UNI institutional project financed by the Inter-American Development Bank to strengthen technological services and satisfy the technological needs of companies, promoting digital transformation in Peru. Within various fields, such as technical education, construction, and manufacturing, challenges are faced related to the adoption of advanced technologies and the need to improve efficiency. The main objective of this paper is to implement an IoT control and visualization system with DT and AR in a digital transformation space. A system is shown to create a technological demonstrator environment that visualizes and monitors sensor data on physical IoT devices in real time, allowing users to interact and operate them through an ESP32 module with data transmission with the MQTT protocol and an AR application developed in Unity and Vuforia. The study results successfully demonstrated the efficiency of real-time communication between the IoT device and the AR application, as well as the efficient ability to perform tasks, validated by users with no prior experience.
+AD  - Univ Tecnol Peru, Lima, PeruAD  - INICTEL UNI, Field Technol Transfer, Lima, PeruC3  - Universidad Tecnologica del PeruPU  - Int Federation Engineering Education Societies-IFEES
+PI  - Fairfax
+PA  - 4400 University Drive, MS 4A3, Fairfax, VA, UNITED STATES
+SN  - 2626-8493
+J9  - INT J ONLINE BIOMED
+JI  - Int. J. Online Biomed. Eng.
+PY  - 2024
+VL  - 20
+IS  - 4
+SP  - 18
+EP  - 28
+DO  - 10.3991/ijoe.v20i04.46773
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001221793300007
+N1  - Times Cited in Web of Science Core Collection:  2
+Total Times Cited:  2
+Cited Reference Count:  26
+ER  -
+
+TY  - JOUR
+AU  - Usman, M
+AU  - Usmani, A
+AU  - Jadidi, M
+TI  - Re-envisioning Field Surveying as an Immersive Gamification Experience.
+T2  - INTERACTION DESIGN AND ARCHITECTURES
+LA  - English
+KW  - Field Surveying
+KW  - Gamification
+KW  - Virtual Environment
+KW  - Digital Twins
+KW  - Experiential Learning
+KW  - Engineering Education
+KW  - SYSTEM
+KW  - SUS
+AB  - Recent strides in immersive technologies, coupled with advancements in game development, are reshaping engineering education, and revolutionizing the design and delivery of both in-class and lab activities. Traditional experiential practices in field surveying and mapping, which have historically relied on hands-on learning alongside theory concepts, have been supplemented by innovative pedagogical approaches, catalyzed by the disruptions caused by COVID-19. There has been a growing imperative to create virtual and immersive resources and shift towards virtual-based lab designs. In response to this evolving landscape, we present a novel approach that provides students with high-quality field training through an immersive virtual experience. We introduce an interactive web application for topographic surveying, embedded within a gamification framework, utilizing digital twins to recreate the field space. Our research offers compelling evidence that this approach effectively supports practical training, as demonstrated by real-world use cases conducted in the lab setting. Additionally, we gauge the framework's usability using the System Usability Scale (SUS), affirming its effectiveness as a tool in virtualizing field practice.
+AD  - King Fahd Univ Petr & Minerals, Dept Informat & Comp Sci, Dhahran, Eastern Provinc, Saudi ArabiaAD  - York Univ, Dept Earth & Space Sci Engn, Toronto, ON, CanadaAD  - York Univ, Dept Civil Engn, Toronto, ON, CanadaAD  - SDAIA KFUPM Joint Res Ctr Artificial Intelligence, Dhahran, Saudi ArabiaC3  - King Fahd University of Petroleum & MineralsC3  - York University - CanadaC3  - York University - CanadaFU  - Natural Science and Engineering Council of Canada (NSERC); York University's Academic Innovation Fund; York University's Lassonde Education Innovation Studio Funds; Saudi Data and AI Authority (SDAIA); King Fahd University of Petroleum and Minerals (KFUPM) under SDAIA-KFUPM Joint Research Center for Artificial Intelligence [JRC-AI-RFP-19]
+FX  - This publication is based upon work supported by the Natural Science and Engineering Council of Canada (NSERC) Discovery grant, York University's Academic Innovation Fund, and York University's Lassonde Education Innovation Studio Funds. The authors would like to thank Ms. Andrea Kodagoda for helping with analyzing the frequently used words from the SAID-reflection reports. The author/s would also like to acknowledge the support received from Saudi Data and AI Authority (SDAIA) and King Fahd University of Petroleum and Minerals (KFUPM) under SDAIA-KFUPM Joint Research Center for Artificial Intelligence Grant no. JRC- AI-RFP-19.
+PU  - INTERACTION DESIGN & ARCHITECTURES
+PI  - ROMA
+PA  - INTERACTION DESIGN & ARCHITECTURES, ROMA, 00000, ITALY
+SN  - 1826-9745
+SN  - 2283-2998
+J9  - INTERACT DES ARCHIT
+JI  - Interact. Des. Archit.
+DA  - OCT
+PY  - 2023
+IS  - 58
+SP  - 72
+EP  - 89
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001255251500003
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  1
+Cited Reference Count:  26
+ER  -
+
+TY  - JOUR
+AU  - Terkaj, W
+AU  - Kleine, K
+AU  - Kuts, V
+TI  - Virtual labs for higher education in industrial engineering
+T2  - PROCEEDINGS OF THE ESTONIAN ACADEMY OF SCIENCES
+LA  - English
+KW  - virtual lab
+KW  - digital factory
+KW  - digital twin
+KW  - higher education
+KW  - TECHNOLOGY
+AB  - The current digital transformation in manufacturing has a strong impact on the competencies needed by manufacturing companies. This leads to evolving requirements for digital training in industrial engineering courses. The concept of virtual labs in academic environments can be instrumental in teaching new digital skills through practical experience. This paper aims to examine the requirements and essential factors involved in designing virtual labs, proposing a framework to meet the requirements of virtual lab activities, integrating didactic and research purposes while examining the requirements and essential factors involved in designing virtual labs digital twin as an enabling technology. The framework is the result of the analysis of the technical aspects related to immersive technologies, such as extended reality, together with insights gathered from interviews and pilot testing conducted in workshops involving students, teachers, and lab managers from three institutions implementing virtual labs. The outcomes of this study include the digital model of four manufacturing labs as virtual labs that are openly available for academic purposes. This showcases a commitment towards offering quality and inclusive engineering education through cutting edge virtual technologies.
+AD  - CNR STIIMA, Via Alfonso Corti 12, I-20133 Milan, ItalyAD  - Univ Southern Denmark, Dept Technol & Innovat, Alsion 2, DK-6400 Sonderborg, DenmarkAD  - Tallinn Univ Technol, Dept Mech & Ind Engn, Ehitajate Tee 5, EE-19086 Tallinn, EstoniaC3  - Consiglio Nazionale delle Ricerche (CNR)C3  - Istituto di Sistemi Tecnologie Industriali Intelligenti per il Manifatturiero Avanzato (STIIMA-CNR)C3  - University of Southern DenmarkC3  - Tallinn University of TechnologyFU  - European Union [2020-1-DK01- KA226-HE-094270]
+FX  - This work was co-funded by the European Union's Erasmus+ Programme, project No. 2020-1-DK01- KA226-HE-094270. The publication costs of this article were partially covered by the Estonian Academy of Sciences.
+PU  - ESTONIAN ACAD PUBLISHERS
+PI  - TALLINN
+PA  - 6 KOHTU, TALLINN 10130, ESTONIA
+SN  - 1736-6046
+SN  - 1736-7530
+J9  - P EST ACAD SCI
+JI  - P. Est. Acad. Sci.
+PY  - 2024
+VL  - 73
+IS  - 2
+SP  - 142
+EP  - 149
+DO  - 10.3176/proc.2024.2.07
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001241183900007
+N1  - Times Cited in Web of Science Core Collection:  4
+Total Times Cited:  4
+Cited Reference Count:  22
+ER  -
+
+TY  - JOUR
+AU  - Fuertes, JJ
+AU  - Prada, MA
+AU  - Rodriguez-Ossorio, JR
+AU  - Gonzalez-Herbon, R
+AU  - Perez, D
+AU  - Dominguez, M
+TI  - Environment for Education on Industry 4.0
+T2  - IEEE ACCESS
+LA  - English
+KW  - Protocols
+KW  - Cloud computing
+KW  - Industries
+KW  - Digital twin
+KW  - Standards
+KW  - Computer security
+KW  - Solid modeling
+KW  - Engineering education
+KW  - industry 4
+KW  - 0
+KW  - industrial Internet of Things
+KW  - IIoT
+KW  - cyber-physical system
+KW  - ENGINEERING-EDUCATION
+KW  - BIG DATA
+KW  - TECHNOLOGIES
+KW  - CONTEXT
+KW  - SERVICE
+AB  - A new industrial production model based on digitalization, system interconnection, virtualization and data exploitation, has emerged. Upgrade of production processes towards this Industry 4.0 model is one of the critical challenges for the industrial sector and, consequently, the training of students and professionals has to address these new demands. To carry out this task, it is essential to develop educational tools that allow students to interact with real equipment that implements, in an integrated way, new enabling technologies, such as connectivity with standard protocols, storage and data processing in the cloud, machine learning, digital twins and industrial cybersecurity measures. For that reason, in this work, we present an educational environment on Industry 4.0 that incorporates these technologies reproducing realistic industrial conditions. This environment includes cutting-edge industrial control system technologies, such as an industrial firewall and a virtual private network (VPN) to strengthen cybersecurity, an Industrial Internet of Things (IIoT) gateway to transfer process information to the cloud, where it can be stored and analyzed, and a digital twin that virtually reproduces the system. A set of hands-on tasks for an introductory automation course have been proposed, so that students acquire a practical understanding of the enabling technologies of Industry 4.0 and of its function in a real automation. This course has been taught in a master's degree and students have assessed its usefulness by means of an anonymous survey. The results of the educational experience have been useful both from the students' and faculty's viewpoint.
+AD  - Univ Leon, Suppress Res Grp, Escuela Ingn, Campus Vegazana, Leon 24007, SpainC3  - Universidad de LeonFU  - Spanish State Research Agency [MCIN/AEI/10.13039/501100011033, PID2020-117890RB-I00]; Spanish Committee of Automatic Control (CEA); Siemens through its ``Automation, Digitization and Industry 4.0'' prize
+FX  - This work was supported by the Spanish State Research Agency, MCIN/AEI/10.13039/501100011033 under Grant PID2020-117890RB-I00, and in part by the Spanish Committee of Automatic Control (CEA) and Siemens through its ``Automation, Digitization and Industry 4.0'' prize.
+PU  - IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI  - PISCATAWAY
+PA  - 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN  - 2169-3536
+J9  - IEEE ACCESS
+JI  - IEEE Access
+PY  - 2021
+VL  - 9
+SP  - 144395
+EP  - 144405
+DO  - 10.1109/ACCESS.2021.3120517
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000712563300001
+N1  - Times Cited in Web of Science Core Collection:  24
+Total Times Cited:  34
+Cited Reference Count:  55
+ER  -
+
+TY  - JOUR
+AU  - Park, J
+AU  - Ho, CY
+AU  - Li, LKB
+TI  - AR Tunnel: An augmented-reality digital twin for immersive learning of wind tunnel laboratories
+T2  - COMPUTERS & EDUCATION: X REALITY
+LA  - English
+KW  - Augmented reality
+KW  - Immersive learning
+KW  - Engineering education
+KW  - STEM education
+AB  - Engineering labs face constraints on time, safety, and access, making it difficult for students to develop robust procedural schemas and visualize invisible flow phenomena. We present AR Tunnel, an augmented-reality (AR) digital twin of a university wind tunnel. Its theoretical design draws on cognitive load and multimedia learning principles, along with situated learning via contextualized rehearsal. Pilot testing with students indicated strong user acceptance, identified usability issues, and guided iterative refinements to navigation, performance modes, and instructional content. In controlled tests with undergraduate and postgraduate cohorts, AR pre-lab preparation was compared with equivalent slide-based preparation. Although both groups reported similar increases in self-assessed familiarity after the hands-on lab, students who prepared with AR Tunnel achieved significantly higher scores on objective knowledge quizzes across both cohorts (p< 0.05). Within the AR groups, higher engagement-measured across behavioral, emotional, and cognitive dimensions-correlated positively with quiz performance (Spearman's rho approximate to 0.42-0.48, p< 0.05), suggesting that active exploration mediated learning gains. AR Tunnel therefore functions as a scalable preparatory resource that complements, rather than replaces, in-person lab instruction. Future work should measure retention and transfer, disentangle gamification and scaffolding effects, and evaluate mixed-reality overlays during live-lab operation.
+AD  - Hong Kong Univ Sci & Technol, Dept Mech & Aerosp Engn, Clear Water Bay, Hong Kong, Peoples R ChinaAD  - City Univ Hong Kong, Dept Linguist & Translat, Kowloon, Hong Kong, Peoples R ChinaC3  - Hong Kong University of Science & TechnologyC3  - City University of Hong KongFU  - Teaching and Learning Innovation Project grant from the Center for Education Innovation (CEI) at the Hong Kong University of Science and Technology [TLIP-124E]; Research Grants Council [16215521]; University Grants Committee of Hong Kong (Fund for Innovative Technology-in-Education)
+FX  - This work was supported by a Teaching and Learning Innovation Project grant (TLIP-124E) from the Center for Education Innovation (CEI) at the Hong Kong University of Science and Technology. We would like to thank CEI staff for their helpful guidance and constructive feedback. We would also like to acknowledge the support of the Research Grants Council (Project No. 16215521) and the University Grants Committee of Hong Kong (Fund for Innovative Technology-in-Education) .
+PU  - ELSEVIER
+PI  - AMSTERDAM
+PA  - RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN  - 2949-6780
+J9  - COMPUT EDUC-X REAL
+JI  - Comput. Educ. X Real.
+DA  - JUN
+PY  - 2026
+VL  - 8
+C7  - 100139
+DO  - 10.1016/j.cexr.2026.100139
+C6  - FEB 2026
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001690076000001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  30
+ER  -
+
+TY  - JOUR
+AU  - Rajabifard, A
+AU  - Kahalimoghadam, M
+AU  - Lumantarna, E
+AU  - Herath, N
+AU  - Hui, FKP
+AU  - Assarkhaniki, Z
+TI  - Applying SDGs as a systematic approach for incorporating sustainability in higher education
+T2  - INTERNATIONAL JOURNAL OF SUSTAINABILITY IN HIGHER EDUCATION
+LA  - English
+KW  - Education
+KW  - Sustainability
+KW  - Sustainable development goals
+KW  - SDGs
+KW  - Digital twin
+KW  - ENGINEERING-EDUCATION
+KW  - INTEGRATION
+AB  - Purpose
+   The achievement of the sustainable development goals (SDGs) for all communities and jurisdictions require a comprehensive roadmap that encompasses all dimensions of data infrastructure, social, economic, environmental and governance ecosystems. With this in mind, this paper aims to establish the link between the curriculum and intended learning outcomes of undergraduate and postgraduate subjects offered by the University and sustainability. This study is a part of a wider university strategy to embed sustainability knowledge and values in the university curricula. The 17 SDGs developed as a part of the 2030 Agenda for Sustainability Development was used as tool to measure and map how the subjects are linked with sustainability.
+   Design/methodology/approach
+   To incorporate sustainability into the curriculum, this paper developed an interdisciplinary approach for analysing the interconnection between the SDGs, the expected subject learning points and the relevant aspects of sustainability (geospatial information, the legal, policies and institutional components). As part of the approach, in the first phase of the study, qualitative data were collected through a review of published information on the SDGs and the content of the subjects available in the subject handbook. Subject codes were assigned to the keywords and key phrases extracted from the SDGs and the subject content, and then compared and matched to establish the link between the subjects and the SDGs. Six university schools offering over 2,157 subjects were investigated. In the second phase, a survey was conducted involving subject coordinators with the purpose of validating the findings of the first phase and determining the strength of the linkages between the subjects and the SDGs. In the third phase, a plugin was designed to be used in the digital twin platform developed in the UoM, allowing visualisation of the research outcomes.
+   Findings
+   Based on the interim findings, it was found that some subjects within the schools are linked to more than one SDG. However, not all of the subjects within the schools can be linked to the SDGs. There is a scope of improvement for embedding sustainability in more subjects within the schools. Some of the schools were also found to have weak linkages with sustainability, which demonstrate the challenge in technical subjects in linking their subject contents with sustainability.
+   Originality/value
+   This study provides a methodology which enables the integration of sustainability into current state of the curricula at the university to be established. Further, with the advancement of geospatial technology and new visualisation opportunities through the use of the digital twin platform provides capabilities to communicate the outcomes of sustainability and involvement of each faculties and departments more effectively to the university community and wider stakeholders.
+AD  - Univ Melbourne, Dept Infrastruct Engn, Melbourne, Vic, AustraliaC3  - University of MelbourneFU  - Faculty of Engineering and IT; Department of Infrastructure Engineering at the UoM; Sustainability Fellowship Program by the University of Melbourne
+FX  - The authors would like to acknowledge and thank the support and inputs of several groups for this sustainability project and research related to embedding sustainability into the curriculum. Firstly we acknowledge and thank the strategic and financial support of the Sustainability Fellowship Program commissioned by the University of Melbourne Chancellory. The support of the Faculty of Engineering and IT, and support of Department of Infrastructure Engineering at the UoM. Also, we would like to acknowledge the Centre for Spatial Data Infrastructures and Land Administration members, particularly Dr Yiqun Chen, Dr Behzad Rismanchi, and Mr Sharan Kumar Monikanta Rajan, for their support and technical inputs. However, the ideas and discussion in this paper are of the authors and do not reflect the views of these supporters.
+PU  - EMERALD GROUP PUBLISHING LTD
+PI  - Leeds
+PA  - Floor 5, Northspring 21-23 Wellington Street, Leeds, W YORKSHIRE, ENGLAND
+SN  - 1467-6370
+SN  - 1758-6739
+J9  - INT J SUST HIGHER ED
+JI  - Int. J. Sustain. High. Educ.
+DA  - AUG 30
+PY  - 2021
+VL  - 22
+IS  - 6
+SP  - 1266
+EP  - 1284
+DO  - 10.1108/IJSHE-10-2020-0418
+C6  - JUN 2021
+WE  - Social Science Citation Index (SSCI)AN  - WOS:000660291000001
+N1  - Times Cited in Web of Science Core Collection:  38
+Total Times Cited:  47
+Cited Reference Count:  35
+ER  -
+
+TY  - JOUR
+AU  - Nedeva, V
+AU  - Dineva, S
+AU  - Atanasov, S
+TI  - Engineering Education Meets the Metaverse
+T2  - ACTA INFOLOGICA
+LA  - English
+KW  - Metaverse
+KW  - Engineering Education
+KW  - Virtual Reality
+KW  - E-Learning
+KW  - IOT
+KW  - TECHNOLOGY
+KW  - CHALLENGES
+KW  - AI
+AB  - The metaverse, a collective virtual shared space created by the convergence of virtually enhanced physical reality and persistentvirtualspace, encompassing all virtualworlds, augmented realities, and the Internet, offers a unique platform for experiential learning and collaborative education. This study used the Web of Science, Google Scholar, and Scopus via Publish or Perish for source searching, with VOSviewer employed for bibliometric visualization. Following the PRISMA protocol, the study systematically reviewed relevant literature to address the following research questions: (1) What specific fields within engineering education incorporate Metaverse-based learning? (2) Which tools, technologies, or software platforms are employed in these practices? (3) What teaching strategies or educational frameworks are utilized in this context? (4) How do collaboration and interaction between humans and computers take place within the Metaverse? (5) What is the role of digital twins in Metaverse education? This review investigates the metaverse's role in engineeringeducation, highlighting both its positive impacts and potential drawbacks.
+AD  - Trakia Univ, Fac Engn & Technol, Dept Elect Engn Automat Comp Syst & Commun, Yambol, BulgariaC3  - Trakia UniversityPU  - ISTANBUL UNIV
+PI  - ISTANBUL
+PA  - Rektorlugu, Beyazit, Fatih, ISTANBUL, 34452, Turkiye
+SN  - 2602-3563
+J9  - ACTA INFOLOGICA
+JI  - Acta Infologica
+PY  - 2025
+VL  - 9
+IS  - 1
+SP  - 359
+EP  - 384
+DO  - 10.26650/acin.1612225
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001525823200019
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  80
+ER  -
+
+TY  - JOUR
+AU  - Li, C
+AU  - Li, FQ
+AU  - Xu, BY
+AU  - Sohail, N
+AU  - Hu, B
+TI  - Digital Technology-Driven Real-Time Data Processing and Visualization for Virtual Simulation Laboratories
+T2  - JOURNAL OF ORGANIZATIONAL AND END USER COMPUTING
+LA  - English
+KW  - Real-Time Data Fusion
+KW  - Virtual Simulation Laboratory
+KW  - Semantic Visualization
+KW  - Adaptive Feedback
+KW  - Digital Twin in Education
+AB  - Virtual simulation laboratories have emerged as a critical component in modern STEM education, offering immersive and safe platforms for experiential learning. However, existing systems often lack cohesive frameworks for integrating real-time data processing, multimodal visualization, and adaptive instructional feedback-resulting in limited responsiveness and pedagogical value. To address these limitations, the authors propose the Integration-Real-time-Visualization with Feedback and Learning (IRV-FL) framework, a layered framework that semantically fuses heterogeneous sensor streams, performs real-time rendering, and delivers context-aware feedback to enhance learner engagement and accuracy. The system unifies physical and virtual environments through synchronous signal alignment, adaptive visualization pipelines, and dynamic feedback loops. Extensive experiments were conducted across eight dimensions, comparing IRV-FL against traditional virtual laboratories and six representative baseline models.
+AD  - Hunan Univ Informat Technol, Changsha, Hunan, Peoples R ChinaAD  - Xiangtan Univ, Xiangtan, Peoples R ChinaAD  - Linkoping Univ, Linkoping, SwedenAD  - Changsha Normal Univ, Changsha, Peoples R ChinaC3  - Xiangtan UniversityC3  - Linkoping UniversityC3  - ChangSha Normal UniversityFU  - National Social Science Fund of China [24VSZ012]; Research Project on Ideological and Political Work in Universities of Hunan Province [24A08]; Key Project of Scientific Research of Hunan Provincial Department of Education [23A0716]; Research Project of Ideological and Political Work in Colleges and Universities in Hunan Province [22E20]; Excellent Ideological and Political Workers Project of Colleges and Universities in Hunan Province [25YXSZ21]; Hunan Provincial Social Science Achievement Review Committee [XSP25YBC470]
+FX  - This research was supported by the National Social Science Fund of China [24VSZ012] , the Research Project on Ideological and Political Work in Universities of Hunan Province [24A08] , the Key Project of Scientific Research of Hunan Provincial Department of Education [23A0716] , the Research Project of Ideological and Political Work in Colleges and Universities in Hunan Province [22E20] , Excellent Ideological and Political Workers Project of Colleges and Universities in Hunan Province [25YXSZ21] , and the Hunan Provincial Social Science Achievement Review Committee [XSP25YBC470] .
+PU  - IGI GLOBAL
+PI  - HERSHEY
+PA  - 701 E CHOCOLATE AVE, STE 200, HERSHEY, PA 17033-1240 USA
+SN  - 1546-2234
+SN  - 1546-5012
+J9  - J ORGAN END USER COM
+JI  - J. Organ. End User Comput.
+DA  - JAN-DEC
+PY  - 2025
+VL  - 37
+IS  - 1
+C7  - 393276
+DO  - 10.4018/JOEUC.393276
+WE  - Science Citation Index Expanded (SCI-EXPANDED)WE  - Social Science Citation Index (SSCI)AN  - WOS:001648035000001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  30
+ER  -
+
+TY  - JOUR
+AU  - Weis, P
+AU  - Smetanka, L
+AU  - Hrcek, S
+AU  - Veres, M
+TI  - Interactive Application as a Teaching Aid in Mechanical Engineering
+T2  - COMPUTERS
+LA  - English
+KW  - interactive learning
+KW  - 3D models
+KW  - gearbox mechanisms
+KW  - digital twins
+KW  - engineering education
+KW  - VISUALIZATION
+KW  - SIMULATIONS
+AB  - This paper examines the integration of interactive 3D applications into the teaching process in mechanical engineering education. An innovative interactive 3D application has been developed as a teaching aid for engineering students. The main advantage is its easy availability through a web browser on mobile devices or desktop computers. It includes four explorable 3D gearbox models with assembly animations, linked technical information, and immersive virtual and augmented reality (AR) experiences. The benefits of using this application in the teaching process were monitored on a group of students at the end of the semester. Assessments conducted before and after the use of the interactive 3D application measured learning outcomes. Qualitative feedback from students was also collected. The results demonstrated significant improvements in engagement, spatial awareness, and understanding of gearbox principles compared to traditional methods. The versatility and accessibility of the application also facilitated self-directed learning, reducing the need for external resources. These findings indicate that interactive 3D tools have the potential to enhance student learning and engagement and to promote sustainable practices in engineering education. Future research could explore the scalability and applicability of these tools across different engineering disciplines and educational contexts.
+AD  - Univ Zilina, Fac Mech Engn, Dept Design & Mech Elements, Univ 8215-1, Zilina 01026, SlovakiaC3  - University of ZilinaFU  - Slovak Research and Development Agency [APVV-18-0450]
+FX  - This research was funded by the Slovak Research and Development Agency under grant number APVV-18-0450. The research focused on investigating the influence of design parameters of special transmissions with a high gear ratio in relation to their kinematic properties.
+PU  - MDPI
+PI  - BASEL
+PA  - ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN  - 2073-431X
+J9  - COMPUTERS
+JI  - Computers
+DA  - JUL
+PY  - 2024
+VL  - 13
+IS  - 7
+C7  - 170
+DO  - 10.3390/computers13070170
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001276767300001
+N1  - Times Cited in Web of Science Core Collection:  3
+Total Times Cited:  5
+Cited Reference Count:  49
+ER  -
+
+TY  - JOUR
+AU  - Herrmann, S
+AU  - Felder, D
+AU  - Padligur, M
+AU  - Brosch, S
+AU  - Geiger, M
+AU  - Stockmeier, F
+AU  - Baitalow, K
+AU  - Rall, D
+AU  - Femmer, R
+AU  - Roghmans, F
+AU  - Hauser, M
+AU  - Mehlis, J
+AU  - Linkhorst, J
+AU  - Wessling, M
+TI  - Hands-on kinetic measurements and simulation for chemical process engineering students
+T2  - EDUCATION FOR CHEMICAL ENGINEERS
+LA  - English
+KW  - Clock reaction
+KW  - Laboratory class
+KW  - Kinetic modeling
+KW  - Computational fluid dynamics
+KW  - Academic teaching
+KW  - Hands-on learning
+AB  - Hands-on experience in the laboratory is essential in chemical engineering education to enhance the under-standing of abstract theories and their effect on chemical processes. In this work, we describe a laboratory class, which combines some of the main engineering concepts into a set of hands-on experiments and simulations. Students are introduced to an iodine clock reaction performed in multiple different reactor types and are instructed to determine the reaction kinetics. Subsequent analysis of the experimental data in Python teaches basic programming skills and the concepts of numeric integration and optimization. Finally, a digital twin of one of the reactors is developed in COMSOL Multiphysics to give the students an application-focused introduction to more-dimensional multiphysics modeling. The students thereby get practical insights into the different methods and stages of reactor and reaction engineering. Based on the students' assignments, we consistently see a deeper understanding of reaction kinetics and reactor engineering than in the accompanying traditional lecture.
+AD  - Rhein Westfal TH Aachen, AVT CVT Chair Chem Proc Engn, Forckenbeckstr 51, D-52074 Aachen, GermanyAD  - DWI Leibniz Inst Interact Mat, Forckenbeckstr 50, D-52074 Aachen, GermanyC3  - RWTH Aachen UniversityC3  - Leibniz AssociationC3  - DWI Leibniz Institute for Interactive MaterialsFU  - RWTH Aachen University
+FX  - The class "Applied Chemical Process Engineering" at RWTH Aachen University was supported through the university?s quality improvement funds.
+PU  - ELSEVIER SCI LTD
+PI  - London
+PA  - 125 London Wall, London, ENGLAND
+SN  - 1749-7728
+J9  - EDUC CHEM ENG
+JI  - Educ. Chem. Eng.
+DA  - OCT
+PY  - 2022
+VL  - 41
+SP  - 14
+EP  - 21
+DO  - 10.1016/j.ece.2022.08.001
+C6  - SEP 2022
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000854188800002
+N1  - Times Cited in Web of Science Core Collection:  9
+Total Times Cited:  9
+Cited Reference Count:  23
+ER  -
+
+TY  - JOUR
+AU  - Zhukov, YD
+AU  - Haidai, HY
+AU  - Kudin, OO
+TI  - THE CURRENT STATE AND PROSPECTS OF THE USE OF DISTANCE LEARNING INSTRUMENTS DURING STUDY SHIP ENGINEERING
+T2  - INFORMATION TECHNOLOGIES AND LEARNING TOOLS
+LA  - English
+KW  - distance learning
+KW  - ship design
+KW  - computer-aided design
+KW  - learning model
+KW  - engineering education
+KW  - digital twins
+AB  - The paper is focused on identifying the advantages and disadvantages of remote education systems in terms of modern requirements to practical skills of future professionals, especially in the engineering field. Based on the analysis of the shortcomings of the already existing distance education models in the context of the pandemic, the need for a fundamentally new remote training scheme has been substantiated. The proposed model allows the students and interns of the shipbuilding profile to master the theoretical backgrounds of shipboard design and engineering and complete all practical tasks, acquiring practical skills in specialized packages of up-to-date shipbuilding CAD systems entirely remotely. This model was tested using a peer-to-peer data exchange technology between three modern information platforms: Moodle, CADMATIC (TM) and TeamViewer. Advantages of this distance learning model were identified: the possibility of acquiring practical skills in modern computer-aided design systems from anywhere globally through direct interaction of the learner and the teacher in real-time. An appropriate engineering education approach has been developed based on the presented model, enabling the student to acquire needed practical skills and initial experience in ship design using modern three-dimensional CAD in remote mode. The described course prepares the trainees for work at shipbuilding design and production companies in initial engineering positions, namely in ship hull design, structural digital twins, and production information development. A pilot project, "Development and testing of specialised multimedia courses in advanced ship engineering", was implemented at the "Neoteric Naval Engineering Institute" of the Admiral Makarov National University of Shipbuilding. The project results show the high efficiency of using the proposed engineers training model considering modern requirements of employers to future designers and the commercial safety requirements of shipbuilding CAD systems suppliers. The relevance of the results obtained is justified both in the context of the COVID-19 pandemic and beyond.
+AD  - Admiral Makarov Natl Univ Shipbuilding, Marine Instrumentat Dept, Mykolaiv, UkraineAD  - Admiral Makarov Natl Univ Shipbuilding, Dept Marine Instrumentat, Mykolaiv, UkraineC3  - Ministry of Education & Science of UkraineC3  - Admiral Makarov National University of ShipbuildingC3  - Ministry of Education & Science of UkraineC3  - Admiral Makarov National University of ShipbuildingPU  - NATL ACAD PEDAGOGICAL SCIENCES UKRAINE, INST DIGITALISATION EDUCATION
+PI  - KYIV
+PA  - VUL M BERLYNSKOHO 9, KYIV, 04060, UKRAINE
+SN  - 2076-8184
+J9  - INF TECHNOL LEARN TO
+JI  - Inf. Technol. Learn. Tools
+PY  - 2022
+VL  - 87
+IS  - 1
+SP  - 151
+EP  - 165
+DO  - 10.33407/itlt.v87i1.4505
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:000795164900010
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  1
+Cited Reference Count:  23
+ER  -
+
+TY  - JOUR
+AU  - Nedeva, V
+AU  - Dineva, S
+AU  - Atanasov, S
+TI  - Engineering Education Meets the Metaverse
+T2  - ACTA INFOLOGICA
+LA  - English
+KW  - Metaverse
+KW  - Engineering Education
+KW  - Virtual Reality
+KW  - E-Learning
+KW  - TECHNOLOGY
+KW  - CHALLENGES
+KW  - IOT
+AB  - The metaverse, a collective virtual shared space created by the convergence of virtually enhanced physical reality and persistent virtual space, encompassing all virtual worlds, augmented realities, and the Internet, offers a unique platform for experiential learning and collaborative education. This study used the Web of Science, Google Scholar, and Scopus via Publish or Perish for source searching, with VOSviewer employed for bibliometric visualization. Following the PRISMA protocol, the study systematically reviewed relevant literature to address the following research questions: (1) What specific fields within engineering education incorporate Metaverse-based learning? (2) Which tools, technologies, or software platforms are employed in these practices? (3) What teaching strategies or educational frameworks are utilized in this context? (4) How do collaboration and interaction between humans and computers take place within the Metaverse? (5) What is the role of digital twins in Metaverse education? This review investigates the metaverse's role in engineering education, highlighting both its positive impacts and potential drawbacks.
+AD  - Trakia Univ, Fac Engn & Technol, Dept Elect Engn Automat Comp Syst & Commun, Yambol, BulgariaC3  - Trakia UniversityPU  - ISTANBUL UNIV
+PI  - ISTANBUL
+PA  - Rektorlugu, Beyazit, Fatih, ISTANBUL, 34452, Turkiye
+SN  - 2602-3563
+J9  - ACTA INFOLOGICA
+JI  - Acta Infologica
+DA  - 2025 FEB 24
+PY  - 2025
+DO  - 10.26650/10.26650/acin.1612225
+C6  - FEB 2025
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001430927700001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  80
+ER  -
+
+TY  - JOUR
+AU  - Bönsch, J
+AU  - Greif, L
+AU  - Hauck, S
+AU  - Kreuzwieser, S
+AU  - Mayer, A
+AU  - Michels, FL
+AU  - Ovtcharova, HCJ
+TI  - Virtual Engineering: Hands-on Integration of Product Lifecycle Management, Computer-Aided Design, eXtended Reality, and Artificial Intelligence in Engineering Education
+T2  - CHEMIE INGENIEUR TECHNIK
+LA  - English
+KW  - Artificial intelligence
+KW  - Engineering education
+KW  - eXtended Reality
+KW  - Product lifecycle management
+KW  - Virtual engineering
+KW  - LANGUAGE MODELS LLMS
+KW  - SIMULATION
+AB  - Engineering education at the Institute for Information Management in Engineering integrates product lifecycle management (PLM), computer-aided design (CAD), eXtended reality (XR), and artificial intelligence (AI) to enhance learning and prepare students for modern challenges. Our interdisciplinary approach, emphasizing digital twins and virtual twins, fosters immersive, hands-on experiences. This paper reviews our strategies, comparing them with global initiatives, highlighting the transformative impact of our curriculum on preparing future engineers for complex industrial environments.
+   The virtual engineering education methods employed at the Institute for Information Management in Engineering are investigated and discussed. The focus is spotlighted on integrating product lifecycle management, computer-aided design, eXtended reality, and artificial intelligence, creating a hands-on, interconnected curriculum. image
+AD  - Karlsruhe Inst Technol, Inst Informat Management Engn, Zirkel 2, D-76131 Karlsruhe, GermanyC3  - Helmholtz AssociationC3  - Karlsruhe Institute of TechnologyFU  - Projekt DEAL
+FX  - Open access funding enabled and organized by Projekt DEAL.
+PU  - WILEY-V C H VERLAG GMBH
+PI  - WEINHEIM
+PA  - POSTFACH 101161, 69451 WEINHEIM, GERMANY
+SN  - 0009-286X
+SN  - 1522-2640
+J9  - CHEM-ING-TECH
+JI  - Chem. Ing. Tech.
+DA  - NOV
+PY  - 2024
+VL  - 96
+IS  - 11
+SP  - 1460
+EP  - 1474
+DO  - 10.1002/cite.202300169
+C6  - SEP 2024
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001307400500001
+N1  - Times Cited in Web of Science Core Collection:  3
+Total Times Cited:  3
+Cited Reference Count:  61
+ER  -
+
+TY  - JOUR
+AU  - Darejeh, A
+AU  - Chilcott, G
+AU  - Oromiehie, E
+AU  - Mashayekh, S
+TI  - Virtual Reality and Digital Twins for Mechanical Engineering Lab Education: Applications in Composite Manufacturing
+T2  - EDUCATION SCIENCES
+LA  - English
+KW  - virtual reality
+KW  - composite manufacturing
+KW  - hand lay-up process
+KW  - mechanical engineering education
+KW  - cognitive load
+KW  - COGNITIVE LOAD
+AB  - This study investigates the effectiveness of a virtual reality (VR) simulation for teaching the hand lay-up process in composite manufacturing within mechanical engineering education. A within-subjects experiment involving 17 undergraduate mechanical engineering students compared the VR-based training with conventional physical laboratory instruction. Task performance, cognitive load, and learner perceptions were measured using procedural accuracy scores, completion times, NASA-TLX workload ratings, and post-task interviews. Results indicated that while participants required more time to complete the task in VR, procedural accuracy was comparable between VR and physical labs. VR significantly reduced mental, physical, and effort-related demands but elicited higher frustration levels, primarily due to navigation challenges and motion discomfort. Qualitative feedback showed strong learner preference for VR, citing its hazard-free environment, repeatability, and step-by-step guidance. These findings suggest that VR offers a viable and pedagogically effective alternative or complement to traditional composite-manufacturing training, particularly in contexts where access to physical facilities is limited. Future work should examine long-term skill retention, incorporate haptic feedback for tactile realism, and explore hybrid models combining VR and physical practice to optimise learning outcomes.
+AD  - UNSW, Sch Comp Sci & Engn, Sydney 2052, AustraliaAD  - UNSW, Robot Composites ARC Training Ctr Automated Manufa, Sch Mech Engn, Sydney 2052, AustraliaAD  - UNSW, Fac Arts Design & Architecture, Sch Educ, Sydney 2052, AustraliaC3  - University of New South Wales SydneyC3  - University of New South Wales SydneyC3  - University of New South Wales SydneyPU  - MDPI
+PI  - BASEL
+PA  - MDPI AG, Grosspeteranlage 5, CH-4052 BASEL, SWITZERLAND
+SN  - 2227-7102
+J9  - EDUC SCI
+JI  - Educ. Sci.
+DA  - NOV 10
+PY  - 2025
+VL  - 15
+IS  - 11
+C7  - 1519
+DO  - 10.3390/educsci15111519
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001623685000001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  53
+ER  -
+
+TY  - JOUR
+AU  - López, EJ
+AU  - Jiménez, FC
+AU  - Sandoval, GL
+AU  - Estrella, FJO
+AU  - Monteón, MAM
+AU  - Muñoz, F
+AU  - Leyva, PAL
+TI  - Technical Considerations for the Conformation of Specific Competences in Mechatronic Engineers in the Context of Industry 4.0 and 5.0
+T2  - PROCESSES
+LA  - English
+KW  - Industry 4.0
+KW  - competency-based education
+KW  - cyber-physical systems
+KW  - specific competencies
+KW  - engineering education
+KW  - CYBER-PHYSICAL SYSTEM
+KW  - ARTIFICIAL-INTELLIGENCE
+KW  - DIGITAL-TWIN
+KW  - BIG DATA
+KW  - FRAMEWORK
+KW  - INTERNET
+KW  - THINGS
+KW  - TECHNOLOGY
+KW  - FACTORIES
+KW  - DESIGN
+AB  - The incursion of disruptive technologies, such as the Internet of Things, information technologies, cloud computing, digitalization and artificial intelligence, into current production processes has led to a new global industrial revolution called Industry 4.0 or Manufacturing 4.0. This new revolution proposes digitization from one end of the value chain to the other by integrating physical assets into systems and networks linked to a series of technologies to create value. Industry 4.0 has far-reaching implications for production systems and engineering education, especially in the training of mechatronic engineers. In order to face the new challenges of the transition from manufacturing 3.0 to Industry 4.0 and 5.0, it is necessary to implement innovative educational models that allow the systematic training of engineers. The competency-based education model has ideal characteristics to help mechatronic engineers, especially in the development of specific competencies. This article proposes 15 technical considerations related to generic industrial needs and disruptive technologies that serve to determine those specific competencies required by mechatronic engineers to meet the challenges of Industry 4.0 and 5.0.
+AD  - Univ Salle Noroeste, Univ Tecnol Sonora, Dept Res & Dev, Obregon 85190, MexicoAD  - Univ Nacl Auton Mexico, Engn Design Dept, Mexico City 04510, MexicoAD  - Univ Estatal Sonora, Dept Ind Engn & Mfg, San Luis Potosi 83500, MexicoAD  - Tecnol Nacl Mexico ITS Cajeme, Postgrad & Res Subdirect, Obregon 85024, MexicoAD  - Inst Tecnol Sonora, Dept Elect, Obregon 85000, MexicoC3  - Universidad Nacional Autonoma de MexicoPU  - MDPI
+PI  - BASEL
+PA  - ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN  - 2227-9717
+J9  - PROCESSES
+JI  - Processes
+DA  - AUG
+PY  - 2022
+VL  - 10
+IS  - 8
+C7  - 1445
+DO  - 10.3390/pr10081445
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000845696400001
+N1  - Times Cited in Web of Science Core Collection:  16
+Total Times Cited:  18
+Cited Reference Count:  186
+ER  -
+
+TY  - JOUR
+AU  - Daberkow, A
+AU  - Wild, B
+TI  - eMobility for Kids-A New Learning Workshop for 12-15 Year Olds
+T2  - WORLD ELECTRIC VEHICLE JOURNAL
+LA  - English
+KW  - electric vehicles
+KW  - light electric vehicles
+KW  - micro mobility
+KW  - STEM education
+KW  - school-based learning
+KW  - construction-based learning
+KW  - hands-on engineering
+KW  - youth mobility
+KW  - digital twin
+AB  - Electric mobility plays a key role in promoting climate-friendly transportation. Beyond technical development, the transition to electric mobility critically depends on early understanding, acceptance, and system literacy among future users and engineers. This manuscript positions hands-on engineering education as a complementary contribution to electric vehicle research. It demonstrates how core EV concepts can be introduced to children aged 12-15 through a structured, construction-based learning format. Many school students have had little opportunity to explore energy and electricity through hands-on learning. The eMobility for Kids (eM4K) workshop integrates the assembly and operation of light electric vehicles with curriculum-aligned physics instruction. The instructional focus includes vehicle kinematics as well as fundamental concepts of electricity and energy. Over a two-day course, students build a four-wheeled electric vehicle in small teams and apply their understanding through guided driving and reflection activities. Results from multiple workshop implementations between 2023 and 2025 are presented. In addition, a short exploratory snapshot survey was conducted in parallel among participating school students. The results provide indicative insights into attitudes toward future individual electric mobility, including interest in driving a small electric vehicle at the age of 15. To the authors' knowledge, this study represents one of the first documented and systematically described educational approaches. It explores the use of real electric vehicle systems in hands-on learning for school students.
+AD  - Heilbronn Univ, Fac Engn, Max Planck Str 39, D-74081 Heilbronn, GermanyAD  - Verein Faszinat Tech, Max Planck Str 39, D-74081 Heilbronn, GermanyC3  - Max Planck SocietyC3  - Max Planck SocietyFU  - the Heilbronn Citizens' Foundation (Heilbronner Brgerstiftung); Baden-Wuerttemberg Foundation (Baden-Wrttemberg Stiftung gGmbH); Support Association of Heilbronn University (Frderkreises der Hochschule Heilbronn e.V.); AUDI AG
+FX  - The project and the project equipment were funded by the Support Association of Heilbronn University (Forderkreises der Hochschule Heilbronn e.V.), the Heilbronn Citizens' Foundation (Heilbronner Burgerstiftung), and AUDI AG. For 2026 and 2027, funding is provided by the micro macro mint program of the Baden-Wuerttemberg Foundation (Baden-Wurttemberg Stiftung gGmbH).
+PU  - MDPI
+PI  - BASEL
+PA  - MDPI AG, Grosspeteranlage 5, CH-4052 BASEL, SWITZERLAND
+SN  - 2032-6653
+J9  - WORLD ELECTR VEHIC J
+JI  - World Electr. Vehicle J.
+DA  - FEB 17
+PY  - 2026
+VL  - 17
+IS  - 2
+C7  - 99
+DO  - 10.3390/wevj17020099
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001699848600001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  17
+ER  -
+
+TY  - JOUR
+AU  - Borgen, KB
+AU  - Ropp, TD
+AU  - Weldon, WT
+TI  - Assessment of Augmented Reality Technology's Impact on Speed of Learning and Task Performance in Aeronautical Engineering Technology Education
+T2  - INTERNATIONAL JOURNAL OF AEROSPACE PSYCHOLOGY
+LA  - English
+KW  - Augmented reality
+KW  - aviation education
+KW  - aerospace education
+AB  - Objective: This study compared learning and skill transfer among university aviation students using interactive Augmented Reality (AR) technology versus traditional paper-based instruction. While similar AR use and research in university education exists, this study piloted a comparative method assessing knowledge retention and transfer.
+   Background: AR technology is a popular tool used in technical education. But learner behaviors observed like game play and exploration during this study could impact future learning strategy design as AR use increases.
+   Method: 36 university undergraduate students enrolled in a university aeronautical engineering technology program were divided into AR and paper-based groups and compared on first-time task execution times for starting an aircraft auxiliary power unit (APU). A two-sample Kolmogorov-Smirnov test comparing times for task completion was used.
+   Results: Learner task times using AR were consistently faster, replicating similar AR studies, compared to learners using paper-based. However, AR test subjects also took longer interacting with the technology, including gaming-style "play" and exploration of the digital twin AR flight deck environment. This is believed to enhance learner innovation, knowledge retention and transfer, warranting further study.
+   Conclusion: AR users had significantly reduced task execution times. Pre-task "gamification and play" were also observed among the AR users, which could impact how educators and the industry assess and leverage learning strategies when using AR for job task training.
+AD  - Purdue Univ, Sch Aviat & Transportat Technol, Niswonger Aviat Technol Bldg,1401 Aviat Dr, W Lafayette, IN 47907 USAC3  - Purdue University SystemC3  - Purdue UniversityPU  - TAYLOR & FRANCIS INC
+PI  - PHILADELPHIA
+PA  - 530 WALNUT STREET, STE 850, PHILADELPHIA, PA 19106 USA
+SN  - 2472-1832
+SN  - 2472-1840
+J9  - INT J AEROSP PSYCHOL
+JI  - Int. J. Aerosp. Psychol.
+DA  - JUL 3
+PY  - 2021
+VL  - 31
+IS  - 3
+SP  - 219
+EP  - 229
+DO  - 10.1080/24721840.2021.1881403
+C6  - FEB 2021
+WE  - Social Science Citation Index (SSCI)AN  - WOS:000621530500001
+N1  - Times Cited in Web of Science Core Collection:  21
+Total Times Cited:  28
+Cited Reference Count:  23
+ER  -
+
+TY  - JOUR
+AU  - López, EJ
+AU  - Leyva, PAL
+AU  - López, AA
+AU  - Estrella, FJO
+AU  - Vázquez, JJD
+AU  - Velázquez, BL
+AU  - Molina, VMM
+TI  - Mechanics 4.0 and Mechanical Engineering Education
+T2  - MACHINES
+LA  - English
+KW  - Industry 4.0
+KW  - mechanical engineering
+KW  - engineering education
+KW  - Mechanics 4.0
+KW  - industrial revolution
+KW  - MASS CUSTOMIZATION
+KW  - INDUSTRY
+AB  - Industry 4.0 is an industrial paradigm that is causing changes in form and substance in factories, companies and businesses around the world and is impacting work and education in general. In fact, the disruptive technologies that frame the Fourth Industrial Revolution have the potential to improve and optimize manufacturing processes and the entire value chain, which could lead to an exponential evolution in the production and distribution of goods and services. All these changes imply that the fields of engineering knowledge must be oriented towards the concept of Industry 4.0, for example, Mechanical Engineering. The development of various physical assets that are used by cyber-physical systems and digital twins is based on mechanics. However, the specialized literature on Industry 4.0 says little about the importance of mechanics in the new industrial era, and more importance is placed on the evolution of Information and Communication Technologies and artificial intelligence. This article presents a frame of reference for the importance of Mechanical Engineering in Industry 4.0 and proposes an extension to the concept of Mechanics 4.0, recently defined as the relationship between mechanics and artificial intelligence. To analyze Mechanical Engineering in Industry 4.0, the criteria of the four driving forces that defined mechanics in the Third Industrial Revolution were used. An analysis of Mechanical Engineering Education in Industry 4.0 is presented, and the concept of Mechanical Engineering 4.0 Education is improved. Finally, the importance of making changes to the educational models of engineering education is described.
+AD  - ULSA, Noroeste UTS, Tecnol Nacl Mexico ITS Cajeme, Postgrad & Res Subdirect, Obregon 85024, MexicoAD  - Inst Tecnol Sonora, Electromech Dept, Obregon 85000, MexicoAD  - Res & Dev Dept, Tecnol Nacl Mex ITS Cajeme, Obregon 85024, MexicoAD  - FUNIBER UAC, Postgrad Dept, Campeche 24039, MexicoFU  - Instituto Tecnologico Superior de Cajeme; Universidad Tecnologica del Sur de Sonora; Instituto Tecnologico de Sonora; Universidad La Salle Noroeste
+FX  - The authors of this paper are grateful for the support provided by the Instituto Tecnologico Superior de Cajeme, the Universidad Tecnologica del Sur de Sonora, the Instituto Tecnologico de Sonora and the Universidad La Salle Noroeste for facilitating the realization of this research.
+PU  - MDPI
+PI  - BASEL
+PA  - ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN  - 2075-1702
+J9  - MACHINES
+JI  - Machines
+DA  - MAY
+PY  - 2024
+VL  - 12
+IS  - 5
+C7  - 320
+DO  - 10.3390/machines12050320
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001234352700001
+N1  - Times Cited in Web of Science Core Collection:  3
+Total Times Cited:  4
+Cited Reference Count:  130
+ER  -
+
+TY  - JOUR
+AU  - Padovano, A
+AU  - Cardamone, M
+TI  - Towards human-AI collaboration in the competency-based curriculum development process: The case of industrial engineering and management education
+T2  - COMPUTERS AND EDUCATION: ARTIFICIAL INTELLIGENCE
+LA  - English
+KW  - Engineering education
+KW  - Industry 5.0
+KW  - Industrial engineering and management
+KW  - Curriculum development
+KW  - Artificial intelligence
+KW  - Competency-based education
+KW  - ARTIFICIAL-INTELLIGENCE
+KW  - DESIGN
+KW  - PROGRAM
+AB  - In the endeavor to advance industrial engineering and management (IEM) education, this research underscores the imperative of supporting a dynamic and responsive adaptation of a competency-based curriculum (CBC) to meet the demands of an ever-evolving industrial landscape and job market. Our study contributes to competency-based education (CBE) by demonstrating how Artificial Intelligence (AI) can inform the definition of a CBC in the IEM field, thus initiating the pioneering steps towards a collaborative human-AI approach in CBC design. Through a stepwise methodology based on semantic analysis, text mining, natural language processing (NLP) models, informetrics approaches, and clustering algorithms, we provide data-driven insights to inform the curriculum development process. This approach enabled us to identify educational gap, particularly in domains such as digital twin engineering and human-centric IEM. Moreover, this study advocates for higher education institutions (HEIs) to embrace a more structured and collaborative approach to continuously developing competency-based curricula. In this perspective, AI (including generative AI) emerges as a valuable ally in curriculum design. This approach proves instrumental in crafting competitive and appealing curricula, especially at peripheral universities. This study culminates in an updated WING model showing how to build Industry 5.0 related curricula and a series of recommendations for engineering educators.
+AD  - Univ Calabria UNICAL, Dept Mech Energy & Management Engn DIMEG, Ponte Pietro Bucci Bldg 45C,3 Floor, I-87036 Arcavacata Di Rende, CS, ItalyC3  - University of CalabriaFU  - LEONARDO project - European Commission [2023-1-IT02-KA220-HED-000164699]
+FX  - This work is supported by the LEONARDO project. LEONARDO is funded by the European Commission under the Erasmus + programme KA-220 Cooperation Partnerships for Higher Education-No. 2023-1-IT02-KA220-HED-000164699. The views expressed belong to the author (s) alone and do not necessarily reflect the views of the European Union or the Erasmus + National Agency -INDIRE. Neither the European Union nor the granting administration can be held responsible for them.
+PU  - ELSEVIER
+PI  - AMSTERDAM
+PA  - RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN  - 2666-920X
+J9  - COMPUT EDUC-ARTIF IN
+JI  - Comput. Educ. Artif. Intell.
+DA  - DEC
+PY  - 2024
+VL  - 7
+C7  - 100256
+DO  - 10.1016/j.caeai.2024.100256
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001651596800005
+N1  - Times Cited in Web of Science Core Collection:  32
+Total Times Cited:  38
+Cited Reference Count:  65
+ER  -
+
+TY  - JOUR
+AU  - Rapuano, S
+TI  - education in I&M Instrumentation and Measurement Education Around the World and the Instrumentation and Measurement Society Educational Offerings
+T2  - IEEE INSTRUMENTATION & MEASUREMENT MAGAZINE
+LA  - English
+AB  - The knowledge about Instrumentation and Measurement (I&M) is crucial in the expertise of any Electrical and Electronics Engineer (EEE) and in the much wider Science, Technology Engineering and Mathematics (STEM) education. "The I&M education is of interest to a number of stakeholders. Measurement standards provide the foundation for commerce. Equipment companies need fresh ideas in order to innovate and produce improved instrumentation products" [1]. The increasing adoption of digital electronics within industrial processes requires practitioners and researchers to possess measurement concepts and to know how instruments work and are operated. Industry 4.0, in particular, relies heavily on I&M to create and update digital twins of physical elements of the production process. As a consequence, Higher Education Institutions (HEIs), mainly academic ones, must keep up the pace by developing new knowledge in I&M and transmitting it through undergraduate and graduate programs. However, identifying and satisfying the education needs in I&M field can be extremely complex, due to the characteristics of the subject.
+AD  - Univ Sannio, Elect & Elect Measurement, Dept Engn, Benevento, ItalyC3  - University of SannioPU  - IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI  - PISCATAWAY
+PA  - 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN  - 1094-6969
+SN  - 1941-0123
+J9  - IEEE INSTRU MEAS MAG
+JI  - IEEE Instrum. Meas. Mag.
+DA  - FEB
+PY  - 2023
+VL  - 26
+IS  - 1
+SP  - 29
+EP  - 34
+DO  - 10.1109/MIM.2023.10034966
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000935228600005
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  7
+ER  -
+
+TY  - JOUR
+AU  - Gutiérrez Rodríguez, CA
+TI  - Virtual reality and immersive learning technologies for Industry 5.0. A systematic literature review
+T2  - REVISTA EDUCACION EN INGENIERIA
+LA  - English
+KW  - Virtual Reality (VR)
+KW  - Immersive Learning
+KW  - Industry 5.0
+KW  - Human-Centered Design
+KW  - Industrial Training
+AB  - This systematic literature review explores the role of Virtual Reality (VR), immersive learning technologies, and human-centred design within the Industry 5.0 framework. Following PRISMA 2020 guidelines, 37 peer-reviewed studies published between 2020 and 2024 were analysed across diverse sectors including manufacturing, energy, construction, aerospace, and public safety. The synthesis identifies VR as a strategic enabler for enhancing both technical and soft skills, improving operational safety, and fostering user engagement through realistic, risk-free simulations that bridge theoretical knowledge with applied practice. Applications span industrial engineering training, fault diagnosis, robotics and automation, human-robot collaboration, and safety operations. Integration with augmented reality (AR), artificial intelligence (AI), and digital twins strengthens adaptability and personalization, aligning VR capabilities with the Industry 5.0 pillars of human-centricity, resilience, and sustainability. Despite promising outcomes, adoption barriers persist, including high implementation costs, limited access to specialized hardware, and user adaptation challenges. The review maps current trends, highlights effective technological configurations, and identifies gaps in standardized evaluation, longitudinal skill retention, and cross-sector adoption. Recommendations include developing scalable, cost-effective VR solutions, promoting cross-platform interoperability, and expanding research into underexplored sectors. Overall, findings position VR not merely as a training tool but as an essential component of future industrial ecosystems, supporting workforce development strategies that are safer, more adaptive, and environmentally sustainable.
+AD  - Corp Univ Minuto Dios, Cali, ColombiaC3  - Corporacion Universitaria Minuto de Dios (UNIMINUTO)PU  - ASOC COLOMBIANA, FAC INGENIERIAS
+PI  - BOGOTA
+PA  - CARRERA 68 D 25B-205 86 OFFICE, BOGOTA, 00000, COLOMBIA
+SN  - 1900-8260
+J9  - REV EDUC ING
+JI  - Rev. Educ. Ing.
+DA  - FEB
+PY  - 2026
+VL  - 21
+IS  - 41
+SP  - 13
+EP  - 13
+DO  - 10.26507/rei.v21n41.1370
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001684484600001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  38
+ER  -
+
+TY  - JOUR
+AU  - Kucera, E
+AU  - Haffner, O
+AU  - Drahos, P
+AU  - Cigánek, J
+TI  - Educational Case Studies for Pilot Engineer 4.0 Programme: Monitoring and Control of Discrete-Event Systems Using OPC UA and Cloud Applications
+T2  - APPLIED SCIENCES-BASEL
+LA  - English
+KW  - discrete-event system
+KW  - Industry 4
+KW  - 0
+KW  - digital factory
+KW  - system control
+KW  - cloud computing
+KW  - engineering education
+KW  - OPC UA
+KW  - Node-RED
+AB  - The current trend in industry is the digitalisation of production processes using modern information and communication technologies, a trend that falls under the fourth industrial revolution, Industry 4.0. Applications that link the world of information technologies (IT) and operational technologies (OT) are in particular demand. On the basis of information from practice, it can be stated that there is a shortage of specialists in the labour market for the interconnection of PLCs with information and communication technologies (cloud, web, mobile applications, etc.) in Slovakia and neighbouring countries. However, this problem is beginning to affect other countries in Europe as well. The main objective of the work was to prepare case studies suitable for educational purposes, which would address the modelling and control of a virtual discrete-event system using a PLC program and its subsequent interfacing to a cloud application. Within the scope of the work, three case studies were prepared to demonstrate the control of discrete-event system using different programming systems and their communication with the developed cloud applications. These applications are to be used for data monitoring and emergency intervention of the discrete-event system. The characteristics of the prepared case studies, which combine operational and informational technologies, predestines them for use in the sphere of education of engineers for digitalisation of production processes. They can also be helpful in research on the creation of digital twins, which represent a type of symmetry between real and virtual systems.
+AD  - Slovak Univ Technol Bratislava, Fac Elect Engn & Informat Technol, Bratislava 81219, SlovakiaC3  - Slovak University of Technology BratislavaFU  - Slovak research and Development Agency [APVV-21-0125]; Cultural and Educational Grant Agency of the Ministry of Education, Science, Research and Sport of the Slovak Republic KEGA [016STU-4/2020, 039STU-4/2021]; Scientific Grant Agency of the Ministry of Education, Research and Sport of the Slovak Republic [1/0107/22]
+FX  - This research was funded by the Slovak research and Development Agency under the contract no. APVV-21-0125, by the Cultural and Educational Grant Agency of the Ministry of Education, Science, Research and Sport of the Slovak Republic KEGA 016STU-4/2020 and 039STU-4/2021, by the Scientific Grant Agency of the Ministry of Education, Research and Sport of the Slovak Republic No. 1/0107/22.
+PU  - MDPI
+PI  - BASEL
+PA  - MDPI AG, Grosspeteranlage 5, CH-4052 BASEL, SWITZERLAND
+SN  - 2076-3417
+J9  - APPL SCI-BASEL
+JI  - Appl. Sci.-Basel
+DA  - SEP
+PY  - 2022
+VL  - 12
+IS  - 17
+C7  - 8802
+DO  - 10.3390/app12178802
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000852511300001
+N1  - Times Cited in Web of Science Core Collection:  7
+Total Times Cited:  7
+Cited Reference Count:  37
+ER  -
+
+TY  - JOUR
+AU  - Farooq, MU
+AU  - Jang, YJ
+TI  - Advancing Manufacturing Process Education for Industry 4.0: A Multi-Case Study
+T2  - COMPUTER APPLICATIONS IN ENGINEERING EDUCATION
+LA  - English
+KW  - engineering education
+KW  - Industry 4.0
+KW  - manufacturing education
+KW  - problem-based learning
+KW  - robotics
+KW  - team-based learning
+AB  - The recent technological advancements and consumer demands have revolutionized industrial production and workflows, requiring an interdisciplinary skilled workforce. Manufacturing education at universities can be vital in training a skilled workforce to meet Industry 4.0 requirements. A Manufacturing Process Innovation (MPI) course was conducted in the Spring of 2024 and 2025 to train undergraduate students in major Industry 4.0 technologies. The course was designed to enhance student learning and cross-curricular skills. The course curriculum was upgraded to include the main Industry 4.0 constituents like digital twins, AI, simulation, and IoT devices. A robotics module was integrated to teach fundamental concepts and enable students to operate an autonomous mobile robot. Team-based learning (TBL) and problem-based learning (PBL) frameworks were incorporated with conventional teaching to enhance course outcomes. The active learning methodologies improved student grades by 23.75% and 16% in Spring 2024 and Spring 2025, respectively, compared to the grades in conventional learning. Both TBL and PBL were positively rated in the student surveys and were found to be useful for learning complex concepts. The course helped foster cross-curricular skills like teamwork, problem-solving, and a sense of responsibility among students. Active learning frameworks integrated with key industrial technologies can improve curricular learning and cross-curricular skills. Robotics can be leveraged and integrated with core course concepts to train students for real-world scenarios. The findings can be helpful for manufacturing-related education programs and for integrating robotics modules in other engineering courses.
+AD  - Korea Adv Inst Sci & Technol KAIST, Dept Ind & Syst Engn, Daejeon, South KoreaC3  - Korea Advanced Institute of Science & Technology (KAIST)FU  - National IT Industry Promotion [PJT-25-080036]; National Research Foundation of Korea [NRF-2021R1A2C3008172]
+FX  - This research was supported by the Ministry of Education of the Republic of Korea and the National Research Foundation of Korea (NRF-2021R1A2C3008172) and by the National IT Industry Promotion (NIPA) funded by the Korea government (MSIT)(2025, PJT-25-080036).
+PU  - WILEY
+PI  - HOBOKEN
+PA  - 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN  - 1061-3773
+SN  - 1099-0542
+J9  - COMPUT APPL ENG EDUC
+JI  - Comput. Appl. Eng. Educ.
+DA  - JAN 4
+PY  - 2026
+VL  - 34
+IS  - 1
+C7  - e70136
+DO  - 10.1002/cae.70136
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001652997500001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  47
+ER  -
+
+TY  - JOUR
+AU  - Kumar, VV
+AU  - Carberry, D
+AU  - Beenfeldt, C
+AU  - Andersson, MP
+AU  - Mansouri, SS
+AU  - Gallucci, F
+TI  - Virtual reality in chemical and biochemical engineering education and training
+T2  - EDUCATION FOR CHEMICAL ENGINEERS
+LA  - English
+KW  - Immersive learning
+KW  - Process engineering
+KW  - Educational technology
+KW  - Learning design
+KW  - Industry 4
+KW  - 0
+KW  - PEER INSTRUCTION
+KW  - DIGITAL TWIN
+KW  - ENVIRONMENT
+KW  - LABORATORIES
+KW  - OPERATORS
+KW  - SCIENCE
+KW  - DESIGN
+AB  - With the advent of digitalization and industry 4.0, education in chemical and biochemical engineering has undergone significant revamping over the last two decades. However, undergraduate students sometimes do lack industrial exposure and are unable to visualise the complexity of actual process plants. Thereby, students might graduate without adequate professional hands-on experience. Similarly, in the process industry, operator training-simulators are widely used for the training of new and skilled operators. However, conventional training-simulators often fail to simulate reality and do not provide the user with the opportunity to experience unexpected and hazardous scenarios. In these regards, virtual reality appears to be a promising technology that can cater to the needs of both academia and industry. This paper discusses the opportunities and challenges for the incorporation of virtual reality into chemical and biochemical engineering education with an emphasis on the fundamental areas of technology, pedagogy and socio-economics. The paper emphasises the need for augmenting virtual reality interfaces with mathematical models to develop advanced immersive learning applications. Further, the paper stresses upon the need for novel educational impact assessment methodologies for the evaluation of virtual-reality-based learning. Finally, an ongoing case study application is presented to briefly discuss the social and economic implications, and to identify the bottlenecks involved in the adoption of virtual reality tools across chemical and biochemical engineering education. (c) 2021 The Author(s). Published by Elsevier B.V. on behalf of Institution of Chemical Engineers. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+AD  - Eindhoven Univ Technol, Dept Chem Engn & Chem, Sustainable Proc Engn Grp, NL-5612 AP Eindhoven, NetherlandsAD  - Tech Univ Denmark, Dept Chem & Biochem Engn, DK-2800 Lyngby, DenmarkAD  - Knowledge Hub Zealand, DK-4400 Kalundborg, DenmarkC3  - Eindhoven University of TechnologyC3  - Technical University of DenmarkFU  - Eindhoven University of Technology (TU/e) through the BOOST initiative (Funds for inno-vation in education) . Erasmus+: Higher Education-International Capacity Building [609925-EPP-1-2019-1-NO-EPPKA2-CBHE-JP]
+FX  - This project has been supported by the Eindhoven University of Technology (TU/e) through the BOOST initiative (Funds for inno-vation in education) . Erasmus+: Higher Education-International Capacity Building (Application number 609925-EPP-1-2019-1-NO-EPPKA2-CBHE-JP) is also acknowledged for providing financial support.
+PU  - ELSEVIER SCI LTD
+PI  - London
+PA  - 125 London Wall, London, ENGLAND
+SN  - 1749-7728
+J9  - EDUC CHEM ENG
+JI  - Educ. Chem. Eng.
+DA  - JUL
+PY  - 2021
+VL  - 36
+SP  - 143
+EP  - 153
+DO  - 10.1016/j.ece.2021.05.002
+C6  - JUN 2021
+WE  - Science Citation Index Expanded (SCI-EXPANDED)WE  - Social Science Citation Index (SSCI)AN  - WOS:000685041300016
+N1  - Times Cited in Web of Science Core Collection:  76
+Total Times Cited:  88
+Cited Reference Count:  55
+ER  -
+
+TY  - JOUR
+AU  - Kovalenko, I
+AU  - Balta, EC
+AU  - Qamsane, Y
+AU  - Koman, PD
+AU  - Zhu, X
+AU  - Lin, YK
+AU  - Tilbury, DM
+AU  - Mao, ZM
+AU  - Barton, K
+TI  - Developing the Workforce for Next-Generation Smart Manufacturing Systems: A Multidisciplinary Research Team Approach
+T2  - SMART AND SUSTAINABLE MANUFACTURING SYSTEMS
+LA  - English
+KW  - manufacturing education
+KW  - engineering education
+KW  - smart manufacturing
+KW  - project-based learning
+KW  - multidisciplinary projects
+KW  - AGENT
+AB  - As real-world systems become more complex and connected, the industrial sector requires engineers who can solve problems across multiple disciplines and work with people across various educational backgrounds. This is particularly apparent in the manufacturing industry, as the integration of new manufacturing system technology requires knowledge in a diverse set of fields, such as physics, computer science, and engineering, to name a few. To properly educate the next workforce in manufacturing, engineering education needs to incorporate cross-disciplinary, project-driven learning that provides students with ample opportunities to work with cutting-edge manufacturing technology. At the University of Michigan, the Secure Cloud Manufacturing Multidisciplinary Design Program team focuses on developing the next generation of manufacturing engineers through research-driven multidisciplinary projects. A group of 7-22 students work on several multisemester-long projects that focus on providing hands-on, student-driven learning. Each semester, these students work closely with several faculty members, research scientists, postdocs, and graduate students to propose, develop, and conduct industry-relevant research projects on multiple manufacturing testbeds. Example projects have included the implementation of a smart quality-control camera, the development of digital twins for manufacturing processes, and the integration of secure cloud-based infrastructures for industrial controllers. In these highly collaborative and multidisciplinary project groups, students learn from each other, take on leadership roles, and disseminate their work through technical reports and presentations to academic and industry experts. Students leave the group with an understanding of the capabilities and needs of future manufacturing systems, ready to become, and lead, the next set of manufacturing engineers.
+AD  - Univ Michigan, Dept Mech Engn, 2350 Hayward St, Ann Arbor, MI 48109 USAAD  - Univ Michigan, Sch Publ Hlth, Environm Hlth Sci, 2609 Draper Dr, Ann Arbor, MI 48109 USAAD  - Univ Michigan, Coll Engn Multidisciplinary Design, 2609 Draper Dr, Ann Arbor, MI 48109 USAAD  - Univ Michigan, Dept Elect Engn & Comp Sci, 2260 Hayward St, Ann Arbor, MI 48109 USAC3  - University of Michigan SystemC3  - University of MichiganC3  - University of Michigan SystemC3  - University of MichiganC3  - University of Michigan SystemC3  - University of MichiganC3  - University of Michigan SystemC3  - University of MichiganPU  - AMER SOC TESTING MATERIALS
+PI  - W CONSHOHOCKEN
+PA  - 100 BARR HARBOR DR, W CONSHOHOCKEN, PA 19428-2959 USA
+SN  - 2520-6478
+SN  - 2572-3928
+J9  - SMART SUSTAIN MANUF
+JI  - Smart Sustain. Manuf. Syst.
+PY  - 2021
+VL  - 5
+IS  - 2
+SP  - 4
+EP  - 24
+DO  - 10.1520/SSMS20200009
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:000653645800002
+N1  - Times Cited in Web of Science Core Collection:  1
+Total Times Cited:  1
+Cited Reference Count:  42
+ER  -
+
+TY  - JOUR
+AU  - Plevris, V
+AU  - Hosamo, H
+TI  - Responsible AI in structural engineering: a framework for ethical use
+T2  - FRONTIERS IN BUILT ENVIRONMENT
+LA  - English
+KW  - responsible AI
+KW  - AI governance
+KW  - AI ethics
+KW  - accountability
+KW  - transparency and explainability
+KW  - AI risk management
+KW  - AI framework for structural engineering
+AB  - The integration of Artificial Intelligence (AI) into structural engineering holds great promise for advancing analysis, design, and maintenance. However, it also raises critical ethical and governance challenges-including bias, lack of transparency, accountability gaps, and equity concerns-which are particularly significant in a discipline where public safety is paramount. This study addresses these issues through eight fictional but realistic case studies that illustrate plausible ethical dilemmas, such as algorithmic bias in predictive models and tensions between AI-generated recommendations and human engineering judgment. In response, the study proposes a structured framework for responsible AI implementation, organized into three key domains: (i) Technical Foundations (focusing on bias mitigation, robust validation, and explainability); (ii) Operational and Governance Considerations (emphasizing industry standards and human-in-the-loop oversight); and (iii) Professional and Societal Responsibilities (advocating for equity, accessibility, and ethical awareness among engineers). The framework offers actionable guidance for engineers, policymakers, and researchers seeking to align AI adoption with ethical principles and regulatory standards. Beyond offering practical tools, the study explores broader theoretical and institutional implications of AI, including risks associated with model drift, the need for lifecycle oversight, and the importance of cultural and geographic adaptability. It also outlines future challenges and opportunities, such as incorporating AI ethics into engineering education and considering the ethical impact of emerging technologies like quantum computing and digital twins. Rather than offering prescriptive answers, the study aims to initiate an essential dialogue on the evolving role of AI in structural engineering, equipping stakeholders to manage its benefits and risks while upholding trust, fairness, and public safety.
+AD  - Qatar Univ, Coll Engn, Dept Civil & Environm Engn, Doha, QatarAD  - Oslo Metropolitan Univ, Dept Built Environm, Oslo, NorwayC3  - Qatar UniversityC3  - Oslo Metropolitan University (OsloMet)PU  - FRONTIERS MEDIA SA
+PI  - LAUSANNE
+PA  - AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND
+SN  - 2297-3362
+J9  - FRONT BUILT ENVIRON
+JI  - Front. Built Environ.
+DA  - JUL 11
+PY  - 2025
+VL  - 11
+C7  - 1612575
+DO  - 10.3389/fbuil.2025.1612575
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001538300400001
+N1  - Times Cited in Web of Science Core Collection:  1
+Total Times Cited:  4
+Cited Reference Count:  120
+ER  -
+
+TY  - JOUR
+AU  - Ariza, JA
+AU  - Hernández, CH
+TI  - Investigating the Impact of Education 4.0 and Digital Learning on Students' Learning Outcomes in Engineering: A Four-Year Multiple-Case Study
+T2  - INFORMATICS-BASEL
+LA  - English
+KW  - Education 4.0
+KW  - digital learning
+KW  - engineering education
+KW  - Industry 4.0
+KW  - Education 5.0
+KW  - MOTIVATION
+AB  - Education 4.0 and digital learning have led to a technology-driven transformation in educational methodologies and the roles of teachers, primarily at Higher Education Institutions (HEIs). From an educational standpoint, the extant literature on Education 4.0 highlights its technological features and benefits; however, there is a lack of studies that assess its impact on students' learning outcomes. Seemingly, Education 4.0 features are taken for granted, as if the technology in itself were enough to guarantee students' learning, self-efficacy, and engagement. Seeking to address this lack, this study describes the implications of tailoring Education 4.0 tenets and digital learning in an engineering curriculum. Four case studies conducted in the last four years with 119 students are presented, in which technologies such as digital twins, a Modular Production System (MPS), low-cost robotics, 3D printing, generative AI, machine learning, and mobile learning were integrated. With these case studies, an educational methodology with active learning, hands-on activities, and continuous teacher support was designed and deployed to foster cognitive and affective learning outcomes. A mixed-methods study was conducted, utilizing students' grades, surveys, and semi-structured interviews to assess the approach's impact. The outcomes suggest that including Education 4.0 tenets and digital learning can enhance discipline-based skills, creativity, self-efficacy, collaboration, and self-directed learning. These results were obtained not only via the technological features but also through the incorporation of reflective teaching that provided several educational resources and oriented the methodology for students' learning and engagement. The results of this study can help complement the concept of Education 4.0, helping to find a student-centered approach and conceiving a balance between technology, teaching practices, and cognitive and affective learning outcomes.
+AD  - Corp Univ Minuto Dios UNIMINUTO, Engn Fac, Dept Technol Elect, Bogota 111021, ColombiaAD  - Univ Andes, Engn Fac, Bogota 111711, ColombiaC3  - Corporacion Universitaria Minuto de Dios (UNIMINUTO)C3  - Universidad de los Andes (Colombia)FU  - Engineering Information Foundation (EiF) [EiF24.04]
+FX  - This research was funded by the Engineering Information Foundation (EiF) grant number EiF24.04.
+PU  - MDPI
+PI  - BASEL
+PA  - MDPI AG, Grosspeteranlage 5, CH-4052 BASEL, SWITZERLAND
+SN  - 2227-9709
+J9  - INFORMATICS-BASEL
+JI  - Informatics-Basel
+DA  - JAN 23
+PY  - 2026
+VL  - 13
+IS  - 2
+C7  - 18
+DO  - 10.3390/informatics13020018
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001700223200001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  1
+Cited Reference Count:  76
+ER  -
+
+TY  - JOUR
+AU  - Udugama, IA
+AU  - Atkins, M
+AU  - Bayer, C
+AU  - Carson, J
+AU  - Dikicioglu, D
+AU  - Gernaey, K
+AU  - Glassey, J
+AU  - Taylor, M
+AU  - Young, BR
+TI  - Digital tools in chemical engineering education: The needs and the desires
+T2  - EDUCATION FOR CHEMICAL ENGINEERS
+LA  - English
+KW  - Digitalisation
+KW  - Digital tools in education
+KW  - Non-technical barriers
+KW  - Digital twins
+AB  - Educators in chemical engineering have a long and rich history of employing digital tools to solve fundamental engineering problems. Today, with the megatrend of digitalisation, there is a growing set of tools that can be used for chemical engineering education. However, identifying which tool is ideally suited to support teaching a given chemical engineering concept can be challenging. To answer this question a survey was distributed to Heads of Departments at IChemE institutions and members of the IChemE committees focused on digitalisation. The survey respondents rated Microsoft Excel (VBA), commercial simulators, and scripting tools as ideal for teaching core subjects such as mass and energy balances, mass transfer and reaction engineering while re-spondents found 3D Models, and Virtual/Augmented Reality models as being most suited for teaching subjects such as process design, safety and sustainability. Mathematical/programming simplicity, ease of maintenance, and low initial investment costs were identified as key non-technical aspects that will hinder the adoption of a given digital tool. Weighing the benefits of education and non-technical hurdles, the respondents preferred the use of simpler digitalisation platforms such as Excel and scripting languages over the more advanced platforms such as Virtual/Augmented Reality where possible. It was identified that the widespread adoption of more advanced digitalisation tools will require removal of the above mentioned non-technical barriers as well as other barriers such as tool shareability.
+AD  - Univ Waikato, Ahuora Ctr Smart Energy Syst, Sch Engn, Hamilton 3240, New ZealandAD  - TH Nurnberg, Dept Proc Engn, D-90489 Nurnberg, GermanyAD  - UCL, Adv Ctr Biochem Engn, Dept Biochem Engn, London WC1E 6BT, EnglandAD  - Tech Univ Denmark, PROSYS Res Ctr, Dept Chem & Biochem Engn, Bldg 228A, DK-2800 Lyngby, DenmarkAD  - Newcastle Univ, Sch Engn, Newcastle Upon Tyne NE1 7RU, EnglandAD  - Univ Auckland, Dept Chem & Mat Engn, Private Bag 92019, Auckland, New ZealandC3  - University of WaikatoC3  - University of LondonC3  - University College LondonC3  - Technical University of DenmarkC3  - Newcastle University - UKC3  - University of AucklandPU  - ELSEVIER SCI LTD
+PI  - London
+PA  - 125 London Wall, London, ENGLAND
+SN  - 1749-7728
+J9  - EDUC CHEM ENG
+JI  - Educ. Chem. Eng.
+DA  - JUL
+PY  - 2023
+VL  - 44
+SP  - 63
+EP  - 70
+DO  - 10.1016/j.ece.2023.05.002
+C6  - MAY 2023
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001054488800001
+N1  - Times Cited in Web of Science Core Collection:  20
+Total Times Cited:  23
+Cited Reference Count:  32
+ER  -
+
+TY  - JOUR
+AU  - Hunpinyo, P
+AU  - Narataruksa, P
+AU  - Ampaipisut, A
+AU  - Nonbudsri, A
+AU  - Inthapattha, C
+AU  - Chokkhanapitak, C
+AU  - Kanchanathanaseth, K
+AU  - Sangthong, N
+AU  - Petiraksakul, P
+AU  - Meechai, A
+AU  - Saranuttee, P
+AU  - Naknon, A
+TI  - An ISA95 Aligned Pedagogical Framework for Remote Process Automation in Chemical Engineering Education
+T2  - JOURNAL OF CHEMICAL EDUCATION
+LA  - English
+KW  - Undergraduate
+KW  - Chemical Engineering Education
+KW  - Process Automation
+KW  - Industrial Internet of Things
+KW  - PLC Programming
+KW  - Digital Twin
+KW  - ISA95
+KW  - Industry 4.0 Pedagogy
+KW  - DESIGN
+AB  - Industry 4.0 has revolutionized how pedagogical frameworks should seamlessly integrate with the rapid advancements of modern tools, creativity, and the innovative competencies of young scholars. A core responsibility of the Chemical Engineering curriculum at King Mongkut's University of Technology North Bangkok (KMUTNB) is the continuous evaluation of Accreditation Board for Engineering and Technology (ABET) accreditation standards. In the new normal, emerging technologies such as the Industrial Internet of Things (IIoT), programmable logic controller (PLC), and edge/cloud connectivity have been integrated into chemical engineering unit operations. This unified and comprehensive approach aims to deliver a pedagogically sound and trustworthy learning experience for undergraduate students. Our initial effort materialized in the form of a modernized gas absorption skid, utilizing interactive learning with digital technology-driven frameworks to develop a smart, resilient pedagogical system aligned with the International Society of Automation (ISA95) framework. This skid leverages the automation pyramid, allowing students to become familiar with a range of technologies-including Hardware-in-Loop (HiL), Software-in-Loop (SiL), and views of things networking-that work together in both real-time monitoring and control across networked "things". We believe that these innovative learning strategies will prepare students to be familiar with digital assets. A three-level modular hierarchy has been implemented to support digital data integration, managing processes and equipment for seamless communication across facilitator and learner sites. Each level contributes uniquely to student learning outcomes: (i) Level 0: introduction to field apparatus on the shop floor, (ii) Level 1: demonstration of ladder logic programming, configuration, and the integration of field devices with field controllers (e.g., PLC and Human-Machine Interface (HMI) systems) and be familiar with piping and instrumentation diagrams (P&IDs), and (iii) Level 2: utilization of remote computing resources for advanced data processing, storage, and analytics, enabling real-time monitoring and control from centralized locations. Eventually, student and alumni's feedback highlighted a positive learning experience and underscored the value of continuous quality improvement (CQI) based on pre- and postcourse surveys and interviews.
+AD  - King Mongkuts Univ Technol North Bangkok, Fac Engn, Dept Chem Engn, Bangkok 10800, ThailandAD  - King Mongkuts Univ Technol North Bangkok, Fac Engn, Dept Prod & Robot Engn, Bangkok 10800, ThailandAD  - Kings Mongkuts Univ Technol Thonburi, Fac Engn, Dept Elect Engn, Bangkok 10140, ThailandAD  - Phra Nakhon Energy Co, Rayong 21160, ThailandAD  - Business Serv Alliance Co Ltd, Bangkok 10900, ThailandC3  - King Mongkuts University of Technology North BangkokC3  - King Mongkuts University of Technology North BangkokC3  - King Mongkuts University of Technology ThonburiFU  - KMUTNB
+FX  - The authors gratefully acknowledge financial support from KMUTNB for the fabrication of the experimental apparatus used in this study and thank you all industrial partnerships for funding and providing the educational activities presented in this paper.
+PU  - AMER CHEMICAL SOC
+PI  - WASHINGTON
+PA  - 1155 16TH ST, NW, WASHINGTON, DC 20036 USA
+SN  - 0021-9584
+SN  - 1938-1328
+J9  - J CHEM EDUC
+JI  - J. Chem. Educ.
+DA  - MAR 10
+PY  - 2026
+VL  - 103
+IS  - 3
+SP  - 1238
+EP  - 1249
+DO  - 10.1021/acs.jchemed.5c00719
+C6  - FEB 2026
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001703278600001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  23
+ER  -
+
+TY  - JOUR
+AU  - Ibar, MJB
+AU  - Serrano, FJM
+AU  - Proboste, MM
+AU  - del Arco, A
+AU  - Cervera, M
+AU  - La Rivera, FM
+TI  - Touching the invisible: learning electromagnetism in virtual worlds
+T2  - COMPEL-THE INTERNATIONAL JOURNAL FOR COMPUTATION AND MATHEMATICS IN ELECTRICAL AND ELECTRONIC ENGINEERING
+LA  - English
+KW  - Virtual worlds
+KW  - Human-computer interaction
+KW  - Engineering education
+KW  - Computational electromagnetism
+KW  - Video game technology
+KW  - Artificial intelligence
+KW  - Human-centric learning
+AB  - Purpose - Engineering education, particularly in complex fields like electromagnetism, faces a significant challenge in conveying multiphysics systems. Traditional methods fall short in building deep, intuitive understanding. The purpose of this paper is to address this "cognitive interface challenge" by presenting a novel conceptual framework for creating human-centric, interactive learning environments to bridge this gap. Design/methodology/approach - This paper details a methodology of interdisciplinary knowledge transfer. The proposed conceptual framework is derived from a multi-year analysis of best practices in the Architecture, Engineering, Construction and Operations sector, which has already developed mature solutions for navigating complex three-dimensional digital twins. Findings - The primary contribution is a formal four-stage methodological framework for developing human-centric virtual environments. This model moves beyond traditional tools to create interactive systems based on defined cognitive goals and proven interactive design paradigms, providing a new, robust method for the computation and mathematics community. Research limitations/implications - As a conceptual paper, the primary implication is the need for empirical validation of the proposed four-stage framework. Future research should focus on implementing and testing the framework's effectiveness against traditional methods in controlled educational and professional settings. Practical implications - The framework provides a practical method for educators and engineers to design immersive virtual environments. This allows students and professionals to interact directly with complex simulations (e.g. electromagnetic fields), fostering a deeper, more intuitive understanding than traditional methods. Social implications - By fostering deeper understanding and more active student participation, this approach can help democratize complex scientific knowledge. This study makes invisible phenomena more accessible, leading to a more technically literate and engaged generation of engineers and scientists. Originality/value - This paper's originality lies in its interdisciplinary transfer of a proven methodology from the Architecture, Engineering, Construction and Operations sector to computational electromagnetism. This paper provides a novel, structured framework that enables users to "touch the invisible," offering a new paradigm for interacting with complex data.
+AD  - Int Ctr Numer Methods Engn CIMNE, Dept Struct Mech, Barcelona, SpainAD  - BarcelonaTech, Dept Civil & Environm Engn, Barcelona, SpainAD  - Univ Finis Terrae, Santiago, ChileAD  - Pontificia Univ Catolica Valparaiso, Valparaiso, ChileAD  - Int Ctr Numer Methods Engn CIMNE, Dept Ind Mfg Proc, Barcelona, SpainAD  - Pontificia Univ Catolica Valparaiso, Sch Civil Engn, Valparaiso, ChileC3  - Universitat Politecnica de CatalunyaC3  - Centre Internacional de Metodes Numerics en Enginyeria (CIMNE)C3  - Universitat Politecnica de CatalunyaC3  - Universidad Finis TerraeC3  - Pontificia Universidad Catolica de ValparaisoC3  - Universitat Politecnica de CatalunyaC3  - Centre Internacional de Metodes Numerics en Enginyeria (CIMNE)C3  - Pontificia Universidad Catolica de ValparaisoFU  - National Agency for Research and Development [Program/Doctorado Nacional/2024 - 72240171]
+FX  - The authors would like to thank the organizers of the ISEF 2025 conference for the opportunity to present this work, and the anonymous reviewers for their constructive feedback. The third author, Mathias Proboste Martinez, acknowledges to the National Agency for Research and Development (ANID)/Scholarship Program/Doctorado Nacional/2024 - 72240171. The authors acknowledge the use of Google Gemini (Large Language Model) to assist with language editing, structural organization improvement and proofreading of this manuscript. The final content has been reviewed and verified by the authors, who assume full responsibility for the work.
+PU  - EMERALD GROUP PUBLISHING LTD
+PI  - Leeds
+PA  - Floor 5, Northspring 21-23 Wellington Street, Leeds, W YORKSHIRE, ENGLAND
+SN  - 0332-1649
+J9  - COMPEL
+JI  - Compel-Int. J. Comp. Math. Electr. Electron. Eng.
+DA  - 2026 APR 10
+PY  - 2026
+DO  - 10.1108/COMPEL-11-2025-0567
+C6  - APR 2026
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001736171500001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  53
+ER  -
+

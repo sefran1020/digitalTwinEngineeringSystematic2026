@@ -1,0 +1,96 @@
+============================================================
+  DEDUPLICATION REPORT
+============================================================
+
+--- Records per source (raw parsed) ---
+  Scopus  :    772
+  WoS     :     61
+  IEEE    :    181
+  EBSCO   :     81
+  Dimensions:    409
+  TOTAL   :  1,504
+
+--- Quality filtering (pre-dedup) ---
+  Removed records missing title or authors:
+    EBSCO   :     6
+    Dimensions:    32
+    TOTAL   :    38
+
+  Into dedup:   1,466
+
+--- Quality filtering (post-merge) ---
+  Removed records without abstract:
+    Dimensions              :     4
+    EBSCO                   :     2
+    Scopus                  :     3
+    TOTAL                   :     9
+
+--- Deduplication results ---
+  DOI-based matches:        232
+  Title-fuzzy matches:       47
+  Duplicates removed:       279
+  Unique records:         1,187
+  Uncertain pairs:            0
+
+--- Records per source (after dedup) ---
+  Dimensions              :   240
+  Dimensions+EBSCO        :     1
+  Dimensions+EBSCO+Scopus :     4
+  Dimensions+EBSCO+Scopus+WoS:    14
+  Dimensions+EBSCO+WoS    :     2
+  Dimensions+IEEE         :     1
+  Dimensions+IEEE+Scopus  :    36
+  Dimensions+IEEE+Scopus+WoS:     1
+  Dimensions+Scopus       :    47
+  Dimensions+Scopus+WoS   :    20
+  Dimensions+WoS          :     3
+  EBSCO                   :    41
+  EBSCO+Scopus            :     4
+  EBSCO+Scopus+WoS        :     5
+  IEEE                    :   120
+  IEEE+Scopus             :    21
+  IEEE+Scopus+WoS         :     1
+  Scopus                  :   603
+  Scopus+WoS              :     9
+  WoS                     :     5
+
+--- Overlap between source pairs ---
+  Dimensions-EBSCO:    21 shared records
+  Dimensions-IEEE :    38 shared records
+  Dimensions-Scopus:   122 shared records
+  Dimensions-WoS  :    40 shared records
+  EBSCO-Scopus    :    27 shared records
+  EBSCO-WoS       :    21 shared records
+  IEEE-Scopus     :    59 shared records
+  IEEE-WoS        :     2 shared records
+  Scopus-WoS      :    50 shared records
+
+--- Top 10 largest duplicate groups ---
+   1. [5 recs] Dimensions+Scopus+WoS | Online (Remote) Teaching for Laboratory Based Courses Using "Digital T
+   2. [4 recs] Dimensions+EBSCO+Scopus+WoS | Exploration of the Application and Practice of Digital Twin Technology
+   3. [4 recs] Dimensions+EBSCO+Scopus+WoS | Digital Twin-Based Active Learning for Industrial Process Control and 
+   4. [4 recs] Dimensions+EBSCO+Scopus+WoS | Integrating Digital Twins of Engineering Labs into Multi-User Virtual 
+   5. [4 recs] Dimensions+EBSCO+Scopus+WoS | The Effectiveness of a Digital Twin Learning System in Assisting Engin
+   6. [4 recs] Dimensions+EBSCO+Scopus+WoS | Advancing building performance simulation education through a crowdsou
+   7. [4 recs] Dimensions+EBSCO+Scopus+WoS | Applications of augmented reality (AR) in chemical engineering educati
+   8. [4 recs] Dimensions+EBSCO+Scopus+WoS | RHL-Butterfly: A Scalable IoT-Based Digital Twinning Platform for Embe
+   9. [4 recs] Dimensions+EBSCO+Scopus+WoS | Developing a Skilled Workforce for Future Industry Demand: The Potenti
+  10. [4 recs] Dimensions+EBSCO+Scopus+WoS | INTEGRATION OF ARTIFICIAL INTELLIGENCE INTO THE TEACHING OF CHEMICAL T
+
+--- Metadata completeness (final export) ---
+  Authors           : 100.0%  [####################]
+  Title             : 100.0%  [####################]
+  Year              : 100.0%  [####################]
+  Abstract          : 100.0%  [####################]
+  DOI               :  92.5%  [##################..]
+  Journal           :  97.2%  [###################.]
+  Volume            :  40.5%  [########............]
+  Issue             :  19.1%  [###.................]
+  Pages             :  89.9%  [#################...]
+  Keywords          :  79.4%  [###############.....]
+  Affiliations      :  65.6%  [#############.......]
+  ISSN              :  74.7%  [##############......]
+  Language          :  65.8%  [#############.......]
+  MeSH_Terms        :   0.0%  [....................]
+  PMID              :   0.0%  [....................]
+

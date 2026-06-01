@@ -1,0 +1,155 @@
+# Review protocol in v2 format (see PLANTILLA_propuestaRevision.txt for the guide).
+# Lines starting with # = guidance, ignored by the system. Do not rename the KEYS.
+#
+# v2 INPUT STANDARD (optimization conventions - no redundancy, no contradiction):
+#   1. The CONSTRUCT is defined ONCE, in SCOPE_OF_REVIEW. Every other key
+#      REFERENCES it; it is never redefined.
+#   2. The document-type gate lives ONCE, in DOCUMENT_RULE (+ the
+#      ELIGIBLE_DOCS/INELIGIBLE_DOCS enums). Not repeated in
+#      INCLUSION/EXCLUSION nor in the agent rules.
+#   3. INCLUSION/EXCLUSION_CRITERIA = normative "what". AGENT_*_WHEN = "how"
+#      the agent decides (decidable tests, not paraphrase). Non-overlapping layers.
+#   4. UNCERTAINTY_HANDLING is the PRECEDENCE rule: absence of confirming
+#      evidence is "uncertain", never "exclude".
+
+=== REVIEW PROTOCOL v2 ===
+
+TITLE: Digital Twins in Higher Education Engineering and STEM Education: A Systematic Review
+
+DOMAIN: digital_twins_in_engineering_and_stem_education
+
+REVIEW_TYPE: systematic
+
+N_AGENTS: 3
+
+TOPIC_STATEMENT:
+Educational use of Digital Twins in higher education engineering and STEM
+contexts, covering pedagogical purpose, learning environments, technological
+characteristics and reported learning outcomes.
+
+REVIEW_QUESTION:
+How are Digital Twins being applied in higher education engineering and STEM
+education contexts?
+
+# Decomposes REVIEW_QUESTION to ORIENT the reading/analysis of each abstract.
+# TYPE: PICO | PCC | PECO | PEO | SPIDER  (according to the review type).
+# References the construct in SCOPE_OF_REVIEW; does NOT redefine it or restate criteria.
+QUESTION_FRAMEWORK:
+TYPE: PCC
+POPULATION: Higher-education / university engineering or STEM students and instructors
+CONCEPT: Educational implementation, deployment, evaluation or use of a Digital Twin (construct as defined in SCOPE_OF_REVIEW)
+CONTEXT: University-level engineering/STEM courses, laboratories, training or assessment settings
+OUTCOME: Reported evidence of learning, competence, engagement, usage or evaluation
+
+# General objective (and specific ones if applicable). Orients the design (Phase 3).
+OBJECTIVE:
+Characterize how Digital Twins are applied in higher-education engineering and
+STEM education: pedagogical purpose, learning environments, technological
+characteristics and reported learning outcomes.
+
+SEARCH_STRING:
+("digital twin*" OR "educational digital twin*") AND ("engineering education"
+OR "engineering training" OR "technical education" OR "STEM education")
+
+# Single canonical source of the construct. Every other key references it.
+SCOPE_OF_REVIEW:
+Empirical studies (qualitative, quantitative or mixed) conducted in
+higher-education / university engineering or STEM settings that implement,
+deploy, evaluate or use a Digital Twin for an educational purpose.
+
+CORE CONSTRUCT (single canonical definition; every criterion and agent rule
+below refers to THIS and must not redefine it):
+A Digital Twin is a virtual representation of a SPECIFIC physical asset,
+system or process, bidirectionally and continuously (live or near-live)
+coupled to it, so that state changes propagate physical->virtual AND
+virtual->physical (feedback/control).
+
+NOT a Digital Twin by itself (near-misses): standalone simulation or
+numerical model; virtual or remote laboratory; VR/AR/XR/MR; metaverse;
+serious game; a generic CPS/IoT platform or testbed without a synchronized
+virtual replica; a "digital model" (no automatic data exchange); a "digital
+shadow" (one-way physical->virtual only). A near-miss qualifies ONLY if the
+abstract states an explicit Digital Twin with the bidirectional coupling above.
+
+CONSTRUCT SEVERITY (decision mapping; consistent with UNCERTAINTY_HANDLING -
+guards against construct inflation / semantic drift):
+- STRICT_DT: explicit bidirectional, synchronized physical<->virtual coupling
+  -> construct axis CONFIRMED.
+- MODERATE_DT: a "digital twin" is claimed but synchronization is only partial
+  or unstated -> UNCERTAIN (never exclude).
+- NEAR_MISS: the abstract explicitly states a simulation / VR / AR / XR /
+  virtual lab / metaverse / generic CPS/IoT system with no synchronized
+  coupling -> EXCLUDE (positive disqualifier).
+
+ELIGIBLE_DOCS: original_research_article; conference_paper; early_access_article
+
+INELIGIBLE_DOCS: systematic_review; scoping_review; mapping_study; narrative_review; survey; editorial; opinion_paper; abstract; poster; keynote_summary
+
+# Single source of the document-type gate. Do not restate document types below.
+DOCUMENT_RULE:
+Hard gate applied BEFORE thematic relevance. Eligible: empirical journal
+articles, full conference papers and early-access empirical articles.
+Ineligible: any review (systematic, scoping, mapping, narrative), survey,
+editorial, opinion paper, abstract, poster or keynote summary. Document type
+alone is disqualifying and is judged ONLY here; do not restate it in the
+inclusion/exclusion or agent rules.
+
+# Normative "what". Does not redefine the construct or the document gate.
+INCLUSION_CRITERIA:
+- Higher-education / university-level setting in engineering or STEM
+- Implements, deploys, evaluates or uses a Digital Twin (as defined in SCOPE_OF_REVIEW) for an educational purpose
+- Empirical study: reports qualitative, quantitative or mixed evidence (e.g. learning outcomes, usage, evaluation or performance data)
+
+# Normative "what". POSITIVE disqualifiers only (something the abstract asserts).
+EXCLUSION_CRITERIA:
+- The publication type is ineligible per DOCUMENT_RULE (judged solely there, before thematic relevance)
+- The abstract explicitly confines the Digital Twin to an industrial/operational use with no educational component
+- The abstract explicitly places the study outside higher education (K-12, primary, secondary, or vocational not linked to higher education)
+- The abstract explicitly describes a near-miss per SCOPE_OF_REVIEW with no synchronized physical-virtual coupling (exclusion must be stated, not merely unconfirmed)
+- Purely technical Digital Twin architecture with no educational application or evaluation
+- Duplicate record across databases
+
+# "How" the agent decides: POSITIVE tests decidable from the abstract.
+AGENT_INCLUDE_WHEN:
+- The abstract gives positive evidence of a Digital Twin as defined in SCOPE_OF_REVIEW (explicit construct plus its discriminating bidirectional coupling)
+- An educational use is explicit (teaching, laboratory, training or assessment) in a higher-education engineering/STEM setting
+- The study reports empirical data, an evaluation, or learning outcomes
+
+# "How" the agent excludes: each bullet must be something the abstract ASSERTS
+# explicitly. Never phrase as "without X" / exclude-by-absence.
+AGENT_EXCLUDE_WHEN:
+- The abstract itself reveals the item is an ineligible document type as defined in DOCUMENT_RULE
+- The abstract explicitly describes a near-miss per SCOPE_OF_REVIEW and explicitly indicates there is no synchronized physical-virtual coupling
+- The abstract explicitly limits the Digital Twin to an industrial/operational use with no educational component
+- The abstract explicitly places the study outside higher education (K-12, secondary, non-linked vocational)
+- The abstract presents only Digital Twin architecture/engineering with no educational application or evaluation
+
+# PRECEDENCE rule (authoritative): overrides the exclusion criteria under ambiguity.
+UNCERTAINTY_HANDLING:
+Vote "uncertain" whenever title and abstract do not let you POSITIVELY confirm
+NOR positively disconfirm any of: (a) a Digital Twin as defined in
+SCOPE_OF_REVIEW is implemented or used (vs. a near-miss); (b) the setting is
+higher-education engineering/STEM; (c) the evidence is empirical. Absence or
+ambiguity of confirming detail is "uncertain", NEVER "exclude". This rule
+OVERRIDES the exclusion criteria: "exclude" requires the abstract to positively
+state a disqualifying feature and must never be inferred from missing, implied
+or partial information. When in doubt, defer to human review.
+
+JUSTIFICATION_STYLE: Concise, evidence-based rationales grounded only in title, abstract and keywords; name the decisive axis (document type, construct, context or empirical evidence) and cite the abstract span that settled the vote.
+
+# Anchors on the REAL decision boundary (construct-vs-near-miss and context
+# confirmation), not only easy cases. One anchor per physical line.
+#   DECISION || title || abstract || justification
+CALIBRATION_ANCHORS:
+INCLUDE || A Digital Twin of a CNC Machine for Mechanical Engineering Laboratory Training || This study reports the design and classroom evaluation of a real-time digital twin of a CNC milling machine used by 64 undergraduate mechanical engineering students. Pre/post tests showed significant gains in operational competence versus a control group using the physical lab only. || Construct: explicit real-time digital twin with physical-virtual synchronization. Context: higher-education engineering. Evidence: empirical pre/post with control. All axes confirmed -> INCLUDE.
+INCLUDE || Integrating an IoT-Enabled Digital Twin into a STEM Capstone Course: A Mixed-Methods Study || Full conference paper presenting a semester-long deployment of an IoT digital twin in a STEM capstone with 38 students; mixed-methods data (surveys, interviews and performance logs) show improved systems thinking. || Document type: full conference paper (eligible). Construct: explicit IoT digital twin. Context: higher-education STEM. Evidence: mixed-method empirical. INCLUDE.
+INCLUDE || Bidirectionally Coupled Digital Twin of a Robotic Cell in a Mechatronics Course (Early Access) || Early-access empirical article: a digital twin of a 6-axis robotic cell mirrored live sensor data and pushed student-set parameters back to the physical robot; 41 mechatronics students showed pre/post competence gains. || Document type: early-access empirical (eligible per DOCUMENT_RULE). Construct: bidirectional coupling explicit. Context + empirical evidence confirmed. INCLUDE.
+INCLUDE || A Real-Time Digital Twin of a Photovoltaic Test Rig for an Electrical Engineering Laboratory || Empirical study where 52 electrical engineering students changed parameters in the virtual model that drove the physical PV rig and read back its live response; performance and survey data reported. || Construct: explicit virtual->physical control plus live physical->virtual feedback (true bidirectional twin). Higher-education engineering, empirical. INCLUDE.
+EXCLUDE || A Systematic Review of Digital Twin Applications in Engineering Education || PRISMA-based synthesis of 52 studies on digital twins in engineering education, identifying thematic trends and research gaps. || Decisive axis: document type. The abstract states it is a systematic review -> hard gate per DOCUMENT_RULE. Disqualifying regardless of thematic relevance. EXCLUDE.
+EXCLUDE || A High-Fidelity Virtual Reality Laboratory for Teaching Thermodynamics to Engineering Students || Empirical study of a VR thermodynamics lab with 90 students; the abstract states there is no physical counterpart and no live data exchange. || Decisive axis: construct. The abstract explicitly establishes a near-miss (VR with no synchronized physical-virtual coupling). Positive disqualifier stated, not merely unconfirmed. EXCLUDE.
+EXCLUDE || An IoT Testbed for Campus HVAC Monitoring and Fault Research || Describes an IoT sensor testbed and dashboard for monitoring campus HVAC; the abstract states there is no synchronized virtual replica of the plant and the system is used for fault research, not teaching. || Construct: explicitly a CPS/IoT testbed with no synchronized virtual replica. Plus no educational use stated. Two positive disqualifiers. EXCLUDE.
+EXCLUDE || Predictive-Maintenance Digital Twin of a Gas Turbine in an Industrial Plant || Industrial deployment of a turbine digital twin for predictive maintenance; the abstract explicitly states the system is operational in a factory with no educational use. || Decisive axis: context. The abstract explicitly confines the digital twin to industrial/operational use with no educational component. Positive disqualifier. EXCLUDE.
+UNCERTAIN || Digital Twin-Inspired Simulation Platform for Robotics Education || Describes a "digital-twin-inspired" robotics simulator for engineering students; the abstract does not state whether real-time synchronization with a physical robot exists. || Construct cannot be confirmed nor disconfirmed: "inspired" simulator, coupling unstated. Context fits but absence of confirming detail is uncertain, never exclude. Refer to human review.
+UNCERTAIN || A Digital Twin Used in a University Course and a High-School Outreach Program || Reports a digital twin used both in an undergraduate engineering course and a secondary-school outreach activity; outcomes are not separated by educational level. || Construct confirmed but context not positively confirmable: higher-education vs K-12 contribution cannot be isolated from the abstract. Ambiguity -> uncertain, not exclude. Refer to human review.
+UNCERTAIN || Applying a Digital Twin of a Hydraulics Process with Engineering Students || The abstract mentions a "digital twin" of a hydraulics process used with engineering students but gives no methods, no results and does not state whether real-time coupling exists. || Construct and empirical evidence both unconfirmable from the abstract (no coupling detail, no results). Absence of detail is uncertain, never exclude. Refer to human review.
+UNCERTAIN || An Industrial Manufacturing-Line Digital Twin Also Demonstrated to Engineering Students || Primarily an industrial manufacturing-line digital twin; the abstract notes it was "also demonstrated to engineering students" but does not describe any educational deployment, task or evaluation. || Educational use is mentioned but its depth and any empirical evaluation are unclear. Do not exclude on absence; the higher-education contribution cannot be confirmed nor disconfirmed. Refer to human review.

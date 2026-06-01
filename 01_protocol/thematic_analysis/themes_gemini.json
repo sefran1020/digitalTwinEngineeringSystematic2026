@@ -1,0 +1,122 @@
+{
+  "1_analisis_tematico_inductivo": [
+    {
+      "nombre_del_tema": "Integración de Entornos Inmersivos y Simulaciones Avanzadas (VR/AR)",
+      "descripcion_tecnica": "Uso extensivo de Realidad Virtual, Realidad Aumentada y entornos inmersivos acoplados a Gemelos Digitales para superar limitaciones de seguridad, visualizar fenómenos complejos y replicar infraestructura industrial inaccesible.",
+      "keys_de_respaldo": [
+        "3PCKDEQL",
+        "TVN4S7DC",
+        "S2WI7K2S",
+        "79J2MH8T",
+        "GHSMNFS4",
+        "VQYX4C58",
+        "GWDAFMH7",
+        "JACDIDHQ",
+        "ASVWVQ3C",
+        "HM4FMFEF"
+      ]
+    },
+    {
+      "nombre_del_tema": "Desarrollo de Fábricas de Aprendizaje (Learning Factories) y Manufactura Inteligente",
+      "descripcion_tecnica": "Construcción de ecosistemas ciberfísicos que integran PLCs, brazos robóticos, líneas de automatización y protocolos industriales (ej. OPC UA) para enseñar conceptos aplicados de Industria 4.0 y manufactura esbelta.",
+      "keys_de_respaldo": [
+        "RF7G2HYJ",
+        "Z68IK8T9",
+        "XMATM5GI",
+        "8BL4J2HZ",
+        "C73RZ7X8",
+        "4S7PWRLU",
+        "UDMDFTPK",
+        "Q4TC3ILQ",
+        "3ZZDNR2Z",
+        "95CLH3FL",
+        "DD7XCT2V"
+      ]
+    },
+    {
+      "nombre_del_tema": "Evaluación del Impacto Pedagógico y Desarrollo de Competencias",
+      "descripcion_tecnica": "Estudios empíricos enfocados en medir el rendimiento académico, la adquisición de habilidades prácticas, el compromiso (engagement) y la reducción de la carga cognitiva mediante el aprendizaje basado en proyectos y analítica multimodal.",
+      "keys_de_respaldo": [
+        "6J8AMAN8",
+        "DSC46KTS",
+        "LQ8B3L7G",
+        "2XBEESYC",
+        "TBVDXJH6",
+        "YXRMLV7A",
+        "V9TXVKGR",
+        "TMH74BB2",
+        "5XDK88YB",
+        "VY7P5782"
+      ]
+    },
+    {
+      "nombre_del_tema": "Accesibilidad Remota, IoT y Escalabilidad de Infraestructura",
+      "descripcion_tecnica": "Despliegue de laboratorios remotos y gemelos digitales alojados en la nube o comunicados vía IoT para democratizar el acceso 24/7, utilizando hardware de bajo costo y plataformas colaborativas multijugador.",
+      "keys_de_respaldo": [
+        "QFQRYWLR",
+        "G8SP5KLS",
+        "YZHXUBN7",
+        "P242H59T",
+        "UGRYS3CL",
+        "3FI8CZ85",
+        "76777Q2X",
+        "6XH9DD3P",
+        "3KBLZJAI"
+      ]
+    }
+  ],
+  "2_diseno_revision_sistematica": {
+    "pregunta_investigacion": "¿De qué manera la integración de Gemelos Digitales y tecnologías habilitadoras de la Industria 4.0 transforma la infraestructura de laboratorios y el desarrollo de competencias en la educación superior en ingeniería?",
+    "objetivo_general": "Analizar sistemáticamente la arquitectura tecnológica, la implementación operativa y el impacto pedagógico de los entornos de aprendizaje basados en Gemelos Digitales en la educación en ingeniería.",
+    "objetivos_especificos": [
+      {
+        "objetivo": "Caracterizar las tecnologías inmersivas y herramientas de visualización utilizadas para la simulación de laboratorios de ingeniería.",
+        "tema_vinculado": "Integración de Entornos Inmersivos y Simulaciones Avanzadas (VR/AR)"
+      },
+      {
+        "objetivo": "Identificar las arquitecturas de hardware y protocolos de comunicación empleados en la construcción de fábricas de aprendizaje inteligentes.",
+        "tema_vinculado": "Desarrollo de Fábricas de Aprendizaje (Learning Factories) y Manufactura Inteligente"
+      },
+      {
+        "objetivo": "Evaluar el efecto de los ecosistemas de Gemelos Digitales en el rendimiento académico, las competencias prácticas y el compromiso de los estudiantes.",
+        "tema_vinculado": "Evaluación del Impacto Pedagógico y Desarrollo de Competencias"
+      },
+      {
+        "objetivo": "Examinar las estrategias de conectividad IoT e infraestructura remota implementadas para garantizar la escalabilidad y el acceso continuo a los laboratorios.",
+        "tema_vinculado": "Accesibilidad Remota, IoT y Escalabilidad de Infraestructura"
+      }
+    ]
+  },
+  "3_propuesta_protocolo_extraccion": {
+    "justificacion_metodologica": "Se sugiere una estructura anidada orientada a objetos que se pueda aplanar en formato tabular. La inclusión obligatoria de la triada 'valor, evidencia, ubicación' garantiza la trazabilidad rigurosa y permite calcular métricas de confiabilidad inter-evaluador al exportar el JSON a un archivo CSV para análisis comparativo.",
+    "esquema_json_sugerido": {
+      "metadatos_basicos": {
+        "key_articulo": "string",
+        "autores": "array",
+        "ano_publicacion": "integer"
+      },
+      "variables_por_objetivos": {
+        "obj1_tecnologia_inmersiva": {
+          "valor": "string [Opciones: VR, AR, MR, Pantalla_2D, NO_REPORTADO]",
+          "evidencia": "string - Cita textual exacta del PDF",
+          "ubicacion": "string - Página y sección"
+        },
+        "obj2_arquitectura_fabrica": {
+          "valor": "array [Identificación de PLCs, AGVs, brazos robóticos y protocolos de red]",
+          "evidencia": "string - Cita textual exacta del PDF",
+          "ubicacion": "string - Página y sección"
+        },
+        "obj3_impacto_estudiantil": {
+          "valor": "string [Opciones: Mejora_Significativa, Mejora_Leve, Sin_Cambio, Efecto_Negativo, NO_REPORTADO]",
+          "evidencia": "string - Cita textual de resultados estadísticos o cualitativos",
+          "ubicacion": "string - Página y sección"
+        },
+        "obj4_escalabilidad_remota": {
+          "valor": "string [Opciones: Acceso_24_7, Horario_Restringido, Presencial_Exclusivo, NO_REPORTADO]",
+          "evidencia": "string - Cita textual sobre acceso e infraestructura de red",
+          "ubicacion": "string - Página y sección"
+        }
+      }
+    }
+  }
+}

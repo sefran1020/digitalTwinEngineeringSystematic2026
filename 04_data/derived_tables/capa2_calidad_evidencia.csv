@@ -1,0 +1,36 @@
+﻿cita,anio,diseno,comparador,stats_inferencial,tamano_efecto,amenazas_validez,score_0_6,banda
+"Kwateng et al., 2026",2026,Quasi-experiment,yes,yes,yes,yes,6,Strong
+"Lin et al., 2025",2025,Experiment,yes,yes,yes,no,5,Strong
+"Lu et al., 2025",2025,Quasi-experiment,yes,yes,no,yes,5,Strong
+"Tarng et al., 2024",2024,Quasi-experiment,yes,yes,yes,no,5,Strong
+"Wang et al., 2025b",2025,Quasi-experiment,yes,yes,yes,no,5,Strong
+"Khan et al., 2026",2026,Mixed-methods,yes,yes,no,yes,4,Moderate
+"Li, 2025",2025,Case study / survey / pilot,yes,yes,yes,yes,4,Moderate
+"Liljaniemi et al., 2025",2025,Quasi-experiment,yes,no,no,yes,4,Moderate
+"Ning et al., 2024",2024,Quasi-experiment,yes,no,no,yes,4,Moderate
+"Ortiz et al., 2025",2025,Quasi-experiment,yes,no,no,yes,4,Moderate
+"Park et al., 2026",2026,Quasi-experiment,yes,no,no,yes,4,Moderate
+"Álvarez Ariza et al., 2026",2026,Case study / survey / pilot,yes,yes,yes,yes,4,Moderate
+"García et al., 2026",2026,Case study / survey / pilot,no,yes,yes,yes,3,Moderate
+"Speicher et al., 2026",2026,Case study / survey / pilot,yes,yes,no,yes,3,Moderate
+"de Melo Freires et al., 2025",2025,Mixed-methods,yes,no,no,yes,3,Moderate
+"Cuiffi et al., 2021",2021,,yes,no,no,yes,2,Weak
+"Harini S., 2026",2026,Mixed-methods,yes,no,no,no,2,Weak
+"Ortiz et al., 2026",2026,Conceptual / design-development,yes,no,no,yes,2,Weak
+"Sakkas et al., 2025",2025,Case study / survey / pilot,no,yes,no,yes,2,Weak
+"Usman et al., 2023",2023,Conceptual / design-development,yes,no,no,yes,2,Weak
+"Wang et al., 2025a",2025,,yes,no,no,yes,2,Weak
+"Liljaniemi et al., 2020",2020,Case study / survey / pilot,no,no,no,yes,1,Weak
+"Posio et al., 2023",2023,Case study / survey / pilot,no,no,no,yes,1,Weak
+"Riess et al., 2023",2023,Conceptual / design-development,no,no,no,yes,1,Weak
+"Yin, 2025",2025,Conceptual / design-development,yes,no,no,no,1,Weak
+"Bonavolonta et al., 2026",2026,,no,no,no,no,0,Weak
+"Machado et al., 2025",2025,,no,no,no,no,0,Weak
+"Pang et al., 2022",2022,Case study / survey / pilot,no,no,no,no,0,Weak
+"Shehadeh et al., 2026",2026,Conceptual / design-development,no,no,no,no,0,Weak
+"Terkaj et al., 2024a",2024,,no,no,no,no,0,Weak
+"Terkaj et al., 2024b",2024,Conceptual / design-development,no,no,no,no,0,Weak
+"Veitia et al., 2025",2025,,no,no,no,no,0,Weak
+"Wu, 2025",2025,,no,no,no,no,0,Weak
+"Xinyi et al., 2025",2025,Conceptual / design-development,no,no,no,no,0,Weak
+"Zhang et al., 2025",2025,Conceptual / design-development,no,no,no,no,0,Weak

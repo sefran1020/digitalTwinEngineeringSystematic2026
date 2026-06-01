@@ -1,0 +1,154 @@
+﻿attr_a,attr_b,phi,co_occurrence_n,fisher_p
+Bidirectional DT,Real-time sync,0.689,10,2.444392564386833e-07
+Has comparator,Affective outcomes,0.622,16,1.0101990180477353e-06
+Rigorous design,Has comparator,0.601,9,5.254209471732507e-06
+Technical barriers,Institutional barriers,0.474,5,0.0016391201857146698
+Rigorous design,Reports effect size,0.435,4,0.005302427542252224
+Lifecycle project,Industry collab.,0.426,6,0.002816719883566718
+Has comparator,Reports effect size,0.414,6,0.0026166973594126293
+Hybrid env,Bidirectional DT,0.403,7,0.0031598539225658677
+Active learning,Experiential,-0.388,0,0.0011410423343813636
+Active learning,Undergraduate,0.388,17,0.0021412745254463963
+Reports effect size,Affective outcomes,0.366,6,0.006442102576053314
+Rigorous design,Affective outcomes,0.355,7,0.007272886855021122
+Lifecycle project,Institutional barriers,0.323,4,0.025279012688709825
+Bidirectional DT,Active learning,-0.316,0,0.010776093129365083
+Hybrid env,Affective outcomes,-0.314,2,0.018666297632685815
+Real-time sync,Affective outcomes,-0.314,2,0.018666297632685815
+Hybrid env,Real-time sync,0.309,9,0.027330849655372053
+Immersive env,Sustainability quant.,0.292,2,0.07177197802197802
+Immersive env,Hybrid env,-0.279,0,0.026654485974331666
+Industry collab.,Institutional barriers,0.265,3,0.06725434484489419
+Experiential,Undergraduate,0.249,10,0.06920770591779556
+Real-time sync,Undergraduate,-0.247,5,0.056731037384440776
+Real-time sync,Active learning,-0.242,3,0.08085853286537927
+Experiential,Affective outcomes,0.238,8,0.0664313975315273
+Bidirectional DT,Undergraduate,-0.236,2,0.08577618839241218
+Hybrid env,AI-augmented,-0.232,0,0.09410716811351982
+Bidirectional DT,Affective outcomes,-0.226,1,0.08378674392312041
+Hybrid env,Lifecycle project,-0.223,1,0.09131276425817964
+Real-time sync,Lifecycle project,-0.223,1,0.09131276425817964
+Lifecycle project,Undergraduate,0.216,9,0.12138280229031742
+Real-time sync,Institutional barriers,-0.215,0,0.17621000060673042
+Bidirectional DT,Lifecycle project,-0.213,0,0.19118894407290926
+Undergraduate,Sustainability quant.,-0.21,0,0.2399038461538462
+Immersive env,Technical barriers,0.208,4,0.19395411007607882
+Active learning,Has comparator,0.204,10,0.15904304033272557
+Undergraduate,Affective outcomes,0.195,14,0.12928668534079213
+Active learning,Affective outcomes,0.193,11,0.17513654558754616
+Immersive env,Industry collab.,-0.192,0,0.19031655518117999
+Real-time sync,Has comparator,-0.189,3,0.14800036662430124
+AI-augmented,Lifecycle project,-0.187,0,0.34081388528906853
+Active learning,Technical barriers,-0.186,2,0.1876053220025104
+Bidirectional DT,Industry collab.,-0.182,0,0.33874088648827005
+Experiential,Open-source,-0.182,0,0.3307911270730244
+Experiential,Institutional barriers,0.18,3,0.16449312383666911
+AI-augmented,Reports effect size,0.172,2,0.20324709372675206
+AI-augmented,Open-source,0.172,2,0.20324709372675206
+Hybrid env,Active learning,-0.17,4,0.24798276535271166
+Open-source,Technical barriers,-0.165,0,0.3322389059685037
+Active learning,Sustainability quant.,-0.163,0,0.5466346153846154
+Affective outcomes,Sustainability quant.,-0.163,0,0.5466346153846154
+AI-augmented,Industry collab.,-0.16,0,0.3394966111894263
+Sustainability quant.,Institutional barriers,0.16,1,0.29358974358974355
+Lifecycle project,Technical barriers,0.159,4,0.237445272062867
+Immersive env,Reports effect size,-0.157,0,0.5919237758696412
+Real-time sync,Experiential,-0.157,2,0.31577812105651365
+Affective outcomes,Open-source,-0.153,1,0.4061295028188834
+AI-augmented,Rigorous design,-0.15,0,0.586467443527293
+Real-time sync,Rigorous design,-0.149,1,0.42489433602062504
+Bidirectional DT,Institutional barriers,-0.148,0,0.5835956896628992
+Industry collab.,Open-source,-0.148,0,0.5835956896628992
+Has comparator,Sustainability quant.,-0.147,0,0.5467032967032966
+AI-augmented,Sustainability quant.,0.141,1,0.330128205128205
+Rigorous design,Open-source,-0.139,0,0.5802644551802023
+Undergraduate,Technical barriers,-0.137,4,0.3455555500202404
+Industry collab.,Affective outcomes,-0.137,2,0.4736156973834964
+Hybrid env,Sustainability quant.,-0.136,0,0.554532967032967
+Real-time sync,Sustainability quant.,-0.136,0,0.554532967032967
+Undergraduate,Open-source,-0.133,2,0.4301176965111392
+Active learning,Industry collab.,0.13,5,0.3068037704979847
+Bidirectional DT,Open-source,0.127,2,0.2921126724269286
+Has comparator,Open-source,-0.124,1,0.4225883930399744
+Has comparator,Institutional barriers,-0.124,1,0.4225883930399744
+Immersive env,Lifecycle project,-0.123,1,0.43893287111363977
+Immersive env,Has comparator,-0.123,2,0.4798223344258409
+Reports effect size,Open-source,-0.121,0,1.0
+Open-source,Institutional barriers,-0.121,0,1.0
+Bidirectional DT,Experiential,-0.12,1,0.6763074256424844
+Real-time sync,Open-source,0.118,3,0.38527034753243417
+Experiential,Sustainability quant.,-0.115,0,1.0
+Active learning,Lifecycle project,0.113,6,0.5176947679306486
+Experiential,Lifecycle project,0.112,4,0.45283390537230683
+Industry collab.,Sustainability quant.,0.109,1,0.39938186813186816
+Immersive env,Institutional barriers,0.108,2,0.33753859719097595
+Hybrid env,Reports effect size,-0.104,1,0.6628901905823026
+Hybrid env,Institutional barriers,-0.104,1,0.6628901905823026
+Real-time sync,Reports effect size,-0.104,1,0.6628901905823026
+Immersive env,Undergraduate,-0.102,4,0.5158042663672884
+Bidirectional DT,Has comparator,-0.099,2,0.7110124080143561
+Undergraduate,Has comparator,0.098,11,0.5912586062300876
+Immersive env,Real-time sync,-0.096,2,0.7133211887762386
+Bidirectional DT,Sustainability quant.,-0.094,0,1.0
+Rigorous design,Sustainability quant.,-0.088,0,1.0
+Sustainability quant.,Technical barriers,0.084,1,0.4636904761904761
+Lifecycle project,Has comparator,-0.083,3,0.738539603694004
+AI-augmented,Experiential,-0.082,1,0.6753047415737673
+Immersive env,Active learning,-0.077,3,0.7331009169831812
+AI-augmented,Undergraduate,-0.076,3,0.7108954766637455
+Active learning,Rigorous design,0.076,4,0.709376554048353
+Reports effect size,Sustainability quant.,-0.076,0,1.0
+Open-source,Sustainability quant.,-0.076,0,1.0
+Hybrid env,Industry collab.,-0.073,2,0.7133211887762386
+Real-time sync,Industry collab.,-0.073,2,0.7133211887762386
+Lifecycle project,Sustainability quant.,0.073,1,0.49404761904761907
+Undergraduate,Reports effect size,0.066,4,0.7005703151160222
+Undergraduate,Institutional barriers,0.066,4,0.7005703151160222
+Immersive env,Experiential,0.063,3,0.6906937622805963
+Undergraduate,Rigorous design,0.063,5,0.726111504207759
+Affective outcomes,Technical barriers,0.063,5,0.7405147804003149
+Hybrid env,Technical barriers,0.06,4,0.7239389225252667
+Experiential,Reports effect size,0.059,2,0.6378399040630485
+Has comparator,Technical barriers,-0.059,3,0.7407139105239915
+AI-augmented,Technical barriers,-0.058,1,1.0
+Immersive env,Rigorous design,0.057,2,0.641967865580209
+Experiential,Has comparator,0.056,5,0.7465845389649579
+Active learning,Reports effect size,0.054,3,0.6908619329742132
+Active learning,Open-source,0.054,3,0.6908619329742132
+Affective outcomes,Institutional barriers,0.054,3,0.6908619329742132
+Active learning,Institutional barriers,-0.05,2,1.0
+Lifecycle project,Reports effect size,-0.05,1,1.0
+Lifecycle project,Open-source,-0.05,1,1.0
+Hybrid env,Rigorous design,-0.049,2,1.0
+Lifecycle project,Affective outcomes,-0.048,4,0.7581401915429353
+Bidirectional DT,Rigorous design,-0.047,1,1.0
+AI-augmented,Has comparator,-0.047,2,1.0
+Industry collab.,Rigorous design,-0.047,1,1.0
+Immersive env,AI-augmented,-0.044,1,1.0
+Hybrid env,Undergraduate,-0.04,8,0.7877115565268386
+Hybrid env,Has comparator,-0.04,5,1.0
+Experiential,Technical barriers,0.04,3,0.7113141781285564
+Rigorous design,Technical barriers,0.039,2,0.6672832690240323
+Reports effect size,Institutional barriers,0.039,1,0.5681152470668376
+Reports effect size,Technical barriers,-0.037,1,1.0
+Immersive env,Bidirectional DT,0.035,2,0.6732246392200321
+Bidirectional DT,AI-augmented,-0.03,1,1.0
+Real-time sync,Technical barriers,-0.029,3,1.0
+Immersive env,Open-source,-0.024,1,1.0
+Real-time sync,AI-augmented,-0.023,2,1.0
+Lifecycle project,Rigorous design,0.022,2,1.0
+AI-augmented,Institutional barriers,0.021,1,1.0
+Undergraduate,Industry collab.,0.02,5,1.0
+Bidirectional DT,Technical barriers,0.017,2,1.0
+AI-augmented,Active learning,0.017,3,1.0
+AI-augmented,Affective outcomes,0.017,3,1.0
+Industry collab.,Technical barriers,0.017,2,1.0
+Experiential,Industry collab.,-0.016,2,1.0
+Bidirectional DT,Reports effect size,-0.011,1,1.0
+Industry collab.,Reports effect size,-0.011,1,1.0
+Hybrid env,Experiential,0.01,4,1.0
+Immersive env,Affective outcomes,0.009,4,1.0
+Hybrid env,Open-source,0.007,2,1.0
+Experiential,Rigorous design,0.007,2,1.0
+Industry collab.,Has comparator,-0.007,3,1.0
+Rigorous design,Institutional barriers,0.004,1,1.0

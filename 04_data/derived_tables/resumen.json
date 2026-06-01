@@ -1,0 +1,473 @@
+{
+  "n_papers": 65,
+  "theme_counts": {
+    "T1": 38,
+    "T2": 26,
+    "T3": 11,
+    "T4": 47,
+    "T5": 47,
+    "T6": 35,
+    "T7": 21,
+    "T8": 28
+  },
+  "evidence_bands": {
+    "Weak": 20,
+    "Moderate": 10,
+    "Strong": 5
+  },
+  "kritzinger": {
+    "Digital shadow": 7,
+    "Digital model": 1,
+    "Digital twin": 10
+  },
+  "environment": {
+    "Hybrid physical-virtual": 18,
+    "Immersive (VR/AR/MR)": 11,
+    "Remote": 4,
+    "Virtual-only": 3,
+    "Learning factory": 1
+  },
+  "pedagogy": {
+    "Active learning": 23,
+    "Experiential": 14,
+    "ADDIE": 1,
+    "Project-based (PBL)": 2,
+    "Learning factory": 2,
+    "Challenge-based": 1
+  },
+  "design": {
+    "Case study / survey / pilot": 8,
+    "Conceptual / design-development": 8,
+    "Quasi-experiment": 8,
+    "Experiment": 1,
+    "Mixed-methods": 3
+  },
+  "n_has_ai": 8,
+  "n_immersive": 23,
+  "n_effect_size": 7,
+  "configs": {
+    "robust_arch_ai_evidence (T2+T3+T6)": 1,
+    "pedagogy_no_evidence (T5 & !T6)": 16,
+    "competencies_no_evidence (T4 & !T6)": 25,
+    "benefits_no_barriers (T7 & !T8)": 16,
+    "barriers_no_benefits (T8 & !T7)": 23,
+    "immersive_proposal_no_evidence (T1 & T5 & !T6)": 8,
+    "full_stack (T1+T2+T5+T6)": 3
+  },
+  "capa1": [
+    {
+      "tema": "T1",
+      "objetivo": "O1",
+      "variable": "fidelidad_visual_y_funcional_reportada",
+      "n_articulos": 38,
+      "reportado": 22,
+      "pct_reportado": 57.9,
+      "categorias_top": "alta (14); media (4); media (no alta fidelidad) (1); alta (visual) y alta (funcional) (1)"
+    },
+    {
+      "tema": "T1",
+      "objetivo": "O1",
+      "variable": "modalidad_acceso",
+      "n_articulos": 38,
+      "reportado": 14,
+      "pct_reportado": 36.8,
+      "categorias_top": "presencial obligatorio + acceso virtual complementario (6); exclusivamente remoto (6); Acceso 24/7 (2)"
+    },
+    {
+      "tema": "T1",
+      "objetivo": "O1",
+      "variable": "sistema_real_representado",
+      "n_articulos": 38,
+      "reportado": 36,
+      "pct_reportado": 94.7,
+      "categorias_top": "planta de manufactura (6); planta de manufactura (complejo de fundición de aluminio) (1); laboratorio de instrumentación y medición (1); planta de manufactura (línea de producción de ruedas de automóvil) (1)"
+    },
+    {
+      "tema": "T1",
+      "objetivo": "O1",
+      "variable": "tecnologia_inmersiva_especifica",
+      "n_articulos": 38,
+      "reportado": 21,
+      "pct_reportado": 55.3,
+      "categorias_top": "Unity 3D (3); Unity Game Engine (2); Oculus Rift S, Oculus Touch, Unity (1); virtual reality headsets (1)"
+    },
+    {
+      "tema": "T1",
+      "objetivo": "O1",
+      "variable": "tipo_entorno_dt",
+      "n_articulos": 38,
+      "reportado": 37,
+      "pct_reportado": 97.4,
+      "categorias_top": "híbrido físico-virtual (18); inmersivo (RV/RA/MR) (11); remoto (4); virtual puro (3)"
+    },
+    {
+      "tema": "T2",
+      "objetivo": "O1",
+      "variable": "arquitectura_capas_modulos",
+      "n_articulos": 26,
+      "reportado": 16,
+      "pct_reportado": 61.5,
+      "categorias_top": "Descripción de capas (física, integración, digital, aplicación), módulos, microservicios o arquitectura general del sistema (2); Capas: física (sensores IoT, Arduino), integración (edge computing, 5G), digital (cloud-based DT platform), aplicación (user dashboard) (1); digital pyramid model aimed to connect the automation pyramid with its counterpart in the digital environment and showed the interaction at all levels of the business model (1); Arquitectura basada en OPC UA y Node-RED, con capas de integración (AAS como capa de abstracción), control distribuido (IEC 61499) y simulación (Factory IO). (1)"
+    },
+    {
+      "tema": "T2",
+      "objetivo": "O1",
+      "variable": "componente_fisico",
+      "n_articulos": 26,
+      "reportado": 23,
+      "pct_reportado": 88.5,
+      "categorias_top": "Equipos, sensores, actuadores, PLC, robots, máquinas CNC, microcontroladores (Arduino/ESP32), FPGA, bancos de prueba, edificios o ausencia (3); Equipos, sensores, actuadores, microcontroladores (Arduino/ESP32) (1); PLC, robots, AGV, sensores, actuadores (1); PLC, sensors, actuators, robots (1)"
+    },
+    {
+      "tema": "T2",
+      "objetivo": "O1",
+      "variable": "componente_virtual",
+      "n_articulos": 26,
+      "reportado": 23,
+      "pct_reportado": 88.5,
+      "categorias_top": "Motor 3D (Unity/Unreal), plataforma de simulación (Tecnomatix, NX MCD, Simcenter, Emulate3D), modelo BIM/GIS, CAD/CAE, dashboard (6); Motor 3D (Unity/Unreal) (3); Motor 3D (Unity/Unreal), plataforma de simulación (MATLAB), dashboard (1); NX MCD, TIA Portal, HMI (1)"
+    },
+    {
+      "tema": "T2",
+      "objetivo": "O1",
+      "variable": "grado_sincronizacion_bidireccionalidad",
+      "n_articulos": 26,
+      "reportado": 20,
+      "pct_reportado": 76.9,
+      "categorias_top": "near-real-time (8); tiempo real (8); asíncrona (2); tiempo real, bidireccional automática (1)"
+    },
+    {
+      "tema": "T2",
+      "objetivo": "O1",
+      "variable": "protocolos_estandares_comunicacion",
+      "n_articulos": 26,
+      "reportado": 23,
+      "pct_reportado": 88.5,
+      "categorias_top": "OPC UA (3); OPC UA, MQTT, TCP/IP, EtherCAT, REST, CoAP, Asset Administration Shell (AAS), IEC 61131-3/61499, BIM/PLM (2); 5G, IoT-based communication protocol (1); AS.i, Profibus, Profinet (1)"
+    },
+    {
+      "tema": "T2",
+      "objetivo": "O1",
+      "variable": "tipo_gemelo_digital_taxonomia_kritzinger",
+      "n_articulos": 26,
+      "reportado": 18,
+      "pct_reportado": 69.2,
+      "categorias_top": "digital twin completo (bidireccional automático) (10); digital shadow (7); Digital model (1)"
+    },
+    {
+      "tema": "T3",
+      "objetivo": "O1",
+      "variable": "datos_entrenamiento_o_inferencia",
+      "n_articulos": 11,
+      "reportado": 6,
+      "pct_reportado": 54.5,
+      "categorias_top": "datos sintéticos, datasets industriales (2); Datos industriales masivos (1); sensores DT (1); Sensores DT, logs estudiantiles, datos sintéticos, datasets industriales (1)"
+    },
+    {
+      "tema": "T3",
+      "objetivo": "O1",
+      "variable": "funcion_de_la_ia",
+      "n_articulos": 11,
+      "reportado": 8,
+      "pct_reportado": 72.7,
+      "categorias_top": "diagnóstico, mantenimiento predictivo (2); Predicción, mantenimiento predictivo (1); Predicción, diagnóstico, mantenimiento predictivo (1); Predicción, diagnóstico, mantenimiento predictivo, retroalimentación automatizada al estudiante, personalización adaptativa, generación de contenido, validación de tareas, corrección automática (1)"
+    },
+    {
+      "tema": "T3",
+      "objetivo": "O1",
+      "variable": "metricas_desempeno_ia",
+      "n_articulos": 11,
+      "reportado": 3,
+      "pct_reportado": 27.3,
+      "categorias_top": "Accuracy, precision, recall, F1 (1); fidelidad de surrogate, latencia de inferencia, frame rate (1); Accuracy, F1-score, Recall (1)"
+    },
+    {
+      "tema": "T3",
+      "objetivo": "O1",
+      "variable": "tipo_ia_integrada",
+      "n_articulos": 11,
+      "reportado": 8,
+      "pct_reportado": 72.7,
+      "categorias_top": "Machine learning supervisado/no supervisado (2); Machine learning supervisado (1); deep learning (1); Machine learning, grafos de conocimiento, IA generativa (LLM/GAN) (1)"
+    },
+    {
+      "tema": "T4",
+      "objetivo": "O2",
+      "variable": "alineacion_estandares_industriales",
+      "n_articulos": 47,
+      "reportado": 10,
+      "pct_reportado": 21.3,
+      "categorias_top": "ABET (3); ISA-95 (1); IEC 61499, IEC 61131-3, OPC UA, AAS (1); OPC-UA (1)"
+    },
+    {
+      "tema": "T4",
+      "objetivo": "O2",
+      "variable": "colaboracion_industria_academia",
+      "n_articulos": 47,
+      "reportado": 10,
+      "pct_reportado": 21.3,
+      "categorias_top": "sí (1); Alianzas con empresas, co-desarrollo de currículo, validación con sector productivo (1); Sí (1); Alianzas con empresas, co-desarrollo de currículo, prácticas profesionales (1)"
+    },
+    {
+      "tema": "T4",
+      "objetivo": "O2",
+      "variable": "competencias_i40_i50_desarrolladas",
+      "n_articulos": 47,
+      "reportado": 38,
+      "pct_reportado": 80.9,
+      "categorias_top": "IIoT, manufactura inteligente, automatización, analítica de datos, colaboración humano-máquina (I5.0) (3); IIoT, automatización, integración de sistemas, colaboración humano-máquina (I5.0) (2); IIoT, manufactura inteligente, automatización, analítica de datos, integración de sistemas, colaboración humano-máquina (I5.0) (2); ciberseguridad industrial (1)"
+    },
+    {
+      "tema": "T4",
+      "objetivo": "O2",
+      "variable": "dominio_ingenieria",
+      "n_articulos": 47,
+      "reportado": 46,
+      "pct_reportado": 97.9,
+      "categorias_top": "manufactura (12); automatización (9); mecatrónica (5); química (4)"
+    },
+    {
+      "tema": "T5",
+      "objetivo": "O2",
+      "variable": "andamiaje_y_rol_docente",
+      "n_articulos": 47,
+      "reportado": 36,
+      "pct_reportado": 76.6,
+      "categorias_top": "facilitador (17); facilitador/supervisor (9); Guías, scripts, tutoriales, feedback estructurado (5); Guías, scripts, tutoriales (1)"
+    },
+    {
+      "tema": "T5",
+      "objetivo": "O2",
+      "variable": "duracion_intervencion",
+      "n_articulos": 47,
+      "reportado": 18,
+      "pct_reportado": 38.3,
+      "categorias_top": "16 semanas (3); dos semestres (2); un semestre académico (1); 32 credit hours (1)"
+    },
+    {
+      "tema": "T5",
+      "objetivo": "O2",
+      "variable": "grado_participacion_estudiantil",
+      "n_articulos": 47,
+      "reportado": 42,
+      "pct_reportado": 89.4,
+      "categorias_top": "experimentación activa (25); proyecto completo de ciclo de vida (12); exploración guiada (4); construcción del DT por estudiantes (1)"
+    },
+    {
+      "tema": "T5",
+      "objetivo": "O2",
+      "variable": "modalidad_ensenanza",
+      "n_articulos": 47,
+      "reportado": 38,
+      "pct_reportado": 80.9,
+      "categorias_top": "presencial (20); blended (5); híbrida (4); Presencial (4)"
+    },
+    {
+      "tema": "T5",
+      "objetivo": "O2",
+      "variable": "modelo_pedagogico",
+      "n_articulos": 47,
+      "reportado": 43,
+      "pct_reportado": 91.5,
+      "categorias_top": "aprendizaje activo (23); aprendizaje experiencial (14); learning factory (2); PBL (1)"
+    },
+    {
+      "tema": "T5",
+      "objetivo": "O2",
+      "variable": "nivel_educativo",
+      "n_articulos": 47,
+      "reportado": 45,
+      "pct_reportado": 95.7,
+      "categorias_top": "Pregrado (31); mixto (6); posgrado (maestría/doctorado) (5); formación técnica/profesional (3)"
+    },
+    {
+      "tema": "T5",
+      "objetivo": "O2",
+      "variable": "programa_curso_asignatura",
+      "n_articulos": 47,
+      "reportado": 34,
+      "pct_reportado": 72.3,
+      "categorias_top": "Weather Monitoring Use Case for DT Framework Testing (1); Smart Manufacturing senior technical elective (1); Simulation of Automated Production Systems (1); industrial networked manufacturing and application courses (1)"
+    },
+    {
+      "tema": "T6",
+      "objetivo": "O3",
+      "variable": "amenazas_validez_y_calidad_evidencia",
+      "n_articulos": 35,
+      "reportado": 20,
+      "pct_reportado": 57.1,
+      "categorias_top": "tamaño muestral pequeño, ausencia de aleatorización, sesgo de selección, corto plazo, ausencia de medición de retención/transferencia, madurez del prototipo (2); Tamaño muestral pequeño (1); Tamaño muestral pequeño (24 estudiantes), corto plazo (un módulo), ausencia de medición de retención/transferencia, madurez del prototipo (limitado a un robot y un escenario). (1); tamaño muestral pequeño (N=30), sesgo de selección (muestreo voluntario), efecto novedad, influencia del instructor, ausencia de medición de retención/transferencia, ausencia de grupo control, madurez del prototipo (caja negra, sin diagnóstico granular) (1)"
+    },
+    {
+      "tema": "T6",
+      "objetivo": "O3",
+      "variable": "comparador_o_condicion_control",
+      "n_articulos": 35,
+      "reportado": 29,
+      "pct_reportado": 82.9,
+      "categorias_top": "sin comparador (9); Clase tradicional (8); pre/post intra-sujeto (6); grupo control (sin intervención DT+IoT) (1)"
+    },
+    {
+      "tema": "T6",
+      "objetivo": "O3",
+      "variable": "diseno_investigacion",
+      "n_articulos": 35,
+      "reportado": 28,
+      "pct_reportado": 80.0,
+      "categorias_top": "diseño/desarrollo (8); cuasi-experimento (7); estudio de caso (5); mixed-methods (3)"
+    },
+    {
+      "tema": "T6",
+      "objetivo": "O3",
+      "variable": "instrumentos_evaluacion",
+      "n_articulos": 35,
+      "reportado": 30,
+      "pct_reportado": 85.7,
+      "categorias_top": "encuestas estandarizadas (UTAUT/UTAUT2, SUS, NASA-TLX, TTF), entrevistas semi-estructuradas, learning analytics, logs (3); encuestas estandarizadas (pre- y post-actitud) (1); encuestas estandarizadas (Likert), entrevistas semi-estructuradas (open-ended responses), observación (1); Encuesta UTAUT adaptada (5 constructos: PU, PEOU, SI, FC, ITU), preguntas abiertas, observaciones directas, tasa de finalización de ejercicios (1)"
+    },
+    {
+      "tema": "T6",
+      "objetivo": "O3",
+      "variable": "resultados_afectivos_y_engagement",
+      "n_articulos": 35,
+      "reportado": 23,
+      "pct_reportado": 65.7,
+      "categorias_top": "Motivación, aceptación tecnológica, satisfacción, autoeficacia, colaboración, engagement (behavioral/cognitive/emotional), carga cognitiva (2); Los estudiantes estuvieron comprometidos y encontraron el material relevante para su carrera; los participantes de la industria mostraron mayor interés en explorar Smart Manufacturing. (1); Engagement: 63.6% calificó 5 (muy comprometido), 36.4% calificó 4. Satisfacción: 77.3% calificó la actividad como muy interesante (5). Relevancia profesional: 86.4% calificó como altamente relevante (5). (1); Percepción positiva excepcional: FC media=4.62, PU media=4.41, ITU media=4.46, PEOU media=4.58, SI media=4.48 (escala Likert 1-5) (1)"
+    },
+    {
+      "tema": "T6",
+      "objetivo": "O3",
+      "variable": "resultados_cognitivos",
+      "n_articulos": 35,
+      "reportado": 22,
+      "pct_reportado": 62.9,
+      "categorias_top": "Mejora significativa en la comprensión conceptual: antes de la actividad, 72.7% calificó su comprensión entre 1 y 3; después, solo 9.1% en ese rango, con 90.9% calificando 4 o 5. (1); Mejora en comprensión de lógica combinacional y secuencial, visualización de conceptos avanzados (Full Adder, XOR, Flip-Flops) (1); 63% improvement in course evaluation (1); Intervention group: pre-test M=56.3, SD=12.4; post-test M=74.8, SD=11.6; mean gain +18.5; Control group: pre-test M=55.9, SD=11.8; post-test M=60.2, SD=12.3; mean gain +4.3; between-groups Δ=14.2 (1)"
+    },
+    {
+      "tema": "T6",
+      "objetivo": "O3",
+      "variable": "resultados_procedimentales",
+      "n_articulos": 35,
+      "reportado": 17,
+      "pct_reportado": 48.6,
+      "categorias_top": "Tasa de finalización: 100% en compuertas básicas, 93.3% en lógica combinacional, 80% en secuencial, 73.3% en contadores/sumadores (1); Reduction in cycle time: manual press 18%, automated 22% compared to hammering; DPMO reduction to zero; yield increase from 81% to 100% (1); Intervention group outperformed control in hands-on skills; sensor integration error rates decreased from 27% week 3 to 11% week 14; cloud synchronization success rates increased from 68% to 92% (1); 42% higher success rate in process parameter optimization tasks (1)"
+    },
+    {
+      "tema": "T6",
+      "objetivo": "O3",
+      "variable": "significancia_estadistica_y_tamano_efecto",
+      "n_articulos": 35,
+      "reportado": 14,
+      "pct_reportado": 40.0,
+      "categorias_top": "Correlaciones Pearson: PU-rendimiento r=0.81 (p<0.001), ITU-rendimiento r=0.85 (p<0.001), PEOU-rendimiento r=0.58 (p<0.01), SI-rendimiento r=0.62 (p<0.001). IC 95% para constructos UTAUT: límite inferior >3.0 (1); Significativo al 5% (α=0.05), sin reporte de tamaño del efecto (1); Pre-post intervention: t(139)=14.72, p<.001; Control: t(59)=1.88, p=.065; Between-groups: t(198)=8.94, p<.001; Cohen's d=0.91 (large effect size); Error rate reduction: t=6.42, p=.001; Cloud sync improvement: t=5.87, p<.001 (1); r = 0.72, p < 0.01 (1)"
+    },
+    {
+      "tema": "T6",
+      "objetivo": "O3",
+      "variable": "tamano_muestral_y_perfil",
+      "n_articulos": 35,
+      "reportado": 24,
+      "pct_reportado": 68.6,
+      "categorias_top": "10 estudiantes y 18 empleados (1); N total: 24 estudiantes de posgrado; 22 respuestas de encuesta (91.67%); perfil: estudiantes de posgrado en Ingeniería de Manufactura Avanzada; organizados en equipos de 2 o 3. (1); N=30, 90% con experiencia previa en lógica digital, 70% con experiencia en Minecraft, nivel académico no especificado, criterios de inclusión/exclusión no mencionados (1); N total: 40, senior engineering students (1)"
+    },
+    {
+      "tema": "T7",
+      "objetivo": "O4",
+      "variable": "accesibilidad_y_equidad",
+      "n_articulos": 21,
+      "reportado": 18,
+      "pct_reportado": 85.7,
+      "categorias_top": "acceso remoto geográfico (6); acceso remoto geográfico; inclusión de estudiantes con discapacidad; contextos de bajos recursos (3); acceso remoto geográfico (implícito por uso de VR y digital twin para superar limitaciones físicas) (1); Acceso remoto 24/7; inclusión geográfica; mejora en tasas de finalización (70% vs 56%) y calificaciones (27.4/30 vs 25/30); eliminación de emisiones por desplazamiento (1)"
+    },
+    {
+      "tema": "T7",
+      "objetivo": "O4",
+      "variable": "contexto_geografico_aplicacion",
+      "n_articulos": 21,
+      "reportado": 21,
+      "pct_reportado": 100.0,
+      "categorias_top": "Europa (Dinamarca, Estonia, Italia) (2); Rusia, región de Krasnoyarsk (Siberia); relevante para Sur Global por ser país en desarrollo (1); Italia (Universidad de Nápoles Federico II); relevante para Sur Global o regiones en desarrollo implícitamente por reducción de costos y barreras (1); Brasil (Manaus, Amazonas) (1)"
+    },
+    {
+      "tema": "T7",
+      "objetivo": "O4",
+      "variable": "continuidad_educativa_post_covid",
+      "n_articulos": 21,
+      "reportado": 8,
+      "pct_reportado": 38.1,
+      "categorias_top": "mención explícita a continuidad durante pandemia (2); mencionada (la pandemia obstaculiza la implementación, pero se usa para educación remota) (1); Mención explícita a la pandemia COVID-19 como impulsor de la digitalización y la necesidad de continuidad educativa remota (1); mencion explícita a transición a online durante pandemia (1)"
+    },
+    {
+      "tema": "T7",
+      "objetivo": "O4",
+      "variable": "costo_implementacion",
+      "n_articulos": 21,
+      "reportado": 6,
+      "pct_reportado": 28.6,
+      "categorias_top": "bajo (3); alto (grandes costos de creación y funcionamiento, financiado por grandes empresas metalúrgicas) (1); CAPEX: ~100,000 €; OPEX: ~17,000 €/año; costo por estudiante cuatro veces menor en el laboratorio inmersivo (1); bajo (menos de 400 euros por brazo robótico, excluyendo PC y visor VR) (1)"
+    },
+    {
+      "tema": "T7",
+      "objetivo": "O4",
+      "variable": "indicadores_sostenibilidad_ambiental",
+      "n_articulos": 21,
+      "reportado": 3,
+      "pct_reportado": 14.3,
+      "categorias_top": "Consumo energético: 7,000 kWh/año; CO2 (energía): 1.75 tCO2/año; CO2 (desplazamientos): ≈ 0 tCO2/año; WEEE (7 años): ≈ 200 kg; comparativa con laboratorio tradicional: el modelo inmersivo reduce costos, consumo, emisiones y WEEE a menos del 40% del referencia (1); LCA, uso de materiales sostenibles (1); Emisiones CO2 (ops + construction) reducción 0-12% en régimen extremo (1)"
+    },
+    {
+      "tema": "T7",
+      "objetivo": "O4",
+      "variable": "modelo_licenciamiento",
+      "n_articulos": 21,
+      "reportado": 8,
+      "pct_reportado": 38.1,
+      "categorias_top": "open-source (6); open-source (hardware y software) (1); propietario (1)"
+    },
+    {
+      "tema": "T8",
+      "objetivo": "O4",
+      "variable": "barreras_institucionales_y_docentes",
+      "n_articulos": 28,
+      "reportado": 7,
+      "pct_reportado": 25.0,
+      "categorias_top": "Necesidad de capacitación docente, resistencia al cambio curricular, falta de gobernanza, ausencia de alineación industria-academia, infraestructura institucional limitada (5); lack of resources, teachers' inadequate expertise (1); Resistencia al cambio curricular, falta de gobernanza, infraestructura institucional limitada, necesidad de capacitación docente (1)"
+    },
+    {
+      "tema": "T8",
+      "objetivo": "O4",
+      "variable": "barreras_pedagogicas_y_curriculares",
+      "n_articulos": 28,
+      "reportado": 6,
+      "pct_reportado": 21.4,
+      "categorias_top": "Brecha de transferencia virtual-físico, validez ecológica limitada, descontextualización del aprendizaje, mala alineación competencias-actividades-evaluación (4); Descontextualización del aprendizaje, mala alineación competencias-actividades-evaluación (1); La validación del sistema y la evaluación centrada en el usuario se presentan con frecuencia sin distinguir claramente el rendimiento técnico de los resultados de capacitación medibles. (1)"
+    },
+    {
+      "tema": "T8",
+      "objetivo": "O4",
+      "variable": "barreras_tecnicas",
+      "n_articulos": 28,
+      "reportado": 12,
+      "pct_reportado": 42.9,
+      "categorias_top": "Fidelidad insuficiente del modelo, interoperabilidad limitada, latencia, jitter, escalabilidad, complejidad de sincronización, vulnerabilidades de ciberseguridad (5); model accuracy, connection to uncalibrated entities, errors in transferring data or codes between the DT and the real system, data acquisition and validation, data fusion accuracy, the computational process, and time to analyze data and send responses to the physical twin (1); Problemas de interoperabilidad con OPC y otros fallos de funcionamiento (1); Muchos enfoques se basan en modelos completamente simulados sin acoplamiento en tiempo real con controladores físicos industriales como PLC. Otros enfatizan la visualización inmersiva sin descripciones detalladas de las capas de comunicación o mecanismos de sincronización. (1)"
+    },
+    {
+      "tema": "T8",
+      "objetivo": "O4",
+      "variable": "condiciones_facilitadoras_declaradas",
+      "n_articulos": 28,
+      "reportado": 7,
+      "pct_reportado": 25.0,
+      "categorias_top": "Compromiso institucional, alianzas industriales, capacitación previa, infraestructura mínima (4); investment in infrastructure, faculty development, curricular alignment, industry partnerships, sustainable financing models, policy integration (1); sound technical infrastructure and the constant maintenance of VR equipment; right infrastructure, support, and integration (1); compromiso institucional, alianzas industriales, capacitación previa, infraestructura mínima (1)"
+    },
+    {
+      "tema": "T8",
+      "objetivo": "O4",
+      "variable": "escalabilidad_y_transferibilidad_reportada",
+      "n_articulos": 28,
+      "reportado": 10,
+      "pct_reportado": 35.7,
+      "categorias_top": "the layer's architectural formulation allows seamless integration of alternative laboratory setups, industrial workcells, or educational manufacturing platforms with equivalent sensing, control, and communication characteristics. Thus, the Physical Manufacturing Layer is applicable and reproducible across institutions with diverse infrastructural resources (1); potentially might be replicable in similar contexts across sub-Saharan Africa and globally (1); Propuesta de crear un laboratorio mecatrónico virtual para usar los gemelos en otros cursos (1); El marco prioriza plataformas de control y visualización industriales ampliamente adoptadas para facilitar la replicación en laboratorios académicos con diferentes restricciones de recursos y admite escalamiento incremental hacia procesos más complejos, mayor número de usuarios o funcionalidades de monitoreo extendidas. (1)"
+    }
+  ]
+}

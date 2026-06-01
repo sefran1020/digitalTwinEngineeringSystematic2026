@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this repository (data, code, or materials), please cite it as below."
+title: "Digital Twins in Engineering and STEM Higher Education: A Systematic Review of Architectures, Pedagogy, and the Quality of Learning Evidence"
+type: dataset
+abstract: >-
+  Reproducible materials for a PRISMA 2020 systematic review of digital twins in
+  higher-education engineering and STEM settings (65 included studies, 2018-2026):
+  protocol, database search exports, the full semantic-screening trace, extracted
+  data with verbatim quotations, the analysis pipeline, figures and tables, and the
+  manuscript package.
+authors:
+  - family-names: "Segura-Altamirano"
+    given-names: "Segundo Francisco"
+    orcid: "https://orcid.org/0000-0002-0103-7222"
+    affiliation: "Universidad Nacional Pedro Ruiz Gallo"
+  - family-names: "Castro-Cárdenas"
+    given-names: "Diana Mercedes"
+    orcid: "https://orcid.org/0000-0001-8489-9671"
+    affiliation: "Universidad Nacional Pedro Ruiz Gallo"
+  - family-names: "Oblitas-Vera"
+    given-names: "Carlos Leonardo"
+    orcid: "https://orcid.org/0000-0003-0272-9375"
+    affiliation: "Universidad Nacional Pedro Ruiz Gallo"
+  - family-names: "Benavides-Campos"
+    given-names: "Grimaldo Dermali"
+    orcid: "https://orcid.org/0000-0002-5621-1929"
+    affiliation: "Universidad Nacional Pedro Ruiz Gallo"
+  - family-names: "Aquino-Lalupú"
+    given-names: "Janet del Rosario"
+    orcid: "https://orcid.org/0000-0003-0536-3882"
+    affiliation: "Universidad Nacional Pedro Ruiz Gallo"
+  - family-names: "Alvarado-Castillo"
+    given-names: "Wilder Angel"
+    orcid: "https://orcid.org/0000-0001-5398-5171"
+    affiliation: "Universidad Nacional Pedro Ruiz Gallo"
+  - family-names: "Salazar-Cabrejos"
+    given-names: "Rosa Eliana"
+    orcid: "https://orcid.org/0000-0002-1144-2037"
+    affiliation: "Universidad Nacional Pedro Ruiz Gallo"
+  - family-names: "German Reyes"
+    given-names: "Nilton César"
+    orcid: "https://orcid.org/0000-0003-0232-2129"
+    affiliation: "Universidad Nacional Pedro Ruiz Gallo"
+keywords:
+  - "digital twins"
+  - "engineering education"
+  - "STEM education"
+  - "systematic review"
+  - "evidence quality"
+version: "1.0.0"
+date-released: "2026-05-31"
+license: CC-BY-4.0

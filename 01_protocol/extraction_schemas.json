@@ -1,0 +1,134 @@
+{
+  "_meta": {
+    "proposito": "Esquemas de extracción JSON para la literatura de APOYO NARRATIVO de cada sección del manuscrito (Introducción, Metodología, Discusión). NO sustituyen la extracción del corpus (disenioRevisionFinal.json / salida_gemelos); alimentan la redacción de prosa con afirmaciones citables y trazables.",
+    "principios": [
+      "Reutiliza el patrón probado: por cada ítem, valor + cita_textual_exacta + ubicacion_pagina_seccion (doble verificación).",
+      "Vocabulario controlado NR | NA | UNCERTAIN.",
+      "Cada ítem se etiqueta con el 'movimiento' narrativo que sustenta y con el vínculo a nuestros objetivos O1-O4 / temas T1-T8 / hallazgos propios, para que cada oración redactada sea trazable a una fuente.",
+      "Texto completo obtenido con Marker (preservar fidelidad); registrar ubicacion como página/sección del .md de Marker.",
+      "Un mismo PDF puede generar varios evidence_items y servir a más de una sección."
+    ],
+    "uso": "Por cada PDF de apoyo, llenar metadatos_fuente + el array de evidence_items de la(s) sección(es) que corresponda. La Metodología usa un esquema distinto (log de búsqueda + PRISMA), no de extracción por afirmación."
+  },
+
+  "metadatos_fuente": {
+    "key_documento": "Identificador único (p. ej. citekey o key Zotero).",
+    "titulo_completo": "Título exacto.",
+    "autores": "Listado ordenado.",
+    "anio_publicacion": "integer",
+    "tipo_publicacion": "Journal article | Conference proceedings | Book chapter | Review | Standard | Otro.",
+    "fuente_publicacion": "Revista/congreso/editorial.",
+    "doi_o_url": "DOI/URL persistente.",
+    "cadena_busqueda_origen": "ID de la cadena Scopus que recuperó la fuente (I-1..I-5 | M-1/M-2 | D-1..D-5).",
+    "rol_en_manuscrito": "array de secciones a las que sirve: ['introduccion'] | ['discusion'] | ['introduccion','discusion']."
+  },
+
+  "1_introduccion": {
+    "objetivo": "Sustentar los 5 movimientos de la Introducción con afirmaciones citables, definiciones y datos de contexto.",
+    "evidence_items": [
+      {
+        "id_item": "string único por fuente (p. ej. KEY-INT-01).",
+        "rol_en_introduccion": {
+          "descripcion": "Movimiento que sustenta.",
+          "vocabulario": "problema_laboratorios | definicion_dt | taxonomia_dt | demanda_competencias_i40_i50 | tecnologias_inmersivas | brecha_revisiones_previas | motivacion_general"
+        },
+        "tipo_evidencia": "dato_estadistico | definicion | afirmacion_conceptual | hallazgo_empirico | marco_normativo",
+        "afirmacion_citable": {
+          "valor_extraido": "Síntesis breve de la afirmación a citar (string | NR | NA | UNCERTAIN).",
+          "cita_textual_exacta_pdf": "Frase literal del PDF que la respalda.",
+          "ubicacion_pagina_seccion": "Página y sección del .md de Marker."
+        },
+        "vinculo_objetivo_tema": {
+          "descripcion": "Objetivo/tema propio que contextualiza.",
+          "vocabulario": "O1 | O2 | O3 | O4 | T1..T8 | transversal"
+        },
+        "nivel_de_apoyo": "directo | contextual",
+        "notas_uso_redaccion": "Cómo encaja en la frase/párrafo (opcional)."
+      }
+    ]
+  },
+
+  "2_metodologia": {
+    "objetivo": "Documentar la búsqueda, el cribado y el flujo PRISMA de forma auditable. NO es extracción por afirmación, sino un LOG de proceso.",
+    "log_busqueda": [
+      {
+        "id_cadena": "M-1 | M-2 | (y las de apoyo I-*/D-* si se registran aparte).",
+        "base_datos": "Scopus | Web of Science | IEEE Xplore | ERIC | otro.",
+        "cadena_exacta_ejecutada": "String tal como se ejecutó (reconciliar con M-1 propuesta).",
+        "fecha_ejecucion": "YYYY-MM-DD",
+        "filtros_aplicados": "DOCTYPE, PUBYEAR, LANGUAGE, etc.",
+        "n_resultados": "integer",
+        "notas": "Ajustes, sinónimos, limitaciones de la base."
+      }
+    ],
+    "prisma_flow": {
+      "identificacion": {
+        "registros_por_base": "objeto {base: n}",
+        "n_total_identificados": "integer",
+        "n_duplicados_removidos": "integer"
+      },
+      "cribado": {
+        "n_cribados_titulo_resumen": "integer",
+        "n_excluidos_titulo_resumen": "integer",
+        "n_textos_completos_buscados": "integer",
+        "n_no_recuperados": "integer",
+        "n_evaluados_elegibilidad": "integer",
+        "exclusiones_con_razon": "array de {razon, n} (DT periférico | no educativo | documentación insuficiente | tipo de publicación | duplicado | idioma fuera de alcance)."
+      },
+      "incluidos": {
+        "n_estudios_incluidos": "integer (= 65/63 confirmado)",
+        "referencia_corpus": "salida_gemelos/articulos.csv"
+      }
+    },
+    "fiabilidad_inter_evaluador": {
+      "n_revisores": "integer",
+      "porcentaje_muestra_doble_codificacion": "p. ej. 20%",
+      "kappa_cohen_por_variable_critica": "array de {variable, kappa, interpretacion}",
+      "resolucion_conflictos": "discusión | tercer revisor"
+    },
+    "registro_protocolo": {
+      "plataforma": "PROSPERO | OSF | otro | NR",
+      "id_registro": "string | NR",
+      "fecha_registro": "YYYY-MM-DD | NR"
+    }
+  },
+
+  "3_discusion": {
+    "objetivo": "Posicionar nuestros hallazgos frente a la literatura: revisiones previas (diferenciación), benchmarks de efecto, transferencia y calidad metodológica.",
+    "evidence_items": [
+      {
+        "id_item": "string único (p. ej. KEY-DIS-01).",
+        "rol_en_discusion": {
+          "descripcion": "Función en la Discusión.",
+          "vocabulario": "revision_previa | benchmark_efecto | transferencia_virtual_fisico | calidad_metodologica_edtech | implicacion_practica | agenda_futura"
+        },
+        "relacion_con_hallazgo_propio": {
+          "descripcion": "Cómo dialoga con nuestro resultado.",
+          "vocabulario": "corrobora | contrasta | extiende | contextualiza"
+        },
+        "hallazgo_propio_vinculado": {
+          "descripcion": "Cuál de nuestros hallazgos.",
+          "vocabulario": "desacople_madurez_evidencia | frontera_vacia | evidencia_debil_dominante | asimetria_optimismo | O1 | O2 | O3 | O4"
+        },
+        "campos_para_revision_previa": {
+          "alcance_y_dominio": {"valor_extraido": "string|NR", "cita_textual_exacta_pdf": "", "ubicacion_pagina_seccion": ""},
+          "n_estudios_y_metodo": {"valor_extraido": "N y tipo (systematic|scoping|bibliometric|narrative)", "cita_textual_exacta_pdf": "", "ubicacion_pagina_seccion": ""},
+          "focos_cubiertos": {"valor_extraido": "qué dimensiones aborda (arquitectura|pedagogía|evidencia|barreras)", "cita_textual_exacta_pdf": "", "ubicacion_pagina_seccion": ""},
+          "hallazgos_clave": {"valor_extraido": "string", "cita_textual_exacta_pdf": "", "ubicacion_pagina_seccion": ""},
+          "que_NO_cubre": {"valor_extraido": "vacío que nuestra revisión llena (p. ej. no aprecia calidad de evidencia)", "cita_textual_exacta_pdf": "", "ubicacion_pagina_seccion": ""}
+        },
+        "campos_para_benchmark_efecto": {
+          "dominio_e_intervencion": {"valor_extraido": "VR|simulación|serious game|... y disciplina", "cita_textual_exacta_pdf": "", "ubicacion_pagina_seccion": ""},
+          "tamano_efecto_reportado": {"valor_extraido": "d/g/η² con valor numérico | NR", "cita_textual_exacta_pdf": "", "ubicacion_pagina_seccion": ""},
+          "direccion_y_significancia": {"valor_extraido": "string", "cita_textual_exacta_pdf": "", "ubicacion_pagina_seccion": ""}
+        }
+      }
+    ]
+  },
+
+  "salidas_recomendadas": [
+    "Un JSON por PDF de apoyo (mismo esquema), análogo a salida_gemelos/parciales/*.json.",
+    "Consolidar a CSV largo apoyo_introduccion.csv y apoyo_discusion.csv (key, rol, afirmacion, cita, ubicacion, vinculo) para mapear cada oración a su fuente.",
+    "Un metodologia_log.json con log_busqueda + prisma_flow + fiabilidad (alimenta el diagrama PRISMA y la subsección de búsqueda)."
+  ]
+}

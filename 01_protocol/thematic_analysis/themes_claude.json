@@ -1,0 +1,192 @@
+{
+  "1_analisis_tematico_inductivo": [
+    {
+      "nombre_del_tema": "Gemelos Digitales como Habilitadores de Laboratorios Virtuales y Remotos",
+      "descripcion_tecnica": "Este tema emerge transversalmente porque una proporción mayoritaria del corpus configura el gemelo digital como mecanismo para superar las restricciones físicas, temporales, económicas y de seguridad de los laboratorios tradicionales de ingeniería, ofreciendo acceso 24/7, escalabilidad y experimentación virtual sincronizada con sistemas físicos remotos. La literatura recurrente describe arquitecturas de sincronización bidireccional, protocolos industriales (OPC UA, TCP/IP, EtherCAT) y plataformas que replican equipamiento de alto costo para democratizar la práctica experimental.",
+      "keys_de_respaldo": ["EA8ZWUTY", "3PCKDEQL", "8BL4J2HZ", "QFQRYWLR", "G8SP5KLS", "DSC46KTS", "UDMDFTPK", "3FI8CZ85", "GWDAFMH7", "UGRYS3CL", "YZHXUBN7", "YXRMLV7A", "76777Q2X", "BY9KWQ9X", "ZMKNFA6J", "P242H59T", "4S7PWRLU", "C73RZ7X8", "M2FXTDEG"]
+    },
+    {
+      "nombre_del_tema": "Integración de Tecnologías Inmersivas (RV/RA/Metaverso) con Gemelos Digitales",
+      "descripcion_tecnica": "Emerge como tema independiente porque múltiples estudios combinan explícitamente el gemelo digital con realidad virtual, realidad aumentada, metaverso o entornos multimodales (visual-háptico-auditivo) para potenciar la cognición situada, reducir carga cognitiva y mejorar la visualización de fenómenos invisibles o procesos complejos. La combinación DT+XR aparece como categoría diferenciada de los laboratorios virtuales convencionales por su énfasis en presencia, inmersión e interacción multisensorial.",
+      "keys_de_respaldo": ["3PCKDEQL", "TVN4S7DC", "XNXBTF6L", "VQYX4C58", "TMH74BB2", "GWDAFMH7", "S2WI7K2S", "79J2MH8T", "ASVWVQ3C", "JACDIDHQ", "HM4FMFEF", "3ZZDNR2Z", "GHSMNFS4", "9T5MJ96J", "M42IKCPV"]
+    },
+    {
+      "nombre_del_tema": "Formación de Competencias para Industria 4.0 y Manufactura Inteligente",
+      "descripcion_tecnica": "Tema dominante en el corpus porque numerosos artículos posicionan al gemelo digital como instrumento clave para alinear los currículos de ingeniería con las demandas de la Cuarta Revolución Industrial, integrando IIoT, PLC, automatización, manufactura esbelta, manufactura flexible y estándares industriales (IEC 61131-3, Asset Administration Shell). La literatura justifica el DT como puente entre la academia y la industria para cerrar brechas de empleabilidad.",
+      "keys_de_respaldo": ["6XH9DD3P", "8HY5G5V9", "95CLH3FL", "6EEVCR6P", "XMATM5GI", "XRUBK3B6", "AUYHBWNM", "XNXBTF6L", "RF7G2HYJ", "Z68IK8T9", "H4UKEM4U", "DD7XCT2V", "UDMDFTPK", "44H5ZW4K", "6SLCII6M", "TBVDXJH6", "M2FXTDEG", "PG2CBLTM", "PI838F5U", "3ZZDNR2Z", "2G3VN26R", "3KBLZJAI", "Q4TC3ILQ"]
+    },
+    {
+      "nombre_del_tema": "Metodologías Pedagógicas Activas y Experienciales basadas en Gemelos Digitales",
+      "descripcion_tecnica": "Este tema emerge porque la literatura no se limita a describir tecnología, sino que articula el DT con enfoques didácticos específicos: aprendizaje basado en proyectos (PBL), aprendizaje activo, hands-on learning, learning factories, teaching factories, aula invertida, ADDIE y aprendizaje experiencial. Los estudios enfatizan que el DT solo produce ganancias de aprendizaje cuando se acompaña de un diseño instruccional intencional centrado en el estudiante.",
+      "keys_de_respaldo": ["6J8AMAN8", "FSWUL6I2", "RGEVSHH7", "DSC46KTS", "XMATM5GI", "RF7G2HYJ", "UDMDFTPK", "3ZV8INI7", "6SLCII6M", "Z3CB6MW8", "TBVDXJH6", "UGRYS3CL", "PI838F5U", "3ZZDNR2Z", "XNXBTF6L", "4S7PWRLU", "2G3VN26R", "3KBLZJAI", "5XDK88YB"]
+    },
+    {
+      "nombre_del_tema": "Evaluación Empírica del Impacto en Resultados de Aprendizaje y Engagement Estudiantil",
+      "descripcion_tecnica": "Tema relevante porque un subconjunto significativo de estudios reporta diseños cuasi-experimentales, mixed-methods, pre-post tests, encuestas validadas (UTAUT/UTAUT2, SUS, NASA-TLX) y métricas cuantificables (tiempo de dominio, retención, completitud, calificaciones) para medir el efecto del DT sobre cognición, motivación, autoeficacia, carga cognitiva y compromiso. Esto contrasta con la literatura puramente descriptiva y permite síntesis de evidencia.",
+      "keys_de_respaldo": ["6J8AMAN8", "3PCKDEQL", "E72EWP4S", "DD7XCT2V", "LQ8B3L7G", "ZWFNABKK", "44H5ZW4K", "VQYX4C58", "TMH74BB2", "2XBEESYC", "4TBGS9I4", "TBVDXJH6", "M2FXTDEG", "UGRYS3CL", "S2WI7K2S", "79J2MH8T", "YXRMLV7A", "ASVWVQ3C", "VY7P5782"]
+    },
+    {
+      "nombre_del_tema": "Convergencia de Inteligencia Artificial y Gemelos Digitales en la Enseñanza de Ingeniería",
+      "descripcion_tecnica": "Emerge como categoría diferenciada porque varios estudios recientes integran explícitamente machine learning, deep learning, IA generativa, agentes predictivos, XAI y grafos de conocimiento sobre la infraestructura del DT educativo, configurando sistemas adaptativos e inteligentes de enseñanza. La conjunción AI+DT trasciende la mera simulación y habilita personalización, retroalimentación automatizada y diagnóstico de fallas.",
+      "keys_de_respaldo": ["6J8AMAN8", "6EEVCR6P", "XRUBK3B6", "RF7G2HYJ", "ZWFNABKK", "3FI8CZ85", "9T5MJ96J", "V9TXVKGR", "TMH74BB2", "CCRR3WV2"]
+    },
+    {
+      "nombre_del_tema": "Sostenibilidad, Accesibilidad y Equidad en la Educación en Ingeniería",
+      "descripcion_tecnica": "Tema emergente por la convergencia de argumentos sobre reducción de huella ambiental (LCA, emisiones, residuos electrónicos), bajo costo, democratización del acceso, equidad en oportunidades de aprendizaje y aplicación en contextos de recursos limitados (educación remota post-COVID, países en desarrollo). El DT se posiciona como herramienta de inclusión y sostenibilidad institucional.",
+      "keys_de_respaldo": ["3PCKDEQL", "QFQRYWLR", "G8SP5KLS", "TVN4S7DC", "FSWUL6I2", "LQ8B3L7G", "UDMDFTPK", "6SLCII6M", "UGRYS3CL", "RF7G2HYJ", "M42IKCPV"]
+    },
+    {
+      "nombre_del_tema": "Aplicaciones Disciplinares Específicas más allá de la Manufactura",
+      "descripcion_tecnica": "Tema emergente porque, aunque la manufactura domina, el corpus muestra una diversificación disciplinar significativa: ciberseguridad, metalurgia, energía (baterías, eólica), química/agroalimentaria, mecatrónica, robótica, programación, control, edificación inteligente, agrimensura, WEFE nexus y ciudades inteligentes. Esta variedad sugiere transferibilidad del concepto DT a múltiples dominios de ingeniería.",
+      "keys_de_respaldo": ["EA8ZWUTY", "CCRR3WV2", "6XH9DD3P", "TVN4S7DC", "E72EWP4S", "ZWFNABKK", "VQYX4C58", "2XBEESYC", "3FI8CZ85", "4TBGS9I4", "GWDAFMH7", "TBVDXJH6", "HM4FMFEF", "JACDIDHQ", "VY7P5782", "M42IKCPV", "9T5MJ96J", "GHSMNFS4", "V9TXVKGR", "79J2MH8T", "ASVWVQ3C", "P242H59T"]
+    }
+  ],
+  "2_diseno_revision_sistematica": {
+    "pregunta_investigacion": "¿Cómo se implementan los gemelos digitales en la educación superior en ingeniería y cuál es su impacto en los resultados de aprendizaje, el desarrollo de competencias para la Industria 4.0 y la accesibilidad educativa, en función de las arquitecturas tecnológicas adoptadas, las metodologías pedagógicas asociadas y los dominios disciplinares de aplicación?",
+    "objetivo_general": "Sintetizar críticamente la evidencia disponible sobre la implementación de gemelos digitales en la educación en ingeniería, caracterizando sus configuraciones tecno-pedagógicas, su impacto empíricamente demostrado en el aprendizaje estudiantil y su contribución a la formación de competencias alineadas con la Industria 4.0 y los principios de educación sostenible e inclusiva.",
+    "objetivos_especificos": [
+      {
+        "objetivo": "Caracterizar las arquitecturas tecnológicas de los gemelos digitales aplicados a laboratorios virtuales y remotos en ingeniería, identificando componentes (sensores, PLC, protocolos de comunicación, motores de simulación) y su integración con tecnologías inmersivas (RV/RA) e inteligencia artificial.",
+        "tema_vinculado": "Gemelos Digitales como Habilitadores de Laboratorios Virtuales y Remotos"
+      },
+      {
+        "objetivo": "Analizar las metodologías pedagógicas activas y experienciales que acompañan la implementación de gemelos digitales en currículos de ingeniería, evaluando su alineación con los marcos de competencias de la Industria 4.0 y la formación de talento en manufactura inteligente.",
+        "tema_vinculado": "Formación de Competencias para Industria 4.0 y Manufactura Inteligente"
+      },
+      {
+        "objetivo": "Sintetizar la evidencia empírica sobre el impacto de los gemelos digitales en los resultados de aprendizaje cognitivos, afectivos y procedimentales, incluyendo engagement, carga cognitiva, motivación, autoeficacia y rendimiento académico medido mediante instrumentos validados.",
+        "tema_vinculado": "Evaluación Empírica del Impacto en Resultados de Aprendizaje y Engagement Estudiantil"
+      },
+      {
+        "objetivo": "Examinar las contribuciones de los gemelos digitales a la sostenibilidad, accesibilidad y equidad en la educación en ingeniería, identificando soluciones de bajo costo, código abierto y aplicaciones en contextos de recursos limitados o aprendizaje a distancia.",
+        "tema_vinculado": "Sostenibilidad, Accesibilidad y Equidad en la Educación en Ingeniería"
+      }
+    ]
+  },
+  "3_propuesta_protocolo_extraccion": {
+    "justificacion_metodologica": "La estructura propuesta se justifica metodológicamente sobre tres pilares: (1) trazabilidad PRISMA mediante metadatos básicos que aseguren reproducibilidad bibliográfica; (2) alineación directa entre variables de extracción y los cuatro objetivos específicos, garantizando que cada dato recolectado responda a una pregunta concreta de la revisión y evitando ruido informativo; y (3) mecanismo de doble verificación (valor + cita textual + ubicación) para las variables críticas, lo cual mitiga el riesgo de interpretación subjetiva del revisor, permite auditoría inter-evaluador (cálculo de kappa de Cohen), facilita la resolución de discrepancias durante el screening dual y blinda la cadena de evidencia frente a posibles sesgos de extracción. Esta estructura es especialmente relevante porque el corpus mezcla estudios empíricos rigurosos con reportes descriptivos, exigiendo discriminar afirmaciones soportadas de aseveraciones meramente programáticas.",
+    "esquema_json_sugerido": {
+      "metadatos_basicos": {
+        "key_documento": "string - Identificador único del KEY exacto del corpus",
+        "titulo_completo": "string - Título completo del artículo",
+        "autores": "array[string] - Listado ordenado de autores",
+        "anio_publicacion": "integer - Año de publicación",
+        "tipo_publicacion": "string - Categoría (journal article, conference proceedings, book chapter)",
+        "pais_institucion_primera_afiliacion": "string - País de la institución del primer autor",
+        "idioma_original": "string - Idioma de publicación",
+        "doi_o_url": "string - Identificador persistente"
+      },
+      "variables_por_objetivos": {
+        "objetivo_1_arquitectura_tecnologica": {
+          "tipo_gemelo_digital": {
+            "valor": "string - Clasificación (digital model, digital shadow, digital twin completo)",
+            "cita_textual": "string - Fragmento literal del PDF que sustenta la clasificación",
+            "ubicacion": "string - Página y sección del PDF"
+          },
+          "componentes_hardware": {
+            "valor": "array[string] - PLC, sensores, microcontroladores, FPGA, headsets, etc.",
+            "cita_textual": "string - Cita literal",
+            "ubicacion": "string - Página y sección"
+          },
+          "componentes_software": {
+            "valor": "array[string] - Motores 3D, plataformas de simulación, IDEs",
+            "cita_textual": "string - Cita literal",
+            "ubicacion": "string - Página y sección"
+          },
+          "protocolos_comunicacion": {
+            "valor": "array[string] - OPC UA, TCP/IP, MQTT, EtherCAT, etc.",
+            "cita_textual": "string - Cita literal",
+            "ubicacion": "string - Página y sección"
+          },
+          "integracion_xr_ia": {
+            "valor": "string - Descripción de integración con RV/RA/IA/ML/XAI",
+            "cita_textual": "string - Cita literal",
+            "ubicacion": "string - Página y sección"
+          },
+          "metricas_desempeno_tecnico": {
+            "valor": "string - Latencia, jitter, fidelidad de sincronización",
+            "cita_textual": "string - Cita literal cuantitativa",
+            "ubicacion": "string - Página y sección"
+          }
+        },
+        "objetivo_2_metodologia_pedagogica_y_competencias_i40": {
+          "enfoque_pedagogico": {
+            "valor": "string - PBL, aprendizaje activo, learning factory, ADDIE, flipped classroom, etc.",
+            "cita_textual": "string - Cita literal",
+            "ubicacion": "string - Página y sección"
+          },
+          "disciplina_ingenieril": {
+            "valor": "string - Mecatrónica, manufactura, civil, química, eléctrica, etc.",
+            "cita_textual": "string - Cita literal",
+            "ubicacion": "string - Página y sección"
+          },
+          "nivel_educativo": "string - Pregrado, posgrado, formación continua, mixto",
+          "competencias_i40_desarrolladas": {
+            "valor": "array[string] - IIoT, ciberseguridad, manufactura inteligente, automatización, analítica de datos",
+            "cita_textual": "string - Cita literal",
+            "ubicacion": "string - Página y sección"
+          },
+          "duracion_intervencion": "string - Semanas/horas de la intervención",
+          "rol_docente": "string - Facilitador, supervisor, co-diseñador"
+        },
+        "objetivo_3_evidencia_empirica_y_resultados_aprendizaje": {
+          "diseno_investigacion": {
+            "valor": "string - Cuasi-experimental, experimental, mixed-methods, estudio de caso, action research",
+            "cita_textual": "string - Cita literal",
+            "ubicacion": "string - Página y sección"
+          },
+          "tamano_muestral": {
+            "valor": "integer - N total y por grupos",
+            "cita_textual": "string - Cita literal",
+            "ubicacion": "string - Página y sección"
+          },
+          "instrumentos_medicion": {
+            "valor": "array[string] - UTAUT, SUS, NASA-TLX, pre-post tests, rúbricas",
+            "cita_textual": "string - Cita literal",
+            "ubicacion": "string - Página y sección"
+          },
+          "resultados_cognitivos": {
+            "valor": "string - Cambios en conocimiento, retención, transferencia (con magnitudes)",
+            "cita_textual": "string - Cita literal con datos cuantitativos",
+            "ubicacion": "string - Página y sección"
+          },
+          "resultados_afectivos_y_engagement": {
+            "valor": "string - Motivación, autoeficacia, satisfacción, carga cognitiva",
+            "cita_textual": "string - Cita literal",
+            "ubicacion": "string - Página y sección"
+          },
+          "significancia_estadistica": {
+            "valor": "string - Valores p, tamaño del efecto (d de Cohen, η²)",
+            "cita_textual": "string - Cita literal",
+            "ubicacion": "string - Página y sección"
+          },
+          "limitaciones_reportadas": "string - Limitaciones declaradas por los autores"
+        },
+        "objetivo_4_sostenibilidad_accesibilidad_equidad": {
+          "costo_implementacion": {
+            "valor": "string - Costo monetario reportado o calificativo (bajo/medio/alto costo)",
+            "cita_textual": "string - Cita literal",
+            "ubicacion": "string - Página y sección"
+          },
+          "uso_codigo_abierto_o_propietario": {
+            "valor": "string - Open-source, propietario, híbrido",
+            "cita_textual": "string - Cita literal",
+            "ubicacion": "string - Página y sección"
+          },
+          "indicadores_sostenibilidad_ambiental": {
+            "valor": "string - LCA, reducción de consumo energético, emisiones evitadas, residuos",
+            "cita_textual": "string - Cita literal",
+            "ubicacion": "string - Página y sección"
+          },
+          "accesibilidad_y_equidad": {
+            "valor": "string - Acceso 24/7, remoto, inclusivo, contextos de bajos recursos",
+            "cita_textual": "string - Cita literal",
+            "ubicacion": "string - Página y sección"
+          },
+          "contexto_geografico_aplicacion": "string - Región/país de implementación",
+          "escalabilidad_reportada": "string - Evidencia de transferibilidad o réplica en otros contextos"
+        }
+      }
+    }
+  }
+}

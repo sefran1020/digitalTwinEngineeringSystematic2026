@@ -1,0 +1,669 @@
+{
+  "1_analisis_tematico_inductivo": [
+    {
+      "nombre_del_tema": "Infraestructura práctica virtual, remota, híbrida e inmersiva",
+      "descripcion_tecnica": "Emerge porque numerosos estudios posicionan el gemelo digital como laboratorio, banco de prueba, learning factory, plataforma remota o entorno VR/AR/MR que amplía la práctica de ingeniería más allá del laboratorio físico. El tema articula acceso, seguridad, experimentación, visualización de procesos, preparación pre-laboratorio y continuidad de la experiencia práctica.",
+      "keys_de_respaldo": [
+        "EA8ZWUTY",
+        "CCRR3WV2",
+        "3PCKDEQL",
+        "8HY5G5V9",
+        "8BL4J2HZ",
+        "AUYHBWNM",
+        "TVN4S7DC",
+        "QFQRYWLR",
+        "G8SP5KLS",
+        "XNXBTF6L",
+        "RF7G2HYJ",
+        "Z68IK8T9",
+        "UDMDFTPK",
+        "VQYX4C58",
+        "3FI8CZ85",
+        "6SLCII6M",
+        "GWDAFMH7",
+        "TBVDXJH6",
+        "M2FXTDEG",
+        "UGRYS3CL",
+        "S2WI7K2S",
+        "79J2MH8T",
+        "YZHXUBN7",
+        "C73RZ7X8",
+        "YXRMLV7A",
+        "76777Q2X",
+        "9T5MJ96J",
+        "3ZZDNR2Z",
+        "ASVWVQ3C",
+        "BY9KWQ9X",
+        "ZMKNFA6J",
+        "P242H59T",
+        "4S7PWRLU",
+        "HM4FMFEF",
+        "JACDIDHQ",
+        "M42IKCPV",
+        "3KBLZJAI",
+        "Q4TC3ILQ",
+        "V9TXVKGR",
+        "GHSMNFS4"
+      ]
+    },
+    {
+      "nombre_del_tema": "Competencias y dominios de ingeniería orientados a Industry 4.0/5.0 y nuevas ingenierías",
+      "descripcion_tecnica": "Emerge porque el corpus vincula el uso educativo de gemelos digitales con la formación de competencias para manufactura inteligente, automatización, IIoT, robótica, ciberseguridad, energía, química, electrónica, PLM, gestión de calidad y nuevas ingenierías. El DT aparece como mediador entre currículo, práctica profesional e Industry 4.0/5.0.",
+      "keys_de_respaldo": [
+        "EA8ZWUTY",
+        "CCRR3WV2",
+        "6XH9DD3P",
+        "95CLH3FL",
+        "6EEVCR6P",
+        "XMATM5GI",
+        "8BL4J2HZ",
+        "XRUBK3B6",
+        "AUYHBWNM",
+        "QFQRYWLR",
+        "XNXBTF6L",
+        "RGEVSHH7",
+        "DSC46KTS",
+        "RF7G2HYJ",
+        "Z68IK8T9",
+        "H4UKEM4U",
+        "DD7XCT2V",
+        "LQ8B3L7G",
+        "ZWFNABKK",
+        "44H5ZW4K",
+        "TMH74BB2",
+        "2XBEESYC",
+        "3ZV8INI7",
+        "Z3CB6MW8",
+        "4TBGS9I4",
+        "GWDAFMH7",
+        "TBVDXJH6",
+        "M2FXTDEG",
+        "79J2MH8T",
+        "PG2CBLTM",
+        "C73RZ7X8",
+        "YXRMLV7A",
+        "9T5MJ96J",
+        "PI838F5U",
+        "3ZZDNR2Z",
+        "ASVWVQ3C",
+        "BY9KWQ9X",
+        "ZMKNFA6J",
+        "P242H59T",
+        "4S7PWRLU",
+        "2G3VN26R",
+        "JACDIDHQ",
+        "VY7P5782",
+        "M42IKCPV",
+        "5XDK88YB",
+        "3KBLZJAI",
+        "Q4TC3ILQ",
+        "V9TXVKGR",
+        "GHSMNFS4"
+      ]
+    },
+    {
+      "nombre_del_tema": "Diseño pedagógico y curricular centrado en aprendizaje activo",
+      "descripcion_tecnica": "Emerge porque los resúmenes no presentan el DT solo como tecnología, sino como soporte de estrategias pedagógicas activas: aprendizaje basado en proyectos, aprendizaje experiencial, gamificación, enseñanza adaptativa, blended/flipped learning, resolución de problemas, práctica situada y reformas curriculares orientadas a competencias.",
+      "keys_de_respaldo": [
+        "6J8AMAN8",
+        "6XH9DD3P",
+        "95CLH3FL",
+        "XMATM5GI",
+        "FSWUL6I2",
+        "XRUBK3B6",
+        "E72EWP4S",
+        "XNXBTF6L",
+        "RGEVSHH7",
+        "DSC46KTS",
+        "H4UKEM4U",
+        "DD7XCT2V",
+        "LQ8B3L7G",
+        "ZWFNABKK",
+        "44H5ZW4K",
+        "VQYX4C58",
+        "TMH74BB2",
+        "2XBEESYC",
+        "3ZV8INI7",
+        "6SLCII6M",
+        "Z3CB6MW8",
+        "4TBGS9I4",
+        "TBVDXJH6",
+        "UGRYS3CL",
+        "S2WI7K2S",
+        "79J2MH8T",
+        "PG2CBLTM",
+        "YZHXUBN7",
+        "YXRMLV7A",
+        "76777Q2X",
+        "9T5MJ96J",
+        "PI838F5U",
+        "3ZZDNR2Z",
+        "ASVWVQ3C",
+        "BY9KWQ9X",
+        "ZMKNFA6J",
+        "4S7PWRLU",
+        "HM4FMFEF",
+        "2G3VN26R",
+        "JACDIDHQ",
+        "VY7P5782",
+        "M42IKCPV",
+        "5XDK88YB",
+        "3KBLZJAI",
+        "V9TXVKGR",
+        "GHSMNFS4"
+      ]
+    },
+    {
+      "nombre_del_tema": "Evidencia de aprendizaje, desempeño, aceptación y engagement",
+      "descripcion_tecnica": "Emerge porque una parte sustantiva de los estudios reporta evaluación mediante calificaciones, quizzes, encuestas, entrevistas, aceptación tecnológica, usabilidad, engagement, autoeficacia, desempeño técnico o comparación entre grupos. También revela una tensión metodológica: la evidencia educativa es heterogénea y no todos los estudios validan resultados de aprendizaje con la misma solidez.",
+      "keys_de_respaldo": [
+        "6J8AMAN8",
+        "3PCKDEQL",
+        "XMATM5GI",
+        "FSWUL6I2",
+        "E72EWP4S",
+        "DD7XCT2V",
+        "LQ8B3L7G",
+        "ZWFNABKK",
+        "44H5ZW4K",
+        "VQYX4C58",
+        "TMH74BB2",
+        "2XBEESYC",
+        "3FI8CZ85",
+        "4TBGS9I4",
+        "TBVDXJH6",
+        "M2FXTDEG",
+        "UGRYS3CL",
+        "S2WI7K2S",
+        "79J2MH8T",
+        "YZHXUBN7",
+        "YXRMLV7A",
+        "76777Q2X",
+        "9T5MJ96J",
+        "PI838F5U",
+        "ASVWVQ3C",
+        "BY9KWQ9X",
+        "ZMKNFA6J",
+        "HM4FMFEF",
+        "JACDIDHQ",
+        "VY7P5782",
+        "M42IKCPV",
+        "5XDK88YB",
+        "3KBLZJAI",
+        "Q4TC3ILQ",
+        "V9TXVKGR"
+      ]
+    },
+    {
+      "nombre_del_tema": "Arquitecturas y tecnologías habilitadoras del DT educativo",
+      "descripcion_tecnica": "Emerge porque la mayoría de estudios describe arquitecturas técnicas que hacen operativo el DT educativo: sincronización físico-virtual, sensores, IoT/IIoT, PLC, AAS, OPC UA, BIM/GIS, Unity, XR, IA/ML, analítica, simulación, control, cloud e integración de datos. La arquitectura técnica condiciona la experiencia pedagógica y la fidelidad del aprendizaje práctico.",
+      "keys_de_respaldo": [
+        "6J8AMAN8",
+        "CCRR3WV2",
+        "6XH9DD3P",
+        "8HY5G5V9",
+        "95CLH3FL",
+        "6EEVCR6P",
+        "FSWUL6I2",
+        "XRUBK3B6",
+        "AUYHBWNM",
+        "TVN4S7DC",
+        "E72EWP4S",
+        "G8SP5KLS",
+        "DSC46KTS",
+        "RF7G2HYJ",
+        "Z68IK8T9",
+        "H4UKEM4U",
+        "DD7XCT2V",
+        "UDMDFTPK",
+        "ZWFNABKK",
+        "VQYX4C58",
+        "TMH74BB2",
+        "2XBEESYC",
+        "3FI8CZ85",
+        "3ZV8INI7",
+        "Z3CB6MW8",
+        "4TBGS9I4",
+        "GWDAFMH7",
+        "TBVDXJH6",
+        "M2FXTDEG",
+        "UGRYS3CL",
+        "S2WI7K2S",
+        "79J2MH8T",
+        "PG2CBLTM",
+        "YZHXUBN7",
+        "C73RZ7X8",
+        "YXRMLV7A",
+        "76777Q2X",
+        "9T5MJ96J",
+        "PI838F5U",
+        "3ZZDNR2Z",
+        "ASVWVQ3C",
+        "BY9KWQ9X",
+        "ZMKNFA6J",
+        "P242H59T",
+        "4S7PWRLU",
+        "HM4FMFEF",
+        "2G3VN26R",
+        "JACDIDHQ",
+        "VY7P5782",
+        "M42IKCPV",
+        "3KBLZJAI",
+        "Q4TC3ILQ",
+        "V9TXVKGR",
+        "GHSMNFS4"
+      ]
+    },
+    {
+      "nombre_del_tema": "Valor institucional: acceso, sostenibilidad, seguridad, costo e inclusión",
+      "descripcion_tecnica": "Emerge porque los DT se justifican por beneficios institucionales y socio-técnicos: acceso remoto, reducción de costos, seguridad, sostenibilidad, continuidad operativa, menor dependencia de equipamiento físico, inclusión, escalabilidad de recursos de laboratorio y colaboración con la industria.",
+      "keys_de_respaldo": [
+        "EA8ZWUTY",
+        "3PCKDEQL",
+        "TVN4S7DC",
+        "QFQRYWLR",
+        "G8SP5KLS",
+        "RGEVSHH7",
+        "RF7G2HYJ",
+        "UDMDFTPK",
+        "LQ8B3L7G",
+        "3FI8CZ85",
+        "6SLCII6M",
+        "GWDAFMH7",
+        "UGRYS3CL",
+        "S2WI7K2S",
+        "79J2MH8T",
+        "YZHXUBN7",
+        "YXRMLV7A",
+        "76777Q2X",
+        "9T5MJ96J",
+        "BY9KWQ9X",
+        "ZMKNFA6J",
+        "P242H59T",
+        "HM4FMFEF",
+        "JACDIDHQ",
+        "M42IKCPV",
+        "Q4TC3ILQ",
+        "V9TXVKGR",
+        "GHSMNFS4"
+      ]
+    },
+    {
+      "nombre_del_tema": "Barreras y condiciones de implementación: fidelidad, interoperabilidad, escalabilidad y gobernanza",
+      "descripcion_tecnica": "Emerge porque los resúmenes mencionan límites y condiciones críticas para implementar DT educativos: fidelidad del modelo, interoperabilidad, escalabilidad, ciberseguridad, sincronización, soporte docente, transferencia entre entorno virtual y físico, colaboración industria-academia, capacitación docente y gobernanza curricular.",
+      "keys_de_respaldo": [
+        "8HY5G5V9",
+        "6EEVCR6P",
+        "8BL4J2HZ",
+        "Z68IK8T9",
+        "UDMDFTPK",
+        "LQ8B3L7G",
+        "44H5ZW4K",
+        "VQYX4C58",
+        "3ZV8INI7",
+        "6SLCII6M",
+        "M2FXTDEG",
+        "PG2CBLTM",
+        "C73RZ7X8",
+        "YXRMLV7A",
+        "9T5MJ96J",
+        "PI838F5U",
+        "3ZZDNR2Z",
+        "ASVWVQ3C",
+        "ZMKNFA6J",
+        "P242H59T",
+        "4S7PWRLU",
+        "2G3VN26R",
+        "JACDIDHQ",
+        "VY7P5782",
+        "5XDK88YB",
+        "3KBLZJAI",
+        "Q4TC3ILQ",
+        "GHSMNFS4"
+      ]
+    }
+  ],
+  "2_diseno_revision_sistematica": {
+    "pregunta_investigacion": "¿Cómo se diseñan, implementan y evalúan los gemelos digitales en educación en ingeniería para crear experiencias prácticas y desarrollar competencias técnicas, profesionales e interdisciplinarias, y qué evidencias, beneficios y barreras reporta la literatura?",
+    "objetivo_general": "Analizar sistemáticamente el uso de gemelos digitales en educación en ingeniería, considerando sus contextos y roles educativos, diseños pedagógicos, arquitecturas tecnológicas, evidencias de resultados y condiciones de implementación.",
+    "objetivos_especificos": [
+      {
+        "objetivo": "Caracterizar los contextos, dominios de ingeniería y roles educativos en los que se emplean gemelos digitales, distinguiendo laboratorios virtuales, remotos, híbridos, inmersivos, learning factories y proyectos donde el estudiante diseña o usa el DT.",
+        "tema_vinculado": "Infraestructura práctica virtual, remota, híbrida e inmersiva"
+      },
+      {
+        "objetivo": "Analizar las estrategias pedagógicas y curriculares asociadas al uso de DT, incluyendo aprendizaje activo, experiencial, basado en proyectos, gamificado, adaptativo, blended/flipped y orientado a competencias.",
+        "tema_vinculado": "Diseño pedagógico y curricular centrado en aprendizaje activo"
+      },
+      {
+        "objetivo": "Clasificar las arquitecturas, tecnologías habilitadoras y capacidades operativas de los DT educativos, con atención a sincronización físico-virtual, interoperabilidad, IA/analítica, IoT, XR, estándares industriales y herramientas de modelado/simulación.",
+        "tema_vinculado": "Arquitecturas y tecnologías habilitadoras del DT educativo"
+      },
+      {
+        "objetivo": "Sintetizar la evidencia sobre resultados, beneficios y barreras, incluyendo aprendizaje, aceptación, engagement, desempeño técnico, acceso, sostenibilidad, seguridad, costo, fidelidad, escalabilidad e interoperabilidad.",
+        "tema_vinculado": "Evidencia de aprendizaje, desempeño, aceptación y engagement"
+      }
+    ]
+  },
+  "3_propuesta_protocolo_extraccion": {
+    "justificacion_metodologica": "La estructura propuesta separa metadatos, contexto educativo, rol pedagógico, arquitectura técnica, evidencia empírica y condiciones de implementación porque esos ejes emergieron inductivamente del corpus. La doble verificación evita inferencias no trazables: cada variable crítica debe registrar el valor extraído, una cita textual exacta del PDF y su ubicación en página/sección para permitir auditoría, conciliación entre revisores y generación posterior de un CSV para análisis profundo.",
+    "esquema_json_sugerido": {
+      "metadatos_basicos": {
+        "KEY": "Identificador obligatorio de trazabilidad; debe conservarse exactamente como en el corpus.",
+        "titulo": "Título exacto del artículo.",
+        "autores": "Autores según PDF.",
+        "anio": "Año de publicación.",
+        "tipo_fuente": "Revista, conferencia, capítulo, preprint u otro.",
+        "fuente_publicacion": "Nombre de revista, congreso o editorial.",
+        "doi_url": "DOI, URL o identificador persistente.",
+        "pais_region": "País o región del caso, institución o afiliación principal si es identificable.",
+        "institucion": "Universidad, laboratorio, empresa o consorcio asociado.",
+        "idioma_pdf": "Idioma principal del texto completo.",
+        "estado_inclusion": "incluir | excluir | duda",
+        "razon_exclusion_o_duda": "Registrar justificación si el DT es periférico, no educativo o insuficientemente documentado."
+      },
+      "variables_por_objetivos": {
+        "objetivo_1_contextos_dominios_y_roles_educativos": {
+          "tema_base": "Infraestructura práctica virtual, remota, híbrida e inmersiva",
+          "variables_criticas": {
+            "nivel_educativo": {
+              "descripcion": "Pregrado, posgrado, formación técnica/profesional, capacitación industrial, docente, mixto o no reportado.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "programa_curso_asignatura": {
+              "descripcion": "Curso, programa, módulo, laboratorio o experiencia formativa donde se inserta el DT.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "dominio_ingenieria": {
+              "descripcion": "Área abordada: manufactura, automatización, control, metalurgia, química, civil, energía, HVAC, robótica, ciberseguridad, IoT, electrónica, PLM u otra.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "contexto_aplicacion": {
+              "descripcion": "Aula, laboratorio, learning factory, planta piloto, campo, plataforma remota, entorno online, taller, simulador industrial u otro.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "rol_del_dt_en_la_ensenanza": {
+              "descripcion": "Entorno de aprendizaje, laboratorio virtual/remoto/híbrido, objeto construido por estudiantes, plataforma de entrenamiento, herramienta de evaluación, simulador físico-digital o infraestructura curricular.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "tipo_entorno_dt": {
+              "descripcion": "Virtual, remoto, híbrido, físico-digital, inmersivo, AR, VR, MR, metaverso, cloud, learning factory u otro.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "sistema_real_representado": {
+              "descripcion": "Proceso, equipo, producto, planta, edificio, túnel de viento, bomba de calor, robot, máquina CNC, red IoT u otro sistema que el DT representa.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            }
+          }
+        },
+        "objetivo_2_estrategias_pedagogicas_y_curriculares": {
+          "tema_base": "Diseño pedagógico y curricular centrado en aprendizaje activo",
+          "variables_criticas": {
+            "modelo_pedagogico": {
+              "descripcion": "Aprendizaje activo, PBL, aprendizaje experiencial, gamificación, flipped/blended, adaptativo, situado, inquiry-based, challenge-based u otro enfoque.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "diseno_curricular": {
+              "descripcion": "Ubicación del DT en el currículo, unidad, secuencia didáctica, reforma curricular o ruta de formación.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "actividades_aprendizaje": {
+              "descripcion": "Tareas realizadas por estudiantes: simulación, diagnóstico, mantenimiento, diseño, programación, experimentación, operación, análisis de datos, resolución de problemas o proyectos.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "grado_de_participacion_estudiantil": {
+              "descripcion": "Uso pasivo, exploración guiada, experimentación activa, co-diseño, construcción del DT, control de sistema físico o proyecto completo.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "modalidad_ensenanza": {
+              "descripcion": "Presencial, remota, híbrida, blended, flipped, online, pre-lab, post-lab o capacitación industrial.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "andamiaje_y_recursos_docentes": {
+              "descripcion": "Guías, scripts, tutoriales, feedback, dashboards, escenarios, misiones gamificadas, soporte docente o recursos multimedia.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "alineacion_competencias_actividad_evaluacion": {
+              "descripcion": "Evidencia de alineación entre objetivos de aprendizaje, actividades con DT y evaluación de resultados.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            }
+          }
+        },
+        "objetivo_3_arquitecturas_tecnologias_y_capacidades_operativas": {
+          "tema_base": "Arquitecturas y tecnologías habilitadoras del DT educativo",
+          "variables_criticas": {
+            "descripcion_arquitectura_dt": {
+              "descripcion": "Capas, módulos, componentes, flujos o arquitectura general del sistema DT.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "componente_fisico": {
+              "descripcion": "Equipos, sensores, actuadores, PLC, robots, máquinas, túneles, plantas, bancos de prueba, edificios o ausencia de componente físico.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "componente_virtual": {
+              "descripcion": "Modelo 3D, simulación, motor de juego, dashboard, modelo matemático, BIM/GIS, CAD/CAE, modelo de proceso, avatar, entorno cloud u otro.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "grado_sincronizacion_fisico_virtual": {
+              "descripcion": "Sin sincronización, asincrónico, near-real-time, real-time, bidireccional, digital shadow, digital thread o no reportado.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "flujo_datos_y_realimentacion": {
+              "descripcion": "Dirección de datos: físico a virtual, virtual a físico, bidireccional, manual, automático, histórico o streaming.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "tecnologias_habilitadoras": {
+              "descripcion": "IoT, IIoT, sensores, PLC, SCADA, cloud, edge, IA/ML, XR, Unity/Unreal, BIM, GIS, CAD, simulación, robótica, haptics u otras.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "protocolos_estandares": {
+              "descripcion": "OPC UA, MQTT, AAS, EtherCAT, TCP/IP, API, ontologías, estándares BIM/PLM u otros protocolos declarados.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "ia_analitica_automatizacion": {
+              "descripcion": "Uso de IA, ML, XAI, analítica de aprendizaje, diagnóstico, predicción, optimización, mantenimiento predictivo o generación automática.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "xr_inmersion_interaccion": {
+              "descripcion": "Uso de AR, VR, MR, metaverso, interfaces 3D, interacción háptica, visualización inmersiva o interacción multimodal.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "interoperabilidad_escalabilidad": {
+              "descripcion": "Mecanismos o limitaciones para integrar plataformas, replicar la solución, escalar usuarios o conectar sistemas heterogéneos.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            }
+          }
+        },
+        "objetivo_4_evidencia_resultados_beneficios_y_barreras": {
+          "tema_base": "Evidencia de aprendizaje, desempeño, aceptación y engagement",
+          "variables_criticas": {
+            "tipo_estudio_y_diseno_metodologico": {
+              "descripcion": "Conceptual, diseño/desarrollo, caso de estudio, experimento, cuasi-experimento, método mixto, encuesta, prueba piloto, revisión u otro.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "muestra_y_participantes": {
+              "descripcion": "Número de participantes, perfil, grupos, cohorte, nivel académico o profesional y criterios de selección.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "comparador_o_condicion_control": {
+              "descripcion": "Clase tradicional, slides, laboratorio físico, simulador no-DT, pre/post, control experimental o ausencia de comparador.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "instrumentos_evaluacion": {
+              "descripcion": "Notas, quizzes, rúbricas, logs, encuestas, SUS, UTAUT, entrevistas, observación, pruebas de desempeño, analítica o métricas de sistema.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "metricas_resultados": {
+              "descripcion": "Variables medidas: aprendizaje cognitivo, habilidad procedimental, tiempo, errores, engagement, aceptación, satisfacción, autoeficacia, transferencia, retención o desempeño técnico.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "resultados_cognitivos": {
+              "descripcion": "Efectos reportados en conocimiento, comprensión conceptual, resolución de problemas, transferencia o retención.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "resultados_procedimentales": {
+              "descripcion": "Efectos reportados en habilidades prácticas, operación, mantenimiento, diagnóstico, diseño, programación, control o experimentación.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "resultados_afectivos_y_engagement": {
+              "descripcion": "Efectos reportados en motivación, aceptación, satisfacción, autoeficacia, colaboración, engagement, carga cognitiva o identidad profesional.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "beneficios_institucionales": {
+              "descripcion": "Acceso, seguridad, costo, sostenibilidad, disponibilidad, inclusión, escalabilidad, reducción de riesgos, continuidad educativa o colaboración industria-academia.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "barreras_limitaciones": {
+              "descripcion": "Fidelidad, interoperabilidad, sincronización, costo, complejidad técnica, capacitación docente, infraestructura, ciberseguridad, escalabilidad, validez o transferencia.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            },
+            "amenazas_validez": {
+              "descripcion": "Limitaciones metodológicas declaradas: tamaño muestral, sesgo, ausencia de control, corto plazo, falta de retención/transferencia o madurez del prototipo.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "string: frase breve del PDF que sustenta el valor extraído",
+                "ubicacion_pagina_seccion": "string: página exacta y sección/subsección"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

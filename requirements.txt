@@ -1,0 +1,10 @@
+# Python dependencies for the analysis pipeline (05_analysis/).
+# Developed on Python 3.14; >= 3.11 recommended. The pipeline uses the standard
+# library (csv, json, re, math, itertools, unicodedata, pathlib) plus:
+matplotlib>=3.8
+networkx>=3.2
+numpy>=1.26
+scipy>=1.11
+
+# Manuscript rebuild (07_manuscript/) additionally requires pandoc >= 3.x
+# (https://pandoc.org), which is not a Python package.

@@ -1,0 +1,4 @@
+﻿scheme,Weak,Moderate,Strong,pct_weak_or_moderate
+"S1_current (Strong>=5, Mod>=3)",20,10,5,85.7
+"S2_strict  (Strong=6, Mod>=4)",23,11,1,97.1
+"S3_lenient (Strong>=4, Mod>=2)",14,9,12,65.7

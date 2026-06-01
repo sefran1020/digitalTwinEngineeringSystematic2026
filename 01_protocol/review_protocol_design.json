@@ -1,0 +1,554 @@
+{
+  "1_analisis_tematico_inductivo": [
+    {
+      "id_tema": "T1",
+      "nombre_del_tema": "Infraestructura Práctica Virtual, Remota, Híbrida e Inmersiva basada en Gemelos Digitales",
+      "descripcion_tecnica": "Tema dominante que consolida el rol del gemelo digital como sustituto, complemento o extensión del laboratorio físico tradicional. Emerge porque una proporción mayoritaria del corpus configura el DT como mecanismo para superar restricciones físicas, temporales, económicas y de seguridad, ofreciendo acceso 24/7, escalabilidad y experimentación sincronizada. Integra explícitamente la dimensión inmersiva (RV/RA/MR/metaverso) cuando aparece acoplada al DT para potenciar cognición situada, reducir carga cognitiva y visualizar fenómenos invisibles o procesos complejos.",
+      "keys_de_respaldo": ["EA8ZWUTY", "CCRR3WV2", "3PCKDEQL", "8HY5G5V9", "8BL4J2HZ", "AUYHBWNM", "TVN4S7DC", "QFQRYWLR", "G8SP5KLS", "XNXBTF6L", "RF7G2HYJ", "Z68IK8T9", "UDMDFTPK", "VQYX4C58", "3FI8CZ85", "6SLCII6M", "GWDAFMH7", "TBVDXJH6", "M2FXTDEG", "UGRYS3CL", "S2WI7K2S", "79J2MH8T", "YZHXUBN7", "C73RZ7X8", "YXRMLV7A", "76777Q2X", "9T5MJ96J", "3ZZDNR2Z", "ASVWVQ3C", "BY9KWQ9X", "ZMKNFA6J", "P242H59T", "4S7PWRLU", "HM4FMFEF", "JACDIDHQ", "M42IKCPV", "GHSMNFS4", "DSC46KTS"]
+    },
+    {
+      "id_tema": "T2",
+      "nombre_del_tema": "Arquitecturas y Tecnologías Habilitadoras del Gemelo Digital Educativo",
+      "descripcion_tecnica": "Emerge porque la mayoría de estudios describe arquitecturas técnicas específicas que operativizan el DT educativo: sincronización físico-virtual, sensores, IoT/IIoT, PLC, Asset Administration Shell, protocolos industriales (OPC UA, TCP/IP, MQTT, EtherCAT), BIM/GIS, motores de juego (Unity/Unreal), CAD/CAE y plataformas cloud. La arquitectura técnica condiciona directamente la fidelidad pedagógica y la transferencia del aprendizaje práctico.",
+      "keys_de_respaldo": ["6XH9DD3P", "8HY5G5V9", "95CLH3FL", "6EEVCR6P", "XMATM5GI", "AUYHBWNM", "TVN4S7DC", "E72EWP4S", "G8SP5KLS", "RF7G2HYJ", "Z68IK8T9", "H4UKEM4U", "UDMDFTPK", "3FI8CZ85", "GWDAFMH7", "M2FXTDEG", "PG2CBLTM", "C73RZ7X8", "76777Q2X", "3ZZDNR2Z", "ASVWVQ3C", "ZMKNFA6J", "P242H59T", "4S7PWRLU", "Q4TC3ILQ", "8BL4J2HZ"]
+    },
+    {
+      "id_tema": "T3",
+      "nombre_del_tema": "Convergencia de Inteligencia Artificial, Analítica de Datos y Gemelos Digitales",
+      "descripcion_tecnica": "Emerge como categoría diferenciada porque varios estudios recientes (predominantemente 2024-2026) integran explícitamente machine learning, deep learning, IA generativa, agentes predictivos, redes neuronales convolucionales, XAI y grafos de conocimiento sobre la infraestructura del DT educativo. La conjunción AI+DT trasciende la simulación tradicional y habilita sistemas adaptativos, retroalimentación automatizada, mantenimiento predictivo y diagnóstico inteligente como contenido formativo emergente en ingeniería.",
+      "keys_de_respaldo": ["6J8AMAN8", "6EEVCR6P", "XRUBK3B6", "RF7G2HYJ", "ZWFNABKK", "3FI8CZ85", "9T5MJ96J", "V9TXVKGR", "TMH74BB2", "CCRR3WV2", "AUYHBWNM"]
+    },
+    {
+      "id_tema": "T4",
+      "nombre_del_tema": "Formación de Competencias para Industria 4.0/5.0 y Diversificación Disciplinar",
+      "descripcion_tecnica": "Tema transversal y dominante porque el corpus vincula sistemáticamente el uso educativo del DT con el desarrollo de competencias para la Cuarta y Quinta Revolución Industrial, integrando IIoT, automatización, manufactura inteligente, esbelta y flexible, robótica, ciberseguridad, PLM, MBSE y estándares industriales. Adicionalmente, evidencia diversificación disciplinar significativa más allá de la manufactura: metalurgia, energía (baterías, eólica), química/agroalimentaria, mecatrónica, programación, control, edificación inteligente, agrimensura, WEFE nexus y ciudades inteligentes.",
+      "keys_de_respaldo": ["EA8ZWUTY", "CCRR3WV2", "6XH9DD3P", "95CLH3FL", "6EEVCR6P", "XMATM5GI", "8BL4J2HZ", "XRUBK3B6", "AUYHBWNM", "TVN4S7DC", "XNXBTF6L", "RGEVSHH7", "RF7G2HYJ", "Z68IK8T9", "H4UKEM4U", "DD7XCT2V", "LQ8B3L7G", "ZWFNABKK", "44H5ZW4K", "TMH74BB2", "2XBEESYC", "3ZV8INI7", "Z3CB6MW8", "4TBGS9I4", "GWDAFMH7", "TBVDXJH6", "M2FXTDEG", "79J2MH8T", "PG2CBLTM", "PI838F5U", "3ZZDNR2Z", "BY9KWQ9X", "P242H59T", "4S7PWRLU", "2G3VN26R", "JACDIDHQ", "VY7P5782", "M42IKCPV", "5XDK88YB", "3KBLZJAI", "Q4TC3ILQ", "V9TXVKGR", "GHSMNFS4", "8HY5G5V9", "DSC46KTS", "HM4FMFEF", "VQYX4C58"]
+    },
+    {
+      "id_tema": "T5",
+      "nombre_del_tema": "Diseño Pedagógico y Curricular Centrado en Aprendizaje Activo, Experiencial y Basado en Proyectos",
+      "descripcion_tecnica": "Emerge porque el corpus no presenta el DT solo como tecnología, sino articulado con enfoques didácticos específicos: aprendizaje basado en proyectos (PBL), aprendizaje activo y experiencial, learning factories, teaching factories, gamificación, aula invertida, blended/flipped learning, enseñanza adaptativa, ADDIE y reformas curriculares. Múltiples estudios enfatizan que el DT solo produce ganancias de aprendizaje cuando se acompaña de un diseño instruccional intencional centrado en el estudiante con andamiaje docente.",
+      "keys_de_respaldo": ["6J8AMAN8", "6XH9DD3P", "FSWUL6I2", "XRUBK3B6", "E72EWP4S", "XNXBTF6L", "RGEVSHH7", "DSC46KTS", "XMATM5GI", "H4UKEM4U", "DD7XCT2V", "LQ8B3L7G", "ZWFNABKK", "44H5ZW4K", "VQYX4C58", "TMH74BB2", "2XBEESYC", "3ZV8INI7", "6SLCII6M", "Z3CB6MW8", "4TBGS9I4", "TBVDXJH6", "UGRYS3CL", "S2WI7K2S", "79J2MH8T", "PG2CBLTM", "YZHXUBN7", "YXRMLV7A", "76777Q2X", "9T5MJ96J", "PI838F5U", "3ZZDNR2Z", "ASVWVQ3C", "BY9KWQ9X", "ZMKNFA6J", "4S7PWRLU", "HM4FMFEF", "2G3VN26R", "JACDIDHQ", "VY7P5782", "M42IKCPV", "5XDK88YB", "3KBLZJAI", "V9TXVKGR", "GHSMNFS4", "RF7G2HYJ", "UDMDFTPK"]
+    },
+    {
+      "id_tema": "T6",
+      "nombre_del_tema": "Evidencia Empírica de Resultados de Aprendizaje, Aceptación y Engagement Estudiantil",
+      "descripcion_tecnica": "Tema relevante porque un subconjunto sustantivo de estudios reporta diseños cuasi-experimentales, experimentales, mixed-methods, pre-post tests, encuestas validadas (UTAUT/UTAUT2, SUS, NASA-TLX, TTF) y métricas cuantificables (tiempo de dominio, retención, completitud, calificaciones, tamaño del efecto). Revela también una tensión metodológica del campo: la evidencia educativa es heterogénea y no todos los estudios validan resultados con la misma solidez, exigiendo una valoración crítica de la calidad de la evidencia primaria.",
+      "keys_de_respaldo": ["6J8AMAN8", "3PCKDEQL", "XMATM5GI", "FSWUL6I2", "E72EWP4S", "DD7XCT2V", "LQ8B3L7G", "ZWFNABKK", "44H5ZW4K", "VQYX4C58", "TMH74BB2", "2XBEESYC", "3FI8CZ85", "4TBGS9I4", "TBVDXJH6", "M2FXTDEG", "UGRYS3CL", "S2WI7K2S", "79J2MH8T", "YZHXUBN7", "YXRMLV7A", "76777Q2X", "9T5MJ96J", "PI838F5U", "ASVWVQ3C", "BY9KWQ9X", "ZMKNFA6J", "HM4FMFEF", "JACDIDHQ", "VY7P5782", "M42IKCPV", "5XDK88YB", "3KBLZJAI", "Q4TC3ILQ", "V9TXVKGR"]
+    },
+    {
+      "id_tema": "T7",
+      "nombre_del_tema": "Valor Institucional: Sostenibilidad, Accesibilidad, Equidad e Inclusión",
+      "descripcion_tecnica": "Tema emergente por la convergencia de argumentos sobre reducción de huella ambiental (Life Cycle Assessment, emisiones de CO2, residuos electrónicos, consumo energético), bajo costo, código abierto, democratización del acceso, equidad en oportunidades de aprendizaje, continuidad operativa (especialmente post-COVID) y aplicación en contextos de recursos limitados o países en desarrollo. El DT se posiciona como herramienta de inclusión, sostenibilidad institucional y triple-bottom-line educativo.",
+      "keys_de_respaldo": ["EA8ZWUTY", "3PCKDEQL", "TVN4S7DC", "QFQRYWLR", "G8SP5KLS", "RGEVSHH7", "RF7G2HYJ", "UDMDFTPK", "LQ8B3L7G", "FSWUL6I2", "3FI8CZ85", "6SLCII6M", "GWDAFMH7", "UGRYS3CL", "S2WI7K2S", "YZHXUBN7", "76777Q2X", "9T5MJ96J", "BY9KWQ9X", "ZMKNFA6J", "M42IKCPV"]
+    },
+    {
+      "id_tema": "T8",
+      "nombre_del_tema": "Barreras, Limitaciones y Condiciones Críticas de Implementación",
+      "descripcion_tecnica": "Emerge porque los resúmenes mencionan recurrentemente límites y condiciones críticas para implementar DT educativos: fidelidad insuficiente del modelo, problemas de interoperabilidad entre proveedores, escalabilidad limitada, vulnerabilidades de ciberseguridad, complejidad de sincronización en tiempo real, necesidad de capacitación docente, brechas de transferencia entre entorno virtual y físico, costos de despliegue, gobernanza curricular e infraestructura institucional. La visibilización explícita de barreras es fundamental para una síntesis equilibrada que evite sesgo de optimismo tecnológico.",
+      "keys_de_respaldo": ["8HY5G5V9", "6EEVCR6P", "8BL4J2HZ", "Z68IK8T9", "UDMDFTPK", "LQ8B3L7G", "44H5ZW4K", "VQYX4C58", "3ZV8INI7", "6SLCII6M", "M2FXTDEG", "PG2CBLTM", "C73RZ7X8", "YXRMLV7A", "9T5MJ96J", "PI838F5U", "3ZZDNR2Z", "ASVWVQ3C", "ZMKNFA6J", "P242H59T", "4S7PWRLU", "2G3VN26R", "JACDIDHQ", "VY7P5782", "5XDK88YB", "3KBLZJAI", "Q4TC3ILQ", "GHSMNFS4"]
+    }
+  ],
+  "2_diseno_revision_sistematica": {
+    "pregunta_investigacion": "¿Cómo se diseñan, implementan y evalúan los gemelos digitales en la educación superior en ingeniería, qué arquitecturas tecno-pedagógicas adoptan, qué evidencia empírica reportan sobre resultados de aprendizaje y competencias para la Industria 4.0/5.0, y qué beneficios institucionales y barreras críticas condicionan su adopción sostenible e inclusiva?",
+    "objetivo_general": "Sintetizar críticamente la evidencia disponible sobre la implementación de gemelos digitales en la educación en ingeniería, caracterizando sus arquitecturas tecno-pedagógicas, su impacto empíricamente demostrado en los resultados de aprendizaje y el desarrollo de competencias profesionales, así como las condiciones, beneficios y barreras que median su adopción sostenible, accesible e inclusiva.",
+    "objetivos_especificos": [
+      {
+        "id_objetivo": "O1",
+        "objetivo": "Caracterizar las arquitecturas tecnológicas y los entornos de despliegue de los gemelos digitales en educación en ingeniería, identificando componentes físicos y virtuales, protocolos de sincronización, grado de bidireccionalidad, integración con tecnologías inmersivas (RV/RA/MR) e inteligencia artificial, así como los contextos de infraestructura práctica (virtual, remota, híbrida) en los que se despliegan.",
+        "temas_vinculados": ["T1", "T2", "T3"],
+        "justificacion_mapeo": "Este objetivo agrega tres temas que en conjunto describen la dimensión tecno-arquitectónica: T1 aporta el contexto de despliegue (virtual/remoto/inmersivo), T2 aporta los componentes y protocolos técnicos, y T3 aporta la capa de inteligencia artificial sobre la arquitectura del DT."
+      },
+      {
+        "id_objetivo": "O2",
+        "objetivo": "Analizar las estrategias pedagógicas y curriculares asociadas al uso de gemelos digitales, incluyendo aprendizaje activo, experiencial, basado en proyectos, gamificado y adaptativo, evaluando su alineación con los marcos de competencias para la Industria 4.0/5.0, la diversificación disciplinar y la formación de talento interdisciplinar.",
+        "temas_vinculados": ["T4", "T5"],
+        "justificacion_mapeo": "Este objetivo agrega dos temas complementarios: T5 aporta el diseño pedagógico (cómo se enseña con DT) y T4 aporta el contenido formativo (qué competencias se desarrollan y en qué disciplinas), constituyendo la dimensión pedagógico-curricular completa."
+      },
+      {
+        "id_objetivo": "O3",
+        "objetivo": "Sintetizar la evidencia empírica sobre el impacto de los gemelos digitales en resultados de aprendizaje cognitivos, procedimentales y afectivos, incluyendo engagement, aceptación tecnológica, autoeficacia, carga cognitiva y rendimiento académico, valorando críticamente la calidad metodológica de los estudios primarios.",
+        "temas_vinculados": ["T6"],
+        "justificacion_mapeo": "Este objetivo corresponde 1:1 con T6, dado que el tema agrupa exclusivamente los estudios con diseño empírico y reporte de resultados medibles, constituyendo la dimensión evaluativa."
+      },
+      {
+        "id_objetivo": "O4",
+        "objetivo": "Examinar los beneficios institucionales (sostenibilidad ambiental, accesibilidad, equidad, costo, continuidad educativa) y las barreras críticas (fidelidad, interoperabilidad, escalabilidad, ciberseguridad, capacitación docente, brechas de transferencia) que condicionan la adopción de gemelos digitales en la educación en ingeniería.",
+        "temas_vinculados": ["T7", "T8"],
+        "justificacion_mapeo": "Este objetivo agrega dos temas en tensión dialéctica: T7 captura los facilitadores y valores positivos institucionales, mientras T8 captura las restricciones y limitaciones. Su análisis conjunto evita sesgo de optimismo tecnológico y permite una síntesis equilibrada."
+      }
+    ],
+    "matriz_trazabilidad_tema_objetivo": {
+      "descripcion": "Mapeo N:M entre temas emergentes y objetivos específicos. Cada tema activa una plantilla de extracción específica; un mismo artículo puede activar múltiples plantillas según los temas en los que esté codificado.",
+      "mapeo": {
+        "T1": "O1",
+        "T2": "O1",
+        "T3": "O1",
+        "T4": "O2",
+        "T5": "O2",
+        "T6": "O3",
+        "T7": "O4",
+        "T8": "O4"
+      }
+    }
+  },
+  "3_propuesta_protocolo_extraccion": {
+    "justificacion_metodologica": "El protocolo se organiza por TEMAS (no por objetivos) para optimizar el flujo de extracción mediante el principio de activación condicional: cada artículo solo activa las plantillas de extracción correspondientes a los temas en los que fue codificado durante el análisis temático inductivo. Esto reduce drásticamente la carga de trabajo (evita extraer variables irrelevantes para artículos que no las abordan), aumenta la pertinencia de la evidencia recolectada y permite calcular tasas de reporte por tema. La estructura se justifica sobre cinco pilares metodológicos consolidados: (1) Trazabilidad PRISMA 2020 con metadatos exhaustivos que incluyen estado de inclusión/exclusión; (2) Activación condicional por tema mediante el campo 'temas_activados' en metadatos, lo que materializa la lógica de extracción optimizada; (3) Vocabulario controlado NR (No Reportado) | NA (No Aplica) | UNCERTAIN (Incierto) en cada variable para reducir variabilidad inter-evaluador; (4) Doble verificación (valor + cita textual + ubicación) en todas las variables críticas, habilitando auditoría kappa de Cohen; (5) Matriz de agregación temas-objetivos en la fase de síntesis que permite recomponer la evidencia desde la capa descriptiva (temas) a la capa estratégica (objetivos), generando análisis profundo tanto por bloque temático como por objetivo de la revisión.",
+    "flujo_de_trabajo_extraccion": {
+      "paso_1": "Registrar metadatos básicos de TODOS los artículos del corpus.",
+      "paso_2": "Identificar los temas activados para cada artículo según las 'keys_de_respaldo' del análisis temático inductivo.",
+      "paso_3": "Para cada artículo, aplicar ÚNICAMENTE las plantillas de extracción de los temas activados. Un artículo codificado en T1, T4 y T6 solo activa esas tres plantillas; los demás campos quedan como NA (no aplica por no codificación temática).",
+      "paso_4": "Validar inter-evaluador (doble revisor) sobre el 20% del corpus aleatorizado; calcular kappa de Cohen por variable crítica.",
+      "paso_5": "Agregar resultados por TEMA (síntesis horizontal) y por OBJETIVO según la matriz de trazabilidad (síntesis vertical) para análisis profundo dual.",
+      "paso_6": "Generar análisis de co-ocurrencias temáticas: identificar artículos que activan combinaciones específicas de temas (ej. T2+T3+T6 = arquitecturas con IA y evidencia empírica) como evidencia robusta del campo."
+    },
+    "esquema_json_sugerido": {
+      "metadatos_basicos": {
+        "key_documento": "Identificador único obligatorio de trazabilidad; debe conservarse exactamente como en el corpus original.",
+        "titulo_completo": "Título exacto del artículo según el PDF.",
+        "autores": "Listado ordenado de autores según el PDF.",
+        "anio_publicacion": "Año de publicación (integer).",
+        "tipo_publicacion": "Journal article | Conference proceedings | Book chapter | Preprint | Otro.",
+        "fuente_publicacion": "Nombre de revista, congreso o editorial.",
+        "doi_o_url": "DOI, URL o identificador persistente.",
+        "pais_institucion_primera_afiliacion": "País de la institución del primer autor o autor de correspondencia.",
+        "institucion": "Universidad, laboratorio, empresa o consorcio principal.",
+        "idioma_original": "Idioma principal del texto completo.",
+        "estado_inclusion": "incluir | excluir | duda",
+        "razon_exclusion_o_duda": "Justificación si el DT es periférico, no educativo o insuficientemente documentado.",
+        "temas_activados": "array de IDs de temas (T1-T8) que se aplicarán al artículo según el análisis temático inductivo; determina qué plantillas de extracción se activan."
+      },
+      "plantillas_por_tema": {
+        "T1_infraestructura_practica_virtual_remota_hibrida_inmersiva": {
+          "objetivo_asociado": "O1",
+          "activacion": "Solo extraer si T1 está en 'temas_activados'.",
+          "variables_criticas": {
+            "tipo_entorno_dt": {
+              "descripcion": "Virtual puro | remoto | híbrido físico-virtual | inmersivo (RV/RA/MR) | metaverso | learning factory | cloud-based.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF que sustenta el valor",
+                "ubicacion_pagina_seccion": "Página exacta y sección/subsección"
+              }
+            },
+            "tecnologia_inmersiva_especifica": {
+              "descripcion": "Hardware/software inmersivo declarado: Meta Quest, Oculus, HoloLens, Unity, Unreal, motor gráfico, headsets específicos, gamepad, hápticos.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "modalidad_acceso": {
+              "descripcion": "Acceso 24/7 | horario restringido | presencial obligatorio + acceso virtual complementario | exclusivamente remoto.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "sistema_real_representado": {
+              "descripcion": "Sistema concreto modelado: planta de manufactura, túnel de viento, bomba de calor, robot, máquina CNC, edificio, red IoT, campo de surveying.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "fidelidad_visual_y_funcional_reportada": {
+              "descripcion": "Calidad de la representación visual (alta/media/baja), correspondencia funcional con el sistema físico, presencia de phenomena invisibles (CFD, campos, flujos).",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            }
+          }
+        },
+        "T2_arquitecturas_y_tecnologias_habilitadoras": {
+          "objetivo_asociado": "O1",
+          "activacion": "Solo extraer si T2 está en 'temas_activados'.",
+          "variables_criticas": {
+            "tipo_gemelo_digital_taxonomia_kritzinger": {
+              "descripcion": "Digital model (sin conexión automática) | digital shadow (físico→virtual automático) | digital twin completo (bidireccional automático).",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "componente_fisico": {
+              "descripcion": "Equipos, sensores, actuadores, PLC, robots, máquinas CNC, microcontroladores (Arduino/ESP32), FPGA, bancos de prueba, edificios o ausencia.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "componente_virtual": {
+              "descripcion": "Motor 3D (Unity/Unreal), plataforma de simulación (Tecnomatix, NX MCD, Simcenter, Emulate3D), modelo BIM/GIS, CAD/CAE, dashboard.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "protocolos_estandares_comunicacion": {
+              "descripcion": "OPC UA, MQTT, TCP/IP, EtherCAT, REST, CoAP, Asset Administration Shell (AAS), IEC 61131-3/61499, BIM/PLM.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "grado_sincronizacion_bidireccionalidad": {
+              "descripcion": "Sin sincronización | asíncrona | near-real-time | tiempo real | bidireccional automática. Reportar métricas (latencia en ms, jitter) si están disponibles.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal con datos cuantitativos si existen",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "arquitectura_capas_modulos": {
+              "descripcion": "Descripción de capas (física, integración, digital, aplicación), módulos, microservicios o arquitectura general del sistema.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            }
+          }
+        },
+        "T3_convergencia_ia_analitica_y_gemelos_digitales": {
+          "objetivo_asociado": "O1",
+          "activacion": "Solo extraer si T3 está en 'temas_activados'.",
+          "variables_criticas": {
+            "tipo_ia_integrada": {
+              "descripcion": "Machine learning supervisado/no supervisado | deep learning | redes neuronales (CNN/RNN) | IA generativa (LLM/GAN) | XAI | agentes inteligentes | grafos de conocimiento.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "funcion_de_la_ia": {
+              "descripcion": "Predicción, diagnóstico, mantenimiento predictivo, retroalimentación automatizada al estudiante, personalización adaptativa, generación de contenido, validación de tareas, corrección automática.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "datos_entrenamiento_o_inferencia": {
+              "descripcion": "Fuentes de datos usadas para entrenar/operar la IA (sensores DT, logs estudiantiles, datos sintéticos, datasets industriales).",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "metricas_desempeno_ia": {
+              "descripcion": "Accuracy, precision, recall, F1, fidelidad de surrogate, latencia de inferencia, frame rate.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal con datos cuantitativos",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            }
+          }
+        },
+        "T4_competencias_industria_4_5_y_diversificacion_disciplinar": {
+          "objetivo_asociado": "O2",
+          "activacion": "Solo extraer si T4 está en 'temas_activados'.",
+          "variables_criticas": {
+            "dominio_ingenieria": {
+              "descripcion": "Manufactura | automatización | control | metalurgia | química | civil/construcción | energía (eólica/baterías) | HVAC | robótica | ciberseguridad | mecatrónica | electrónica | programación | PLM | WEFE | smart city | otro.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "competencias_i40_i50_desarrolladas": {
+              "descripcion": "IIoT, ciberseguridad industrial, manufactura inteligente, automatización, analítica de datos, IA/ML, pensamiento sistémico, integración de sistemas, sostenibilidad, colaboración humano-máquina (I5.0).",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "alineacion_estandares_industriales": {
+              "descripcion": "Referencias a marcos como ABET, RAMI 4.0, IEC 61131-3, IEC 61499, ISA-95, AAS, normas de ciberseguridad industrial.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "colaboracion_industria_academia": {
+              "descripcion": "Alianzas con empresas, co-desarrollo de currículo, mentorías corporativas, prácticas profesionales, dual-teacher mechanism, validación con sector productivo.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            }
+          }
+        },
+        "T5_diseno_pedagogico_y_aprendizaje_activo": {
+          "objetivo_asociado": "O2",
+          "activacion": "Solo extraer si T5 está en 'temas_activados'.",
+          "variables_criticas": {
+            "modelo_pedagogico": {
+              "descripcion": "PBL | aprendizaje activo | aprendizaje experiencial | learning factory | teaching factory | gamificación | flipped/blended learning | enseñanza adaptativa | ADDIE | aprendizaje situado | challenge-based.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "nivel_educativo": {
+              "descripcion": "Pregrado | posgrado (maestría/doctorado) | formación técnica/profesional | capacitación industrial | docente | mixto.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "programa_curso_asignatura": {
+              "descripcion": "Curso, programa, módulo, laboratorio o experiencia formativa específica donde se inserta el DT.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "modalidad_ensenanza": {
+              "descripcion": "Presencial | remota | híbrida | blended | flipped | pre-lab | post-lab | capacitación industrial.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "grado_participacion_estudiantil": {
+              "descripcion": "Uso pasivo | exploración guiada | experimentación activa | co-diseño | construcción del DT por estudiantes | proyecto completo de ciclo de vida.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "andamiaje_y_rol_docente": {
+              "descripcion": "Guías, scripts, tutoriales, feedback estructurado, dashboards de monitoreo docente, rol del docente (facilitador/supervisor/co-diseñador/Experience Facilitator).",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "duracion_intervencion": {
+              "descripcion": "Duración expresada en semanas, sesiones, horas o ciclo académico completo.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            }
+          }
+        },
+        "T6_evidencia_empirica_resultados_aprendizaje": {
+          "objetivo_asociado": "O3",
+          "activacion": "Solo extraer si T6 está en 'temas_activados'.",
+          "variables_criticas": {
+            "diseno_investigacion": {
+              "descripcion": "Conceptual | diseño/desarrollo | estudio de caso | experimento | cuasi-experimento | mixed-methods | encuesta | acción participativa | prueba piloto | revisión.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "tamano_muestral_y_perfil": {
+              "descripcion": "N total, N por grupo experimental/control, perfil demográfico, nivel académico, criterios de inclusión/exclusión.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal con datos numéricos",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "comparador_o_condicion_control": {
+              "descripcion": "Clase tradicional | slides | laboratorio físico | simulador no-DT | pre/post intra-sujeto | sin comparador.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "instrumentos_evaluacion": {
+              "descripcion": "Calificaciones, quizzes, rúbricas validadas, encuestas estandarizadas (UTAUT/UTAUT2, SUS, NASA-TLX, TTF), entrevistas semi-estructuradas, learning analytics, logs.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "resultados_cognitivos": {
+              "descripcion": "Cambios en conocimiento conceptual, comprensión, resolución de problemas, transferencia, retención a largo plazo (con magnitudes).",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal con datos cuantitativos",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "resultados_procedimentales": {
+              "descripcion": "Efectos en habilidades prácticas, operación, mantenimiento, diagnóstico, diseño, programación, control, tiempo de tarea, tasa de errores.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "resultados_afectivos_y_engagement": {
+              "descripcion": "Motivación, aceptación tecnológica, satisfacción, autoeficacia, colaboración, engagement (behavioral/cognitive/emotional), carga cognitiva.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "significancia_estadistica_y_tamano_efecto": {
+              "descripcion": "Valores p, intervalos de confianza, tamaño del efecto (d de Cohen, η², ηp²), pruebas estadísticas aplicadas (t-test, ANOVA, chi-cuadrado, Spearman).",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal con valores estadísticos",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "amenazas_validez_y_calidad_evidencia": {
+              "descripcion": "Limitaciones metodológicas declaradas: tamaño muestral pequeño, ausencia de aleatorización, sesgo de selección, corto plazo, ausencia de medición de retención/transferencia, madurez del prototipo.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            }
+          }
+        },
+        "T7_valor_institucional_sostenibilidad_accesibilidad_equidad": {
+          "objetivo_asociado": "O4",
+          "activacion": "Solo extraer si T7 está en 'temas_activados'.",
+          "variables_criticas": {
+            "costo_implementacion": {
+              "descripcion": "Costo monetario reportado (CAPEX/OPEX en moneda y horizonte temporal) o calificativo (bajo/medio/alto); costo por estudiante si disponible.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal con cifras monetarias",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "modelo_licenciamiento": {
+              "descripcion": "Open-source | propietario | híbrido | freemium; especificar herramientas concretas.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "indicadores_sostenibilidad_ambiental": {
+              "descripcion": "LCA, reducción de consumo energético (kWh), emisiones de CO2 evitadas (tCO2), residuos electrónicos (kg), comparativa con laboratorio tradicional.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal con datos cuantitativos",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "accesibilidad_y_equidad": {
+              "descripcion": "Acceso 24/7 | acceso remoto geográfico | inclusión de estudiantes con discapacidad | contextos de bajos recursos | reducción de barreras socioeconómicas o de género.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "contexto_geografico_aplicacion": {
+              "descripcion": "Región/país de implementación; relevancia para Sur Global o regiones en desarrollo.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "continuidad_educativa_post_covid": {
+              "descripcion": "Mención explícita a continuidad durante pandemia, educación remota emergente, resiliencia institucional.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            }
+          }
+        },
+        "T8_barreras_limitaciones_condiciones_implementacion": {
+          "objetivo_asociado": "O4",
+          "activacion": "Solo extraer si T8 está en 'temas_activados'.",
+          "variables_criticas": {
+            "barreras_tecnicas": {
+              "descripcion": "Fidelidad insuficiente del modelo, interoperabilidad limitada, latencia, jitter, escalabilidad, complejidad de sincronización, vulnerabilidades de ciberseguridad.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "barreras_institucionales_y_docentes": {
+              "descripcion": "Necesidad de capacitación docente, resistencia al cambio curricular, falta de gobernanza, ausencia de alineación industria-academia, infraestructura institucional limitada.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "barreras_pedagogicas_y_curriculares": {
+              "descripcion": "Brecha de transferencia virtual-físico, validez ecológica limitada, descontextualización del aprendizaje, mala alineación competencias-actividades-evaluación.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "escalabilidad_y_transferibilidad_reportada": {
+              "descripcion": "Evidencia de réplica en otros cursos/instituciones, planes de escalamiento, transferibilidad documentada, usuarios concurrentes soportados.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            },
+            "condiciones_facilitadoras_declaradas": {
+              "descripcion": "Factores que los autores identifican como necesarios para el éxito: compromiso institucional, alianzas industriales, capacitación previa, infraestructura mínima.",
+              "doble_verificacion": {
+                "valor_extraido": "string | NR | NA | UNCERTAIN",
+                "cita_textual_exacta_pdf": "Frase literal del PDF",
+                "ubicacion_pagina_seccion": "Página y sección"
+              }
+            }
+          }
+        }
+      }
+    },
+    "estrategia_analisis_datos_profundo": {
+      "descripcion": "El análisis se ejecuta en tres capas progresivas tras completar la extracción condicional por temas, permitiendo profundidad analítica creciente desde la descripción hacia la síntesis interpretativa.",
+      "capa_1_analisis_descriptivo_por_tema": "Para cada uno de los 8 temas, generar estadística descriptiva sobre el subconjunto de artículos que lo activaron: frecuencias de cada variable categórica, distribuciones de variables numéricas (latencia, N muestral, tamaño de efecto), tasas de reporte (% NR vs % reportado). Esto produce un perfil cuantitativo del estado del arte por dimensión.",
+      "capa_2_analisis_agregado_por_objetivo": "Aplicar la matriz de trazabilidad para agregar los hallazgos temáticos por objetivo: O1 sintetiza T1+T2+T3 (dimensión tecno-arquitectónica), O2 sintetiza T4+T5 (dimensión pedagógico-curricular), O3 corresponde a T6 (evidencia empírica), O4 sintetiza T7+T8 (beneficios y barreras institucionales). Cada objetivo genera una narrativa de síntesis que responde directamente a la pregunta de investigación.",
+      "capa_3_analisis_cruzado_co_ocurrencias_y_brechas": "Examinar co-ocurrencias temáticas para identificar configuraciones de evidencia robusta y brechas de investigación. Ejemplos analíticos: (a) artículos que activan T2+T3+T6 representan evidencia empírica sobre arquitecturas con IA (configuración más madura); (b) artículos que activan T1+T5 pero NO T6 indican propuestas pedagógicas sin validación empírica (brecha); (c) artículos que activan T7 sin T8 sugieren sesgo de optimismo; (d) artículos que activan T4 sin T6 indican aspiraciones de competencias sin evidencia de logro. Estas configuraciones permiten priorizar áreas de investigación futura.",
+      "salidas_esperadas": [
+        "Tabla descriptiva por tema (Capa 1): 8 perfiles cuantitativos.",
+        "Narrativas de síntesis por objetivo (Capa 2): 4 secciones del manuscrito final.",
+        "Mapa de co-ocurrencias temáticas y brechas (Capa 3): figura analítica y agenda de investigación futura.",
+        "Matriz de calidad de evidencia: clasificación de artículos por solidez metodológica (basada en T6 + amenazas_validez).",
+        "PRISMA flow diagram completo con justificación de exclusiones."
+      ]
+    }
+  }
+}
