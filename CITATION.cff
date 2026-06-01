@@ -50,3 +50,10 @@ keywords:
 version: "1.0.0"
 date-released: "2026-05-31"
 license: CC-BY-4.0
+doi: "10.5281/zenodo.20482762"
+url: "https://doi.org/10.5281/zenodo.20482762"
+repository-code: "https://github.com/sefran1020/digitalTwinEngineeringSystematic2026"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20482762"
+    description: "Zenodo archive of the repository (v1.0.0)"

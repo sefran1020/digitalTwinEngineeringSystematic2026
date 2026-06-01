@@ -1,5 +1,7 @@
 # Digital Twins in Engineering and STEM Higher Education — Systematic Review
 
+[![DOI](https://zenodo.org/badge/1255627864.svg)](https://doi.org/10.5281/zenodo.20482762)
+
 A reproducible **systematic review** (PRISMA 2020) of how digital twins (DTs) are
 designed, implemented, and evaluated in higher-education engineering and STEM
 settings. This repository contains the protocol, search exports, full screening
