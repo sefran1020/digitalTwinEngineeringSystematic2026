@@ -1,0 +1,26 @@
+{
+  "title": "Digital Twins in Engineering and STEM Higher Education: A Systematic Review of Architectures, Pedagogy, and the Quality of Learning Evidence",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "description": "Reproducible materials for a PRISMA 2020 systematic review of digital twins in higher-education engineering and STEM settings (65 included studies, 2018-2026): review protocol, database search exports, the full semantic-screening trace, extracted data with verbatim quotations, the end-to-end analysis pipeline, figures and tables, and the manuscript package. Version 2.0.0 updates the manuscript and corrects two extraction records (effect sizes and sample size) with the pipeline re-run accordingly.",
+  "keywords": [
+    "digital twins",
+    "engineering education",
+    "STEM education",
+    "systematic review",
+    "evidence quality",
+    "laboratory learning",
+    "learning technologies"
+  ],
+  "creators": [
+    { "name": "Segura-Altamirano, Segundo Francisco", "orcid": "0000-0002-0103-7222", "affiliation": "Universidad Nacional Pedro Ruiz Gallo" },
+    { "name": "Castro-Cárdenas, Diana Mercedes", "orcid": "0000-0001-8489-9671", "affiliation": "Universidad Nacional Pedro Ruiz Gallo" },
+    { "name": "Oblitas-Vera, Carlos Leonardo", "orcid": "0000-0003-0272-9375", "affiliation": "Universidad Nacional Pedro Ruiz Gallo" },
+    { "name": "Benavides-Campos, Grimaldo Dermali", "orcid": "0000-0002-5621-1929", "affiliation": "Universidad Nacional Pedro Ruiz Gallo" },
+    { "name": "Aquino-Lalupú, Janet del Rosario", "orcid": "0000-0003-0536-3882", "affiliation": "Universidad Nacional Pedro Ruiz Gallo" },
+    { "name": "Alvarado-Castillo, Wilder Angel", "orcid": "0000-0001-5398-5171", "affiliation": "Universidad Nacional Pedro Ruiz Gallo" },
+    { "name": "Salazar-Cabrejos, Rosa Eliana", "orcid": "0000-0002-1144-2037", "affiliation": "Universidad Nacional Pedro Ruiz Gallo" },
+    { "name": "German Reyes, Nilton César", "orcid": "0000-0003-0232-2129", "affiliation": "Universidad Nacional Pedro Ruiz Gallo" }
+  ]
+}
