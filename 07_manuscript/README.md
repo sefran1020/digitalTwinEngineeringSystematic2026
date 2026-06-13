@@ -3,7 +3,7 @@
 This folder holds the manuscript prepared for the *IEEE Transactions on Learning
 Technologies* (TLT) as a **critical systematic review**.
 
-## Contents (`tlt_resubmission/`)
+## Contents
 
 | Item | Description |
 |---|---|
@@ -15,7 +15,7 @@ Technologies* (TLT) as a **critical systematic review**.
 ## Build
 
 ```bash
-cd tlt_resubmission/latex
+cd 07_manuscript/latex
 # (optional) regenerate body.tex from the Markdown sources:
 #   python build_body.py
 pdflatex TLT_DigitalTwins_Manuscript.tex

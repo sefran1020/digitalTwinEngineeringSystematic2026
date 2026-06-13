@@ -36,7 +36,7 @@ outcomes.
 | `04_data/` | `corpus.bib` (65 included studies) + Zotero export; `references_master.bib` (193 refs); `extraction/` (long-format extraction with verbatim quotations and activations); `derived_tables/` (Layer 1–4 outputs, evidence-quality scoring, synthesis Tables A/B). |
 | `05_analysis/` | The reproducible Python pipeline (`run_all.py` orchestrates classification, Layer 1–4 analysis, robustness checks, figures, and synthesis tables). See `PIPELINE.md`. |
 | `06_results/` | All figures (`figures/`: PRISMA flow + F1–F10, incl. interactive HTML), the synthesis narrative, and synthesis tables. |
-| `07_manuscript/` | The IEEE Transactions on Learning Technologies manuscript package in `tlt_resubmission/`: built PDFs (manuscript + supplementary), the IEEEtran LaTeX sources (`latex/`), the editable section Markdown (`sources_md/`, `master.bib`), and the build scripts. |
+| `07_manuscript/` | The IEEE Transactions on Learning Technologies manuscript package: built PDFs (manuscript + supplementary), the IEEEtran LaTeX sources (`07_manuscript/latex/`), the editable section Markdown (`07_manuscript/sources_md/`, `master.bib`), and the build scripts. |
 
 ## Method summary (PRISMA 2020)
 
@@ -70,12 +70,12 @@ python run_all.py        # regenerates derived tables and figures
 ```
 
 Rebuilding the manuscript requires a LaTeX toolchain (TeX Live) with `pdflatex`
-and `bibtex`. The editable section Markdown in `tlt_resubmission/sources_md/` is
+and `bibtex`. The editable section Markdown in `07_manuscript/sources_md/` is
 converted to `latex/body.tex` with [pandoc](https://pandoc.org) via
 `latex/build_body.py`; the IEEEtran document is then compiled:
 
 ```bash
-cd 07_manuscript/tlt_resubmission/latex
+cd 07_manuscript/latex
 pdflatex TLT_DigitalTwins_Manuscript.tex
 bibtex   TLT_DigitalTwins_Manuscript
 pdflatex TLT_DigitalTwins_Manuscript.tex
@@ -88,7 +88,7 @@ Three large language model agents performed semantic screening (with a moderator
 agent and human confirmation); an automated pipeline (Marker) converted PDFs to
 text for human-verified extraction; and generative AI assisted manuscript
 drafting. All decisions, data, and analytical results were produced or verified by
-the authors. See `07_manuscript/tlt_resubmission/sources_md/06_ai_statement.md`.
+the authors. See `07_manuscript/sources_md/06_ai_statement.md`.
 
 ## What is **not** included
 
