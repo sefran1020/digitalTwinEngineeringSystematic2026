@@ -6,7 +6,8 @@ A reproducible **systematic review** (PRISMA 2020) of how digital twins (DTs) ar
 designed, implemented, and evaluated in higher-education engineering and STEM
 settings. This repository contains the protocol, search exports, full screening
 trace, extracted data, the end-to-end analysis pipeline, the figures and tables,
-and the manuscript package submitted to the *Journal of Engineering Education*.
+and the manuscript package prepared for the *IEEE Transactions on Learning
+Technologies*.
 
 > **Review question.** How are digital twins designed, implemented, and evaluated
 > in higher-education engineering and STEM settings?
@@ -35,7 +36,7 @@ outcomes.
 | `04_data/` | `corpus.bib` (65 included studies) + Zotero export; `references_master.bib` (193 refs); `extraction/` (long-format extraction with verbatim quotations and activations); `derived_tables/` (Layer 1–4 outputs, evidence-quality scoring, synthesis Tables A/B). |
 | `05_analysis/` | The reproducible Python pipeline (`run_all.py` orchestrates classification, Layer 1–4 analysis, robustness checks, figures, and synthesis tables). See `PIPELINE.md`. |
 | `06_results/` | All figures (`figures/`: PRISMA flow + F1–F10, incl. interactive HTML), the synthesis narrative, and synthesis tables. |
-| `07_manuscript/` | The JEE submission package (anonymized manuscript, title page, cover letter) and editable `sources/` (section Markdown, `master.bib`, APA CSL, formatting template, build scripts). |
+| `07_manuscript/` | The IEEE Transactions on Learning Technologies manuscript package in `tlt_resubmission/`: built PDFs (manuscript + supplementary), the IEEEtran LaTeX sources (`latex/`), the editable section Markdown (`sources_md/`, `master.bib`), and the build scripts. |
 
 ## Method summary (PRISMA 2020)
 
@@ -68,16 +69,17 @@ cd 05_analysis
 python run_all.py        # regenerates derived tables and figures
 ```
 
-Rebuilding the manuscript DOCX requires [pandoc](https://pandoc.org) (≥ 3.x):
+Rebuilding the manuscript requires a LaTeX toolchain (TeX Live) with `pdflatex`
+and `bibtex`. The editable section Markdown in `tlt_resubmission/sources_md/` is
+converted to `latex/body.tex` with [pandoc](https://pandoc.org) via
+`latex/build_body.py`; the IEEEtran document is then compiled:
 
 ```bash
-cd 07_manuscript/sources
-pandoc 00_front.md 01_introduction.md 01b_positionality.md 02_methods.md \
-  03_results.md 04_discussion.md 05_conclusions.md 06_ai_statement.md \
-  09_availability.md 07_refs.md 08_appendix.md \
-  --citeproc --bibliography=assets/master.bib --csl=assets/apa.csl \
-  --reference-doc=assets/reference.docx -M link-citations=true \
-  -o ../JEE_DigitalTwins_Manuscript.docx
+cd 07_manuscript/tlt_resubmission/latex
+pdflatex TLT_DigitalTwins_Manuscript.tex
+bibtex   TLT_DigitalTwins_Manuscript
+pdflatex TLT_DigitalTwins_Manuscript.tex
+pdflatex TLT_DigitalTwins_Manuscript.tex
 ```
 
 ## Use of AI
@@ -86,7 +88,7 @@ Three large language model agents performed semantic screening (with a moderator
 agent and human confirmation); an automated pipeline (Marker) converted PDFs to
 text for human-verified extraction; and generative AI assisted manuscript
 drafting. All decisions, data, and analytical results were produced or verified by
-the authors. See `07_manuscript/sources/06_ai_statement.md`.
+the authors. See `07_manuscript/tlt_resubmission/sources_md/06_ai_statement.md`.
 
 ## What is **not** included
 
@@ -107,6 +109,6 @@ if you reuse the data or code, this repository.
 
 ## Status
 
-Manuscript under submission to the *Journal of Engineering Education*. The protocol
-will be registered (PROSPERO/OSF) before any update; see the manuscript's
-"Information that remains to be supplied".
+Manuscript prepared for submission to the *IEEE Transactions on Learning
+Technologies* (critical systematic review). The protocol will be registered
+(OSF) before any update.

@@ -1,0 +1,43 @@
+\documentclass[journal]{IEEEtran}
+% --- encoding & fonts (pdflatex) ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+% --- tables/figures (pandoc body needs these) ---
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{calc}
+\providecommand{\real}[1]{#1}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{url}
+\usepackage{cite}
+\hyphenation{op-tical net-works semi-conduc-tor Industry}
+
+\begin{document}
+
+\title{Digital Twins in Engineering and STEM Higher Education: A Systematic Review of Architectures, Pedagogy, and the Quality of Learning Evidence}
+
+\author{Segundo~F.~Segura-Altamirano,~Diana~M.~Castro-Cárdenas,~Carlos~L.~Oblitas-Vera,~Grimaldo~D.~Benavides-Campos,~Janet~R.~Aquino-Lalupú,~Wilder~A.~Alvarado-Castillo,~Rosa~E.~Salazar-Cabrejos,~and~Nilton~C.~German~Reyes%
+\thanks{All authors are with the Universidad Nacional Pedro Ruiz Gallo, Lambayeque, Peru (corresponding author: Segundo F. Segura-Altamirano; e-mail: sseguraal@unprg.edu.pe).}}
+
+\markboth{IEEE Transactions on Learning Technologies, Manuscript submitted 2026}%
+{Segura-Altamirano \MakeLowercase{\textit{et al.}}: Digital Twins in Engineering and STEM Higher Education}
+
+\maketitle
+
+\begin{abstract}
+Practical laboratory training is central to engineering education yet constrained by cost, safety, access, and post-pandemic continuity, and digital twins (DTs)---virtual replicas bidirectionally coupled to physical assets---are increasingly proposed to address these limits. This article systematically reviews how DTs are designed, implemented, and evaluated in higher-education engineering and STEM settings, across four objectives: technological architecture and deployment environments; pedagogy and Industry 4.0/5.0 competencies; empirical learning outcomes; and institutional benefits and barriers. Following PRISMA 2020, five databases were searched; a terminological screen, three-agent large-language-model semantic screening with a moderator (inter-agent Fleiss' $\kappa = 0.60$), and human review yielded 126 eligible records, of which 65 retrievable studies (2018--2026) formed the corpus. The methodological quality of empirical studies was scored on a transparent 0--6 composite and sensitivity-tested, and the synthesis was read through an instructional-alignment lens (constructive alignment, ICAP, and Kirkpatrick's levels). The corpus demonstrates feasibility, engagement, and disciplinary breadth, with a recent shift toward bidirectional, occasionally AI-augmented twins; however, the technical maturity of the twin is decoupled from the rigour of its evaluation---architectures are described more than instrumented, pedagogy is active but seldom named, and the learning evidence is weak-dominated, with only a minority of rigorous studies reporting substantial effects. We map where transfer-oriented, well-reported evidence is most needed and propose a reporting checklist for educational digital twins.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Constructive alignment, digital twin, engineering education, evidence quality, Industry 4.0, laboratory learning, learning outcomes, STEM education.
+\end{IEEEkeywords}
+
+\input{body}
+
+\bibliographystyle{IEEEtran}
+\bibliography{master}
+
+\end{document}

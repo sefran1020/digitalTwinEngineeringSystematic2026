@@ -1,0 +1,1286 @@
+\section{Introduction}\label{introduction}
+
+Laboratory and hands-on instruction occupy a privileged place in engineering
+education. The instructional laboratory is not an adjunct to the lecture but a
+setting with its own learning objectives---instrumentation, experimentation,
+modelling, design, and the disciplined translation of theory into practice---that
+the field has articulated explicitly and treated as constitutive of professional
+competence \citep{feisel_role_2005, lei_teaching_2022, naukkarinen_supporting_2018}.
+Yet the physical laboratory is a constrained resource. Time, space, equipment
+cost, maintenance, and safety place hard limits on how many students can practise,
+how often, and on how current the available apparatus remains relative to the
+industrial state of the art \citep{lei_teaching_2022, prichetnikov_investigation_2020}.
+The COVID-19 pandemic sharpened these long-standing constraints, forcing the rapid
+migration of practical courses online and exposing how poorly procedural skill
+formation tolerates the loss of physical access \citep{haase_teaching_2022, alkhedher_interactive_2021}. In response, virtual, remote and simulation-based
+laboratories have proliferated across engineering disciplines---from electrical
+measurement, transmission lines and microcontroller programming to chemical
+reaction engineering and control systems \citep{chumchuen_remote_2023, andrieu_remote_2021, panagiotakis_remote_2022, naukkarinen_supporting_2018, lei_teaching_2022}.
+
+The displacement of practical work from physical apparatus to its digital
+surrogates raises a question that has organised engineering-education research for
+two decades: do non-traditional laboratories achieve the same learning outcomes as
+hands-on work? Comparative reviews have repeatedly found that virtual and remote
+laboratories can match hands-on settings on many measured outcomes, with the
+relative advantage depending on the outcome and the instructional design rather
+than on the medium alone \citep{ma_handson_2006, corter_constructing_2007, lindsay_effects_2005, brinson_learning_2015}. That literature is equally
+notable, however, for what it says about evidence: Brinson's review of the
+empirical research reports that the great majority of studies find ``no significant
+difference'' yet are dominated by weak designs and self-report, and bibliometric
+syntheses document rapid growth in publication without commensurate growth in
+methodological rigour \citep{brinson_learning_2015, heradio_virtual_2016, potkonjak_virtual_2016}. A recent review of digital technologies for practical
+teaching reaches the same double conclusion: these tools improve access,
+flexibility and engagement, but the evidence that they replace the tacit,
+procedural learning of the physical workshop remains limited
+\citep{maladzhi_digital_2025}. The digital twin enters engineering education as the
+most recent and most technically ambitious member of this lineage, and it inherits
+the lineage's unresolved question.
+
+Among these digital approaches, the digital twin (DT) has emerged as a distinct
+and more demanding proposition. First articulated by Grieves in the
+context of product-lifecycle management \citep[as reported in][]{liljaniemi_using_2020}, a DT is a virtual representation of a physical asset
+maintained in correspondence with it through a data connection, such that the
+state of one is reflected in the other across the asset's lifecycle
+\citep{de_larmelina_conceptualizing_2026, weichbroth_toward_2024}. This definitional core is widely shared, but the term
+remains contested. Analysing more than 15,000 publications, \citet{abdelrahman_what_2025} show that no consensus definition exists and that several features often
+assumed to be intrinsic---real-time bidirectional data flow, simulation, and
+embedded artificial intelligence (AI)---are not yet mature even in industrial
+practice. The literature therefore distinguishes degrees of integration, from a
+static digital model, through a digital shadow with one-way physical-to-virtual
+updating, to a fully bidirectional digital twin capable of closed-loop control
+\citep[Kritzinger et al., 2018, as cited in][]{liljaniemi_using_2020, abdelrahman_what_2025, bokhtiar_al_zami_digital_2025}. This gradation matters pedagogically, because it
+separates a DT from a conventional simulation or an immersive scene: what is
+labelled a ``twin'' may range from a high-fidelity but disconnected model to an
+instrumented, synchronised cyber-physical system \citep{kabir_digital_2025, lee_digital_2025}. Establishing this maturity---rather than assuming it from the
+label---is consequently a prerequisite for any serious account of what educational
+DTs are and what they can teach.
+
+The motivation to bring DTs into the classroom is inseparable from the competence
+demands of Industry 4.0 and the emerging, human-centred Industry 5.0
+\citep{saini_industry_2026, kabir_digital_2025}. Employers and accreditation bodies
+increasingly expect graduates to be fluent in the industrial Internet of Things,
+automation and data analytics and, with the Industry 5.0 turn, in human--machine
+collaboration and sustainability-oriented practice \citep{sell_international_2025, azofeifa_top_2025, dautaj_importance_2026}. Several studies document a
+persistent mismatch between graduate competencies and labour-market expectations
+\citep{denissova_factors_2026}, while survey evidence shows that engineering faculty
+themselves often feel insufficiently prepared, and insufficiently equipped, to
+teach these technologies \citep{cuperman_academic_2026}. DTs are proposed in this
+context precisely because they can expose students to the same
+cyber-physical systems they will meet in industry, and align that exposure
+with competence frameworks articulated for Industry 5.0 work and learning
+factories \citep{zare_engineering_2026, nitu_engineering_2026, al-jumeily_implementing_2026}.
+
+DTs rarely arrive alone. They are typically embedded within, or compared against,
+a broader wave of immersive and virtual technologies---virtual, augmented and mixed
+reality, the metaverse, and serious games---whose use in engineering and higher
+education has expanded rapidly and been mapped by numerous reviews
+\citep{lampropoulos_virtual_2025, jin_extended_2026, fan_impacts_2025, espinoza_virtual_2025, llanos-ruiz_virtual_2025}. The evidence on these
+technologies is, however, mixed. Many studies report gains in motivation,
+engagement and the understanding of complex concepts, but controlled comparisons
+sometimes find no significant difference in measured learning outcomes relative
+to traditional methods, underscoring that pedagogical design, not technology
+alone, drives the effect \citep{giussani_study_2025, yindeemak_emerging_2026, lainidis_systematic_2026}. Within this landscape, DT-based education has
+grown from early demonstrations in construction and mechanical engineering
+\citep{sepasgozar_digital_2020, liljaniemi_using_2020, treffinger_investigations_2022}
+into a varied corpus spanning manufacturing, robotics, electrical and chemical
+engineering, aviation maintenance and even university mathematics
+\citep{khan_teaching_2026, kwateng_enhancing_2026, hunpinyo_isa95_2026, xiang_research_2025, bolanos_design_2026, lee_digital_2023}, often coupled with
+project-based and experiential pedagogies and framed as preparation for
+Industry 4.0/5.0 practice \citep{zhang_effectiveness_2024, ruppert_demonstration_2023, terkaj_virtual_2024, alvarez_ariza_investigating_2026}.
+
+This momentum has produced several reviews, but they leave the lineage's
+central question---whether the technology achieves the learning outcomes of
+hands-on work, and on what quality of evidence---largely unanswered for DTs.
+Existing syntheses tend either to survey immersive technologies broadly,
+with DTs as one instance among many \citep{lampropoulos_virtual_2025, tokhayeva_virtualisation_2026, jiang_state_2026}, or to concentrate on a single
+application niche, such as DT-coupled virtual learning environments for smart
+manufacturing \citep{kumar_karanam_systematic_2025}. Across this body of work three
+gaps recur. First, the techno-pedagogical architecture of educational DTs---their
+deployment environment, communication protocols and synchronisation, and degree
+of bidirectional integration---is seldom characterised jointly with the pedagogy it
+is meant to serve, so that technical and instructional accounts run in parallel
+rather than being read together. Second, and continuing the evidence-quality
+concern that comparative laboratory reviews have raised since Brinson
+\citep{brinson_learning_2015, heradio_virtual_2016}, reviews rarely appraise the
+methodological quality of the underlying learning evidence; effectiveness claims
+are aggregated without weighting how rigorously each was established, even though
+the immersive-technology literature itself warns that headline gains often rest
+on small, uncontrolled designs \citep{fan_impacts_2025, giussani_study_2025}.
+Third, no synthesis has examined how technical, pedagogical and evaluative
+choices co-vary across the field---whether, for example, the most technically
+capable twins are also the most rigorously evaluated, or whether ambitious
+competence claims are matched by demonstrated outcomes. Addressing these gaps
+calls for a synthesis that treats architecture, pedagogy, evidence quality and
+institutional context as linked dimensions rather than as separate narratives,
+and that reads them through an explicit instructional lens rather than as a
+technical inventory.
+
+Accordingly, this systematic review synthesises 65 primary studies on the use of
+digital twins in engineering and higher education, published between 2018 and
+2026. The corpus was coded through an inductive thematic analysis organised into
+eight themes, and the synthesis is then read through the alignment lens set out in
+the next section. On that basis the review pursues four objectives, each posed as
+a question about the instructional system rather than the artefact: (O1) to
+characterise the technological architectures and deployment environments of
+educational DTs---their enabling components, synchronisation and convergence with
+AI---and the instructional affordances these provide; (O2) to describe the
+pedagogical designs adopted and the Industry 4.0/5.0 competencies they target, and
+to ask whether that pedagogy engages students constructively and aligns
+competencies to the twin; (O3) to appraise the empirical evidence for learning
+outcomes---at what level of evaluation, and with what methodological rigour, it
+rests; and (O4) to assess the institutional benefits claimed for DTs and the
+barriers to their adoption, and whether those claims are aligned with demonstrated
+outcomes. Beyond profiling each dimension separately, the review analyses how
+these dimensions co-occur and relate, so that the maturity of the technology can
+be read against the rigour of its evaluation and the breadth of competence claims
+against the weight of demonstrated learning. By coupling a structured description
+of what is being built with a critical appraisal of what has actually been shown,
+the review aims to give engineering educators, researchers and institutions an
+evidence-weighted map of the field and a foundation for the research agenda
+developed in the sections that follow.
+
+The significance of this work for engineering education research and practice lies
+in its appraisal stance. Rather than cataloguing digital-twin applications, the
+review weighs the \emph{quality} of the evidence behind them and asks how technical,
+pedagogical and evaluative choices co-vary, reading the field as an instructional
+system through the alignment lens developed in the next section rather than as a
+catalogue of technology. The intent is to give researchers an evidence-weighted
+basis for identifying where confirmatory, transfer-oriented work is most needed,
+and to give educators and institutions a more cautious basis for adopting digital
+twins---pairing them with explicit pedagogy, aligned assessment, and instrumented
+cost, sustainability and accessibility claims---than a technology-led reading would
+support. What the synthesis shows about the balance between technical maturity and
+evaluative rigour, and what follows from it, is developed in the Results and
+Discussion.
+
+\section{Related Reviews}\label{related-reviews}
+
+Several reviews already touch this field, which makes it important to state
+precisely what they do and do not establish. Table 1 compares the most relevant
+prior syntheses---those addressing digital twins (DTs) in education and the longer
+line of comparative laboratory reviews from which the DT question descends---along
+the dimension that motivates the present work: whether each weighs the
+\emph{methodological quality} of the learning evidence it aggregates, rather than only
+cataloguing or counting studies.
+
+\textbf{Table 1.} Prior reviews of digital twins and of technology-mediated laboratories in higher education, and whether each appraised the methodological quality of the underlying learning evidence. HE = higher education; SET = science, engineering and technology; DT = digital twin.
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Review
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Type
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Focus and scope
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Appraises evidence quality?
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Stated gap
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\citep{lampropoulos_virtual_2025} & Scoping & VR in engineering education (342 studies) & No & No methodological-quality analysis of included studies \\
+\citep{tokhayeva_virtualisation_2026} & Systematic & Virtualisation in HE; tools and cost & Partial & Weak primary designs; causal and economic inference limited \\
+\citep{jiang_state_2026} & Bibliometric & VR in HE (1,100 papers) & No & Little empirical work on educational effects \\
+\citep{kumar_karanam_systematic_2025} & Systematic & DT-coupled virtual environments for manufacturing education & No & No cost or scalability appraisal \\
+\citep{chamorro-atalaya_use_2024} & Bibliometric & DT in university teaching and learning (92 papers) & No & No analysis of governance or teacher competence \\
+\citep{omrany_digital_2026} & Systematic & DT for construction education and training (19 studies) & No & Fragmented, largely conceptual literature \\
+\citep{vergara_decade_2025} & Bibliometric & DT in materials science and engineering (1,106 papers) & No & Output mapped; educational outcomes not appraised \\
+\citep{maladzhi_digital_2025} & Systematic (PRISMA) & Digital technologies for practical SET teaching (28 studies) & Yes & Digital tools do not fully replace physical laboratories \\
+\citep{ma_handson_2006} & Comparative review & Hands-on vs simulated vs remote laboratories & No & Establishes taxonomy and comparison; no quality weighting \\
+\citep{brinson_learning_2015} & Review of empirical research & Learning outcomes: non-traditional vs hands-on labs & Partial & Prevailing ``no significant difference'', but weak designs dominate \\
+\citep{heradio_virtual_2016} & Bibliometric & Virtual and remote labs & No & Trends mapped; primary-study quality not appraised \\
+\citep{potkonjak_virtual_2016} & Review & Virtual laboratories for science, technology and engineering & No & Effectiveness reviewed without formal risk-of-bias assessment \\
+\end{longtable}
+}
+
+Two patterns are visible. First, the reviews that \emph{do} weigh evidence quality
+(e.g., the PRISMA review of digital practical-teaching technologies, and the
+nursing and mobile-VR meta-analyses that apply GRADE-style appraisal
+\citep{maladzhi_digital_2025, li_effects_2026, widowati_meta-analysis_2025}) sit
+\emph{outside} the digital-twin literature. Second, every review \emph{specific to digital
+twins in education}---whether bibliometric \citep{chamorro-atalaya_use_2024, vergara_decade_2025} or systematic \citep{kumar_karanam_systematic_2025, omrany_digital_2026}---characterises or counts the literature without appraising the
+rigour of the learning evidence it reports. To our knowledge, then, the present
+review is the first synthesis of digital twins in engineering and STEM higher
+education to make the \emph{quality} of the learning evidence its organising axis, and to
+read architecture, pedagogy and evidence jointly rather than as separate
+inventories---directly extending, for digital twins, the evidence-quality concern
+that comparative laboratory reviews have raised since Ma \& Nickerson and Brinson
+\citep{ma_handson_2006, brinson_learning_2015, heradio_virtual_2016}.
+
+\section{Conceptual Framework}\label{conceptual-framework}
+
+The objection that motivates this section is methodological as much as
+substantive. A catalogue of digital-twin (DT) implementations, however complete,
+does not by itself tell an engineering educator whether these systems teach, or
+how. To read architecture, pedagogy and evidence as parts of a single
+instructional system rather than as separate technical and educational
+narratives, we adopt three established lenses from the learning sciences and use
+them consistently to interpret the synthesis. They are deliberately modest in
+number and chosen because each maps onto one face of the review's question.
+
+\textbf{Constructive alignment} \citep{biggs_enhancing_1996, biggs_teaching_2011} supplies
+the organising principle. In Biggs' formulation, a course functions as a system
+in which intended learning outcomes, the teaching and learning activities, and
+the assessment tasks are mutually aligned: students learn what the activities and
+assessment actually require of them, not what the syllabus declares. A DT is, in
+these terms, a learning \emph{activity}---often an elaborate one. The pertinent question
+is therefore not how sophisticated the twin is, but whether the intended
+competencies and the assessment have been aligned with it. This reframing turns
+the review's central tension---technical maturity advancing faster than evaluative
+rigour---into a question about systemic alignment rather than about technology, and
+it connects the corpus to a long-standing concern in engineering education with
+the explicit, assessable purposes of laboratory work \citep{feisel_role_2005}.
+
+\textbf{The ICAP framework} \citep{chi_icap_2014} refines how we read the pedagogy of
+Objective O2. Decades of evidence establish that active engagement outperforms
+passive reception in engineering and STEM instruction \citep{prince_does_2004, freeman_active_2014}, yet ``active learning'' is used so broadly that it obscures
+more than it reveals. ICAP distinguishes four modes of cognitive engagement of
+rising expected benefit---passive, active, constructive and interactive---on the
+basis of what learners observably do with material. Applied to the corpus, it
+lets us ask whether DT activities labelled ``active'' engage students
+\emph{constructively} (generating new artefacts or explanations) and \emph{interactively}
+(co-constructing through dialogue), or merely keep them behaviourally busy. The
+single most capable engagement mode in ICAP---learners constructing the model
+itself---is precisely the activity our corpus documents only once, a gap the
+framework makes legible.
+
+\textbf{Kirkpatrick's levels of evaluation} \citep{kirkpatrick_kirkpatricks_2016} structure
+the appraisal of learning outcomes in Objective O3. The four levels---reaction,
+learning, behaviour and results---order evidence by how consequential and how
+difficult to obtain it is. Reactions (satisfaction, perceived usefulness) are
+the easiest to collect and the least probative; demonstrated behaviour change and
+downstream results are the most demanding. This ordering provides a vocabulary
+for the review's finding that affective and reaction-level outcomes dominate the
+corpus while transfer and retention---the levels that would substantiate the
+field's competence claims---are rarely measured.
+
+Together these lenses let the review pose, for educational DTs, the comparative
+question that has organised research on non-traditional laboratories for two
+decades: whether technology-mediated practical work achieves the learning
+outcomes of hands-on work, and on what quality of evidence \citep{ma_handson_2006, brinson_learning_2015}. Accordingly, the four objectives are read as alignment
+questions. O1 asks what instructional affordances the architecture actually
+provides; O2 asks whether the pedagogy engages students constructively and aligns
+competencies to the twin; O3 asks at what Kirkpatrick level, and with what rigour,
+learning has been evidenced; and O4 asks whether institutional claims are aligned
+with demonstrated outcomes or run ahead of them.
+
+A note on the status of this framework is essential to its honest use. The corpus
+was coded inductively: the eight themes (T1--T8) that structure the extraction
+were derived from the studies themselves, not deduced from constructive
+alignment, ICAP or Kirkpatrick. These three lenses were adopted at the
+\emph{synthesis} stage, to interpret the extracted data and to connect the findings to
+engineering-education research; they were not imposed on the protocol or used as
+an a priori coding scheme. The framework therefore guides interpretation and
+discussion, and the mapping of pedagogical labels to ICAP modes and of outcomes
+to Kirkpatrick levels is offered as a reading of the evidence, not as a
+measurement claimed to be present in the primary studies.
+
+\section{Positionality Statement}\label{positionality-statement}
+
+The authors are engineering and education faculty at a public university, with
+teaching and research interests spanning electronic and control engineering,
+automation, and engineering education. Several of us have designed and taught
+laboratory courses using simulation- and technology-mediated tools, an
+experience that shaped this review in two ways. First, it motivated our central
+question --- whether the technological sophistication of a digital twin is matched
+by evidence that it improves learning --- because we have seen compelling
+demonstrations adopted ahead of evidence in our own teaching contexts. Second, it
+disposed us toward a deliberately cautious, evidence-weighted reading rather than
+an advocacy stance. We hold no commercial interest in any digital-twin platform,
+vendor, or engine. We are mindful that our location in a resource-constrained
+setting sharpens our attention to cost, accessibility, and equity, and may make
+us more sceptical of unquantified institutional-benefit claims than authors
+writing from better-resourced contexts. To limit the influence of these
+dispositions on the findings, study selection used independent screening agents
+with explicit inclusion/exclusion tests, and the quality appraisal followed a
+pre-specified rubric applied with double verification.
+
+\section{Methods}\label{methods}
+
+\subsection{Protocol and reporting}\label{protocol-and-reporting}
+
+This review was designed and is reported following the PRISMA 2020 statement and,
+for the conduct of a systematic literature review in engineering education
+specifically, the methodological guidance synthesised by \citet{borrego_systematic_2014}.
+A pre-specified protocol (Review Protocol v2) fixed the research question,
+eligibility criteria, search strategy, screening procedure and analysis plan
+before screening began. The review was not prospectively registered; registration
+in PROSPERO or OSF is recommended before any update. The protocol, extraction
+schemas and analysis code are openly archived, so the design is auditable in full. The review question, framed with the
+Population--Concept--Context (PCC) scheme, asked how digital twins (DTs) are
+designed, implemented and evaluated in higher-education engineering and STEM
+settings. It was decomposed into four objectives: technological architectures and
+deployment environments (O1); pedagogical strategies and Industry 4.0/5.0
+competencies (O2); empirical evidence of learning outcomes (O3); and institutional
+benefits and critical barriers (O4).
+
+\subsection{Eligibility criteria}\label{eligibility-criteria}
+
+The population and context were university-level engineering or STEM students and
+instructors in courses, laboratories, training or assessment; the concept was the
+educational implementation, deployment, evaluation or use of a DT. The construct
+was defined canonically and applied with a deliberately conservative severity rule
+to guard against semantic drift: a DT is a virtual representation of a \emph{specific}
+physical asset, bidirectionally and continuously coupled to it, so that state
+changes propagate physical→virtual \emph{and} virtual→physical. Standalone simulations
+or numerical models, virtual or remote laboratories, VR/AR/XR, the metaverse,
+serious games, generic CPS/IoT testbeds, digital models (no automatic data
+exchange) and digital shadows (one-way coupling) were treated as near-misses and
+qualified only when the bidirectional coupling was explicit. Studies that claimed
+a ``digital twin'' with partial or unstated synchronisation were coded \emph{uncertain}
+rather than excluded, under an authoritative precedence rule whereby absence of
+confirming evidence is never grounds for exclusion.
+
+A hard document-type gate was applied before thematic relevance: empirical journal
+articles, full conference papers and early-access empirical articles were
+eligible, whereas reviews of any kind, surveys, editorials, opinion pieces,
+abstracts, posters and keynote summaries were ineligible. No language restriction
+was imposed; the retained corpus includes English, Spanish and Russian.
+
+\subsection{Information sources and search}\label{information-sources-and-search}
+
+Five bibliographic databases were searched: Scopus, Web of Science, IEEE Xplore,
+EBSCO and Dimensions. The searches were last run on 14 May 2026 (Web of
+Science, IEEE Xplore) and 15 May 2026 (Scopus, EBSCO, Dimensions). The core string combined the construct with an education
+block --- (``digital twin*'' OR ``educational digital twin*'') AND (``engineering
+education'' OR ``engineering training'' OR ``technical education'' OR ``STEM
+education'') --- adapted to each database's syntax. The choice of a compact,
+precision-oriented string rests on a documented sensitivity analysis of the
+search chain. In Scopus, the construct alone (``digital twin*'') returned 20,917
+records, and lengthening the construct disjunction with ``digital-twin*'' or
+``educational digital twin*'' did not enlarge this domain; conjoining the
+education block reduced the set to 192--193 records, whereas appending a long
+technology disjunction (laboratory, IoT, CPS, mechatronics, automation,
+telecommunications, embedded and cyber-physical systems) only narrowed recall
+further, to 159, without surfacing additional relevant work. Progressively
+trimming the education terms moved the yield monotonically between 141
+(``engineering education'' alone) and 193 (the full education disjunction). These
+runs confirmed two design decisions: the term ``digital twin*'' alone retrieves
+the same domain as longer construct disjunctions, and the education block --- not a
+long technology disjunction --- is the effective constraint. The string was
+therefore fixed to favour precision over an unfocused expansion of recall.
+
+The searches returned 1,504 raw records (Scopus 772, Dimensions 409, IEEE 181,
+EBSCO 81, Web of Science 61). After removing 38 records lacking a title or
+authors, 1,466 records entered deduplication. Matching on DOI (232) and fuzzy
+title (47) removed 279 duplicates, yielding 1,187 unique records; a further 9
+without an abstract were set aside, leaving 1,178 records for screening.
+
+\subsection{Study selection}\label{study-selection}
+
+Selection proceeded in three stages, summarised in the PRISMA 2020 flow diagram
+(Figure 1). First, an automated terminological screen required both a DT block
+and an engineering-education block to be present in the title, abstract or
+keywords, with a keyword-based rescue for records carrying the terms only in
+author or index keywords. This retained 799 records (206 by full field match and
+593 by keyword rescue) and set aside 379 on terminological grounds. Second, the
+799 records underwent semantic screening by a panel of three independent large
+language model (LLM) reviewers. To avoid one-dimensional judgments, the three
+reviewers shared a single base model (DeepSeek-V4-Flash, a non-reasoning
+configuration at temperature 0) but were instantiated with three complementary
+expert \emph{roles}: a Principal Investigator (judging the genuine intersection of all
+required concepts), a Research Methodologist (document type, empirical design and
+analytic purpose), and a Domain Expert (construct centrality and population/context
+authenticity). Each role applied the \emph{same} pre-specified, decidable criterion
+set---the canonical construct definition with its strict / moderate / near-miss
+severity mapping, the hard document-type gate, the positive include/exclude tests,
+and an authoritative uncertainty-precedence rule (absence of confirming evidence is
+coded \emph{uncertain}, never \emph{exclude})---but weighted it through its professional lens;
+the role defines the lens, not the scope. Each reviewer returned, for every record,
+an independent decision (include, exclude or uncertain), a confidence score, the
+governing criterion, and a verbatim evidence span. Running the base model at
+temperature 0 with cached calls makes the procedure \emph{reproducible}---re-running
+yields identical outputs---but it does not make the three reviewers identical: their
+differing role lenses produce genuine, criterion-grounded disagreement on
+borderline records, which is the intended behaviour of a review panel rather than
+stochastic noise. Aggregation followed a strict-unanimity rule: a record was
+auto-classified only when all three reviewers agreed; any split, or any ``uncertain''
+vote, was escalated to a fourth moderator agent (same model, independent prompt and
+seed) that read the three rationales and, absent a defensible resolution, deferred
+the record to human review.
+
+Agreement among the three primary reviewers was substantial: they were unanimous on
+466 of the 799 records (58\%), the moderator resolved a further 96 split cases (5 to
+include, 91 to exclude), and inter-agent reliability was Fleiss' κ = 0.60 across the
+three categories, with pairwise Cohen's κ between 0.56 and 0.63. This κ quantifies
+\emph{agreement among the role lenses, not the validity of the screen}: it is expected to
+fall below unity precisely because the panel is designed to disagree on genuinely
+borderline records, and because the uncertainty-precedence rule routes ambiguous
+records to the ``uncertain'' category---depressing nominal agreement---rather than risking
+a false exclusion. The decision criteria were anchored to twelve expert-authored
+calibration cases (four include, four exclude, four uncertain) spanning the
+construct-versus-near-miss boundary. Validity against a human standard was secured at
+the inclusion margin---every record the panel did not unanimously exclude (247) was
+adjudicated by a human---while residual false-negative risk in the unanimously-excluded
+zone is bounded by a documented, reproducible audit (a blind random sample of
+consensus-excluded records re-adjudicated by a human from title, abstract and
+keywords, with the models' rationales withheld to prevent anchoring); the audit
+script is released in the repository to be completed before any update. The agent
+prompts, scores and per-record outputs are provided as supplementary material and in
+the public repository. Third, a human
+review of the 247 records that the agents flagged as include (11) or uncertain
+(236) confirmed 126 as eligible. Full texts could be
+obtained for 65 of these; the remaining 61 could not be retrieved, and the
+synthesis proceeds on the 65 retrievable studies.
+
+\includegraphics[width=5in,height=\textheight,keepaspectratio]{figs/F1_prisma.png}
+
+\textbf{Figure 1.} PRISMA 2020 flow diagram of identification, screening and inclusion. Title/abstract screening combined an automated terminological screen with semantic screening by three independent large language model (LLM) agents and a fourth moderator agent (inter-agent Fleiss' κ = 0.60).
+
+\subsection{Data extraction}\label{data-extraction}
+
+Full texts were converted from PDF with the Marker pipeline to preserve textual
+fidelity, and extraction followed a theme-conditional activation principle: each
+study activated only the extraction templates of the themes in which it had been
+inductively coded, with the remaining variables left as not-applicable. This
+reduced extraction load, kept the evidence pertinent, and allowed per-theme
+reporting rates to be computed. Every critical variable used a controlled
+vocabulary --- NR (not reported), NA (not applicable) and UNCERTAIN --- and double
+verification, recording the extracted value together with a verbatim supporting
+quotation and its location, so that each datum is traceable to its source and
+independently auditable.
+
+\subsection{Thematic analysis and synthesis}\label{thematic-analysis-and-synthesis}
+
+An inductive thematic analysis --- conducted with three frontier LLMs (ChatGPT 5.5,
+Gemini 3.1 Pro and Claude Opus 4.7), whose independent codings were iteratively
+cross-fed and refined through successive rounds of author review to converge on a
+scheme granular enough to be exhaustive yet parsimonious enough to remain
+tractable --- produced eight themes: practical infrastructure (T1), enabling
+architectures (T2), AI convergence (T3), Industry 4.0/5.0 competencies (T4),
+pedagogical design (T5), empirical evidence (T6), institutional value (T7) and
+barriers (T8). The three models' outputs are included in the public repository. These were mapped N:M onto the four objectives
+through a traceability matrix (O1 = T1+T2+T3; O2 = T4+T5; O3 = T6; O4 = T7+T8), so
+that a single study could contribute to several themes and objectives.
+
+The synthesis was structured and narrative, without meta-analysis --- a decision
+justified by the methodological and outcome heterogeneity of the corpus. Because
+the review's principal inferences depend on the strength of the primary evidence,
+the methodological quality of each empirical study was formally appraised rather
+than assumed. Because no single instrument captures the rigour markers that the
+engineering-education research community has long argued distinguish trustworthy
+from anecdotal evidence \citep{streveler_conducting_2006}, we used a transparent,
+purpose-built composite rather than importing a clinical appraisal tool wholesale:
+each empirical study scored 0--6 on five additive markers---design rigour,
+comparator, inferential statistics, effect size and declared validity
+threats---chosen because they are the dimensions most consistently flagged in that
+methodological literature and are extractable from the reporting actually present
+in the corpus. The composite is deliberately simple and its banding is tested for
+robustness rather than treated as exact (below). Analysis proceeded in three
+principal layers: per-theme descriptive profiling with explicit
+reporting rates (Layer 1); aggregation by objective, including the 0--6
+evidence-quality composite over empirical studies
+(Layer 2); and theme co-occurrence and configuration analysis (Layer 3). These
+were complemented by an exploratory relational layer comprising an
+attribute-association network (φ coefficients with Fisher exact tests and
+non-parametric bootstrap 95\% confidence intervals, B = 5,000), a multiple
+correspondence analysis embedding, and a capability-by-evidence gap map. The
+robustness of the evidence bands was tested with a threshold-sensitivity analysis
+and bootstrap intervals, and the full pipeline is scripted end-to-end for
+reproducibility.
+
+\section{Results}\label{results}
+
+This section reports the synthesis of 65 primary studies on digital twins (DTs)
+in engineering education. Following the review design, the analysis proceeds in
+three layers --- descriptive profiling per theme (Layer 1), aggregation by review
+objective (Layer 2), and cross-cutting co-occurrence and relational analysis
+(Layer 3/4) --- mapped onto the four objectives O1--O4. Counts are reported over
+the subset of studies that activated each theme; reporting rates (the share of
+those studies that actually documented a given variable, as opposed to ``not
+reported'', NR) are stated explicitly because they bound the strength of every
+claim that follows. All supporting figures (Figures 2--11) and the
+synthesis tables (Tables 2 and 3) are produced by a reproducible analysis pipeline.
+
+\subsection{Corpus overview}\label{corpus-overview}
+
+The corpus spans 2018--2026 and is recent: 39 of 65 studies (60\%) were published
+in 2025--2026, with 26 in 2025 and 13 in 2026. Journal articles (37) and
+conference papers (26) are represented in comparable numbers. Studies are
+unevenly distributed across the eight inductive themes: pedagogy (T5, n=47) and
+Industry 4.0/5.0 competencies (T4, n=47) are most frequent, followed by
+practical infrastructure (T1, n=38), empirical evidence (T6, n=35), barriers
+(T8, n=28), enabling architectures (T2, n=26), institutional value (T7, n=21)
+and AI convergence (T3, n=11). Most studies activated three (19) or four (28)
+themes, indicating that individual papers typically address technology,
+pedagogy and outcomes jointly rather than in isolation.
+
+\subsection{O1 --- Technological architectures and deployment environments (T1+T2+T3)}\label{o1-technological-architectures-and-deployment-environments-t1t2t3}
+
+\textbf{Deployment environment (T1).} The environment type was reported in 37 of 38
+studies (97\%). Hybrid physical--virtual setups are the most common configuration
+(18), followed by immersive VR/AR/MR environments (11), remote (4) and
+virtual-only (3). The modelled physical system was almost always specified
+(95\%), most often a manufacturing plant or production line, with isolated cases
+in metallurgy, instrumentation laboratories, HVAC and robotics. Two variables
+were comparatively under-reported: the access modality (37\%) and the immersive
+hardware/software stack (55\%), where Unity is the recurring engine and head-set
+hardware (e.g., Oculus Rift) appears only sporadically. Reported visual/
+functional fidelity (58\%) was qualitatively ``high'' in 14 studies, but fidelity
+was seldom quantified.
+
+\textbf{Enabling architecture (T2).} Among the 26 architecture studies, physical
+components, virtual components and communication protocols were each documented
+in 88\% of cases, whereas the layered architecture was described in 62\%. OPC UA
+is the most frequently named protocol, with MQTT, TCP/IP, EtherCAT, the Asset
+Administration Shell (AAS) and the IEC 61131-3/61499 family also present. Mapped
+onto the Kritzinger et al.~taxonomy (reported by 18 of 26), the studies that
+specify a category claim a fully bidirectional digital twin in 10 cases and a
+(unidirectional) digital shadow in 7, with a single static digital model.
+Synchronisation, where stated (20 of 26), is ``real-time'' (8) or ``near-real-time''
+(8); only one study documents automatic bidirectional control. These figures
+should be read with caution: the taxonomy is largely self-described by authors
+and rarely accompanied by latency or jitter measurements, so the prevalence of
+``complete'' twins likely reflects terminological usage more than verified
+closed-loop synchronisation.
+
+\textbf{AI convergence (T3).} AI is the least represented dimension (11 studies).
+Where an AI family is named (8 of 11), it ranges across classical machine
+learning, deep/neural networks, generative models (LLM/GAN), explainable AI and
+knowledge graphs; the most common declared functions are prediction, diagnosis
+and predictive maintenance, with a few cases of automated student feedback and
+adaptive personalisation. Notably, AI performance metrics (accuracy, F1,
+inference latency) were reported in only 3 of 11 studies (27\%), so the
+educational and technical performance of these AI components is largely
+unverified in the current corpus.
+
+\includegraphics[width=6in,height=\textheight,keepaspectratio]{figs/F1_O1_arquitectura.png}
+
+\textbf{Figure 2.} Technological architectures and deployment environments (Objective O1): category distributions and per-variable reporting rates for deployment environment, modelled system, enabling architecture and AI convergence. AR = augmented reality; MR = mixed reality; VR = virtual reality; AAS = Asset Administration Shell; AI = artificial intelligence; OPC UA = Open Platform Communications Unified Architecture.
+
+\subsection{O2 --- Pedagogical design and competencies (T4+T5)}\label{o2-pedagogical-design-and-competencies-t4t5}
+
+\textbf{Disciplinary scope and competencies (T4).} The engineering domain was
+reported in 46 of 47 studies (98\%). Manufacturing (12) and automation (9)
+dominate, but the corpus is disciplinarily diverse, also covering mechatronics
+(5), chemical engineering (4), and smaller clusters in metallurgy, energy,
+civil/construction, robotics and cybersecurity. Targeted competencies were
+documented in 81\% of studies and cluster around IIoT, smart manufacturing,
+automation, data analytics and --- increasingly --- human--machine collaboration
+framed as Industry 5.0. Two alignment variables are weak spots: explicit mapping
+to industrial or accreditation standards (ABET, ISA-95, RAMI 4.0, IEC) and
+documented industry--academia collaboration were each reported in only 21\% of
+studies. Competencies are therefore frequently \emph{asserted as design intent}
+rather than anchored to external frameworks or industry validation.
+
+\textbf{Instructional design (T5).} The pedagogical model was reported in 43 of 47
+studies (92\%) and is overwhelmingly described as ``active learning'' (23) or
+``experiential learning'' (14); formally named approaches such as project-based
+learning, learning/teaching factories, ADDIE or challenge-based learning are
+individually rare. Interventions are concentrated at the undergraduate level
+(31), and student participation is typically ``active experimentation'' (25) or a
+``full life-cycle project'' (12), with student \emph{construction} of the twin itself
+documented only once. The teacher is consistently positioned as a facilitator or
+supervisor (reported in 77\%). A recurring reporting gap is intervention
+duration, stated in only 38\% of studies, which limits any inference about dose
+or sustained effects.
+
+Read through the ICAP lens \citep{chi_icap_2014}, the reported participation modes
+cluster at the \emph{active} level of cognitive engagement: the dominant mode, ``active
+experimentation'' (25 of 42), denotes hands-on manipulation of the twin rather than
+the generation of new artefacts or explanations. Modes that would reach the
+\emph{constructive} and \emph{interactive} levels---where ICAP predicts the largest learning
+gains---are the minority: full life-cycle projects (12) and, at the apex, students
+\emph{constructing} the twin itself, which appears once. Guided exploration (4) sits at
+the active/passive boundary. This distribution is consistent with a field that has
+adopted the language of active learning \citep{prince_does_2004, freeman_active_2014}
+without yet designing for its more demanding, generative forms; the mapping is an
+interpretive reading of the extracted labels rather than a measure reported by the
+primary studies.
+
+\includegraphics[width=6in,height=\textheight,keepaspectratio]{figs/F2_O2_pedagogia.png}
+
+\textbf{Figure 3.} Pedagogical design and Industry 4.0/5.0 competencies (Objective O2): engineering domains, targeted competencies, pedagogical models and participation modes, with reporting rates. IIoT = industrial Internet of Things.
+
+\subsection{O3 --- Empirical evidence of learning outcomes (T6)}\label{o3-empirical-evidence-of-learning-outcomes-t6}
+
+Thirty-five studies activated T6. Research design was reported in 80\% of them
+and is mixed in rigour: quasi-experiments (8) and conceptual/design-development
+studies (8) are equally common, alongside case studies/surveys/pilots (8),
+mixed-methods (3) and a single controlled experiment. Comparator use is best read
+in three categories rather than as a single ``reported'' rate: of the 35 studies,
+20 (57\%) employed an actual comparator, 9 (26\%) explicitly had none, and 6 (17\%)
+did not report it. Among the 20 with a comparator, the most common were a
+traditional class (10) or a within-subject pre/post design (7), with a few using
+a no-treatment control group. Critically for a technology whose promise is to
+stand in for hands-on practice, only one study compared the twin against a
+physical laboratory \citep{liljaniemi_enhancing_2025}---the very comparison the field's
+foundational question requires \citep{ma_handson_2006, brinson_learning_2015}. Across
+reported outcome dimensions, affective/engagement results
+(23; spanning motivation, technology acceptance, self-efficacy and, where
+NASA-TLX is used, cognitive load) and cognitive results (22) are reported more often than procedural skills
+(17).
+
+The central limitation of the evidence base concerns statistical reporting.
+Inferential statistics with reported values appear in only 11 of 35 studies
+(31\%), and an effect size in only 8 (23\%). To make this explicit, we scored
+each empirical study on a 0--6 composite (design rigour, comparator, inferential
+statistics, effect size, and declared validity threats). The resulting distribution is weighted toward
+the lower end: 20 studies are \emph{weak}, 10 \emph{moderate} and 5 \emph{strong} (median
+composite score = 2 of 6). This bottom-heavy profile does not depend on the
+chosen cut-points: under a stricter banding only 2 studies are strong and under a
+lenient banding 12 are, yet weak-or-moderate studies remain the clear majority
+in every scheme (66--94\%; 20 of 35 score ≤2 and are weak under all schemes).
+
+Where strong studies exist, they report substantial effects. In a controlled
+quasi-experiment on a digital-twin/IoT laboratory intervention (N=200: 140
+intervention, 60 control), \citet{kwateng_enhancing_2026} report a between-groups difference of t(198)=8.94, p\textless.001, a
+pre/post mean gain of +18.5 points in the intervention group versus +4.3 in the
+control, a large effect on sensor-integration skills (Cohen's d=0.91), and
+procedural improvements such as cloud-synchronisation success
+rising from 68\% to 92\%; \citet{wang_innovative_2025} report Cohen's d=1.24 for knowledge
+mastery, \citet{tarng_application_2024} an ANCOVA group effect of η²=0.50, and \citet{lu_digital_2025} Cohen's d=1.06 in algorithm-design and d=0.91 in debugging tasks. These cases show
+that rigorous evaluation of educational DTs is feasible, and the five strongest
+studies are not small (N=60--200). They remain the exception, however: they are
+mostly single-institution, non-randomised quasi-experiments with short, single-module
+exposures and possible novelty effects --- limitations the authors themselves
+declare in 57\% of T6 studies. Reported gains should therefore be read as
+promising but not yet robustly generalisable.
+
+\includegraphics[width=6in,height=\textheight,keepaspectratio]{figs/F3_O3_evidencia.png}
+
+\textbf{Figure 4.} Empirical evidence of learning outcomes (Objective O3): research designs, comparators, reported outcome dimensions and the 0--6 evidence-quality composite. NASA-TLX = NASA Task Load Index.
+
+\subsection{O4 --- Institutional benefits and critical barriers (T7+T8)}\label{o4-institutional-benefits-and-critical-barriers-t7t8}
+
+\textbf{Institutional value (T7).} Among the 21 studies addressing institutional
+value, accessibility and equity arguments are the most frequently articulated
+(86\%), predominantly framed as geographic remote access; the geographic context
+of application was reported in all 21. However, the quantitative
+underpinnings of the institutional case are thin: implementation cost was
+reported in only 6 studies (29\%), environmental-sustainability indicators in 3
+(14\%), and licensing model in 8 (38\%, of which 6 open-source). The few studies
+that do quantify these dimensions are informative: \citet{bonavolonta_sustainability_2026}
+provide a life-cycle assessment of an immersive electronics laboratory
+(≈7,000 kWh/year, ≈1.75 tCO₂/year, ≈200 kg of WEEE over seven years, and a
+per-student cost roughly four times lower than the traditional laboratory, with
+completion rising to 70\% vs 56\%), and \citet{gallego_low-cost_2025} report a low-cost
+VR-teleoperated robotic arm at under €400. Post-COVID continuity, a common
+narrative motivation, is explicitly invoked in only 38\% of these studies.
+
+\textbf{Barriers (T8).} Twenty-eight studies discuss barriers, but reporting is again
+partial. Technical barriers are the most frequently documented (43\%) ---
+insufficient model fidelity, limited interoperability, latency/jitter,
+synchronisation complexity and cybersecurity --- while institutional/teacher
+barriers (teacher training, curricular governance, resistance to change) and
+pedagogical/curricular barriers (the virtual-to-physical transfer gap, limited
+ecological validity, misalignment of competencies--activities--assessment) are
+each documented in roughly a quarter of studies. Scalability or transferability
+evidence was reported in 36\%, usually as architectural argument rather than
+demonstrated multi-institution replication. Declared facilitating conditions
+(25\%) converge on institutional commitment, industry partnerships, prior
+training and minimum infrastructure.
+
+\includegraphics[width=6in,height=\textheight,keepaspectratio]{figs/F4_O4_beneficios_barreras.png}
+
+\textbf{Figure 5.} Institutional benefits and barriers (Objective O4): articulated benefits (accessibility, cost, sustainability, continuity) and reported barrier types (technical, institutional, pedagogical), with reporting rates. WEEE = waste electrical and electronic equipment.
+
+\subsection{Cross-cutting analysis: co-occurrence, gaps and relationships}\label{cross-cutting-analysis-co-occurrence-gaps-and-relationships}
+
+The co-occurrence matrix (Figure 6) shows that the corpus is organised around a
+pedagogy--competencies--evidence core: the strongest theme pairings are T4--T5
+(competencies × pedagogy, 34 studies) and T5--T6 (pedagogy × evidence, 31). AI
+(T3) is weakly connected to every other theme (maximum co-occurrence of 8, with
+T4). This structure motivates four configuration analyses that surface
+relationships not visible in the per-theme frequencies:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Aspiration--evidence gap.} Twenty-five studies (38\%) claim Industry 4.0/5.0
+  competencies (T4) without activating empirical evaluation (T6), and 16 (25\%)
+  describe a pedagogical design (T5) with no empirical evidence. The competency
+  claims of the field currently outpace its demonstrated learning outcomes.
+\item
+  \textbf{Optimism asymmetry.} Sixteen studies (25\%) report institutional benefits
+  (T7) without discussing any barrier (T8), while 23 report barriers without
+  claiming benefits. The presence of a substantial barriers-only group suggests
+  the corpus is not uniformly promotional, but the benefits-without-barriers
+  group should be read with caution.
+\item
+  \textbf{Immersive-without-evidence.} Eight studies (12\%) combine an immersive or
+  practical environment (T1) with a pedagogical design (T5) but report no
+  empirical outcomes (T6) --- a recurring pattern of compelling demonstrations
+  awaiting evaluation.
+\item
+  \textbf{Integrated maturity is rare.} Only 3 studies (5\%) assemble the full stack
+  of environment + architecture + pedagogy + evidence (T1+T2+T5+T6:
+  \citet{sakkas_multiplayer_2025}; \citet{tarng_application_2024}; \citet{terkaj_framework_2024}), and
+  only 1 combines a detailed architecture, AI and empirical evaluation
+  (T2+T3+T6: \citet{machado_automatic_2025}).
+\end{itemize}
+
+The relational tables make three further associations explicit; given the small
+cell sizes these are descriptive, not inferential.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Architecture maturity is decoupled from evaluation rigour.} Only 4 studies
+  both characterise the twin on the Kritzinger taxonomy (T2) \emph{and} report an
+  evaluable outcome (T6) with a quality band. In other words, the studies that
+  describe \emph{how complete} the twin is are largely not the studies that test
+  \emph{whether it improves learning} --- a structural separation between the
+  engineering and the educational evidence in the field.
+\item
+  \textbf{Effect-size reporting is low across all designs.} The share of studies
+  reporting an effect size is 0\% for conceptual/design-development and
+  mixed-methods studies, about 38\% for case-study/survey/pilot and
+  quasi-experimental studies, and 100\% only for the single controlled
+  experiment (Figure 7a). Even quasi-experiments report an effect size in only
+  about a third of cases, so weak statistical reporting is pervasive rather than
+  confined to the weakest designs.
+\item
+  \textbf{A shift toward fully bidirectional twins over time.} Among architecture
+  studies, ``complete'' digital twins are concentrated in 2024--2026 (10 of 18),
+  whereas earlier years are dominated by digital shadows (Figure 7b). The
+  terminological and technical ambition of the field is increasing, which makes
+  the decoupling noted in point 1 --- and the scarce reporting of AI and
+  synchronisation metrics --- the more consequential to address.
+\end{enumerate}
+
+\includegraphics[width=6in,height=\textheight,keepaspectratio]{figs/F5_coocurrencia_temas.png}
+
+\textbf{Figure 6.} Theme co-occurrence matrix: number of studies jointly activating each pair of the eight inductive themes (T1--T8).
+
+\includegraphics[width=6in,height=\textheight,keepaspectratio]{figs/F6_relacional.png}
+
+\textbf{Figure 7.} Relational analyses: (a) rate of effect-size reporting by research design; (b) digital-twin maturity (Kritzinger taxonomy) by publication year.
+
+\subsection{Advanced relational analysis (exploratory)}\label{advanced-relational-analysis-exploratory}
+
+Because per-theme frequencies cannot show how technical, pedagogical and
+evaluative choices travel together, we examined pairwise associations between 18
+binary study attributes spanning the four objectives (φ coefficient with Fisher
+exact tests over the 65 studies, plus non-parametric bootstrap 95\% confidence
+intervals, B=5000).
+With this sample size the associations are hypothesis-generating rather than
+inferential; each is reported with its co-occurrence count and bootstrap CI, and
+we flag edges whose interval includes zero. The attribute network (Figure 8) is
+organised into three loosely connected communities rather than a single
+integrated cluster: (i) a \textbf{technical-capability} group in which bidirectional
+twins, real-time synchronisation and hybrid environments co-occur (φ=0.69,
+95\% CI {[}0.51, 0.86{]}, between bidirectional DT and real-time sync; φ=0.40
+{[}0.13, 0.65{]} between hybrid environment and bidirectional DT); (ii) an
+\textbf{evaluation-rigour} group in which rigorous design, comparator use,
+effect-size reporting and affective-outcome measurement co-occur (φ=0.60
+{[}0.42, 0.77{]} design--comparator; φ=0.46 {[}0.22, 0.67{]} comparator--effect size);
+and (iii) a \textbf{curricular} group linking undergraduate level, active learning,
+industry collaboration and full life-cycle projects (φ=0.43 {[}0.11, 0.70{]} between
+life-cycle project and industry collaboration). One cross-objective signal is
+worth noting: the technical-capability and curricular communities are bridged
+mainly by a \emph{negative} association (active-learning-labelled courses are less
+likely to use the most capable bidirectional twins). By contrast, the apparent
+link between immersive laboratories and environmental-sustainability
+quantification rests on only two studies and is not robust (φ=0.29, 95\% CI
+{[}−0.07, 0.60{]}, compatible with no association). Several attributes --- AI
+augmentation, immersive environment, open-source licensing, sustainability
+quantification --- remain isolated at the chosen threshold, indicating they do not
+yet co-occur systematically with rigorous evaluation. Across the six highlighted
+edges, five of six bootstrap CIs exclude zero, but several remain wide (e.g.
+life-cycle--industry {[}0.11, 0.70{]}), reinforcing that the network is best read as
+a map of hypotheses for confirmatory study.
+
+The research-frontier gap map (Figure 9) plots each
+empirical study on technical capability (a 0--1 composite of maturity,
+synchronisation, AI and immersion) against evidence-quality score. Studies
+concentrate in the low-capability columns (18 of 35) and in the lower
+evidence-quality rows; the high-capability/strong-evidence corner --- studies that
+are simultaneously technically advanced and rigorously evaluated --- contains only
+1 study \citep{tarng_application_2024}. This near-empty frontier is the central structural gap of the field
+and complements the qualitative decoupling reported above. The 3D evidence space
+(Figure 10, with an interactive version) and the MCA embedding (Figure 11) tell
+the same story from the multivariate side. The first MCA axis cleanly separates
+empirical from non-empirical/conceptual studies, recovering a valid topological
+structure of the field in which evaluation status is its dominant axis of
+organisation. As is intrinsic to the geometry of MCA, the share of inertia carried
+by this axis (12.3\%) is modest; this is a property of the method rather than a sign
+of weak structure, and the separation should be read as a robust ordinal and
+topological pattern rather than as a proportion of variance explained.
+
+Finally, Tables 2 and 3 make the most important contributions explicit.
+Table 2 lists the 15 empirical studies reaching at least a moderate
+evidence-quality score, with their designs, samples, comparators and reported
+effects --- including the controlled studies of \citet[between-group
+gain +18.5 vs +4.3, t(198)=8.94]{kwateng_enhancing_2026}, \citet[ANCOVA F=71.9, p\textless0.001,
+η²=0.50]{tarng_application_2024}, \citet[+31.2\% transfer to novel problems with retention at
+3 and 6 months]{lin_visfactory_2025}, \citet[d=1.06 in algorithm design]{lu_digital_2025} and
+\citet[+16.6\% vs +7.5\% knowledge mastery]{wang_innovative_2025}. These define the empirical frontier of
+the field. Table 3 lists the four studies that assemble the most complete
+technology--pedagogy--evidence stack \citep{sakkas_multiplayer_2025, tarng_application_2024, terkaj_framework_2024} or couple a detailed architecture with AI and evaluation
+\citep{machado_automatic_2025}; notably, only \citet{tarng_application_2024} combines a high-maturity
+twin with strong evidence, which is consistent with the decoupling and the empty
+frontier identified above.
+
+\textbf{Table 2.} Empirical studies reaching at least a moderate evidence-quality
+score (composite ≥ 3 of 6), ordered by score. ES = effect size reported;
+NR = not reported. The composite sums design rigour, comparator, inferential
+statistics, effect size and declared validity threats.
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Study
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Domain
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Design
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+N
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Comparator
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+ES
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Key reported result
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Band (score)
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\citep{kwateng_enhancing_2026} & Manufacturing & Quasi-experiment & 200 & Control (no intervention) & Yes & Pre/post gain +18.5 vs +4.3 (control); t(198)=8.94, p\textless.001; d=0.91 (sensor-integration skills) & Strong (6) \\
+\citep{lu_digital_2025} & Programming & Quasi-experiment & 135 & Traditional class & Yes & Algorithm design d=1.06; debugging d=0.91; overall post-test d=0.82 & Strong (6) \\
+\citep{lin_visfactory_2025} & Automation & Experiment & 127 & Control group(s) & Yes & +31.2\% transfer to novel problems; higher retention at 3 and 6 months & Strong (5) \\
+\citep{tarng_application_2024} & Robotics & Quasi-experiment & 75 & Traditional class & Yes & Post-test 8.71 vs 3.75; ANCOVA F=71.9, p\textless.001, η²=0.50 & Strong (5) \\
+\citep{wang_innovative_2025} & Cybersecurity & Quasi-experiment & 60 & Traditional class & Yes & Knowledge mastery +16.6\% vs +7.5\% (control) & Strong (5) \\
+\citep{khan_teaching_2026} & Manufacturing & Mixed-methods & 40 & Pre/post (within-subject) & No & 63\% improvement in course-evaluation scores & Moderate (4) \\
+\citep{li_exploration_2025} & Chemical eng. & Case study / pilot & 95 & Traditional class & Yes & Knowledge-mastery gain 27.3\% vs 11.5\% (control) & Moderate (4) \\
+\citep{liljaniemi_enhancing_2025} & Mechatronics & Quasi-experiment & 96 & Physical laboratory & No & VR group +11.85\% on component identification; parity on diagram interpretation & Moderate (4) \\
+\citep{ning_exploration_2024} & Civil / construction & Quasi-experiment & 28 & Traditional class & No & Significantly better academic performance & Moderate (4) \\
+\citep{ortiz_digital_2025} & Automation & Quasi-experiment & 16 & Pre/post (within-subject) & No & Task time 18.2→12.5 min; error rate 21.6\%→7.8\% & Moderate (4) \\
+\citep{park_ar_2026} & NR & Quasi-experiment & 10 & Traditional class & No & Improved conceptual-knowledge quiz scores (pilot) & Moderate (4) \\
+\citep{alvarez_ariza_investigating_2026} & Multi-case & Case study / pilot & 119 & Pre/post (within-subject) & Yes & 96.5--100\% agreement on fundamental-knowledge development & Moderate (4) \\
+\citep{garcia_digital_2026} & Digital logic & Case study / pilot & 30 & None & Yes & Task completion 100\% / 93.3\% / 80\% / 73.3\% by difficulty & Moderate (3) \\
+\citep{speicher_digital_2026} & Manufacturing & Case study / pilot & 6 & Traditional vs smart-mfg & No & Machining cycle time 58→28 min (\textgreater50\% reduction) & Moderate (3) \\
+\citep{federal_university_of_amazonas_development_2025} & Postgraduate STEM & Mixed-methods & 24 & Pre/post (within-subject) & No & Share rating comprehension 4--5 rose to 90.9\% (from 27.3\%) & Moderate (3) \\
+\end{longtable}
+}
+
+\textbf{Table 3.} Reference-architecture configurations: studies assembling the most
+complete technology--pedagogy--evidence stack (full-stack T1+T2+T5+T6) or coupling a
+detailed architecture with AI and empirical evaluation (T2+T3+T6). DT type follows
+the Kritzinger et al.~taxonomy; NR = not reported.
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.1250}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Study
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Configuration
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Environment
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+DT type
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+AI
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Pedagogy
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+System modelled
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Evidence band
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\citep{sakkas_multiplayer_2025} & Full-stack (T1+T2+T5+T6) & Virtual-only & Digital shadow & --- & Active learning & Electronic circuits (Arduino, ESP32) & Weak \\
+\citep{tarng_application_2024} & Full-stack (T1+T2+T5+T6) & Hybrid physical--virtual & Digital twin & --- & NR & WLKATA six-axis industrial robotic arm & Strong \\
+\citep{terkaj_framework_2024} & Full-stack (T1+T2+T5+T6) & Hybrid physical--virtual & NR & --- & NR & Manufacturing plant & Weak \\
+\citep{machado_automatic_2025} & Architecture + AI + evidence (T2+T3+T6) & Remote & NR & CNN, generative AI, LLM, data-driven & NR & Manufacturing plant (CP-LAB) & Weak \\
+\end{longtable}
+}
+
+\includegraphics[width=6in,height=\textheight,keepaspectratio]{figs/F7_red_atributos.png}
+
+\textbf{Figure 8.} Attribute-association network. Nodes are binary study attributes; edges are pairwise φ associations whose bootstrap 95\% confidence interval (CI) excludes zero (B = 5,000). Communities: technical capability, evaluation rigour, curricular design.
+
+\includegraphics[width=6in,height=\textheight,keepaspectratio]{figs/F8_mapa_brechas.png}
+
+\textbf{Figure 9.} Capability-by-evidence gap map: each empirical study plotted by technical-capability composite (0--1: maturity, synchronisation, AI, immersion) against evidence-quality score (0--6). The high-capability, strong-evidence corner is near-empty.
+
+\includegraphics[width=6in,height=\textheight,keepaspectratio]{figs/F9_espacio_3d.png}
+
+\textbf{Figure 10.} Three-dimensional evidence space (technical capability × evidence quality × publication year). An interactive version is provided as supplementary material.
+
+\includegraphics[width=6in,height=\textheight,keepaspectratio]{figs/F10_mca_embedding.png}
+
+\textbf{Figure 11.} Multiple correspondence analysis (MCA) embedding of study attributes. The first axis (12.3\% of inertia) separates empirical from non-empirical/conceptual studies.
+
+\subsection{Summary}\label{summary}
+
+The corpus consistently demonstrates feasibility and engagement and
+is disciplinarily broad, with a recent shift toward more capable, bidirectional,
+and occasionally AI-augmented twins. The weight of the evidence, however, rests
+on a minority of methodologically strong studies; competency and benefit claims
+frequently lack matched empirical or quantitative support; and the technical
+description of the twin is largely separate from the evaluation of its
+educational effect. These patterns directly inform the gaps and future-research
+agenda developed in the Discussion.
+
+\section{Discussion}\label{discussion}
+
+This review set out to characterise educational digital twins (DTs) across four
+objectives and, crucially, to examine how their technical, pedagogical and
+evaluative dimensions travel together. The synthesis of 65 studies yields a
+consistent but sobering picture: the field reliably demonstrates feasibility and
+engagement, is disciplinarily broad, and is shifting toward more capable,
+bidirectional and occasionally AI-augmented twins, yet its evidence rests on a
+small minority of methodologically strong studies. Interpreting this pattern, not
+the headline enthusiasm, is the purpose here.
+
+The most consequential finding is structural rather than aggregate: across the
+corpus, the maturity of the twin is largely decoupled from the rigour with which
+it is evaluated. The studies that describe how complete a twin is---its
+bidirectional synchronisation, its layered architecture---are seldom the studies
+that test whether it improves learning, and the capability-by-evidence frontier
+is almost empty. Read through constructive alignment \citep{biggs_enhancing_1996, biggs_teaching_2011}, this is a systemic misalignment: the field has invested
+heavily in one element of the instructional system---the learning activity, the
+twin itself---while the intended learning outcomes and the assessment that would
+evidence them remain comparatively underspecified. The pattern is, in this sense,
+a familiar one in engineering and STEM education, where the adoption of a new
+instructional technology routinely outpaces the rigorous evaluation of its effect
+\citep{henderson_facilitating_2011}, and it reproduces for digital twins the very
+situation that comparative reviews of virtual and remote laboratories have
+documented for two decades: enthusiastic deployment, a prevailing ``no significant
+difference'' verdict, and a thin and methodologically weak evidence base beneath it
+\citep{brinson_learning_2015, heradio_virtual_2016}. This decoupling also mirrors a
+tension documented across the wider DT
+literature, where academic sophistication consistently outpaces validated
+deployment and workforce readiness \citep{chen_ai-enhanced_2025}. It is compounded by
+terminological inflation: the prevalence of self-described ``complete'' twins,
+rarely accompanied by latency or synchronisation measurements, suggests that the
+label is applied more loosely than the established physical-to-virtual and
+virtual-to-physical data-flow criteria would warrant \citep{thelen_comprehensive_2022}, and
+that the field still lacks shared criteria for evaluating what a twin actually
+does \citep{liu_cognitive_2025}. Claims of Industry 4.0/5.0 competence and institutional
+benefit similarly outpace demonstrated outcomes, and the asymmetry between
+benefit-only and barrier-only studies counsels caution in reading the field's
+optimism at face value.
+
+One alternative reading of the decoupling deserves stating, because it tempers a
+purely critical interpretation. The separation between capable-but-unevaluated and
+evaluated-but-simple twins partly tracks a division of publication labour: in our
+corpus, architecture-heavy work appears disproportionately in conference and
+engineering venues, whereas the studies that mount controlled evaluations tend to
+be journal articles, and conference papers score markedly lower on the
+evidence-quality composite than journal articles. Part of what looks like a
+within-study failure to evaluate may therefore reflect where each kind of
+contribution is published. This does not dissolve the problem---the field as a whole
+still lacks studies that are both technically complete and rigorously
+evaluated---but it locates it at the level of the field's reporting ecosystem rather
+than of individual authors' competence.
+
+Three exploratory analyses sharpen this reading. The thematic co-occurrence
+structure (Figure 6) shows a field organised around a pedagogy--competencies--
+evidence core---competencies and pedagogy co-occur in 34 studies and pedagogy and
+evidence in 31---while the AI dimension stays peripheral, never co-occurring with
+another theme in more than eight studies; the DT--AI convergence prominent in the
+industrial literature \citep{chen_ai-enhanced_2025, liu_cognitive_2025} thus remains marginal
+and largely unvalidated in education. The
+attribute-association network (Figure 8) resolves the studies into three loosely
+connected communities---technical capability, evaluation rigour and curricular
+design---bridged between the technical and curricular groups mainly by a \emph{negative}
+association, whereby courses labelled ``active learning'' tend not to employ the
+most capable bidirectional twins. The research-frontier gap map (Figure 9)
+localises the decoupling: of 35 empirical studies, eighteen fall in the lowest-capability
+columns and only one occupies the high-capability, strong-evidence cell, while the
+multivariate embedding (Figure 11) recovers a valid topological structure whose
+dominant axis separates empirical from non-empirical work. Tellingly, effect-size
+reporting is flat across design types even as twin maturity rises over time
+(Figure 7), so weak quantification is a field-wide habit, not an artefact
+of the weakest designs.
+
+These patterns demand interpretive caution. They derive from 65 studies spread
+across many sparsely populated cells; the association estimates carry wide
+bootstrap confidence intervals, several compatible with no effect---the apparent
+link between immersive laboratories and sustainability quantification, for
+instance, rests on only two studies---and the embedding accounts for only a modest
+share of inertia. They are therefore best read as a map of hypotheses for
+confirmatory study, not as established relationships. That such an exploratory
+layer is necessary is itself diagnostic of how little well-reported empirical work
+the field has produced.
+
+These observations extend, rather than echo, prior syntheses of DTs in education.
+Earlier bibliometric work mapped the field's rapid growth and flagged unresolved
+questions around teacher competence and governance, but did not weigh the quality
+of the underlying learning evidence \citep{chamorro-atalaya_use_2024};
+domain-specific reviews reached a ``strong consensus'' on DT effectiveness for
+training while themselves noting the fragmented, largely conceptual nature of the
+literature \citep{omrany_digital_2026}; and materials-science mapping documents
+exponential output without appraising educational outcomes at all
+\citep{vergara_decade_2025}. By coupling a structured description of architecture and
+pedagogy with an explicit, sensitivity-tested quality appraisal and a relational
+analysis, the present review adds the dimension these accounts lack: not how much
+is published, but how well what is claimed has been shown.
+
+The few strong studies in our corpus report substantial gains, of the order of
+Cohen's d ≈ 0.9--1.25. These sit at, or above, the upper bound of
+meta-analytic estimates for comparable immersive interventions---knowledge-
+acquisition effects around a standardised mean difference of 0.33--0.48 in
+virtual- and augmented-reality simulation \citep{li_effects_2026, almekkawi_effectiveness_2026}, and collaborative- or mobile-VR effects near Hedges'
+g 0.47--0.50 \citep{chen_effects_2026, widowati_meta-analysis_2025}. This positioning warrants
+restraint. Such meta-analyses report high heterogeneity and inconsistent effects
+across domains; more pointedly, effect sizes in this literature have declined
+over time as designs have become
+more rigorous---from very large early estimates to small recent ones
+\citep{widowati_meta-analysis_2025}---a trajectory consistent with novelty effects and weak
+controls. Our predominantly recent, single-institution, non-randomised studies
+are precisely those most exposed to this inflation, reinforcing that the reported
+gains are promising but not yet robustly generalisable.
+
+A second under-examined frontier concerns whether learning on a twin persists and
+transfers to physical practice---the upper, more consequential levels of
+Kirkpatrick's evaluation hierarchy \citep{kirkpatrick_kirkpatricks_2016}. The corpus
+sits overwhelmingly at the lower levels: reactions and immediate post-tests
+dominate, whereas to our reading only one study measured learning retention at a
+specified multi-month follow-up (three and six months) \citep{lin_visfactory_2025}, and
+none measured transfer to subsequent physical-laboratory or workplace performance.
+The broader evidence offers little reassurance: in a review of 64 VR studies, only
+two examined transfer at all \citep{zhong_virtual_2026}. Transfer cannot be assumed from immersion or visual
+fidelity; it depends on functional rather than merely perceptual correspondence
+\citep{harris_framework_2020}, and inadequate technical fidelity can even produce
+negative transfer \citep{kim_effect_2026}. The corpus's habit of asserting twin
+``completeness'' without synchronisation or fidelity metrics is therefore not a
+minor reporting gap but a direct threat to the ecological-validity claims on which
+much of the pedagogical case rests.
+
+Several implications follow. For curriculum design, DTs should be paired with an
+intentional, named pedagogy and aligned assessment rather than deployed as
+active-learning settings whose instructional model is left implicit. Concretely,
+future implementations should move beyond generic ``active experimentation'' and
+anchor their designs in explicit learning theory: constructivist and
+social-constructivist principles for knowledge building, Biggs' constructive
+alignment to lock intended competencies, twin-based activities and assessment into
+a single coherent system \citep{biggs_enhancing_1996}, and---where the goal is learner
+self-direction in open-ended, capability-oriented tasks---student-agency models such
+as heutagogy \citep{blaschke_heutagogy_2012}. One design in particular is conspicuously
+under-exploited: having students \emph{construct} the twin rather than merely operate a
+ready-made one. In ICAP terms this is the apex of cognitive engagement
+\citep{chi_icap_2014}, and in constructionist terms it makes the learner the builder of
+the model they are meant to understand; yet our corpus documents it only once,
+even though the learning-factory tradition it most naturally belongs to is already
+present in the field. The negative technical--curricular bridge
+in the attribute network suggests engineering ambition and pedagogical design are
+currently advancing on parallel tracks; naming and theorising the pedagogy is what
+would allow the instructional design to keep pace with the sophistication of the
+twin. For
+researchers, the priority is methodological, and it is the one the
+engineering-education research community has urged for two decades: holding studies
+of instructional innovation to the standards of rigorous educational research
+\citep{streveler_conducting_2006}. Concretely, this means
+pre-registered comparators, reported effect sizes, and explicit measurement of
+retention and transfer, supported by designs---including rigorous single-case and
+quasi-experimental approaches---suited to authentic laboratory settings
+\citep{dayo_evaluating_2024}, with the reporting transparency that educational-technology
+research is repeatedly found to lack \citep{demir_analyzing_2025}. For institutions,
+accessibility and sustainability claims need instrumentation rather than
+assertion, particularly where digital-divide constraints shape who benefits
+\citep{eltaiba_benefits_2025}. For tool builders,
+interoperability, synchronisation metrics and the validation of AI components
+remain prerequisites for credible educational deployment \citep{chen_ai-enhanced_2025}.
+
+Several limitations qualify this synthesis. The corpus is recent and skewed
+toward manufacturing and automation and undergraduate cohorts; the
+relational analyses rest on small cell counts and are hypothesis-generating rather
+than confirmatory; and the evidence-quality composite is necessarily ad hoc,
+though its banding proved robust under threshold-sensitivity analysis. Full-text
+attrition was substantial: 61 of 126 eligible records could not be retrieved, and
+this loss was differential by document type---82\% of the unretrieved reports were
+conference papers, against 40\% of the included corpus. Because conference papers in
+our corpus score markedly lower on evidence quality than journal articles, the
+missing reports would, if anything, be expected to reinforce rather than soften the
+weak-dominated profile we report, so the corpus median is best read as a
+conservative bound; nonetheless the gap limits coverage of conference-reported
+architectures, and of 2024 in particular. Relatedly, we did not formally assess
+publication or reporting bias---no meta-analytic funnel test is meaningful here---but
+the asymmetry between benefit-only and barrier-only studies is consistent with
+selective reporting and should be read in that light. Finally, coverage of 2026 is
+necessarily partial, since the search was run mid-year and early-access records
+continue to appear. We
+deliberately refrained from meta-analysis, a decision the marked clinical and
+methodological heterogeneity of the broader literature retrospectively supports
+\citep{widowati_meta-analysis_2025}. The agenda these gaps define is concrete: populate the
+empty capability-by-evidence frontier with pre-registered, multi-institution
+quasi-experiments on high-maturity twins; measure transfer and retention rather
+than immediate satisfaction; validate AI-augmented and cognitive twins against
+declared performance criteria; and standardise the reporting of synchronisation,
+cost and sustainability, so that the field's momentum can mature into cumulative,
+trustworthy evidence.
+
+\section{Conclusions}\label{conclusions}
+
+Regarding the technological architectures and deployment environments (O1),
+educational digital twins are realised predominantly as hybrid physical--virtual
+and immersive configurations rather than as fully instrumented, closed-loop
+systems. The field's technical ambition is rising---bidirectional and occasionally
+AI-augmented twins are increasingly described---but the terminology frequently
+outpaces verified synchronisation, and the convergence with artificial
+intelligence remains incipient and largely unvalidated. The technological maturity
+of the field is therefore, at present, more often asserted than demonstrated, and
+claims of completeness are best read as descriptive rather than evidential until
+synchronisation and fidelity are actually measured.
+
+On the pedagogical and curricular dimension (O2), digital twins are consistently
+embedded in active, experiential and project-based designs and span a widening
+range of engineering disciplines, signalling pedagogical intent and
+disciplinary breadth. Yet the instructional model is often left implicit, and the
+competencies attributed to Industry 4.0/5.0 are seldom anchored to recognised
+standards or validated with industry. The pedagogical case is thus plausible but
+under-specified: technical capability and intentional instructional design are
+advancing on parallel rather than integrated tracks.
+
+With respect to the empirical evidence of learning outcomes (O3), the corpus
+establishes feasibility and positive engagement, and a minority of methodologically
+stronger studies report meaningful gains; these, however, sit within a
+heterogeneous and weakly reported base in which inferential statistics and effect
+sizes are the exception rather than the norm. The present evidence justifies
+cautious optimism about engagement and proof of concept, but does not yet support
+robust or generalisable claims of learning efficacy, particularly concerning skill
+transfer and longer-term retention.
+
+Concerning institutional benefits and barriers (O4), accessibility, educational
+continuity and sustainability are argued far more often than they are quantified,
+while the technical, pedagogical and institutional barriers are reported
+unevenly. The presence of a substantial barriers-aware literature indicates that
+the field is not uniformly promotional; even so, the recurring assertion of
+benefits without a matched account of limitations counsels restraint. The
+institutional value proposition remains largely rhetorical pending the
+instrumentation of cost, environmental and equity claims.
+
+Taken together (general objective), this review characterises a field that
+reliably demonstrates feasibility, engagement and disciplinary breadth, yet whose
+defining feature is a structural decoupling between the maturity of the twin and
+the rigour of its evaluation, with competence and institutional claims outpacing
+demonstrated outcomes. The contribution of this synthesis is not to adjudicate
+whether digital twins ``work'', but to weight the available evidence and make this
+decoupling---and the near-empty frontier where technical sophistication meets strong
+evaluation---explicit. Digital twins in engineering education are best understood as
+a promising but not yet evidentially consolidated approach, whose trajectory will
+depend less on further technical demonstration than on the quality of the evidence
+brought to bear on it. In this, the review offers engineering education research a
+sharper criterion for judging progress---evidential quality rather than technical
+novelty---and offers practice a caution against equating sophistication with
+demonstrated learning. Read against the longer arc of laboratory-education
+research, the digital twin has so far inherited the comparative question that
+hands-on, virtual and remote laboratories have faced since \citet{ma_handson_2006} and
+\citet{brinson_learning_2015}---whether a technology-mediated laboratory achieves the
+learning outcomes of physical practice---without yet supplying the rigorous evidence
+needed to answer it. The broader lesson the field can carry forward is therefore
+methodological as much as technological: the evaluation of a new instructional
+technology must be designed into it from the outset, as an aligned system of
+intended outcomes, activities and assessment, rather than appended once the
+artefact is built.
+
+Several recommendations follow, addressed first to the communities that shape what
+counts as evidence. For educators, digital twins should be paired with an explicit
+pedagogical model and aligned assessment rather than deployed as implicitly
+``active'' settings: the intended competencies, the twin-based activities and the
+assessment should be designed as a single aligned system \citep{biggs_teaching_2011},
+the activities pitched at the constructive and interactive levels of cognitive
+engagement that predict the largest gains \citep{chi_icap_2014}, and the targeted
+competencies anchored to the recognised objectives of the instructional
+laboratory \citep{feisel_role_2005} and to accreditation and curricular frameworks such
+as ABET and CDIO rather than asserted as generic ``Industry 4.0/5.0'' readiness. For
+researchers, the priority is evidential consolidation: pre-registered,
+multi-institution studies on higher-maturity twins, with explicit comparators---
+including, where the claim is to substitute for hands-on work, a physical-laboratory
+comparison---reported effect sizes, and the measurement of transfer and retention
+rather than immediate satisfaction; AI and synchronisation components should be
+validated against declared performance criteria. For institutions and, more
+narrowly, tool developers, cost, sustainability, accessibility, interoperability
+and synchronisation should be reported with metrics rather than asserted. To
+support cumulative, verifiable progress, the full protocol, screening trace,
+extraction dataset and analysis code underlying this review are released openly
+(GitHub and Zenodo), so that the synthesis can be audited, reused and extended.
+Before any update, the review itself would be strengthened by registering the
+protocol and recovering the full texts that could not be retrieved, so that the
+corpus on which these conclusions rest is as complete as the field allows.
+
+\section{Statement on Artificial Intelligence}\label{statement-on-artificial-intelligence}
+
+In the interest of transparency, and consistent with the journal's policy, we
+disclose the following uses of artificial intelligence (AI) in this work, beyond
+the standard copyediting tools embedded in word processors (e.g., grammar
+checkers).
+
+\emph{Inductive thematic analysis.} The eight inductive themes (T1--T8) were derived
+with three frontier LLMs --- ChatGPT 5.5, Gemini 3.1 Pro, and Claude Opus 4.7 ---
+whose independent codings were iteratively cross-fed and refined under author
+review. The resulting theme--objective scheme and all decisions were determined by
+the authors; the three models' raw outputs are available in the public repository.
+
+\emph{Data screening.} Three independent large language model (LLM) agents --- implemented
+with DeepSeek-V4-Flash in a non-reasoning configuration at temperature 0 to ensure
+deterministic, reproducible classification --- performed the semantic screening of
+records against the protocol's pre-specified inclusion/exclusion tests and
+construct-severity mapping, each returning a decision, a confidence score, and the
+governing criterion; a fourth agent (same model and settings) acted as moderator
+for split or uncertain cases. AI-assigned decisions were not treated as final:
+inter-agent reliability was quantified (Fleiss' κ = 0.60), all records flagged as
+include or uncertain were reviewed by the authors, and the eligibility of every
+included study was confirmed by a human. This use is described in the Methods
+(Study selection).
+
+\emph{Data processing.} Full-text PDFs were converted to structured text with an
+automated document-parsing pipeline (Marker) to support extraction. Every
+extracted value was verified by a human against the source and recorded with a
+verbatim supporting quotation and its location (Methods, Data extraction). The
+analytical results --- descriptive profiling, the evidence-quality composite, and
+the relational analyses --- were produced by an author-developed, reproducible
+computational pipeline, not generated by AI.
+
+\emph{Manuscript development.} Generative AI tools were used to assist with drafting
+and language refinement of portions of the manuscript. All AI-assisted text was
+reviewed, edited, and verified by the authors.
+
+AI tools were not used to generate, alter, or fabricate data; to select,
+invent, or format references; or to produce the study's findings. The authors
+take full responsibility for the validity, accuracy, and integrity of the entire
+manuscript, including all claims, citations, and references.
+
+\section{Data and Code Availability}\label{data-and-code-availability}
+
+All materials supporting this review are openly available: the review protocol and
+extraction schemas, the database search exports, the full screening trace
+(per-record agent decisions, confidence scores, governing criteria, and final
+status), the extraction dataset with verbatim supporting quotations, the
+evidence-quality scoring, and the complete, end-to-end analysis and
+figure-generation code --- including the theme co-occurrence, multiple correspondence
+analysis, and attribute-association-network pipelines. These are released in a
+public GitHub repository and archived on Zenodo with a citable DOI ({[}repository URL
+and Zenodo DOI to be inserted on acceptance{]}), under an MIT license for code and a
+CC BY 4.0 license for data and text. The review followed a pre-specified protocol
+(Review Protocol v2); the protocol will be registered (PROSPERO/OSF) before any
+update.

@@ -1,7 +1,7 @@
 ﻿cita,anio,diseno,comparador,stats_inferencial,tamano_efecto,amenazas_validez,score_0_6,banda
 "Kwateng et al., 2026",2026,Quasi-experiment,yes,yes,yes,yes,6,Strong
+"Lu et al., 2025",2025,Quasi-experiment,yes,yes,yes,yes,6,Strong
 "Lin et al., 2025",2025,Experiment,yes,yes,yes,no,5,Strong
-"Lu et al., 2025",2025,Quasi-experiment,yes,yes,no,yes,5,Strong
 "Tarng et al., 2024",2024,Quasi-experiment,yes,yes,yes,no,5,Strong
 "Wang et al., 2025b",2025,Quasi-experiment,yes,yes,yes,no,5,Strong
 "Khan et al., 2026",2026,Mixed-methods,yes,yes,no,yes,4,Moderate

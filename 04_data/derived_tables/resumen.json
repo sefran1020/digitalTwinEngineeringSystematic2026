@@ -44,7 +44,7 @@
   },
   "n_has_ai": 8,
   "n_immersive": 23,
-  "n_effect_size": 7,
+  "n_effect_size": 8,
   "configs": {
     "robust_arch_ai_evidence (T2+T3+T6)": 1,
     "pedagogy_no_evidence (T5 & !T6)": 16,
